@@ -1,0 +1,38 @@
+SCRAPER INFO:
+This folder has its own dependencies. When running any of these files, make sure 'scraper' is the current directory (not 'veyle')
+
+TYPICAL WORKFLOW:
+Please note that this was for my personal use and it's definitely not optimized, don't judge me.
+
+1. Run 'test.py' with the names of the new units to collect most of the info from the wiki. The info is stored in 'update.json'
+
+2. Make any manual corrections to 'update.json'. This includes adding the pool and rarity for most units since the wiki takes a long time to add that info for some reason, the gender (though I don't think that really serves any purpose) and any additional aliases.
+
+3. Run integrate.py (specifically main()). This adds the info from update.json to the actual char.json file in Veil's database, it links the artist, va, skills too. It also adds new weapons and skills automatically (though new Tier 4 skills for an existing skill tree have to be separately updated)
+
+INFO FOR SPECFIC FILES:
+
+Webscraper.py: Grabs majority of character info from the wiki, including art links. You can set aliases / alt names (Ninja, Spring, etc) for the whole batch here.
+
+Weapon.py: scrapes weapon pages
+
+Integrate.py: Adds data to the database files inside veyle. I recommend using Github desktop to easily view the changes after running this file to make sure everything looks okay.
+
+skill_scrape.py: functions for fetching new skills and updating existing skills
+
+Refine.py: functions for adding refines to an existing weapon (If a character received a new weapon, the weapon has to be updated in char.json and fetched with integrate.weapon_get() first before using refine() on it)
+
+Remix.py: Functions for remixing existing skills, though this one doesn't always work reliably. 
+
+Resp.py: Adding resplendent data to a new unit. There might be an occasional issue with CYL units since they have an extra voice line but this usually works very reliably.
+
+Portrait.py: This fetches the character headshot and adds it to the veyle database. It also stores an extra clean copy and a color frame version in the png folder. I use these for flairs and charts but they can be safely deleted
+
+Editing: contains frames and icons to add to portraits. If you don't want portraits for any other purpose this folder and the associated functions in portrait.py can be deleted.
+
+Counter.txt: Stores the number for the next skill icon. Don't recommend editing / removing
+
+
+MISC:
+For emblem units, the emblem icon needs to be manually downloaded from the wiki (Look for the newest skill sheet of passive skills and crop it from there. Manually number based on counter.txt and update counter.txt). Make an entry in database/feh/engage.json.
+

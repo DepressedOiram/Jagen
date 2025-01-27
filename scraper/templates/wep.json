@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "skill": [
+    {
+      "name": "",
+      "description": "",
+      "stats": {
+        "mt": "",
+        "rng": "",
+        "sp": ""
+      },
+      "exclusive": true,
+      "slot": "Weapon",
+      "weapon_type": "",
+      "restriction_weapon": false,
+      "restriction_movement": false
+    }
+  ],
+  "reference": {},
+  "refine": {},
+  "icon": false,
+  "HARD_ALT_NAME": [],
+  "ALT_NAME": [],
+  "slot": "Weapon",
+  "wpn": false
+}

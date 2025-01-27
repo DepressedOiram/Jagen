@@ -1,0 +1,168 @@
+{
+  "accost": {
+    "name": "Accost",
+    "desc": "([User's AS - Foe's AS] + [User's HP/2])% chance for another round of combat (can repeat 2-20 times) if user is at 25 HP or higher.",
+    "emoji": "<:jugdral_charge:1317280235846238261>",
+    "reference": {
+      "Character": "Naoise\nMidir\nJamke\nBeowolf\nIucharba\nAsaello"
+    }
+  },
+  "adept": {
+    "name": "Adept",
+    "desc": "(Attack Speed + 20)% for the user to do two consecutive strikes",
+    "emoji": "<:jugdral_adept:1317280205500579860>",
+    "reference": {
+      "Character": "Quan\nJamke\nLewyn\nJulia\nHermina\nAmid\nShannan\nAres\nHawk\nHannibal\nAltena\nLeif",
+      "Class": "Swordmaster\nRanger\nFalcon Knight\nMage Fighter\nSage"
+    }
+  },
+  "astra": {
+    "name": "Astra",
+    "desc": "(Skill)% chance for the user to do 5 consecutive strikes in a row. Cannot simultaneously active Sol or Luna. Can only be inherited by foot locked units with sword access at base.",
+    "emoji": "<:jugdral_astra:1317280216309174334>",
+    "reference": {
+      "Character": "Ayra\nShannan\nLarcei\nScáthach"
+    }
+  },
+  "bargain": {
+    "name": "Bargain",
+    "desc": "User can buy items or repair for half-price in shops.",
+    "emoji": "<:jugdral_bargain:1317280224068763678>",
+    "reference": {
+      "Character": "Dew",
+      "Items": "Bargain Ring"
+    }
+  },
+  "charm": {
+    "name": "Charm",
+    "desc": "Allies within a 3 tile radius receive +10 accuracy and avoid.",
+    "emoji": "<:jugdral_charm:1317280245442941029>",
+    "reference": {
+      "Character": "Lachesis\nLaylea\nNanna\nDiarmuid",
+      "Class": "Emperor\nQueen"
+    }
+  },
+  "critical": {
+    "name": "Critical",
+    "desc": "Allows the user to perform critical hits.\nCritical chance = (Skill + [Weapon's kills - 50])%.\nGranted to any weapons with 50+ kills.",
+    "emoji": "<:jugdral_critical:1317280253328232500>",
+    "reference": {
+      "Character": "Naoise\nEthlyn\nLewyn\nOifey\nTristan\nAltena\nLeif",
+      "Items": "Killer Bow\nMystletainn\nWeapon w/ 50+ kills"
+    }
+  },
+  "dance": {
+    "name": "Dance",
+    "desc": "Allows all adjacent allies to move again.",
+    "emoji": "<:jugdral_dance:1317280262262096004>",
+    "reference": {
+      "Character": "Silvia\nLene\nLaylea",
+      "Class": "Dancer"
+    }
+  },
+  "luna": {
+    "name": "Luna",
+    "desc": "(Skill)% chance to ignore foe's defense. Cannot simultaneously active Astra or Sol. Can only be inherited by foot locked units with sword access at base.",
+    "emoji": "<:jugdral_luna:1317280271091105953>",
+    "reference": {
+      "Character": "Chulainn"
+    }
+  },
+  "miracle": {
+    "name": "Miracle",
+    "desc": "If user is at 10 HP or below, their avoid is increased by [(11 - HP) x 10] for one turn. Doesn't work in arena if user enters it at already 10 HP or less.",
+    "emoji": "<:jugdral_miracle:1317280280125378642>",
+    "reference": {
+      "Character": "Finn\nSylvia\nDaisy\nLene\nCoirpre",
+      "Items": "Prayer Ring\nCirclet\nPrayer Sword\nTyrfing"
+    }
+  },
+  "nihil": {
+    "name": "Nihil",
+    "desc": "Negates foe's swords skills (Luna, Sol, Astra), critical hits and effective weapons during combat.",
+    "emoji": " <:jugdral_nihil:1317280288644272188>",
+    "reference": {
+      "Character": "Alec\nAyra\nDeirdre\nJulia\nLarcei\nScáthach\nSeliph\nJulia"
+    }
+  },
+  "paragon": {
+    "name": "Paragon",
+    "desc": "User gets double experience.",
+    "emoji": "<:jugdral_paragon:1317280296944795668>",
+    "reference": {
+      "Character": "Lex\nLinda\nCharlot",
+      "Items": "Paragon Ring"
+    }
+  },
+  "pavise": {
+    "name": "Pavise",
+    "desc": "(Level)% chance to completely negate a attack.",
+    "emoji": "<:jugdral_pavise:1317280307099074611>",
+    "reference": {
+      "Class": "General\nBaron\nEmperor"
+    }
+  },
+  "pursuit": {
+    "name": "Pursuit",
+    "desc": "Allows the user to double.\nDouble = User's Attack Speed > Foe's Attack Speed",
+    "emoji": "<:jugdral_pursuit:1317280319455498312>",
+    "reference": {
+      "Character": "Sigurd\nAlec\nFinn\nAzelle\nMidir\nErinys\nBeowolf\nOifey\nDeimne\nJulia\nAres\nHawk\nSeliph\nCed\nFee",
+      "Class": "Swordfighter\nBow Fighter\nSwordmaster\nForrest Knight\nMaster Knight\nThief Fighter\nDragon Master\nDark Bishop",
+      "Items": "Pursuit Ring"
+    }
+  },
+  "renewal": {
+    "name": "Renewal",
+    "desc": "Restores 5~10 of the user's HP at the start of each turn.",
+    "emoji": "<:jugdral_renewal:1317280328284639252>",
+    "reference": {
+      "Items": "Life Ring\nCirclet\nYewfelle"
+    }
+  },
+  "sol": {
+    "name": "Sol",
+    "desc": "(Skill)% chance to restore HP as the same amount of damage dealt to foe. Cannot simultaneously active Astra or Luna. Can only be inherited by foot locked units with sword access at base.",
+    "emoji": "<:jugdral_sol:1317280335838318745>",
+    "reference": {
+      "Character": "Dew"
+    }
+  },
+  "steal": {
+    "name": "Steal",
+    "desc": "Steals all of the enemy's gold on hit.",
+    "emoji": "<:jugdral_steal:1317280345183354901>",
+    "reference": {
+      "Character": "Dew\nPatty\nDaisy",
+      "Class": "Thief\nThief Fighter",
+      "Items": "Thief Ring\nThief Sword"
+    }
+  },
+  "vantage": {
+    "name": "Vantage",
+    "desc": "User strikes first if foe initiates combat and negates enemy's accost if unit at half HP or below.",
+    "emoji": "<:jugdral_vantage:1317280354343845949>",
+    "reference": {
+      "Character": "Arden\nLex\nDalvin\nIuchar\nAres\nHannibal"
+    }
+  },
+  "wrath": {
+    "name": "Wrath",
+    "desc": "Guaranteed critical hit if user's current HP <= (Max HP/2) + 1.",
+    "emoji": "<:jugdral_wrath:1317280364766691439>",
+    "reference": {
+      "Character": "Tailtiu\nLinda\nArthur\nTine"
+    }
+  },
+  "holysword": {
+    "name": "Holy Sword",
+    "desc": "(??)% chance to trigger on user's or foe's strike.\n**User:** Increases damage by 20.\n**Foe:** Decreases damage by 20.",
+    "emoji": "",
+    "reference": {}
+  },
+  "darknesssword": {
+    "name": "Darkness Sword",
+    "desc": "(??)% chance to trigger on user's or foe's strike.\n**User:** Multiplies damage by 1, 2 or 3.\n**Foe:** Decreases damage by 20.",
+    "emoji": ""
+  }
+}
