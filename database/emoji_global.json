@@ -1,0 +1,217 @@
+{
+  "item_drop": {
+    "name": "item_drop",
+    "id": 1317240938778595500,
+    "animated": false
+  },
+  "lock": {
+    "name": "tellius_lock",
+    "id": 726161372832071802,
+    "animated": false
+  },
+  "atk": {
+    "name": "atk",
+    "id": 1322700399588675739,
+    "animated": false
+  },
+  "str": {
+    "name": "atk",
+    "id": 1322700399588675739,
+    "animated": false
+  },
+  "def": {
+    "name": "def",
+    "id": 1322700444375715891,
+    "animated": false
+  },
+  "res": {
+    "name": "res",
+    "id": 1322700453443801182,
+    "animated": false
+  },
+  "spd": {
+    "name": "spd",
+    "id": 1322700427296247901,
+    "animated": false
+  },
+  "as": {
+    "name": "spd",
+    "id": 1322700427296247901,
+    "animated": false
+  },
+  "hp": {
+    "name": "hp",
+    "id": 1322700376860000306,
+    "animated": false
+  },
+  "crit": {
+    "name": "hp",
+    "id": 1322700376860000306,
+    "animated": false
+  },
+  "mag": {
+    "name": "mag",
+    "id": 1322700408791240774,
+    "animated": false
+  },
+  "eff": {
+    "name": "mag",
+    "id": 1322700408791240774,
+    "animated": false
+  },
+  "lck": {
+    "name": "lck",
+    "id": 1322700435978719355,
+    "animated": false
+  },
+  "skl": {
+    "name": "skl",
+    "id": 1322700418232483870,
+    "animated": false
+  },
+  "hit": {
+    "name": "skl",
+    "id": 1322700418232483870,
+    "animated": false
+  },
+  "dex": {
+    "name": "skl",
+    "id": 1322700418232483870,
+    "animated": false
+  },
+  "bld": {
+    "name": "bld",
+    "id": 1322730733017632848,
+    "animated": false
+  },
+  "con": {
+    "name": "bld",
+    "id": 1322730733017632848,
+    "animated": false
+  },
+  "mov": {
+    "name": "mov",
+    "id": 1322700461786140752,
+    "animated": false
+  },
+  "aid": {
+    "name": "aid",
+    "id": 1322730723521859645,
+    "animated": false
+  },
+  "magic": {
+    "name": "sov_magic",
+    "id": 1317240872269774878,
+    "animated": false
+  },
+  "personal": {
+    "name": "personal",
+    "id": 856684926128226324,
+    "animated": false
+  },
+  "bond": {
+    "name": "bond",
+    "id": 1317238806625124433,
+    "animated": false
+  },
+  "second": {
+    "name": "second_seal",
+    "id": 1322732410047299595,
+    "animated": false
+  },
+  "master": {
+    "name": "master_seal",
+    "id": 1318290258516770906,
+    "animated": false
+  },
+  "oifey": {
+    "name": "oifey",
+    "id": 869988726711930890,
+    "animated": false
+  },
+  "support": {
+    "name": "support",
+    "id": 877378772146483222,
+    "animated": false
+  },
+  "bubble": {
+    "name": "bubble",
+    "id": 1317240844931043465,
+    "animated": false
+  },
+  "d_m": {
+    "name": "d_m",
+    "id": 883542454006075432,
+    "animated": false
+  },
+  "d_h": {
+    "name": "d_h",
+    "id": 883542454010269786,
+    "animated": false
+  },
+  "d_l": {
+    "name": "d_l",
+    "id": 883542454056419400,
+    "animated": false
+  },
+  "sommie": {
+    "name": "sommie",
+    "id": 1135433638796865716,
+    "animated": false
+  },
+  "star": {
+    "name": "star_5",
+    "id": 1317239261510107227,
+    "animated": false
+  },
+  "pairup": {
+    "name": "pairup",
+    "id": 1317239062007906405,
+    "animated": false
+  },
+  "manual": {
+    "name": "manual",
+    "id": 1317238970001657917,
+    "animated": false
+  },
+  "star_3": {
+    "name": "star_3",
+    "id": 1317239031150547036,
+    "animated": false
+  },
+  "star_2": {
+    "name": "star_2",
+    "id": 1317239021138743409,
+    "animated": false
+  },
+  "star_5": {
+    "name": "star_5",
+    "id": 1317239261510107227,
+    "animated": false
+  },
+  "star_1": {
+    "name": "star_1",
+    "id": 1317239007045750846,
+    "animated": false
+  },
+  "star_4": {
+    "name": "star_4",
+    "id": 1317239042772963338,
+    "animated": false
+  },
+  "weapon": {
+    "name": "feh_weapons",
+    "id": 1317238945842597919,
+    "animated": false
+  },
+  "gold": {
+    "name": "fe15_gold",
+    "id": 1318460119574642688,
+    "animated": false
+  },
+  "aptitude": {
+    "name": "fe14_aptitude",
+    "id": 1317706875361296455,
+    "animated": false
+  }
+}
