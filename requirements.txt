@@ -1,0 +1,4 @@
+discord.py==2.2.2
+lupa
+python-dotenv
+unidecode
