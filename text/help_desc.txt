@@ -1,0 +1,5 @@
+My name is Jagen, i'm a bot made to show data based on the Fire Emblem games! I was created based both on the open-source bot Oifey and the successor, Veyle.
+
+All of the commands can also be used via DMs!
+
+To use them, ping the bot then type the game's command without anything else after it to see what options are available for them.

@@ -1,0 +1,7 @@
+
+`o!birthday` Character birthdays in this month and the next one.
+
+`changelog` Latest major changes.
+
+`o!credits` Credits stuff.
+`o!help` Shows this.
