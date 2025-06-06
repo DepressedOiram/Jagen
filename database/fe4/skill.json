@@ -1,0 +1,198 @@
+{
+  "accost": {
+    "name": "Accost",
+    "desc": "If agile, user may continue a round of battle.\nActivation: (User's AS - foe's AS + [user's HP/2])%",
+    "emoji": "<:jugdral_charge:1317280235846238261>",
+    "reference": {
+      "Character": "Beowolf\nJamke\nNaoise\nMidir\nAsaello\nIucharba"
+    }
+  },
+  "adept": {
+    "name": "Adept",
+    "desc": "May strike foe two successive times, if user is faster.\nActivation: (AS + 20)%",
+    "emoji": "<:jugdral_adept:1317280205500579860>",
+    "reference": {
+      "Character": "Jamke\nLewyn\nQuan\nSilvia\nAltena\nAmid\nAres\nCoirpre\nHermina\nHannibal\nJulia\nLene\nLeif",
+      "Class": "Falcon Knight\nMage Fighter\nRanger\nSage\nSwordmaster"
+    }
+  },
+  "astra": {
+    "name": "Astra",
+    "desc": "May strike foe five successive times.\nActivation: (Skill)%",
+    "emoji": "<:jugdral_astra:1317280216309174334>",
+    "reference": {
+      "Character": "Ayra\nLarcei\nScáthach\nShannan"
+    }
+  },
+  "bargain": {
+    "name": "Bargain",
+    "desc": "The user gets a 50% discount at castle merchants.",
+    "emoji": "<:jugdral_bargain:1317280224068763678>",
+    "reference": {
+      "Character": "Dew",
+      "Items": "Bargain Band"
+    }
+  },
+  "canto": {
+    "name": "Canto",
+    "desc": "Allows the user to move again and use up any leftover movement distance.",
+    "emoji": "<:jugdral_canto:1352744198436032635>",
+    "reference": {
+      "Class": "Knight Lord\nMaster Knight\nCavalier\nTroubadour\nPaladin\nFree Knight\nRanger\nAxe Knight\nGreat Knight\nLance Knight\nDuke Knight\nArch Knight\nBow Knight\nMage Knight\nPegasus Knight\nFalcon Knight\nDragon Rider\nWyvern Rider\nWyvern Lord",
+      "Items": "Knight Ring"
+    }
+  },
+  "charm": {
+    "name": "Charm",
+    "desc": "Gives a 10% boost to nearby allies' hit and avoid.",
+    "emoji": "<:jugdral_charm:1317280245442941029>",
+    "reference": {
+      "Character": "Lachesis\nDiarmuid\nLaylea\nNanna",
+      "Class": "Emperor\nPrincess\nQueen"
+    }
+  },
+  "critical": {
+    "name": "Critical",
+    "desc": "User can inflict critical hits, doubling attack power.\nCritical rate: (Skill + kill bonus)%",
+    "emoji": "<:jugdral_critical:1317280253328232500>",
+    "reference": {
+      "Character": "Ethlyn\nLewyn\nNaoise\nAltena\nLeif\nOifey\nTristan",
+      "Items": "Killer Bow\nKiller Ballista\nMystletainn\nWeapon w/ 50+ kills"
+    }
+  },
+  "dance": {
+    "name": "Dance",
+    "desc": "Refreshes adjacent allies, allowing them to act again.",
+    "emoji": "<:jugdral_dance:1317280262262096004>",
+    "reference": {
+      "Class": "Dancer"
+    }
+  },
+  "luna": {
+    "name": "Luna",
+    "desc": "May negate the foe's defense.\nActivation: (Skill)%",
+    "emoji": "<:jugdral_luna:1317280271091105953>",
+    "reference": {
+      "Character": "Chulainn"
+    }
+  },
+  "miracle": {
+    "name": "Miracle",
+    "desc": "May endure lethal hits in a pinch.\nActivation: If user's HP \u2264 10",
+    "emoji": "<:jugdral_miracle:1317280280125378642>",
+    "reference": {
+      "Character": "Finn\nSilvia\nCoirpre\nDaisy\nLene",
+      "Items": "Circlet\nMiracle Ring\nMiracle Sword\nTyrfing"
+    }
+  },
+  "nihil": {
+    "name": "Nihil",
+    "desc": "User is immune to critical hits, skills, and crippling hits.",
+    "emoji": "<:jugdral_nihil:1317280288644272188>",
+    "reference": {
+      "Character": "Alec\nAyra\nDeirdre\nJulia\nLarcei\nScáthach\nSeliph"
+    }
+  },
+  "paragon": {
+    "name": "Paragon",
+    "desc": "Doubles user's experience gain.",
+    "emoji": "<:jugdral_paragon:1317280296944795668>",
+    "reference": {
+      "Character": "Lex\nCharlot\nLinda",
+      "Items": "Paragon Ring"
+    }
+  },
+  "pavise": {
+    "name": "Pavise",
+    "desc": "May protect user from all damage dealt by an attack.\nActivation: (User's level)%",
+    "emoji": "<:jugdral_pavise:1317280307099074611>",
+    "reference": {
+      "Character": "Hannibal",
+      "Class": "General\nBaron\nEmperor"
+    }
+  },
+  "pursuit": {
+    "name": "Pursuit",
+    "desc": "Allows the user to double attack if attack speed exceeds foe's.",
+    "emoji": "<:jugdral_pursuit:1317280319455498312>",
+    "reference": {
+      "Character": "Alec\nAzelle\nBeowolf\nErinys\nFinn\nMidir\nSigurd\nAres\nCed\nDeimne\nFee\nHawk\nJulia\nOifey\nSeliph",
+      "Class": "Master Knight\nMyrmidon\nSwordmaster\nHero\nArcher\nSniper\nWyvern Lord\nThief Fighter\nDark Bishop",
+      "Items": "Pursuit Ring"
+    }
+  },
+  "recover": {
+    "name": "Recover",
+    "desc": "Heals all of the user's HP at the beginning of the user's phase.",
+    "emoji": "<:jugdral_recover:1352755169212895342>",
+    "reference": {
+      "Items": "Recover Ring"
+    }
+  },
+  "renewal": {
+    "name": "Renewal",
+    "desc": "Restores 5-10 HP to the user every turn.",
+    "emoji": "<:jugdral_renewal:1317280328284639252>",
+    "reference": {
+      "Items": "Circlet\nRenewal Band\nYewfelle"
+    }
+  },
+  "return": {
+    "name": "Return",
+    "desc": "Returns the user to the main castle when triggered.",
+    "emoji": "<:jugdral_return:1352759067218804807>",
+    "reference": {
+      "Items": "Return Ring"
+    }
+  },
+  "sol": {
+    "name": "Sol",
+    "desc": "May drain foe's HP to heal user.\nActivation: (Skill)%",
+    "emoji": "<:jugdral_sol:1317280335838318745>",
+    "reference": {
+      "Character": "Dew"
+    }
+  },
+  "steal": {
+    "name": "Steal",
+    "desc": "Successful hits steal gold from foes.",
+    "emoji": "<:jugdral_steal:1317280345183354901>",
+    "reference": {
+      "Character": "Dew\nDaisy\nPatty",
+      "Class": "Thief\nThief Fighter",
+      "Items": "Thief's Band\nThief Sword"
+    }
+  },
+  "vantage": {
+    "name": "Vantage",
+    "desc": "User will always strike first in a pinch.\nActivation: If user's HP \u2264 50% and foe initiates combat",
+    "emoji": "<:jugdral_vantage:1317280354343845949>",
+    "reference": {
+      "Character": "Arden\nLex\nDalvin\nIuchar\nAres\nHannibal"
+    }
+  },
+  "wrath": {
+    "name": "Wrath",
+    "desc": "User deals critical hits in a pinch.\nActivation: If user's HP \u2264 (Max HP/2)+1",
+    "emoji": "<:jugdral_wrath:1317280364766691439>",
+    "reference": {
+      "Character": "Tailtiu\nArthur\nLinda\nTine"
+    }
+  },
+  "holysword": {
+    "name": "Holy Sword",
+    "desc": "(??)% chance to trigger on user's or foe's strike.\n**User:** Increases damage by 20.\n**Foe:** Decreases damage by 20.",
+    "emoji": "",
+    "reference": {
+      "Notes": "Unused."
+    }
+  },
+  "darknesssword": {
+    "name": "Darkness Sword",
+    "desc": "(??)% chance to trigger on user's or foe's strike.\n**User:** Multiplies damage by 1, 2 or 3.\n**Foe:** Decreases damage by 20.",
+    "emoji": "",
+    "reference": {
+      "Notes": "Unused."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "bow": {
+        "name": "fe12_bow",
+        "id": 1318459368966193183,
+        "animated": false
+    },
+    "axe": {
+        "name": "fe12_axe",
+        "id": 1318459357137993828,
+        "animated": false
+    },
+    "lance": {
+        "name": "fe12_lance",
+        "id": 1318459345834610698,
+        "animated": false
+    },
+    "sword": {
+        "name": "fe12_sword",
+        "id": 1318459335122354247,
+        "animated": false
+    },
+    "staff": {
+        "name": "fe12_staff",
+        "id": 1318459392625999923,
+        "animated": false
+    },
+    "tome": {
+        "name": "fe12_tome",
+        "id": 1318459380181635122,
+        "animated": false
+    },
+    "dsfe_masterseal": {
+        "name": "dsfe_masterseal",
+        "id": 1318461821312831558,
+        "animated": false
+    },
+    "dsfe_rainbowpotion": {
+        "name": "dsfe_rainbowpotion",
+        "id": 663448809455747087,
+        "animated": false
+    },
+    "dsfe_growthdrop": {
+        "name": "dsfe_growthdrop",
+        "id": 687114814870388757,
+        "animated": false
+    }
+}

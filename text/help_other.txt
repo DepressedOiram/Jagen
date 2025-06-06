@@ -1,0 +1,8 @@
+  **Heroes**
+`@Jagen feh` - Heroes
+
+`@Jagen skill` - Shortcut for Heroes skills.
+`@Jagen art` - Shortcut for Heroes art.
+`@Jagen artist` - Shortcut for Heroes artist.
+`@Jagen va` - Shortcut for Heroes VA.
+`@Jagen quotes` - Shortcut for Heroes quotes.

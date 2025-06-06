@@ -1,0 +1,492 @@
+{
+  "dark": {
+    "name": "tellius_dark",
+    "id": 1317303141619732610,
+    "animated": false
+  },
+  "light": {
+    "name": "tellius_light",
+    "id": 1317303113777938473,
+    "animated": false
+  },
+  "wind": {
+    "name": "tellius_wind",
+    "id": 1317293383676334201,
+    "animated": false
+  },
+  "fire": {
+    "name": "tellius_fire",
+    "id": 1317293355259920444,
+    "animated": false
+  },
+  "thunder": {
+    "name": "tellius_thunder",
+    "id": 1317293369742856227,
+    "animated": false
+  },
+  "aff_dark": {
+    "name": "fe10_dark",
+    "id": 1317240504915591242,
+    "animated": false
+  },
+  "aff_light": {
+    "name": "fe10_light",
+    "id": 1317240536532389969,
+    "animated": false
+  },
+  "aff_earth": {
+    "name": "fe10_earth",
+    "id": 1317240511630938203,
+    "animated": false
+  },
+  "aff_water": {
+    "name": "fe10_water",
+    "id": 1317240551975813130,
+    "animated": false
+  },
+  "aff_heaven": {
+    "name": "fe10_heaven",
+    "id": 1317240527997112320,
+    "animated": false
+  },
+  "aff_wind": {
+    "name": "fe10_wind",
+    "id": 1317240559756382299,
+    "animated": false
+  },
+  "aff_fire": {
+    "name": "fe10_fire",
+    "id": 1317240519755304960,
+    "animated": false
+  },
+  "aff_thunder": {
+    "name": "fe10_thunder",
+    "id": 1317240544690438266,
+    "animated": false
+  },
+  "axe": {
+    "name": "tellius_axe",
+    "id": 1317293423589457930,
+    "animated": false
+  },
+  "strike": {
+    "name": "tellius_strike",
+    "id": 1317303300885839902,
+    "animated": false
+  },
+  "lance": {
+    "name": "tellius_lance",
+    "id": 1317293413288382574,
+    "animated": false
+  },
+  "bow": {
+    "name": "tellius_bow",
+    "id": 1317293443239776297,
+    "animated": false
+  },
+  "staff": {
+    "name": "tellius_staff",
+    "id": 1317293401674088511,
+    "animated": false
+  },
+  "sword": {
+    "name": "tellius_sword",
+    "id": 1317293433701924965,
+    "animated": false
+  },
+  "knife": {
+    "name": "tellius_knife",
+    "id": 1317304041780416522,
+    "animated": false
+  },
+  "pass": {
+    "name": "pass",
+    "id": 1134254470482628600,
+    "animated": false
+  },
+  "resolve": {
+    "name": "resolve",
+    "id": 1134254503948988400,
+    "animated": false
+  },
+  "parity": {
+    "name": "parity",
+    "id": 1134254469153042600,
+    "animated": false
+  },
+  "nullify": {
+    "name": "nullify",
+    "id": 1134254465512374400,
+    "animated": false
+  },
+  "renewal": {
+    "name": "renewal",
+    "id": 1134254501885395100,
+    "animated": false
+  },
+  "quickclaw": {
+    "name": "quickclaw",
+    "id": 1134254499062612200,
+    "animated": false
+  },
+  "pavise": {
+    "name": "pavise",
+    "id": 1134254471791247600,
+    "animated": false
+  },
+  "rend": {
+    "name": "rend",
+    "id": 1134254500291547300,
+    "animated": false
+  },
+  "provoke": {
+    "name": "provoke",
+    "id": 1134254496705421300,
+    "animated": false
+  },
+  "paragon": {
+    "name": "paragon",
+    "id": 1134254466644852900,
+    "animated": false
+  },
+  "roar": {
+    "name": "roar",
+    "id": 1134254505110810800,
+    "animated": false
+  },
+  "sacrifice": {
+    "name": "sacrifice",
+    "id": 1134254506545266700,
+    "animated": false
+  },
+  "savage": {
+    "name": "savage",
+    "id": 1134254521657331700,
+    "animated": false
+  },
+  "shriek": {
+    "name": "shriek",
+    "id": 1134254615983038500,
+    "animated": false
+  },
+  "savior": {
+    "name": "savior",
+    "id": 1134254611159589000,
+    "animated": false
+  },
+  "shade": {
+    "name": "shade",
+    "id": 1134254612950548500,
+    "animated": false
+  },
+  "sol": {
+    "name": "sol",
+    "id": 1134254619434963100,
+    "animated": false
+  },
+  "shove": {
+    "name": "shove",
+    "id": 1134254614745723000,
+    "animated": false
+  },
+  "smite": {
+    "name": "smite",
+    "id": 1134254617295851500,
+    "animated": false
+  },
+  "stun": {
+    "name": "stun",
+    "id": 1134254639081074800,
+    "animated": false
+  },
+  "tear": {
+    "name": "tear",
+    "id": 1134254640540692500,
+    "animated": false
+  },
+  "steal": {
+    "name": "steal",
+    "id": 1134254635188756500,
+    "animated": false
+  },
+  "whitepool": {
+    "name": "whitepool",
+    "id": 1134254644604973000,
+    "animated": false
+  },
+  "wildheart": {
+    "name": "wildheart",
+    "id": 1134254654486761500,
+    "animated": false
+  },
+  "vantage": {
+    "name": "vantage",
+    "id": 1134254642352627700,
+    "animated": false
+  },
+  "wrath": {
+    "name": "wrath",
+    "id": 1134254656361611400,
+    "animated": false
+  },
+  "vigilance": {
+    "name": "vigilance",
+    "id": 1134254643321503700,
+    "animated": false
+  },
+  "stillness": {
+    "name": "stillness",
+    "id": 1134254637575315600,
+    "animated": false
+  },
+  "adept": {
+    "name": "adept",
+    "id": 1134253735535714300,
+    "animated": false
+  },
+  "aether": {
+    "name": "aether",
+    "id": 1134253738379456600,
+    "animated": false
+  },
+  "aurora": {
+    "name": "aurora",
+    "id": 1134253742691192800,
+    "animated": false
+  },
+  "bane": {
+    "name": "bane",
+    "id": 1134253744020803600,
+    "animated": false
+  },
+  "astra": {
+    "name": "astra",
+    "id": 1134253740015231100,
+    "animated": false
+  },
+  "birdfoe": {
+    "name": "birdfoe",
+    "id": 1134253748789727400,
+    "animated": false
+  },
+  "bloodtide": {
+    "name": "bloodtide",
+    "id": 1134253752984014800,
+    "animated": false
+  },
+  "blessing": {
+    "name": "blessing",
+    "id": 1134253750379360400,
+    "animated": false
+  },
+  "blossom": {
+    "name": "blossom",
+    "id": 1134253754485592200,
+    "animated": false
+  },
+  "boon": {
+    "name": "boon",
+    "id": 1134253755743879200,
+    "animated": false
+  },
+  "canto": {
+    "name": "canto",
+    "id": 1134253764921008300,
+    "animated": false
+  },
+  "celerity": {
+    "name": "celerity",
+    "id": 1134253766359654400,
+    "animated": false
+  },
+  "cancel": {
+    "name": "cancel",
+    "id": 1134253762391855100,
+    "animated": false
+  },
+  "colossus": {
+    "name": "colossus",
+    "id": 1134253767768936400,
+    "animated": false
+  },
+  "counter": {
+    "name": "counter",
+    "id": 1134253853974466600,
+    "animated": false
+  },
+  "corrosion": {
+    "name": "corrosion",
+    "id": 1134253770927247400,
+    "animated": false
+  },
+  "criticalplus15": {
+    "name": "criticalplus15",
+    "id": 1134253914678628500,
+    "animated": false
+  },
+  "criticalplus5": {
+    "name": "criticalplus5",
+    "id": 1134253881132581000,
+    "animated": false
+  },
+  "criticalplus10": {
+    "name": "criticalplus10",
+    "id": 1134253774358184000,
+    "animated": false
+  },
+  "criticalplus20": {
+    "name": "criticalplus20",
+    "id": 1134254257630085200,
+    "animated": false
+  },
+  "disarm": {
+    "name": "disarm",
+    "id": 1134254299346649100,
+    "animated": false
+  },
+  "daunt": {
+    "name": "daunt",
+    "id": 1134254296486133900,
+    "animated": false
+  },
+  "criticalplus25": {
+    "name": "criticalplus25",
+    "id": 1134254294795825300,
+    "animated": false
+  },
+  "deadeye": {
+    "name": "deadeye",
+    "id": 1134254297606017200,
+    "animated": false
+  },
+  "beastfoe": {
+    "name": "beastfoe",
+    "id": 1134253745723678800,
+    "animated": false
+  },
+  "discipline": {
+    "name": "discipline",
+    "id": 1134254301364097200,
+    "animated": false
+  },
+  "corona": {
+    "name": "corona",
+    "id": 1134253866783866900,
+    "animated": false
+  },
+  "eclipse": {
+    "name": "eclipse",
+    "id": 1134254328941658200,
+    "animated": false
+  },
+  "dragonfoe": {
+    "name": "dragonfoe",
+    "id": 1134254302706290700,
+    "animated": false
+  },
+  "flare": {
+    "name": "flare",
+    "id": 1134254365436301300,
+    "animated": false
+  },
+  "mercy": {
+    "name": "mercy",
+    "id": 1134254439998423000,
+    "animated": false
+  },
+  "fortune": {
+    "name": "fortune",
+    "id": 1134254370293289000,
+    "animated": false
+  },
+  "howl": {
+    "name": "howl",
+    "id": 1134254399934447700,
+    "animated": false
+  },
+  "glare": {
+    "name": "glare",
+    "id": 1134254395475894300,
+    "animated": false
+  },
+  "nihil": {
+    "name": "nihil",
+    "id": 1134254463754965000,
+    "animated": false
+  },
+  "formshift": {
+    "name": "formshift",
+    "id": 1134254369244708900,
+    "animated": false
+  },
+  "imbue": {
+    "name": "imbue",
+    "id": 1134254401616347100,
+    "animated": false
+  },
+  "gamble": {
+    "name": "gamble",
+    "id": 1134254392921559200,
+    "animated": false
+  },
+  "impale": {
+    "name": "impale",
+    "id": 1134254403478634600,
+    "animated": false
+  },
+  "mantle": {
+    "name": "mantle",
+    "id": 1134254438597537900,
+    "animated": false
+  },
+  "luna": {
+    "name": "luna",
+    "id": 1134254435128836400,
+    "animated": false
+  },
+  "maelstrom": {
+    "name": "maelstrom",
+    "id": 1134254436554920100,
+    "animated": false
+  },
+  "galdrar": {
+    "name": "galdrar",
+    "id": 1134254371039879300,
+    "animated": false
+  },
+  "lethality": {
+    "name": "lethality",
+    "id": 1134254433958629400,
+    "animated": false
+  },
+  "insight": {
+    "name": "insight",
+    "id": 1134254405126983800,
+    "animated": false
+  },
+  "ire": {
+    "name": "ire",
+    "id": 1134254431744045200,
+    "animated": false
+  },
+  "guard": {
+    "name": "guard",
+    "id": 1134254397170397300,
+    "animated": false
+  },
+  "nighttide": {
+    "name": "nighttide",
+    "id": 1134254461783646200,
+    "animated": false
+  },
+  "miracle": {
+    "name": "miracle",
+    "id": 1134254442137530400,
+    "animated": false
+  },
+  "flourish": {
+    "name": "flourish",
+    "id": 1134254366715560000,
+    "animated": false
+  }
+}

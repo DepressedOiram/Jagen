@@ -1,0 +1,1611 @@
+{
+    "ironsword": {
+        "name": "Iron Sword",
+        "type": "sword",
+        "desc": "An affordable sword that is easy to wield.",
+        "stats": {
+            "rank": "E",
+            "mt": 5,
+            "hit": 100,
+            "wt": 4,
+            "rng": 1,
+            "uses": 40,
+            "price": 400,
+            "price per use": 10,
+            "sell": 200,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "steelsword": {
+        "name": "Steel Sword",
+        "type": "sword",
+        "desc": "A weighty but more powerful sword.",
+        "stats": {
+            "rank": "D",
+            "mt": 8,
+            "hit": 90,
+            "wt": 8,
+            "rng": 1,
+            "uses": 35,
+            "price": 875,
+            "price per use": 25,
+            "sell": 437,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "silversword": {
+        "name": "Silver Sword",
+        "type": "sword",
+        "desc": "A sword whose mighty blows offset its steep price.",
+        "stats": {
+            "rank": "B",
+            "mt": 12,
+            "hit": 100,
+            "wt": 5,
+            "rng": 1,
+            "uses": 20,
+            "price": 2000,
+            "price per use": 100,
+            "sell": 1000,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "killingedge": {
+        "name": "Killing Edge",
+        "type": "sword",
+        "desc": "A sword whose design yields frequent critical hits.",
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 90,
+            "crit": 20,
+            "wt": 6,
+            "rng": 1,
+            "uses": 20,
+            "price": 1500,
+            "price per use": 75,
+            "sell": 750,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "levinsword": {
+        "name": "Levin Sword",
+        "type": "sword",
+        "desc": "A sword of lightning used to attack indirectly.",
+        "stats": {
+            "rank": "C",
+            "mt": 6,
+            "hit": 90,
+            "wt": 6,
+            "rng": "1-2",
+            "uses": 20,
+            "price": 1600,
+            "price per use": 80,
+            "sell": 800,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
+    },
+    "devilsword": {
+        "name": "Devil Sword",
+        "type": "sword",
+        "desc": "A mighty but cursed sword known to harm its user.",
+        "stats": {
+            "rank": "D",
+            "mt": 17,
+            "hit": 100,
+            "wt": 4,
+            "rng": 1,
+            "uses": 25,
+            "wexp": 2
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Backfire rate: (31 - Luck)%\nBackfire damage: Calculate damage as if user attacked themselves"
+        }
+    },
+    "wyrmslayer": {
+        "name": "Wyrmslayer",
+        "type": "sword",
+        "desc": "A sword effective against dragons.",
+        "stats": {
+            "rank": "C",
+            "mt": 7,
+            "hit": 80,
+            "wt": 9,
+            "rng": 1,
+            "uses": 15,
+            "price": 1200,
+            "price per use": 80,
+            "sell": 600,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Does not deal effective damage against Dracoknights or Earth Dragons."
+        }
+    },
+    "armorslayer": {
+        "name": "Armorslayer",
+        "type": "sword",
+        "desc": "A sword effective against armored units.",
+        "stats": {
+            "rank": "C",
+            "mt": 7,
+            "hit": 80,
+            "wt": 9,
+            "rng": 1,
+            "uses": 20,
+            "price": 1000,
+            "price per use": 50,
+            "sell": 500,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "mercurius": {
+        "name": "Mercurius",
+        "type": "sword",
+        "desc": "A powerful blade, and regalia of House Archanea.",
+        "stats": {
+            "rank": "A",
+            "mt": 18,
+            "hit": 100,
+            "crit": 10,
+            "wt": 8,
+            "rng": 1,
+            "uses": 20
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Cannot be forged."
+        }
+    },
+    "rapier": {
+        "name": "Rapier",
+        "type": "sword",
+        "desc": "Strong against cavalry/armored units. For Marth.",
+        "stats": {
+            "rank": "E",
+            "mt": 5,
+            "hit": 100,
+            "crit": 10,
+            "wt": 4,
+            "rng": 1,
+            "uses": 28,
+            "price": 1120,
+            "price per use": 40,
+            "sell": 560,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "wodao": {
+        "name": "Wo Dao",
+        "type": "sword",
+        "desc": "A foreign sword that yields frequent critical hits.",
+        "stats": {
+            "rank": "C",
+            "mt": 7,
+            "hit": 85,
+            "crit": 30,
+            "wt": 5,
+            "rng": 1,
+            "uses": 20,
+            "price": 1400,
+            "price per use": 70,
+            "sell": 700,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "bravesword": {
+        "name": "Brave Sword",
+        "type": "sword",
+        "desc": "A sword with which the wielder always strikes twice.",
+        "stats": {
+            "rank": "B",
+            "mt": 7,
+            "hit": 80,
+            "wt": 7,
+            "rng": 1,
+            "uses": 30,
+            "price": 2400,
+            "price per use": 80,
+            "sell": 1200,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "falchionweak": {
+        "name": "Falchion (Weak)",
+        "type": "sword",
+        "desc": "A gift from the Divine Dragon King. For Marth.",
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 90,
+            "wt": 9,
+            "rng": 1,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Manakete and Earth Dragon units.\nCan be used as an item to heal 10 HP."
+        }
+    },
+    "falchion": {
+        "name": "Falchion",
+        "type": "sword",
+        "desc": "A gift from the Divine Dragon King. For Marth.",
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 100,
+            "wt": 7,
+            "rng": 1,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Manakete and Earth Dragon units.\nCan be used as an item to heal 10 HP."
+        }
+    },
+    "ironlance": {
+        "name": "Iron Lance",
+        "type": "lance",
+        "desc": "An affordable lance that is easy to wield.",
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 90,
+            "wt": 5,
+            "rng": 1,
+            "uses": 40,
+            "price": 480,
+            "price per use": 12,
+            "sell": 240,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "steellance": {
+        "name": "Steel Lance",
+        "type": "lance",
+        "desc": "A weighty but more powerful lance.",
+        "stats": {
+            "rank": "D",
+            "mt": 9,
+            "hit": 80,
+            "wt": 9,
+            "rng": 1,
+            "uses": 35,
+            "price": 980,
+            "price per use": 28,
+            "sell": 490,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "silverlance": {
+        "name": "Silver Lance",
+        "type": "lance",
+        "desc": "A lance whose mighty blow offset its steep price.",
+        "stats": {
+            "rank": "B",
+            "mt": 13,
+            "hit": 90,
+            "wt": 6,
+            "rng": 1,
+            "uses": 20,
+            "price": 2200,
+            "price per use": 110,
+            "sell": 1100,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "javelin": {
+        "name": "Javelin",
+        "type": "lance",
+        "desc": "A throwing spear used to attack enemies indirectly.",
+        "stats": {
+            "rank": "D",
+            "mt": 7,
+            "hit": 70,
+            "wt": 7,
+            "rng": "1-2",
+            "uses": 30,
+            "price": 750,
+            "price per use": 25,
+            "sell": 375,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "killerlance": {
+        "name": "Killer Lance",
+        "type": "lance",
+        "desc": "A lance whose design yields frequent critical hits.",
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 80,
+            "crit": 20,
+            "wt": 6,
+            "rng": 1,
+            "uses": 20,
+            "price": 1800,
+            "price per use": 90,
+            "sell": 900,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "ridersbane": {
+        "name": "Ridersbane",
+        "type": "lance",
+        "desc": "A lance effective against cavalry.",
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 70,
+            "wt": 10,
+            "rng": 1,
+            "uses": 20,
+            "price": 1200,
+            "price per use": 60,
+            "sell": 600,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "wingspear": {
+        "name": "Wing Spear",
+        "type": "lance",
+        "desc": "Strong against cavalry/armored units. For Caeda.",
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "hit": 90,
+            "crit": 10,
+            "wt": 4,
+            "rng": 1,
+            "uses": 28,
+            "price": 1120,
+            "price per use": 40,
+            "sell": 560,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "dragonpike": {
+        "name": "Dragonpike",
+        "type": "lance",
+        "desc": "A lance effective against dragons.",
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 70,
+            "wt": 10,
+            "rng": 1,
+            "uses": 15,
+            "price": 1350,
+            "price per use": 90,
+            "sell": 675,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Does not deal effective damage against Dracoknights or Earth Dragons."
+        }
+    },
+    "bravelance": {
+        "name": "Brave Lance",
+        "type": "lance",
+        "desc": "A lance with which the wielder always strikes twice.",
+        "stats": {
+            "rank": "B",
+            "mt": 8,
+            "hit": 75,
+            "wt": 8,
+            "rng": 1,
+            "uses": 30,
+            "price": 2700,
+            "price per use": 90,
+            "sell": 1350,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "gradivus": {
+        "name": "Gradivus",
+        "type": "lance",
+        "desc": "A mighty lance, and regalia of House Archanea.",
+        "stats": {
+            "rank": "A",
+            "mt": 19,
+            "hit": 90,
+            "wt": 8,
+            "rng": "1-2",
+            "uses": 20
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Can be used as an item to fully heal HP."
+        }
+    },
+    "ironaxe": {
+        "name": "Iron Axe",
+        "type": "axe",
+        "desc": "An affordable axe that is easy to wield.",
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 80,
+            "wt": 6,
+            "rng": 1,
+            "uses": 40,
+            "price": 320,
+            "price per use": 8,
+            "sell": 160,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "steelaxe": {
+        "name": "Steel Axe",
+        "type": "axe",
+        "desc": "A weighty but more powerful axe.",
+        "stats": {
+            "rank": "D",
+            "mt": 10,
+            "hit": 70,
+            "wt": 10,
+            "rng": 1,
+            "uses": 35,
+            "price": 700,
+            "price per use": 20,
+            "sell": 350,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "silveraxe": {
+        "name": "Silver Axe",
+        "type": "axe",
+        "desc": "An axe whose mighty blows offset its steep price.",
+        "stats": {
+            "rank": "B",
+            "mt": 14,
+            "hit": 80,
+            "wt": 7,
+            "rng": 1,
+            "uses": 20,
+            "price": 1600,
+            "price per use": 80,
+            "sell": 800,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "handaxe": {
+        "name": "Hand Axe",
+        "type": "axe",
+        "desc": "A throwing axe used to attack enemies indirectly.",
+        "stats": {
+            "rank": "D",
+            "mt": 8,
+            "hit": 60,
+            "wt": 8,
+            "rng": "1-2",
+            "uses": 30,
+            "price": 540,
+            "price per use": 18,
+            "sell": 270,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "killeraxe": {
+        "name": "Killer Axe",
+        "type": "axe",
+        "desc": "An axe whose design yields frequent critical hits.",
+        "stats": {
+            "rank": "C",
+            "mt": 10,
+            "hit": 70,
+            "crit": 20,
+            "wt": 7,
+            "rng": 1,
+            "uses": 20,
+            "price": 1400,
+            "price per use": 70,
+            "sell": 700,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "hammer": {
+        "name": "Hammer",
+        "type": "axe",
+        "desc": "An axe weapon effective against armored units.",
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 60,
+            "wt": 11,
+            "rng": 1,
+            "uses": 20,
+            "price": 1100,
+            "price per use": 55,
+            "sell": 550,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "poleax": {
+        "name": "Poleax",
+        "type": "axe",
+        "desc": "An axe weapon effective against cavalry.",
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 60,
+            "wt": 11,
+            "rng": 1,
+            "uses": 15,
+            "price": 1050,
+            "price per use": 70,
+            "sell": 525,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "devilaxe": {
+        "name": "Devil Axe",
+        "type": "axe",
+        "desc": "A mighty but cursed axe known to harm its user.",
+        "stats": {
+            "rank": "D",
+            "mt": 17,
+            "hit": 100,
+            "wt": 8,
+            "rng": 1,
+            "uses": 25,
+            "wexp": 2
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Backfire rate: (31 - Luck)%\nBackfire damage: Calculate damage as if user attacked themselves"
+        }
+    },
+    "braveaxe": {
+        "name": "Brave Axe",
+        "type": "axe",
+        "desc": "An axe with which the wielder always strikes twice.",
+        "stats": {
+            "rank": "B",
+            "mt": 9,
+            "hit": 70,
+            "wt": 9,
+            "rng": 1,
+            "uses": 30,
+            "price": 2100,
+            "price per use": 70,
+            "sell": 1050,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "hauteclere": {
+        "name": "Hauteclere",
+        "type": "axe",
+        "desc": "A formidable axe whose power is second to none.",
+        "stats": {
+            "rank": "A",
+            "mt": 18,
+            "hit": 80,
+            "wt": 9,
+            "rng": 1,
+            "uses": 20
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Can be used as an item to heal 10 HP."
+        }
+    },
+    "ironbow": {
+        "name": "Iron Bow",
+        "type": "bow",
+        "desc": "An affordable bow that is easy to wield.",
+        "stats": {
+            "rank": "E",
+            "mt": 5,
+            "hit": 90,
+            "wt": 4,
+            "rng": 2,
+            "uses": 40,
+            "price": 440,
+            "price per use": 11,
+            "sell": 220,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "steelbow": {
+        "name": "Steel Bow",
+        "type": "bow",
+        "desc": "A weighty but more powerful bow.",
+        "stats": {
+            "rank": "D",
+            "mt": 8,
+            "hit": 80,
+            "wt": 8,
+            "rng": 2,
+            "uses": 35,
+            "price": 770,
+            "price per use": 22,
+            "sell": 385,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "silverbow": {
+        "name": "Silver Bow",
+        "type": "bow",
+        "desc": "A bow whose might offsets its steep price.",
+        "stats": {
+            "rank": "B",
+            "mt": 12,
+            "hit": 90,
+            "wt": 5,
+            "rng": 2,
+            "uses": 20,
+            "price": 2100,
+            "price per use": 105,
+            "sell": 1050,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "killerbow": {
+        "name": "Killer Bow",
+        "type": "bow",
+        "desc": "A bow whose design yields frequent critical hits.",
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 80,
+            "crit": 20,
+            "wt": 6,
+            "rng": 2,
+            "uses": 20,
+            "price": 1600,
+            "price per use": 80,
+            "sell": 800,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "longbow": {
+        "name": "Longbow",
+        "type": "bow",
+        "desc": "A bow with great range used to strike distant foes.",
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 70,
+            "wt": 8,
+            "rng": "2-3",
+            "uses": 25,
+            "price": 2000,
+            "price per use": 80,
+            "sell": 1000,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "bravebow": {
+        "name": "Brave Bow",
+        "type": "bow",
+        "desc": "A bow with which the wielder always strikes twice.",
+        "stats": {
+            "rank": "B",
+            "mt": 7,
+            "hit": 80,
+            "wt": 7,
+            "rng": 2,
+            "uses": 30,
+            "price": 2400,
+            "price per use": 80,
+            "sell": 1200,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "parthia": {
+        "name": "Parthia",
+        "type": "bow",
+        "desc": "A formidable bow, and regalia of House Archanea.",
+        "stats": {
+            "rank": "A",
+            "mt": 17,
+            "hit": 100,
+            "wt": 7,
+            "rng": 2,
+            "uses": 20
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Grants +7 Resistance (effect lowers each turn).\nCannot be forged."
+        }
+    },
+    "arrowspate": {
+        "name": "Arrowspate",
+        "type": "ballista",
+        "desc": "A ballista strong against fliers.",
+        "stats": {
+            "mt": 12,
+            "hit": 80,
+            "wt": 6,
+            "rng": "3-10",
+            "uses": 20,
+            "price": 1000,
+            "price per use": 50,
+            "sell": 500
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Cannot make follow-up attacks."
+        }
+    },
+    "stonehoist": {
+        "name": "Stonehoist",
+        "type": "ballista",
+        "desc": "A ballista for striking distant enemies.",
+        "stats": {
+            "mt": 15,
+            "hit": 50,
+            "wt": 8,
+            "rng": "3-10",
+            "uses": 40,
+            "price": 1200,
+            "price per use": 30,
+            "sell": 600
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Cannot make follow-up attacks."
+        }
+    },
+    "hoistflamme": {
+        "name": "Hoistflamme",
+        "type": "ballista",
+        "desc": "A ballista for striking distant enemies.",
+        "stats": {
+            "mt": 12,
+            "hit": 90,
+            "wt": 10,
+            "rng": "3-10",
+            "uses": 20,
+            "price": 1000,
+            "price per use": 50,
+            "sell": 500
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Cannot make follow-up attacks."
+        }
+    },
+    "thunderbolt": {
+        "name": "Thunderbolt",
+        "type": "ballista",
+        "desc": "A magical ballista strong against ballisticians.",
+        "stats": {
+            "mt": 10,
+            "hit": 80,
+            "wt": 5,
+            "rng": "3-10",
+            "uses": 10,
+            "price": 700,
+            "price per use": 70,
+            "sell": 350
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true,
+            "magical": true
+        },
+        "reference": {
+            "Other Effects": "Cannot make follow-up attacks."
+        }
+    },
+    "pachyderm": {
+        "name": "Pachyderm",
+        "type": "ballista",
+        "desc": "A ballista for striking distant enemies.",
+        "stats": {
+            "mt": 18,
+            "hit": 70,
+            "wt": 10,
+            "rng": "3-10",
+            "uses": 20,
+            "price": 3000,
+            "price per use": 150,
+            "sell": 1500
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Cannot make follow-up attacks."
+        }
+    },
+    "firestone": {
+        "name": "Firestone",
+        "type": "stone",
+        "desc": "Grants +8 Strength, +4 Skill, +4 Speed, +9 Defense, +4 Resistance.\nA stone used to transform into a fire dragon.",
+        "stats": {
+            "mt": 15,
+            "hit": 85,
+            "wt": 1,
+            "rng": 1,
+            "uses": 30
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "str": 8,
+                "skl": 4,
+                "spd": 4,
+                "def": 9,
+                "res": 4
+            }
+        }
+    },
+    "earthstone": {
+        "name": "Earthstone",
+        "type": "stone",
+        "desc": "A stone used to transform into an earth dragon.",
+        "stats": {
+            "mt": 20,
+            "hit": 70,
+            "wt": 1,
+            "rng": "1-2"
+        },
+        "weapon": true
+    },
+    "magestone": {
+        "name": "Magestone",
+        "type": "stone",
+        "desc": "Grants +7 Magic, +1 Skill, -1 Speed, +11 Defense, +10 Resistance.\nA stone used to transform into a mage dragon.",
+        "stats": {
+            "mt": 15,
+            "hit": 85,
+            "wt": 1,
+            "rng": 1,
+            "uses": 30
+        },
+        "weapon": true,
+        "equip": {
+            "magical": true,
+            "stats": {
+                "mag": 7,
+                "skl": 1,
+                "spd": -1,
+                "def": 11,
+                "res": 10
+            }
+        },
+        "reference": {
+            "Other Effects": "Nullifies damage dealt by enemy magical attacks."
+        }
+    },
+    "divinestone": {
+        "name": "Divinestone",
+        "type": "stone",
+        "desc": "Grants +10 Strength, +7 Skill, +4 Speed, +15 Defense, +11 Resistance.\nA divine dragonstone effective against Manaketes.",
+        "stats": {
+            "mt": 18,
+            "hit": 100,
+            "wt": 1,
+            "rng": 1,
+            "uses": 30
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true,
+            "stats": {
+                "str": 10,
+                "skl": 7,
+                "spd": 4,
+                "def": 15,
+                "res": 11
+            }
+        },
+        "reference": {
+            "Other Effects": "Tiki/Nagi only. Effective against Earth Dragon units."
+        }
+    },
+    "fire": {
+        "name": "Fire",
+        "type": "tome",
+        "desc": "Magic used to attack with flames.",
+        "stats": {
+            "rank": "E",
+            "mt": 5,
+            "hit": 100,
+            "wt": 1,
+            "rng": "1-2",
+            "uses": 25,
+            "price": 300,
+            "price per use": 12,
+            "sell": 150,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "thunder": {
+        "name": "Thunder",
+        "type": "tome",
+        "desc": "Magic used to attack with lightning.",
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 90,
+            "wt": 2,
+            "rng": "1-2",
+            "uses": 21,
+            "price": 420,
+            "price per use": 20,
+            "sell": 210,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "blizzard": {
+        "name": "Blizzard",
+        "type": "tome",
+        "desc": "Potent magic used to attack with ice.",
+        "stats": {
+            "rank": "D",
+            "mt": 7,
+            "hit": 80,
+            "crit": 5,
+            "wt": 2,
+            "rng": "1-2",
+            "uses": 23,
+            "price": 690,
+            "price per use": 30,
+            "sell": 345,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "elfire": {
+        "name": "Elfire",
+        "type": "tome",
+        "desc": "Potent magic used to attack with flames.",
+        "stats": {
+            "rank": "D",
+            "mt": 9,
+            "hit": 80,
+            "wt": 3,
+            "rng": "1-2",
+            "uses": 18,
+            "price": 1260,
+            "price per use": 70,
+            "sell": 630,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "bolganone": {
+        "name": "Bolganone",
+        "type": "tome",
+        "desc": "Superior magic used to attack with flames.",
+        "stats": {
+            "rank": "C",
+            "mt": 12,
+            "hit": 70,
+            "wt": 4,
+            "rng": "1-2",
+            "uses": 13,
+            "price": 1690,
+            "price per use": 130,
+            "sell": 845,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "thoron": {
+        "name": "Thoron",
+        "type": "tome",
+        "desc": "Superior magic used to attack with lightning.",
+        "stats": {
+            "rank": "C",
+            "mt": 13,
+            "hit": 100,
+            "crit": 10,
+            "wt": 4,
+            "rng": "1-2",
+            "uses": 21,
+            "price": 2100,
+            "price per use": 100,
+            "sell": 1050,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "swarm": {
+        "name": "Swarm",
+        "type": "tome",
+        "desc": "Magic used to attack a distant enemy.",
+        "stats": {
+            "rank": "B",
+            "mt": 6,
+            "hit": 70,
+            "wt": 5,
+            "rng": "3-10",
+            "uses": 25,
+            "price": 2500,
+            "price per use": 100,
+            "sell": 1250,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "aura": {
+        "name": "Aura",
+        "type": "tome",
+        "desc": "Light magic for women (Linde can use at level E).",
+        "stats": {
+            "rank": "B",
+            "mt": 18,
+            "hit": 90,
+            "wt": 1,
+            "rng": "1-2",
+            "uses": 25,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "excalibur": {
+        "name": "Excalibur",
+        "type": "tome",
+        "desc": "Wind magic for men (Merric can use at level E).",
+        "stats": {
+            "rank": "B",
+            "mt": 13,
+            "hit": 100,
+            "crit": 20,
+            "wt": 1,
+            "rng": "1-2",
+            "uses": 33,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Flying units."
+        }
+    },
+    "imhullu": {
+        "name": "Imhullu",
+        "type": "tome",
+        "desc": "Dark magic that nullifies all attacks on its bearer.",
+        "stats": {
+            "rank": "A",
+            "mt": 14,
+            "hit": 70,
+            "wt": 4,
+            "rng": "1-2"
+        },
+        "weapon": true
+    },
+    "starlight": {
+        "name": "Starlight",
+        "type": "tome",
+        "desc": "The sole magic capable of thwarting Imhullu's power.",
+        "stats": {
+            "rank": "C",
+            "mt": 13,
+            "hit": 100,
+            "wt": 4,
+            "rng": "1-2",
+            "uses": 13,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "heal": {
+        "name": "Heal",
+        "type": "staff",
+        "desc": "A staff used to restore HP to an adjacent ally.",
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "rng": 1,
+            "uses": 20,
+            "price": 800,
+            "price per use": 40,
+            "sell": 400,
+            "wexp": 2
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Healing calculation: [8 + (Magic / 2)]"
+        }
+    },
+    "mend": {
+        "name": "Mend",
+        "type": "staff",
+        "desc": "Greatly restores HP to an adjacent ally.",
+        "stats": {
+            "rank": "D",
+            "mt": 15,
+            "rng": 1,
+            "uses": 16,
+            "price": 1280,
+            "price per use": 80,
+            "sell": 640,
+            "wexp": 2
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Healing calculation: [15 + (Magic / 2)]"
+        }
+    },
+    "recover": {
+        "name": "Recover",
+        "type": "staff",
+        "desc": "Completely restores HP to an adjacent ally.",
+        "stats": {
+            "rank": "B",
+            "rng": 1,
+            "uses": 13,
+            "price": 1690,
+            "price per use": 130,
+            "sell": 845,
+            "wexp": 2
+        },
+        "weapon": false
+    },
+    "physic": {
+        "name": "Physic",
+        "type": "staff",
+        "desc": "A staff used to restore HP to a distant ally.",
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "rng": "Infinite",
+            "uses": 10,
+            "price": 1500,
+            "price per use": 150,
+            "sell": 750,
+            "wexp": 2
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Healing calculation: [8 + (Magic / 2)]"
+        }
+    },
+    "fortify": {
+        "name": "Fortify",
+        "type": "staff",
+        "desc": "A staff used to restore HP to all allies.",
+        "stats": {
+            "rank": "A",
+            "mt": 8,
+            "uses": 12,
+            "price": 3000,
+            "price per use": 250,
+            "sell": 1500
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Healing calculation: [8 + (Magic / 2)]"
+        }
+    },
+    "warp": {
+        "name": "Warp",
+        "type": "staff",
+        "desc": "Transports an adjacent ally to another location.",
+        "stats": {
+            "rank": "C",
+            "rng": 1,
+            "uses": 7,
+            "wexp": 2
+        },
+        "weapon": false
+    },
+    "barrier": {
+        "name": "Barrier",
+        "type": "staff",
+        "desc": "Raises a nearby ally's resistance. Wears off with time.",
+        "stats": {
+            "rank": "D",
+            "rng": 1,
+            "uses": 18,
+            "price": 2520,
+            "price per use": 140,
+            "sell": 1260,
+            "wexp": 2
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Grants +7 Resistance to ally (effect lowers each turn)."
+        }
+    },
+    "hammerne": {
+        "name": "Hammerne",
+        "type": "staff",
+        "desc": "Repairs an adjacent ally's combat items. For Lena only.",
+        "stats": {
+            "rank": "E",
+            "rng": 1,
+            "uses": 12,
+            "wexp": 2
+        },
+        "weapon": false
+    },
+    "aum": {
+        "name": "Aum",
+        "type": "staff",
+        "desc": "Revives a single fallen ally. Only a princess can use it.",
+        "stats": {
+            "rank": "A",
+            "uses": 1
+        },
+        "weapon": false
+    },
+    "doorkey": {
+        "name": "Door Key",
+        "type": "item",
+        "desc": "A key used to open a door.",
+        "stats": {
+            "uses": 1,
+            "price": 300,
+            "sell": 150
+        },
+        "weapon": false
+    },
+    "bridgekey": {
+        "name": "Bridge Key",
+        "type": "item",
+        "desc": "A key used to lower a drawbridge.",
+        "stats": {
+            "uses": 1,
+            "price": 300,
+            "sell": 150
+        },
+        "weapon": false
+    },
+    "masterkey": {
+        "name": "Master Key",
+        "type": "item",
+        "desc": "A key effective on any locked door, chest, or bridge.",
+        "stats": {
+            "uses": 5,
+            "price": 1120,
+            "price per use": 224,
+            "sell": 560
+        },
+        "weapon": false
+    },
+    "vulnerary": {
+        "name": "Vulnerary",
+        "type": "item",
+        "desc": "Medicine that restores HP.",
+        "stats": {
+            "uses": 3,
+            "price": 360,
+            "price per use": 120,
+            "sell": 180
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Restores 10 HP to its user."
+        }
+    },
+    "purewater": {
+        "name": "Pure Water",
+        "type": "item",
+        "desc": "Medicine that boosts resistance. The effect lessens with each passing turn.",
+        "stats": {
+            "uses": 3,
+            "price": 600,
+            "price per use": 200,
+            "sell": 300
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Grants +7 Resistance (effect lowers each turn)."
+        }
+    },
+    "energydrop": {
+        "name": "Energy Drop",
+        "type": "item",
+        "desc": "An item that increases strength by 2.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "spiritdust": {
+        "name": "Spirit Dust",
+        "type": "item",
+        "desc": "An item that increases magic by 2.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "secretbook": {
+        "name": "Secret Book",
+        "type": "item",
+        "desc": "An item that increases skill by 2.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "speedwings": {
+        "name": "Speedwings",
+        "type": "item",
+        "desc": "An item that increases speed by 2.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "goddessicon": {
+        "name": "Goddess Icon",
+        "type": "item",
+        "desc": "An item that increases luck by 2.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "dracoshield": {
+        "name": "Dracoshield",
+        "type": "item",
+        "desc": "An item that increases defense by 2.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "talisman": {
+        "name": "Talisman",
+        "type": "item",
+        "desc": "An item that increases resistance by 2.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "seraphrobe": {
+        "name": "Seraph Robe",
+        "type": "item",
+        "desc": "An item that increases maximum HP by 7.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "boots": {
+        "name": "Boots",
+        "type": "item",
+        "desc": "An item that increases movement by 2.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "armsscroll": {
+        "name": "Arms Scroll",
+        "type": "item",
+        "desc": "An item that increases a unit's weapon level for whatever weapon or magic is equipped.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "silvercard": {
+        "name": "Silver Card",
+        "type": "item",
+        "desc": "A card whose bearer can purchase weapons and items at half price.",
+        "stats": {},
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Cannot be used in preparations or on the Online Shop."
+        }
+    },
+    "vipcard": {
+        "name": "VIP Card",
+        "type": "item",
+        "desc": "A card that grants the bearer purchasing privileges at special shops.",
+        "stats": {},
+        "weapon": false
+    },
+    "masterseal": {
+        "name": "Master Seal",
+        "type": "item",
+        "desc": "An item that promotes a lesser-class unit at level 10 or above to a higher class.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "elysianwhip": {
+        "name": "Elysian Whip",
+        "type": "item",
+        "desc": "An item that promotes a pegasus knight at level 10 or above to falcoknight.",
+        "stats": {
+            "uses": 1,
+            "price": 2500,
+            "sell": 1250
+        },
+        "weapon": false
+    },
+    "iotesshield": {
+        "name": "Iote's Shield",
+        "type": "item",
+        "desc": "A shield that negates bonus damage to the flier who carries it.",
+        "stats": {},
+        "weapon": false
+    },
+    "lightsphere": {
+        "name": "Lightsphere",
+        "type": "item",
+        "desc": "Needed to create a blast of Starlight. Carrying it nullifies the effect of terrain.",
+        "stats": {},
+        "weapon": false
+    },
+    "starsphere": {
+        "name": "Starsphere",
+        "type": "item",
+        "desc": "Needed to create a blast of Starlight. Carrying it prevents the depletion of magic and weapons.",
+        "stats": {},
+        "weapon": false
+    },
+    "geosphere": {
+        "name": "Geosphere",
+        "type": "item",
+        "desc": "An orb that deals damage evenly to all units.",
+        "stats": {
+            "mt": 13,
+            "uses": 3
+        },
+        "weapon": false
+    },
+    "fireemblem": {
+        "name": "Fire Emblem",
+        "type": "item",
+        "desc": "A gift from House Archanea. Its bearer is granted access to the treasure chests throughout the land.",
+        "stats": {},
+        "weapon": false
+    },
+    "bullions": {
+        "name": "Bullion (S)",
+        "type": "item",
+        "desc": "A small lump of gold that fetches 10,000G at market.",
+        "stats": {
+            "sell": 10000
+        },
+        "weapon": false
+    },
+    "bullionm": {
+        "name": "Bullion (M)",
+        "type": "item",
+        "desc": "A lump of gold that fetches 15,000G at market.",
+        "stats": {
+            "sell": 15000
+        },
+        "weapon": false
+    },
+    "bullionl": {
+        "name": "Bullion (L)",
+        "type": "item",
+        "desc": "A large lump of gold that fetches 20,000G at market.",
+        "stats": {
+            "sell": 20000
+        },
+        "weapon": false
+    },
+    "bullionxl": {
+        "name": "Bullion (XL)",
+        "type": "item",
+        "desc": "A huge lump of gold that fetches 30,000G at market.",
+        "stats": {
+            "sell": 30000
+        },
+        "weapon": false
+    }
+}

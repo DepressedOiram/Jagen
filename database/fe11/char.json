@@ -1,0 +1,2081 @@
+{
+    "abel": {
+        "name": "Abel",
+        "type": "playable",
+        "portrait": "abel.png",
+        "job": "cavalier",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 1,
+            "mag": 0,
+            "skl": 5,
+            "spd": 1,
+            "lck": 2,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 25,
+            "str": 25,
+            "mag": 5,
+            "skl": 25,
+            "spd": 40,
+            "lck": 25,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {
+            "lance": 30
+        },
+        "support": {
+            "Supported by": "**Cain:** C-0|B-5|A-11\n**Palla:** C-0|B-6\n**Est:** C-0|B-2\n**Marth:** C-5|B-9|A-14",
+            "Supports": "**Est:** C-0|B-2\n**Palla:** C-0|B-6\n**Cain:** C-0|B-5|A-11"
+        }
+    },
+    "arran": {
+        "name": "Arran",
+        "type": "playable",
+        "portrait": "arran.png",
+        "job": "paladin",
+        "lvl": 10,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 1,
+            "mag": 0,
+            "skl": 3,
+            "spd": 4,
+            "lck": 4,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 35,
+            "mag": 0,
+            "skl": 5,
+            "spd": 30,
+            "lck": 40,
+            "def": 0,
+            "res": 10
+        },
+        "rank": {
+            "sword": 30,
+            "lance": 165
+        },
+        "support": {
+            "Supported by": "**Marth:** C-5|B-8",
+            "Supports": false
+        }
+    },
+    "astram": {
+        "name": "Astram",
+        "type": "playable",
+        "portrait": "astram.png",
+        "job": "hero",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 2,
+            "mag": 0,
+            "skl": 4,
+            "spd": 2,
+            "lck": 3,
+            "def": 1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 30,
+            "str": 30,
+            "mag": 5,
+            "skl": 15,
+            "spd": 0,
+            "lck": 50,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {
+            "sword": 105,
+            "axe": 30
+        },
+        "support": {
+            "Supported by": "**Boah:** C-0|B-5\n**Midia:** C-0|B-3|A-8",
+            "Supports": "**Boah:** C-0|B-6\n**Midia:** C-0|B-3|A-8"
+        }
+    },
+    "athena": {
+        "name": "Athena",
+        "type": "playable",
+        "portrait": "athena.png",
+        "job": "myrmidon",
+        "lvl": 10,
+        "note": false,
+        "base": {
+            "hp": 9,
+            "str": 6,
+            "mag": 0,
+            "skl": 3,
+            "spd": 2,
+            "lck": 6,
+            "def": 3,
+            "res": 0
+        },
+        "growth": {
+            "hp": 25,
+            "str": 15,
+            "mag": 5,
+            "skl": 20,
+            "spd": 25,
+            "lck": 25,
+            "def": 5,
+            "res": 0
+        },
+        "rank": {
+            "sword": 75
+        },
+        "support": {
+            "Supported by": "**Marth:** C-5|B-11|A-18",
+            "Supports": false
+        }
+    },
+    "bantu": {
+        "name": "Bantu",
+        "type": "playable",
+        "portrait": "bantu.png",
+        "job": "manakete",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 2,
+            "mag": 0,
+            "skl": 2,
+            "spd": 3,
+            "lck": 1,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": -10,
+            "str": 0,
+            "mag": 0,
+            "skl": -10,
+            "spd": -10,
+            "lck": 10,
+            "def": 0,
+            "res": 5
+        },
+        "rank": {},
+        "support": {
+            "Supported by": "**Nagi:** C-0\n**Tiki:** C-0|B-3|A-5",
+            "Supports": false
+        }
+    },
+    "barst": {
+        "name": "Barst",
+        "type": "playable",
+        "portrait": "barst.png",
+        "job": "fighter",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 5,
+            "mag": 0,
+            "skl": 5,
+            "spd": 2,
+            "lck": 5,
+            "def": 3,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 25,
+            "spd": 20,
+            "lck": 40,
+            "def": 15,
+            "res": 0
+        },
+        "rank": {
+            "axe": 30
+        },
+        "support": {
+            "Supported by": "**Cord:** C-0|B-6|A-13\n**Bord:** C-0|B-6|A-13\n**Ogma:** C-5|B-10|A-16",
+            "Supports": "**Cord:** C-0|B-6|A-13\n**Bord:** C-0|B-6|A-13"
+        }
+    },
+    "beck": {
+        "name": "Beck",
+        "type": "playable",
+        "portrait": "beck.png",
+        "job": "ballistician",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 1,
+            "mag": 0,
+            "skl": 3,
+            "spd": 0,
+            "lck": 5,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 20,
+            "str": 5,
+            "mag": 0,
+            "skl": 20,
+            "spd": 20,
+            "lck": 35,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {},
+        "support": {
+            "Supported by": "**Marth:** C-5|B-11",
+            "Supports": false
+        }
+    },
+    "boah": {
+        "name": "Boah",
+        "type": "playable",
+        "portrait": "boah.png",
+        "job": "bishop",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 1,
+            "skl": 5,
+            "spd": 6,
+            "lck": 4,
+            "def": 2,
+            "res": 1
+        },
+        "growth": {
+            "hp": -10,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 20,
+            "def": 0,
+            "res": 10
+        },
+        "rank": {
+            "tome": 135,
+            "staff": 45
+        },
+        "support": {
+            "Supported by": "**Astram:** C-0|B-6\n**Midia:** C-0|B-6\n**Marth:** C-5|B-10",
+            "Supports": "**Astram:** C-0|B-5\n**Tomas:** C-0|B-5\n**Macellan:** C-0|B-5\n**Dolph:** C-0|B-5\n**Midia:** C-0|B-5"
+        }
+    },
+    "bord": {
+        "name": "Bord",
+        "type": "playable",
+        "portrait": "bord.png",
+        "job": "fighter",
+        "lvl": 2,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 3,
+            "mag": 0,
+            "skl": 3,
+            "spd": 0,
+            "lck": 1,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 0,
+            "skl": 30,
+            "spd": 0,
+            "lck": 35,
+            "def": 10,
+            "res": 0
+        },
+        "rank": {
+            "axe": 75
+        },
+        "support": {
+            "Supported by": "**Barst:** C-0|B-6|A-13\n**Cord:** C-0|B-6|A-13\n**Ogma:** C-5|B-10|A-16",
+            "Supports": "**Cord:** C-0|B-6|A-13\n**Barst:** C-0|B-6|A-13"
+        }
+    },
+    "caeda": {
+        "name": "Caeda",
+        "type": "playable",
+        "portrait": "caeda.png",
+        "job": "pegasusknight",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": -1,
+            "skl": 1,
+            "spd": 5,
+            "lck": 9,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 10,
+            "mag": 5,
+            "skl": 40,
+            "spd": 60,
+            "lck": 70,
+            "def": 0,
+            "res": 0
+        },
+        "rank": {
+            "lance": 30
+        },
+        "support": {
+            "Supported by": "**Marth:** C-1|B-4|A-9",
+            "Supports": "**Lorenz:** C-4\n**Jake:** C-5|B-10\n**Roger:** C-5|B-9|A-14\n**Navarre:** C-5|B-10|A-16\n**Darros:** C-0|B-6|A-13\n**Castor:** C-5|B-10|A-16\n**Ogma:** C-5|B-9|A-14\n**Wrys:** C-0|B-6|A-13\n**Marth:** C-1|B-4|A-9"
+        }
+    },
+    "caesar": {
+        "name": "Caesar",
+        "type": "playable",
+        "portrait": "caesar.png",
+        "job": "mercenary",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 1,
+            "mag": 0,
+            "skl": 0,
+            "spd": 2,
+            "lck": 6,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 30,
+            "str": 20,
+            "mag": 10,
+            "skl": 10,
+            "spd": 25,
+            "lck": 20,
+            "def": 10,
+            "res": 5
+        },
+        "rank": {
+            "sword": 30
+        },
+        "support": {
+            "Supported by": "**Radd:** C-5|B-10|A-16",
+            "Supports": "**Radd:** C-5|B-10|A-16"
+        }
+    },
+    "cain": {
+        "name": "Cain",
+        "type": "playable",
+        "portrait": "cain.png",
+        "job": "cavalier",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 2,
+            "mag": 0,
+            "skl": 3,
+            "spd": 0,
+            "lck": 3,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 35,
+            "str": 20,
+            "mag": 5,
+            "skl": 25,
+            "spd": 40,
+            "lck": 40,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {
+            "sword": 30
+        },
+        "support": {
+            "Supported by": "**Est:** C-0|B-2\n**Abel:** C-0|B-5|A-11\n**Catria:** C-0|B-6\n**Marth:** C-5|B-9|A-14",
+            "Supports": "**Est:** C-0|B-2|A-21\n**Catria:** C-0|B-6\n**Abel:** C-0|B-5|A-11"
+        }
+    },
+    "castor": {
+        "name": "Castor",
+        "type": "playable",
+        "portrait": "castor.png",
+        "job": "hunter",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 3,
+            "str": 1,
+            "mag": 0,
+            "skl": -1,
+            "spd": 0,
+            "lck": 3,
+            "def": 1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 20,
+            "mag": 5,
+            "skl": 25,
+            "spd": 15,
+            "lck": 20,
+            "def": 15,
+            "res": 0
+        },
+        "rank": {
+            "bow": 30
+        },
+        "support": {
+            "Supported by": "**Marth:** C-0|B-6|A-13\n**Caeda:** C-5|B-10|A-16",
+            "Supports": false
+        }
+    },
+    "catria": {
+        "name": "Catria",
+        "type": "playable",
+        "portrait": "catria.png",
+        "job": "pegasusknight",
+        "lvl": 5,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 2,
+            "mag": 0,
+            "skl": 2,
+            "spd": 6,
+            "lck": 7,
+            "def": 3,
+            "res": 0
+        },
+        "growth": {
+            "hp": 30,
+            "str": 35,
+            "mag": 0,
+            "skl": 60,
+            "spd": 40,
+            "lck": 40,
+            "def": 15,
+            "res": 5
+        },
+        "rank": {
+            "lance": 75
+        },
+        "support": {
+            "Supported by": "**Frey:** C-0|B-6\n**Cain:** C-0|B-6\n**Minerva:** C-0|B-4|A-9\n**Marth:** C-5|B-11",
+            "Supports": "**Cain:** C-0|B-6\n**Frey:** C-0|B-5"
+        }
+    },
+    "cord": {
+        "name": "Cord",
+        "type": "playable",
+        "portrait": "cord.png",
+        "job": "fighter",
+        "lvl": 2,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 2,
+            "mag": 0,
+            "skl": 4,
+            "spd": 2,
+            "lck": 5,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 10,
+            "mag": 10,
+            "skl": 5,
+            "spd": 30,
+            "lck": 40,
+            "def": 10,
+            "res": 10
+        },
+        "rank": {},
+        "support": {
+            "Supported by": "**Barst:** C-0|B-6|A-13\n**Bord:** C-0|B-6|A-13\n**Ogma:** C-5|B-10|A-16",
+            "Supports": "**Bord:** C-0|B-6|A-13\n**Barst:** C-0|B-6|A-13"
+        }
+    },
+    "darros": {
+        "name": "Darros",
+        "type": "playable",
+        "portrait": "darros.png",
+        "job": "pirate",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 3,
+            "str": 1,
+            "mag": 0,
+            "skl": 1,
+            "spd": 1,
+            "lck": 3,
+            "def": 1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 20,
+            "mag": 0,
+            "skl": 5,
+            "spd": 0,
+            "lck": 40,
+            "def": 30,
+            "res": 0
+        },
+        "rank": {
+            "axe": 30
+        },
+        "support": {
+            "Supported by": "**Caeda:** C-0|B-6|A-13\n**Marth:** C-5|B-11|A-18",
+            "Supports": false
+        }
+    },
+    "dolph": {
+        "name": "Dolph",
+        "type": "playable",
+        "portrait": "dolph.png",
+        "job": "knight",
+        "lvl": 4,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 2,
+            "mag": 0,
+            "skl": 4,
+            "spd": 5,
+            "lck": 3,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 5,
+            "skl": 20,
+            "spd": 30,
+            "lck": 10,
+            "def": 15,
+            "res": 0
+        },
+        "rank": {
+            "lance": 75
+        },
+        "support": {
+            "Supported by": "**Boah:** C-0|B-5\n**Midia:** C-0|B-5\n**Tomas:** C-0|B-5\n**Macellan:** C-5|B-10",
+            "Supports": "**Tomas:** C-5|B-10\n**Macellan:** C-5|B-10\n**Midia:** C-0|B-5"
+        }
+    },
+    "draug": {
+        "name": "Draug",
+        "type": "playable",
+        "portrait": "draug.png",
+        "job": "knight",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 1,
+            "mag": 0,
+            "skl": 1,
+            "spd": 3,
+            "lck": 1,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 5,
+            "mag": 5,
+            "skl": 20,
+            "spd": 40,
+            "lck": 30,
+            "def": 0,
+            "res": 0
+        },
+        "rank": {
+            "lance": 30
+        },
+        "support": {
+            "Supported by": "**Norne:** C-0|B-5|A-11\n**Gordin:** C-0|B-5|A-11\n**Marth:** C-5|B-9|A-14",
+            "Supports": "**Norne:** C-0|B-5|A-11\n**Gordin:** C-0|B-5|A-11"
+        }
+    },
+    "elice": {
+        "name": "Elice",
+        "type": "playable",
+        "portrait": "elice.png",
+        "job": "cleric",
+        "lvl": 10,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 0,
+            "mag": 1,
+            "skl": 4,
+            "spd": 3,
+            "lck": 3,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 40,
+            "str": 0,
+            "mag": 20,
+            "skl": 35,
+            "spd": 40,
+            "lck": 80,
+            "def": 10,
+            "res": 0
+        },
+        "rank": {
+            "staff": 195
+        },
+        "support": {
+            "Supported by": "**Gotoh:** C-0\n**Merric:** C-0\n**Marth:** C-0|B-1",
+            "Supports": "**Gotoh:** C-0\n**Merric:** C-0|B-1\n**Marth:** C-0|B-4"
+        }
+    },
+    "est": {
+        "name": "Est",
+        "type": "playable",
+        "portrait": "est.png",
+        "job": "pegasusknight",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 3,
+            "str": 1,
+            "mag": 0,
+            "skl": 1,
+            "spd": 5,
+            "lck": 11,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 45,
+            "mag": 0,
+            "skl": 40,
+            "spd": 30,
+            "lck": 50,
+            "def": 10,
+            "res": 5
+        },
+        "rank": {
+            "lance": 75
+        },
+        "support": {
+            "Supported by": "**Cain:** C-0|B-2|A-21\n**Abel:** C-0|B-2\n**Minerva:** C-0|B-3|A-6",
+            "Supports": "**Cain:** C-0|B-2\n**Abel:** C-0|B-2"
+        }
+    },
+    "etzel": {
+        "name": "Etzel",
+        "type": "playable",
+        "portrait": "etzel.png",
+        "job": "sorcerer",
+        "lvl": 6,
+        "note": false,
+        "base": {
+            "hp": 8,
+            "str": 0,
+            "mag": 8,
+            "skl": 12,
+            "spd": 5,
+            "lck": 7,
+            "def": 3,
+            "res": 6
+        },
+        "growth": {
+            "hp": 20,
+            "str": 0,
+            "mag": 10,
+            "skl": 20,
+            "spd": 20,
+            "lck": 20,
+            "def": 5,
+            "res": 10
+        },
+        "rank": {
+            "tome": 105,
+            "staff": 30
+        },
+        "support": {
+            "Supported by": "**Marth:** C-3|B-7",
+            "Supports": false
+        }
+    },
+    "frey": {
+        "name": "Frey",
+        "type": "playable",
+        "portrait": "frey.png",
+        "job": "cavalier",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 2,
+            "mag": 0,
+            "skl": 4,
+            "spd": 0,
+            "lck": 2,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 40,
+            "str": 20,
+            "mag": 5,
+            "skl": 30,
+            "spd": 45,
+            "lck": 45,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {
+            "lance": 30
+        },
+        "support": {
+            "Supported by": "**Catria:** C-0|B-5\n**Palla:** C-0|B-5\n**Marth:** C-5|B-9|A-14",
+            "Supports": "**Catria:** C-0|B-6\n**Palla:** C-0|B-6"
+        }
+    },
+    "gordin": {
+        "name": "Gordin",
+        "type": "playable",
+        "portrait": "gordin.png",
+        "job": "archer",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 4,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 20,
+            "str": 10,
+            "mag": 0,
+            "skl": 20,
+            "spd": 5,
+            "lck": 40,
+            "def": 20,
+            "res": 5
+        },
+        "rank": {
+            "bow": 30
+        },
+        "support": {
+            "Supported by": "**Norne:** C-0|B-5|A-11\n**Draug:** C-0|B-5|A-11\n**Marth:** C-5|B-9|A-14",
+            "Supports": "**Norne:** C-0|B-5|A-11\n**Draug:** C-0|B-5|A-11"
+        }
+    },
+    "gotoh": {
+        "name": "Gotoh",
+        "type": "playable",
+        "portrait": "gotoh.png",
+        "job": "sage",
+        "lvl": 18,
+        "note": false,
+        "base": {
+            "hp": 15,
+            "str": 0,
+            "mag": 7,
+            "skl": 18,
+            "spd": 16,
+            "lck": 16,
+            "def": 10,
+            "res": 7
+        },
+        "growth": {
+            "hp": 40,
+            "str": 0,
+            "mag": 0,
+            "skl": 30,
+            "spd": 40,
+            "lck": 80,
+            "def": 0,
+            "res": 10
+        },
+        "rank": {
+            "tome": 165,
+            "staff": 195
+        },
+        "support": {
+            "Supported by": "**Elice:** C-0\n**Marth:** C-0",
+            "Supports": "**Elice:** C-0"
+        }
+    },
+    "hardin": {
+        "name": "Hardin",
+        "type": "playable",
+        "portrait": "hardin.png",
+        "job": "cavalier",
+        "lvl": 6,
+        "note": false,
+        "base": {
+            "hp": 6,
+            "str": 4,
+            "mag": 0,
+            "skl": 5,
+            "spd": 2,
+            "lck": 3,
+            "def": 1,
+            "res": 1
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 0,
+            "skl": 30,
+            "spd": 45,
+            "lck": 30,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {
+            "sword": 30,
+            "lance": 135
+        },
+        "support": {
+            "Supported by": "**Marth:** C-5|B-10|A-16",
+            "Supports": "**Vyland:** C-5|B-9|A-14\n**Roshea:** C-5|B-9|A-14\n**Sedgar:** C-5|B-9|A-14\n**Wolf:** C-5|B-9|A-14"
+        }
+    },
+    "horace": {
+        "name": "Horace",
+        "type": "playable",
+        "portrait": "horace.png",
+        "job": "general",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 7,
+            "mag": 0,
+            "skl": 9,
+            "spd": 4,
+            "lck": 7,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 0,
+            "mag": 5,
+            "skl": 15,
+            "spd": 10,
+            "lck": 15,
+            "def": 5,
+            "res": 0
+        },
+        "rank": {
+            "lance": 105,
+            "bow": 30
+        },
+        "support": {
+            "Supported by": "**Marth:** C-5|B-11",
+            "Supports": false
+        }
+    },
+    "jagen": {
+        "name": "Jagen",
+        "type": "playable",
+        "portrait": "jagen.png",
+        "job": "paladin",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 5,
+            "spd": 1,
+            "lck": 1,
+            "def": 1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 5,
+            "mag": 10,
+            "skl": 10,
+            "spd": 5,
+            "lck": 30,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {
+            "sword": 30,
+            "lance": 105
+        },
+        "support": {
+            "Supported by": "**Marth:** C-5|B-9|A-14",
+            "Supports": false
+        }
+    },
+    "jake": {
+        "name": "Jake",
+        "type": "playable",
+        "portrait": "jake.png",
+        "job": "ballistician",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 3,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 10,
+            "mag": 0,
+            "skl": 40,
+            "spd": 0,
+            "lck": 50,
+            "def": 0,
+            "res": 5
+        },
+        "rank": {},
+        "support": {
+            "Supported by": "**Linde:** C-0|B-5\n**Minerva:** C-0|B-5\n**Maria:** C-0|B-5\n**Lena:** C-0|B-5\n**Caeda:** C-5|B-10",
+            "Supports": false
+        }
+    },
+    "jeorge": {
+        "name": "Jeorge",
+        "type": "playable",
+        "portrait": "jeorge.png",
+        "job": "sniper",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 2,
+            "spd": 3,
+            "lck": 4,
+            "def": 1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 10,
+            "mag": 5,
+            "skl": 30,
+            "spd": 10,
+            "lck": 20,
+            "def": 0,
+            "res": 5
+        },
+        "rank": {
+            "bow": 105
+        },
+        "support": {
+            "Supported by": "**Marth:** C-5|B-9|A-15",
+            "Supports": false
+        }
+    },
+    "julian": {
+        "name": "Julian",
+        "type": "playable",
+        "portrait": "julian.png",
+        "job": "thief",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 1,
+            "str": 2,
+            "mag": 0,
+            "skl": 5,
+            "spd": 5,
+            "lck": 7,
+            "def": 3,
+            "res": 0
+        },
+        "growth": {
+            "hp": 50,
+            "str": 40,
+            "mag": 0,
+            "skl": 20,
+            "spd": 10,
+            "lck": 80,
+            "def": 25,
+            "res": 12
+        },
+        "rank": {},
+        "support": {
+            "Supported by": "**Lena:** C-0|B-3|A-8",
+            "Supports": "**Rickard:** C-5|B-10|A-16\n**Lena:** C-5|B-8|A-13"
+        }
+    },
+    "lena": {
+        "name": "Lena",
+        "type": "playable",
+        "portrait": "lena.png",
+        "job": "cleric",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 1,
+            "skl": 6,
+            "spd": 5,
+            "lck": 8,
+            "def": 2,
+            "res": -1
+        },
+        "growth": {
+            "hp": -5,
+            "str": 0,
+            "mag": 15,
+            "skl": 10,
+            "spd": 0,
+            "lck": 60,
+            "def": 0,
+            "res": 20
+        },
+        "rank": {
+            "staff": 75
+        },
+        "support": {
+            "Supported by": "**Matthis:** C-0|B-4|A-9\n**Julian:** C-5|B-8|A-13",
+            "Supports": "**Jake:** C-0|B-5\n**Matthis:** C-5|B-9|A-14\n**Julian:** C-0|B-3|A-8"
+        }
+    },
+    "linde": {
+        "name": "Linde",
+        "type": "playable",
+        "portrait": "linde.png",
+        "job": "mage",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 0,
+            "mag": -1,
+            "skl": 3,
+            "spd": 4,
+            "lck": 7,
+            "def": 1,
+            "res": 1
+        },
+        "growth": {
+            "hp": 20,
+            "str": 0,
+            "mag": 20,
+            "skl": 20,
+            "spd": 20,
+            "lck": 60,
+            "def": 0,
+            "res": 5
+        },
+        "rank": {
+            "tome": 30
+        },
+        "support": {
+            "Supported by": "**Merric:** C-0|B-4|A-20\n**Marth:** C-5|B-8|A-13",
+            "Supports": "**Jake:** C-0|B-5"
+        }
+    },
+    "lorenz": {
+        "name": "Lorenz",
+        "type": "playable",
+        "portrait": "lorenz.png",
+        "job": "general",
+        "lvl": 5,
+        "note": false,
+        "base": {
+            "hp": 6,
+            "str": 3,
+            "mag": 0,
+            "skl": 0,
+            "spd": 2,
+            "lck": 2,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 35,
+            "mag": 0,
+            "skl": 50,
+            "spd": 20,
+            "lck": 40,
+            "def": 0,
+            "res": 5
+        },
+        "rank": {
+            "lance": 165,
+            "bow": 135
+        },
+
+        "support": {
+            "Supported by": "**Caeda:** C-4",
+            "Supports": false
+        }
+    },
+    "macellan": {
+        "name": "Macellan",
+        "type": "playable",
+        "portrait": "macellan.png",
+        "job": "knight",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 2,
+            "mag": 0,
+            "skl": 3,
+            "spd": 3,
+            "lck": 4,
+            "def": 1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 20,
+            "mag": 0,
+            "skl": 5,
+            "spd": 25,
+            "lck": 30,
+            "def": 0,
+            "res": 5
+        },
+        "rank": {
+            "lance": 30
+        },
+
+        "support": {
+            "Supported by": "**Midia:** C-0|B-5\n**Boah:** C-0|B-5\n**Tomas:** C-0|B-5\n**Dolph:** C-5|B-10",
+            "Supports": "**Tomas:** C-0|B-5\n**Dolph:** C-5|B-10\n**Midia:** C-0|B-5"
+        }
+    },
+    "maria": {
+        "name": "Maria",
+        "type": "playable",
+        "portrait": "maria.png",
+        "job": "cleric",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 1,
+            "str": 0,
+            "mag": 1,
+            "skl": 1,
+            "spd": 0,
+            "lck": 0,
+            "def": 3,
+            "res": 0
+        },
+        "growth": {
+            "hp": -5,
+            "str": 0,
+            "mag": 10,
+            "skl": 10,
+            "spd": 5,
+            "lck": 75,
+            "def": -5,
+            "res": 20
+        },
+        "rank": {
+            "staff": 40
+        },
+        "support": {
+            "Supported by": "**Minerva:** C-0|B-6|A-13\n**Marth:** C-5|B-8|A-13",
+            "Supports": "**Jake:** C-0|B-5\n**Minerva:** C-0|B-6|A-13"
+        }
+    },
+    "marth": {
+        "name": "Marth",
+        "type": "playable",
+        "portrait": "marth.png",
+        "job": "lord",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 7,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 40,
+            "str": 35,
+            "mag": 5,
+            "skl": 20,
+            "spd": 30,
+            "lck": 70,
+            "def": 15,
+            "res": 7
+        },
+        "rank": {
+            "sword": 30
+        },
+
+        "support": {
+            "Supported by": "**Elice:** C-0|B-4\n**Caeda:** C-1|B-4|A-9",
+            "Supports": "**Gotoh:** C-0\n**Nagi:** C-0\n**Elice:** C-0|B-1\n**Ymir:** C-2|B-4\n**Tiki:** C-1|B-5\n**Etzel:** C-3|B-7\n**Xane:** C-0|B-3\n**Samson:** C-5|B-8\n**Arran:** C-5|B-8\n**Catria:** C-5|B-11\n**Beck:** C-5|B-11\n**Horace:** C-5|B-11\n**Boah:** C-5|B-10\n**Linde:** C-5|B-8|A-13\n**Minerva:** C-5|B-8|A-13\n**Maria:** C-5|B-8|A-13\n**Jeorge:** C-5|B-9|A-15\n**Athena:** C-5|B-11|A-18\n**Rickard:** C-0|B-6|A-13\n**Wendell:** C-0|B-6|A-13\n**Hardin:** C-5|B-10|A-16\n**Merric:** C-0|B-4|A-9\n**Darros:** C-5|B-11|A-18\n**Castor:** C-0|B-6|A-13\n**Wrys:** C-5|B-10|A-16\n**Caeda:** C-1|B-4|A-9\n**Norne:** C-5|B-10|A-16\n**Draug:** C-5|B-9|A-14\n**Gordin:** C-5|B-9|A-14\n**Jagen:** C-5|B-9|A-14\n**Cain:** C-5|B-9|A-14\n**Abel:** C-5|B-9|A-14\n**Frey:** C-5|B-9|A-14"
+        }
+    },
+    "matthis": {
+        "name": "Matthis",
+        "type": "playable",
+        "portrait": "matthis.png",
+        "job": "cavalier",
+        "lvl": 2,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 50,
+            "str": 25,
+            "mag": 0,
+            "skl": 5,
+            "spd": 10,
+            "lck": 30,
+            "def": 15,
+            "res": 5
+        },
+        "rank": {
+            "lance": 30
+        },
+
+        "support": {
+            "Supported by": "**Lena:** C-5|B-9|A-14",
+            "Supports": "**Lena:** C-0|B-4|A-9"
+        }
+    },
+    "merric": {
+        "name": "Merric",
+        "type": "playable",
+        "portrait": "merric.png",
+        "job": "mage",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 0,
+            "mag": 0,
+            "skl": 2,
+            "spd": 3,
+            "lck": 3,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 40,
+            "str": 0,
+            "mag": 10,
+            "skl": 30,
+            "spd": 25,
+            "lck": 45,
+            "def": 20,
+            "res": 10
+        },
+        "rank": {
+            "tome": 30
+        },
+
+        "support": {
+            "Supported by": "**Marth:** C-0|B-4|A-9\n**Wendell:** C-0|B-6|A-13\n**Elice:** C-0|B-1",
+            "Supports": "**Elice:** C-0\n**Linde:** C-0|B-4|A-20\n**Wendell:** C-5|B-10|A-16"
+        }
+    },
+    "midia": {
+        "name": "Midia",
+        "type": "playable",
+        "portrait": "midia.png",
+        "job": "paladin",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 0,
+            "mag": 0,
+            "skl": 6,
+            "spd": 2,
+            "lck": 7,
+            "def": 1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 40,
+            "str": 15,
+            "mag": 0,
+            "skl": 25,
+            "spd": 40,
+            "lck": 10,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {
+            "sword": 30,
+            "lance": 45
+        },
+
+        "support": {
+            "Supported by": "**Tomas:** C-0|B-5\n**Macellan:** C-0|B-5\n**Dolph:** C-0|B-5\n**Boah:** C-0|B-5\n**Astram:** C-0|B-3|A-8",
+            "Supports": "**Astram:** C-0|B-3|A-8\n**Boah:** C-0|B-6\n**Tomas:** C-0|B-5\n**Macellan:** C-0|B-5\n**Dolph:** C-0|B-5"
+        }
+    },
+    "minerva": {
+        "name": "Minerva",
+        "type": "playable",
+        "portrait": "minerva.png",
+        "job": "dracoknightf",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 1,
+            "mag": -1,
+            "skl": 1,
+            "spd": 5,
+            "lck": 6,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 25,
+            "mag": 0,
+            "skl": 30,
+            "spd": 10,
+            "lck": 40,
+            "def": 20,
+            "res": 0
+        },
+        "rank": {
+            "axe": 195
+        },
+
+        "support": {
+            "Supported by": "**Maria:** C-0|B-6|A-13\n**Marth:** C-5|B-8|A-13",
+            "Supports": "**Est:** C-0|B-3|A-6\n**Catria:** C-0|B-4|A-9\n**Palla:** C-0|B-4|A-9\n**Jake:** C-0|B-5\n**Maria:** C-0|B-6|A-13"
+        }
+    },
+    "nagi": {
+        "name": "Nagi",
+        "type": "playable",
+        "portrait": "nagi.png",
+        "job": "manaketef",
+        "lvl": 15,
+        "note": false,
+        "base": {
+            "hp": 14,
+            "str": 8,
+            "mag": 2,
+            "skl": 11,
+            "spd": 13,
+            "lck": 10,
+            "def": 5,
+            "res": 9
+        },
+        "growth": {
+            "hp": 40,
+            "str": 30,
+            "mag": 0,
+            "skl": 50,
+            "spd": 60,
+            "lck": 90,
+            "def": 10,
+            "res": 12
+        },
+        "rank": {},
+
+        "support": {
+            "Supported by": "**Marth:** C-0",
+            "Supports": "**Xane:** C-0\n**Bantu:** C-0"
+        }
+    },
+    "navarre": {
+        "name": "Navarre",
+        "type": "playable",
+        "portrait": "navarre.png",
+        "job": "myrmidon",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 3,
+            "str": 2,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 8,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 40,
+            "str": 20,
+            "mag": 5,
+            "skl": 20,
+            "spd": 25,
+            "lck": 40,
+            "def": 5,
+            "res": 0
+        },
+        "rank": {
+            "sword": 75
+        },
+
+        "support": {
+            "Supported by": "**Ogma:** C-0|B-6|A-13\n**Caeda:** C-5|B-10|A-16",
+            "Supports": "**Ogma:** C-0|B-6|A-13"
+        }
+    },
+    "norne": {
+        "name": "Norne",
+        "type": "playable",
+        "portrait": "norne.png",
+        "job": "archer",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": -1,
+            "mag": 0,
+            "skl": -2,
+            "spd": 1,
+            "lck": 3,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 20,
+            "str": 15,
+            "mag": 0,
+            "skl": 20,
+            "spd": 25,
+            "lck": 30,
+            "def": 10,
+            "res": 5
+        },
+        "rank": {
+            "bow": 30
+        },
+
+        "support": {
+            "Supported by": "**Gordin:** C-0|B-5|A-11\n**Draug:** C-0|B-5|A-11\n**Marth:** C-5|B-10|A-16",
+            "Supports": "**Draug:** C-0|B-5|A-11\n**Gordin:** C-0|B-5|A-11"
+        }
+    },
+    "ogma": {
+        "name": "Ogma",
+        "type": "playable",
+        "portrait": "ogma.png",
+        "job": "mercenary",
+        "lvl": 4,
+        "note": false,
+        "base": {
+            "hp": 6,
+            "str": 2,
+            "mag": 0,
+            "skl": 3,
+            "spd": 2,
+            "lck": 3,
+            "def": 1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 30,
+            "str": 20,
+            "mag": 0,
+            "skl": 15,
+            "spd": 10,
+            "lck": 40,
+            "def": 15,
+            "res": 5
+        },
+        "rank": {
+            "sword": 75
+        },
+
+        "support": {
+            "Supported by": "**Navarre:** C-0|B-6|A-13\n**Caeda:** C-5|B-9|A-14",
+            "Supports": "**Navarre:** C-0|B-6|A-13\n**Cord:** C-5|B-10|A-16\n**Bord:** C-5|B-10|A-16\n**Barst:** C-5|B-10|A-16"
+        }
+    },
+    "palla": {
+        "name": "Palla",
+        "type": "playable",
+        "portrait": "palla.png",
+        "job": "pegasusknight",
+        "lvl": 8,
+        "note": false,
+        "base": {
+            "hp": 6,
+            "str": 3,
+            "mag": 0,
+            "skl": 3,
+            "spd": 6,
+            "lck": 5,
+            "def": 3,
+            "res": 0
+        },
+        "growth": {
+            "hp": 30,
+            "str": 45,
+            "mag": 0,
+            "skl": 50,
+            "spd": 0,
+            "lck": 10,
+            "def": 15,
+            "res": 10
+        },
+        "rank": {
+            "lance": 135
+        },
+
+        "support": {
+            "Supported by": "**Frey:** C-0|B-6\n**Abel:** C-0|B-6\n**Minerva:** C-0|B-4|A-9",
+            "Supports": "**Abel:** C-0|B-6\n**Frey:** C-0|B-5"
+        }
+    },
+    "radd": {
+        "name": "Radd",
+        "type": "playable",
+        "portrait": "radd.png",
+        "job": "myrmidon",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 1,
+            "mag": 0,
+            "skl": -1,
+            "spd": -1,
+            "lck": 1,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 30,
+            "str": 30,
+            "mag": 0,
+            "skl": 15,
+            "spd": 20,
+            "lck": 40,
+            "def": 15,
+            "res": 0
+        },
+        "rank": {
+            "sword": 30
+        },
+
+        "support": {
+            "Supported by": "**Caesar:** C-5|B-10|A-16",
+            "Supports": "**Caesar:** C-5|B-10|A-16"
+        }
+    },
+    "rickard": {
+        "name": "Rickard",
+        "type": "playable",
+        "portrait": "rickard.png",
+        "job": "thief",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 2,
+            "mag": 0,
+            "skl": 1,
+            "spd": 2,
+            "lck": 0,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 20,
+            "str": 40,
+            "mag": 0,
+            "skl": 0,
+            "spd": 10,
+            "lck": 40,
+            "def": 5,
+            "res": 12
+        },
+        "rank": {},
+
+        "support": {
+            "Supported by": "**Marth:** C-0|B-6|A-13\n**Julian:** C-5|B-10|A-16",
+            "Supports": false
+        }
+    },
+    "roger": {
+        "name": "Roger",
+        "type": "playable",
+        "portrait": "roger.png",
+        "job": "knight",
+        "lvl": 5,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 1,
+            "mag": 0,
+            "skl": 1,
+            "spd": 5,
+            "lck": 2,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 35,
+            "mag": 0,
+            "skl": 10,
+            "spd": 10,
+            "lck": 80,
+            "def": 0,
+            "res": 5
+        },
+        "rank": {
+            "lance": 30
+        },
+
+        "support": {
+            "Supported by": "**Caeda:** C-5|B-9|A-14",
+            "Supports": false
+        }
+    },
+    "roshea": {
+        "name": "Roshea",
+        "type": "playable",
+        "portrait": "roshea.png",
+        "job": "cavalier",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 4,
+            "str": 1,
+            "mag": 0,
+            "skl": 3,
+            "spd": 1,
+            "lck": 4,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 50,
+            "str": 25,
+            "mag": 0,
+            "skl": 30,
+            "spd": 0,
+            "lck": 10,
+            "def": 5,
+            "res": 5
+        },
+        "rank": {
+            "lance": 30
+        },
+
+        "support": {
+            "Supported by": "**Hardin:** C-5|B-9|A-14",
+            "Supports": false
+        }
+    },
+    "samson": {
+        "name": "Samson",
+        "type": "playable",
+        "portrait": "samson.png",
+        "job": "hero",
+        "lvl": 10,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 4,
+            "mag": 0,
+            "skl": 4,
+            "spd": 4,
+            "lck": 7,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 5,
+            "skl": 0,
+            "spd": 5,
+            "lck": 55,
+            "def": 10,
+            "res": 5
+        },
+        "rank": {
+            "axe": 135
+        },
+
+        "support": {
+            "Supported by": "**Marth:** C-5|B-8",
+            "Supports": false
+        }
+    },
+    "sedgar": {
+        "name": "Sedgar",
+        "type": "playable",
+        "portrait": "sedgar.png",
+        "job": "horseman",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": -1,
+            "lck": 2,
+            "def": 0,
+            "res": -1
+        },
+        "growth": {
+            "hp": 120,
+            "str": 60,
+            "mag": 5,
+            "skl": 80,
+            "spd": 60,
+            "lck": 30,
+            "def": 80,
+            "res": 0
+        },
+        "rank": {},
+
+        "support": {
+            "Supported by": "**Hardin:** C-5|B-9|A-14",
+            "Supports": false
+        }
+    },
+    "tiki": {
+        "name": "Tiki",
+        "type": "playable",
+        "portrait": "tiki.png",
+        "job": "manaketef",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 3,
+            "mag": 0,
+            "skl": 2,
+            "spd": 3,
+            "lck": 12,
+            "def": 2,
+            "res": 9
+        },
+        "growth": {
+            "hp": 40,
+            "str": 30,
+            "mag": 0,
+            "skl": 50,
+            "spd": 60,
+            "lck": 90,
+            "def": 10,
+            "res": 12
+        },
+        "rank": {},
+
+        "support": {
+            "Supported by": "**Marth:** C-1|B-5",
+            "Supports": "**Xane:** C-2|B-5\n**Bantu:** C-0|B-3|A-5"
+        }
+    },
+    "tomas": {
+        "name": "Tomas",
+        "type": "playable",
+        "portrait": "tomas.png",
+        "job": "archer",
+        "lvl": 8,
+        "note": false,
+        "base": {
+            "hp": 6,
+            "str": 2,
+            "mag": 0,
+            "skl": 3,
+            "spd": 1,
+            "lck": 4,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 25,
+            "str": 15,
+            "mag": 0,
+            "skl": 10,
+            "spd": 20,
+            "lck": 25,
+            "def": 0,
+            "res": 10
+        },
+        "rank": {
+            "bow": 75
+        },
+
+        "support": {
+            "Supported by": "**Midia:** C-0|B-5\n**Boah:** C-0|B-5\n**Macellan:** C-0|B-5\n**Dolph:** C-5|B-10",
+            "Supports": "**Macellan:** C-0|B-5\n**Dolph:** C-0|B-5\n**Midia:** C-0|B-5"
+        }
+    },
+    "vyland": {
+        "name": "Vyland",
+        "type": "playable",
+        "portrait": "vyland.png",
+        "job": "cavalier",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 0,
+            "mag": 0,
+            "skl": 1,
+            "spd": 0,
+            "lck": 2,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 20,
+            "str": 15,
+            "mag": 0,
+            "skl": 0,
+            "spd": 30,
+            "lck": 30,
+            "def": 0,
+            "res": 5
+        },
+        "rank": {
+            "lance": 30
+        },
+
+        "support": {
+            "Supported by": "**Hardin:** C-5|B-9|A-14",
+            "Supports": false
+        }
+    },
+    "wendell": {
+        "name": "Wendell",
+        "type": "playable",
+        "portrait": "wendell.png",
+        "job": "sage",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 8,
+            "lck": 1,
+            "def": 2,
+            "res": 0
+        },
+        "growth": {
+            "hp": 20,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 40,
+            "def": 5,
+            "res": 15
+        },
+        "rank": {
+            "tome": 105,
+            "staff": 30
+        },
+
+        "support": {
+            "Supported by": "**Marth:** C-0|B-6|A-13\n**Merric:** C-5|B-10|A-16",
+            "Supports": "**Merric:** C-0|B-6|A-13"
+        }
+    },
+    "wolf": {
+        "name": "Wolf",
+        "type": "playable",
+        "portrait": "wolf.png",
+        "job": "horseman",
+        "lvl": 3,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 0,
+            "mag": -1,
+            "skl": 0,
+            "spd": 0,
+            "lck": 5,
+            "def": 0,
+            "res": -2
+        },
+        "growth": {
+            "hp": 120,
+            "str": 80,
+            "mag": 5,
+            "skl": 70,
+            "spd": 60,
+            "lck": 50,
+            "def": 60,
+            "res": 0
+        },
+        "rank": {},
+
+        "support": {
+            "Supported by": "**Hardin:** C-5|B-9|A-14",
+            "Supports": false
+        }
+    },
+    "wrys": {
+        "name": "Wrys",
+        "type": "playable",
+        "portrait": "wrys.png",
+        "job": "curate",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 0,
+            "str": 0,
+            "mag": 1,
+            "skl": 4,
+            "spd": 2,
+            "lck": 2,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 5,
+            "mag": 10,
+            "skl": 5,
+            "spd": 0,
+            "lck": 40,
+            "def": 5,
+            "res": 15
+        },
+        "rank": {},
+
+        "support": {
+            "Supported by": "**Caeda:** C-0|B-6|A-13\n**Marth:** C-5|B-10|A-16",
+            "Supports": false
+        }
+    },
+    "xane": {
+        "name": "Xane",
+        "type": "playable",
+        "portrait": "xane.png",
+        "job": "freelancer",
+        "lvl": 1,
+        "note": false,
+        "base": {
+            "hp": 2,
+            "str": 1,
+            "mag": 1,
+            "skl": 1,
+            "spd": 2,
+            "lck": 9,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 0,
+            "str": 0,
+            "mag": 10,
+            "skl": 0,
+            "spd": 0,
+            "lck": 20,
+            "def": 0,
+            "res": 17
+        },
+        "rank": {},
+
+        "support": {
+            "Supported by": "**Nagi:** C-0\n**Marth:** C-0|B-3\n**Tiki:** C-2|B-5",
+            "Supports": false
+        }
+    },
+    "ymir": {
+        "name": "Ymir",
+        "type": "playable",
+        "portrait": "ymir.png",
+        "job": "warrior",
+        "lvl": 10,
+        "note": false,
+        "base": {
+            "hp": 20,
+            "str": 11,
+            "mag": 0,
+            "skl": 11,
+            "spd": 6,
+            "lck": 5,
+            "def": 4,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 10,
+            "mag": 0,
+            "skl": 10,
+            "spd": 20,
+            "lck": 25,
+            "def": 10,
+            "res": 0
+        },
+        "rank": {
+            "axe": 105,
+            "bow": 30
+        },
+
+        "support": {
+            "Supported by": "**Marth:** C-2|B-4",
+            "Supports": false
+        }
+    }
+}

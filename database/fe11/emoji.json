@@ -1,0 +1,37 @@
+{
+    "lance": {
+        "name": "fe11_lance",
+        "id": 1318459270408310795,
+        "animated": false
+    },
+    "staff": {
+        "name": "fe11_staff",
+        "id": 1318459322694373438,
+        "animated": false
+    },
+    "stone": {
+        "name": "fe11_stone",
+        "id": 1159176928754925648,
+        "animated": false
+    },
+    "axe": {
+        "name": "fe11_axe",
+        "id": 1318459284220018698,
+        "animated": false
+    },
+    "bow": {
+        "name": "fe11_bow",
+        "id": 1318459297893453864,
+        "animated": false
+    },
+    "tome": {
+        "name": "fe11_tome",
+        "id": 1318459313408311336,
+        "animated": false
+    },
+    "sword": {
+        "name": "fe11_sword",
+        "id": 1318459250196090950,
+        "animated": false
+    }
+}

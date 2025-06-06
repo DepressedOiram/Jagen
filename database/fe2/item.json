@@ -1,0 +1,763 @@
+{
+  "sword": {
+    "name": "Sword",
+    "type": "sword",
+    "desc": "Automatically equipped when unarmed.",
+    "stats": {
+      "hit": 90,
+      "rng": 1
+    },
+    "weapon": true
+  },
+  "steelsword": {
+    "name": "Steel Sword",
+    "type": "sword",
+    "desc": false,
+    "stats": {
+      "mt": 4,
+      "hit": 80,
+      "wt": 1,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "silversword": {
+    "name": "Silver Sword",
+    "type": "sword",
+    "desc": false,
+    "stats": {
+      "mt": 8,
+      "hit": 90,
+      "wt": 1,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "bravesword": {
+    "name": "Brave Sword",
+    "type": "sword",
+    "desc": false,
+    "stats": {
+      "mt": 5,
+      "hit": 100,
+      "crit": 30,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "shadowsword": {
+    "name": "Shadow Sword",
+    "type": "sword",
+    "desc": false,
+    "stats": {
+      "mt": 13,
+      "hit": 70,
+      "wt": 5,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true,
+    "reference": {
+      "Other Effects": "Backfire chance: (21 - Lck)%\nDoesn't affect Dread Fighters."
+    }
+  },
+  "thundersword": {
+    "name": "Thunder Sword",
+    "type": "sword",
+    "desc": "Always does 15 damage.",
+    "stats": {
+      "hit": 80,
+      "wt": 3,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "blessedsword": {
+    "name": "Blessed Sword",
+    "type": "sword",
+    "desc": "Restores 5 HP each turn. Effective against Monsters.",
+    "stats": {
+      "mt": 3,
+      "hit": 100,
+      "crit": 15,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true,
+    "equip": {
+      "effective": true
+    }
+  },
+  "royalsword": {
+    "name": "Royal Sword",
+    "type": "sword",
+    "desc": "Restores 5 HP each turn.",
+    "stats": {
+      "mt": 7,
+      "hit": 100,
+      "crit": 20,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true,
+    "reference": {
+      "Other Effects": "Alm only."
+    }
+  },
+  "falchion": {
+    "name": "Falchion",
+    "type": "sword",
+    "desc": "Restores 5 HP each turn. Effective against Monsters and can damage Duma below 52 HP.",
+    "stats": {
+      "mt": 10,
+      "hit": 80,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true,
+    "reference": {
+      "Other Effects": "Alm only."
+    },
+    "equip": {
+      "effective": true
+    }
+  },
+  "lance": {
+    "name": "Lance",
+    "type": "lance",
+    "desc": "Automatically equipped when unarmed.",
+    "stats": {
+      "hit": 90,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "steellance": {
+    "name": "Steel Lance",
+    "type": "lance",
+    "desc": false,
+    "stats": {
+      "mt": 4,
+      "hit": 80,
+      "wt": 1,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "silverlance": {
+    "name": "Silver Lance",
+    "type": "lance",
+    "desc": false,
+    "stats": {
+      "mt": 8,
+      "hit": 90,
+      "wt": 1,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "javelin": {
+    "name": "Javelin",
+    "type": "lance",
+    "desc": "Stats ignored by Triangle Attack. Cannot be equipped by Soldiers.",
+    "stats": {
+      "mt": 3,
+      "hit": 70,
+      "wt": 2,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "horseslayer": {
+    "name": "Horseslayer",
+    "type": "lance",
+    "desc": "Effective against Cavalry units.",
+    "stats": {
+      "mt": 3,
+      "hit": 85,
+      "wt": 1,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true,
+    "equip": {
+      "effective": true
+    }
+  },
+  "blessedlance": {
+    "name": "Blessed Lance",
+    "type": "lance",
+    "desc": "Restores 5 HP each turn. Effective against Monsters.",
+    "stats": {
+      "mt": 3,
+      "hit": 90,
+      "crit": 10,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true,
+    "equip": {
+      "effective": true
+    }
+  },
+  "gradivus": {
+    "name": "Gradivus",
+    "type": "lance",
+    "desc": "Cannot be equipped by Soldiers.",
+    "stats": {
+      "mt": 15,
+      "hit": 100,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "astra": {
+    "name": "Astra",
+    "type": "lance",
+    "desc": "Restores 5 HP each turn.",
+    "stats": {
+      "mt": 10,
+      "hit": 100,
+      "crit": 50,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "luna": {
+    "name": "Luna",
+    "type": "lance",
+    "desc": "Restores 5 HP each turn. Guarantees 100 Hit.",
+    "stats": {
+      "mt": 10,
+      "hit": 100,
+      "wt": 1,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "sol": {
+    "name": "Sol",
+    "type": "lance",
+    "desc": "Restores 5 HP each turn.",
+    "stats": {
+      "mt": 20,
+      "hit": 80,
+      "wt": 2,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "bow": {
+    "name": "Bow",
+    "type": "bow",
+    "desc": "Automatically equipped when unarmed.",
+    "stats": {
+      "hit": 70,
+      "rng": "1-3"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "steelbow": {
+    "name": "Steel Bow",
+    "type": "bow",
+    "desc": false,
+    "stats": {
+      "mt": 3,
+      "hit": 70,
+      "wt": 1,
+      "rng": "1-5"
+    },
+    "info": {},
+    "weapon": true,
+    "equip": {
+      "effective": true
+    }
+  },
+  "silverbow": {
+    "name": "Silver Bow",
+    "type": "bow",
+    "desc": false,
+    "stats": {
+      "mt": 7,
+      "hit": 80,
+      "wt": 2,
+      "rng": "1-5"
+    },
+    "info": {},
+    "weapon": true,
+    "equip": {
+      "effective": true
+    }
+  },
+  "blessedbow": {
+    "name": "Blessed Bow",
+    "type": "bow",
+    "desc": "Restores 5 HP each turn. Effective against Monsters.",
+    "stats": {
+      "mt": 5,
+      "hit": 100,
+      "crit": 10,
+      "rng": "1-5"
+    },
+    "info": {},
+    "weapon": true,
+    "equip": {
+      "effective": true
+    }
+  },
+  "tentacle": {
+    "name": "Tentacle",
+    "type": "sword",
+    "desc": false,
+    "stats": {
+      "mt": 12,
+      "hit": 90,
+      "rng": "1-8"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "fire": {
+    "name": "Fire",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -1,
+      "mt": 3,
+      "hit": 80,
+      "wt": 3,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "thunder": {
+    "name": "Thunder",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -2,
+      "mt": 4,
+      "hit": 70,
+      "wt": 5,
+      "rng": "1-3"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "excalibur": {
+    "name": "Excalibur",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -3,
+      "mt": 5,
+      "hit": 100,
+      "wt": 1,
+      "crit": 20,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "seraphim": {
+    "name": "Seraphim",
+    "type": "black",
+    "desc": "Effective against Monsters.",
+    "stats": {
+      "hp": -4,
+      "mt": 8,
+      "hit": 90,
+      "wt": 4,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true,
+    "equip": {
+      "effective": true
+    }
+  },
+  "aura": {
+    "name": "Aura",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -6,
+      "mt": 13,
+      "hit": 80,
+      "wt": 10,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "sagittae": {
+    "name": "Sagittae",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -8,
+      "mt": 16,
+      "hit": 70,
+      "wt": 11,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "ragnarok": {
+    "name": "Ragnarok",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -10,
+      "mt": 24,
+      "hit": 100,
+      "wt": 20,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "miasma": {
+    "name": "Miasma",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -1,
+      "mt": 3,
+      "hit": 80,
+      "wt": 3,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "mire": {
+    "name": "Mire",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -2,
+      "mt": 10,
+      "hit": 70,
+      "wt": 6,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "death": {
+    "name": "Death",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hp": -5,
+      "mt": 15,
+      "hit": 70,
+      "wt": 9,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "medusa": {
+    "name": "Medusa",
+    "type": "black",
+    "desc": "Reduces enemy's HP to 1, kills if it's already at 1 HP.",
+    "stats": {
+      "hp": -7,
+      "hit": 70,
+      "wt": 13,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "ocularbeam": {
+    "name": "Ocular Beam",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "mt": 10,
+      "hit": 70,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "oculus": {
+    "name": "Oculus",
+    "type": "black",
+    "desc": false,
+    "stats": {
+      "hit": 100,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "nosferatu": {
+    "name": "Nosferatu",
+    "type": "black",
+    "desc": "Restores HP equal to damage done to enemy, can damage Duma below 52 HP.",
+    "stats": {
+      "hit": 50,
+      "wt": 2,
+      "rng": "1-2"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "recover": {
+    "name": "Recover",
+    "type": "white",
+    "desc": "Restore an ally's HP equal to user's attack.",
+    "stats": {
+      "hp": -1,
+      "hit": 100,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "physic": {
+    "name": "Physic",
+    "type": "white",
+    "desc": "Restore an ally's HP equal to user's attack.",
+    "stats": {
+      "hp": -3,
+      "hit": 100,
+      "rng": "All"
+    },
+    "info": {},
+    "weapon": true
+  },
+  "fortify": {
+    "name": "Fortify",
+    "type": "white",
+    "desc": "Restore all allies HP equal to user's attack.",
+    "stats": {
+      "hp": -12,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "warp": {
+    "name": "Warp",
+    "type": "white",
+    "desc": "Teleport an ally.",
+    "stats": {
+      "hp": -8,
+      "hit": 100,
+      "rng": 1
+    },
+    "info": {},
+    "weapon": true
+  },
+  "expel": {
+    "name": "Expel",
+    "type": "white",
+    "desc": "Has a random chance to remove every Terror in the map.",
+    "stats": {
+      "hp": -14,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "invoke": {
+    "name": "Invoke",
+    "desc": "Summons illusory Soldiers. (Eight max)",
+    "type": "white",
+    "stats": {
+      "hp": -12,
+      "hit": 100,
+      "rng": "4-6"
+    },
+    "reference": {},
+    "weapon": true
+  },
+  "invokedread": {
+    "name": "Invoke (Dread)",
+    "type": "white",
+    "desc": "Summons a number of allied Dread Fighters",
+    "stats": {
+      "hp": -12,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "invokepegasus": {
+    "name": "Invoke (Pegasus)",
+    "type": "white",
+    "desc": "Summons a number of allied Pegasus Knights.",
+    "stats": {
+      "hp": -12,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "invokesoldier": {
+    "name": "Invoke (Soldier)",
+    "type": "white",
+    "desc": "Summons a number of allied Soldiers.",
+    "stats": {
+      "hp": -12,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "conjurezombies": {
+    "name": "Conjure (Revenant)",
+    "type": "white",
+    "desc": "Summons a number of Revenants.",
+    "stats": {
+      "hp": -1,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "conjureskeletons": {
+    "name": "Conjure (Bonewalker)",
+    "type": "white",
+    "desc": "Summons a number of Bonewalkers.",
+    "stats": {
+      "hp": -2,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "conjuregargoyles": {
+    "name": "Conjure (Gargoyles)",
+    "type": "white",
+    "desc": "Summons a number of Gargoyles.",
+    "stats": {
+      "hp": -4,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "conjuredragonzombies": {
+    "name": "Conjure (Dracozombie)",
+    "type": "white",
+    "desc": "Summons a number of Dracozombies.",
+    "stats": {
+      "hp": -6,
+      "hit": 100
+    },
+    "info": {},
+    "weapon": true
+  },
+  "leathershield": {
+    "name": "Leather Shield",
+    "type": "item",
+    "desc": "Grants +3 Defense.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "steelshield": {
+    "name": "Steel Shield",
+    "type": "item",
+    "desc": "Grants +5 Defense.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "silvershield": {
+    "name": "Silver Shield",
+    "type": "item",
+    "desc": "Grants +7 Defense.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "blessedshield": {
+    "name": "Blessed Shield",
+    "type": "item",
+    "desc": "Restores 5 HP each turn. Grants +13 Defense against Monsters.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "dracoshield": {
+    "name": "Dracoshield",
+    "type": "item",
+    "desc": "Grants +13 Defense, +13 Resistance. Restores 5 HP each turn.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "hexlockshield": {
+    "name": "Hexlock Shield",
+    "type": "item",
+    "desc": "Reduces enemy's magic accuracy to 10%.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "blessedring": {
+    "name": "Blessed Ring",
+    "type": "item",
+    "desc": "Restores 5 HP each turn.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "angelring": {
+    "name": "Angel Ring",
+    "type": "item",
+    "desc": "Sets Luck to 40. Restores 5 HP each turn. Gives 2 points in a stat when you level up instead of 1.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "speedring": {
+    "name": "Speed Ring",
+    "type": "item",
+    "desc": "Grants +5 Movement. Sets Speed to 40. Restores 5 HP each turn.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  },
+  "magicring": {
+    "name": "Magic Ring",
+    "type": "item",
+    "desc": "Sets Black Magic Range to 5. Restores 5 HP each turn.",
+    "stats": {},
+    "info": {},
+    "weapon": false,
+    "ALT_NAME": [
+      "magering"
+    ]
+  },
+  "prayerring": {
+    "name": "Prayer Ring",
+    "type": "item",
+    "desc": "Restores 5 HP each turn. Increases critical rate to 100% when under half HP.",
+    "stats": {},
+    "info": {},
+    "weapon": false
+  }
+}

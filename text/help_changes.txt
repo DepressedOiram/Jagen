@@ -1,0 +1,13 @@
+My name is Jagen, i'm a bot made to show data based on the Fire Emblem games! I was created based on the open-source bot Oifey, and its successor, Veyle.
+
+All of the commands can also be used via DMs!
+
+To use them, type `/` to see all of the available ones!
+To use the classic way (via text), do this:
+
+`@Jagen help`
+
+And a list of commands will be show!
+
+[Support the creator of Veyle on Ko-Fi](https://ko-fi.com/mina_7756)
+[Support the creator of Oifey on Ko-Fi](https://ko-fi.com/izumi)

@@ -1,0 +1,62 @@
+{
+	"shard_aquarius": {
+		"name": "shard_aquarius",
+		"id": 1318462827312316467,
+		"animated": false
+	},
+	"shard_aries": {
+		"name": "shard_aries",
+		"id": 1318462844831924234,
+		"animated": false
+	},
+	"shard_cancer": {
+		"name": "shard_cancer",
+		"id": 1318462866457886810,
+		"animated": false
+	},
+	"shard_capricorn": {
+		"name": "shard_capricorn",
+		"id": 1318462875282575381,
+		"animated": false
+	},
+	"shard_gemini": {
+		"name": "shard_gemini",
+		"id": 1318462888553484358,
+		"animated": false
+	},
+	"shard_leo": {
+		"name": "shard_leo",
+		"id": 1318462899957796864,
+		"animated": false
+	},
+	"shard_libra": {
+		"name": "shard_libra",
+		"id": 1318462912045776948,
+		"animated": false
+	},
+	"shard_pisces": {
+		"name": "shard_pisces",
+		"id": 1318462932136230912,
+		"animated": false
+	},
+	"shard_sagittarius": {
+		"name": "shard_sagittarius",
+		"id": 1318462944136265728,
+		"animated": false
+	},
+	"shard_scorpio": {
+		"name": "shard_scorpio",
+		"id": 1318462960859086848,
+		"animated": false
+	},
+	"shard_taurus": {
+		"name": "shard_taurus",
+		"id": 1318462984363966504,
+		"animated": false
+	},
+	"shard_virgo": {
+		"name": "shard_virgo",
+		"id": 1318462995948376154,
+		"animated": false
+	}
+}

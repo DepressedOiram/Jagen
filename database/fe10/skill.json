@@ -1,0 +1,729 @@
+{
+  "adept": {
+    "name": "Adept",
+    "desc": "(Speed)% for the user to do two consecutive strikes.",
+    "cost": 15,
+    "emoji":"<:fe10_adept:1317297562440568853>",
+    "reference": {
+      "Character": "Zihark\nSoren"
+    }
+  },
+  "aether": {
+    "name": "Aether",
+    "desc": "(Skill/2)% chance to do two strikes: One with a Sol effect, and the other ignores the enemy's defense.",
+    "cost": 30,
+    "emoji":"<:fe10_aether:1317297574792925186>",
+    "reference": {
+      "Class": "Vanguard"
+    }
+  },
+  "astra": {
+    "name": "Astra",
+    "desc": "(Skill/2)% chance for the user to strike 5 times in a row. Each strike cannot crit and can miss.",
+    "cost": 30,
+    "emoji":"<:fe10_astra:1317297583336722492>",
+    "reference": {
+      "Class": "Trueblade"
+    }
+  },
+  "aurora": {
+    "name": "Aurora",
+    "desc": "Deals half of the damage taken by the user back to the foe.",
+    "cost": 0,
+    "emoji":"<:fe10_aurora:1317297591788245083>",
+    "reference": {
+      "Class": "Enemy Only"
+    }
+  },
+  "bane": {
+    "name": "Bane",
+    "desc": "(Skill/2)% chance to reduce foe's HP to 1.",
+    "cost": 30,
+    "emoji":"<:fe10_bane:1317297600365465640>",
+    "reference": {
+      "Class": "Whisper"
+    }
+  },
+  "beastfoe": {
+    "name": "Beastfoe",
+    "desc": "All attacks do effective damage against beast laguz.",
+    "cost": 15,
+    "emoji":"<:fe10_beastfoe:1317297608322060339>",
+    "reference": {}
+  },
+  "birdfoe": {
+    "name": "Birdfoe",
+    "desc": "All attacks do effective damage against bird laguz.",
+    "cost": 15,
+    "emoji":"<:fe10_birdfoe:1317297616203026492>",
+    "reference": {}
+  },
+  "blessing": {
+    "name": "Blessing",
+    "desc": "Allies adjacent to the user restore HP (equal to user’s Magic) at the beginning of the turn.",
+    "cost": 15,
+    "emoji":"<:fe10_blessing:1317297633328365578>",
+    "reference": {
+      "Class": "Heron"
+    }
+  },
+  "bloodtide": {
+    "name": "Blood Tide",
+    "desc": "Increases adjacent allies strength and skill by 5.",
+    "cost": 10,
+    "emoji":"<:fe10_bloodtide:1317297644170772612>",
+    "reference": {
+      "Class": "Red Dragon",
+      "Character": "Ena\nGareth"
+    }
+  },
+  "blossom": {
+    "name": "Blossom",
+    "desc": "User gains less experience (1/2 of the normal amount) and if a stat fails to increase, it rolls again for a second chance.",
+    "cost": 20,
+    "emoji":"<:fe10_blossom:1317297653125480632>",
+    "reference": {}
+  },
+  "boon": {
+    "name": "Boon",
+    "desc": "Cures the status effects of all allies adjecent to the user at the start of the turn.",
+    "cost": 15,
+    "emoji":"<:fe10_boon:1317297661493116968>",
+    "reference": {
+      "Class": "Dragon Laguz",
+      "Character": "Ena\nNasir"
+    }
+  },
+  "cancel": {
+    "name": "Cancel",
+    "desc": "(Speed)% chance to block all damage done to the user.",
+    "cost": 10,
+    "emoji":"<:fe10_cancel:1317297671475691561>",
+    "reference": {
+      "Character": "Leonardo\nHaar"
+    }
+  },
+  "canto": {
+    "name": "Canto",
+    "desc": "Allows the user to move again and use up any leftover movement distance.",
+    "cost": 10,
+    "emoji":"<:fe10_canto:1317297681994879027>",
+    "reference": {
+      "Class": "Mounted Units\nFlying Units"
+    }
+  },
+  "celerity": {
+    "name": "Celerity",
+    "desc": "Grants +2 movement.",
+    "cost": 15,
+    "emoji":"<:fe10_celerity:1317297702651957278>",
+    "reference": {
+      "Character": "Tormod"
+    }
+  },
+  "colossus": {
+    "name": "Colossus",
+    "desc": "(Skill/2)% chance to multiply user's strength by 3.",
+    "cost": 25,
+    "emoji":"<:fe10_colossus:1317297714286956595>",
+    "reference": {
+      "Class": "Reaver"
+    }
+  },
+  "corona": {
+    "name": "Corona",
+    "desc": "(Skill/2)% chance to ignore foe's resistance and halves their hit rate for one turn.",
+    "cost": 30,
+    "emoji":"<:fe10_corona:1317297726118952971>",
+    "reference": {
+      "Class": "Light Priestess\nSaint\nChancellor"
+    },
+    "ALT_NAME": [
+      "Covid19",
+      "Covid"
+    ]
+  },
+  "corrosion": {
+    "name": "Corrosion",
+    "desc": "(Skill/2)% chance to reduce enemy's weapon durability by (user's level).",
+    "cost": 15,
+    "emoji":"<:fe10_corrosion:1317297747954761870>",
+    "reference": {
+      "Class": "Beorc",
+      "Character": "Bastian"
+    }
+  },
+  "counter": {
+    "name": "Counter",
+    "desc": "(Skill)% chance to return half damage to the enemy when damaged.",
+    "cost": 10,
+    "emoji":"<:fe10_counter:1317297758264229939>",
+    "reference": {
+      "Character": "Titania"
+    }
+  },
+  "crtplus10": {
+    "name": "Critical +10",
+    "desc": "Grants +10 crit.",
+    "cost": 0,
+    "emoji":"<:fe10_criticalplus10:1317297780938772621>",
+    "reference": {
+      "Class": "Swordmaster\nSniper\nSentinel"
+    },
+    "ALT_NAME": [
+      "crit10",
+      "crt10"
+    ]
+  },
+  "crtplus15": {
+    "name": "Critical +15",
+    "desc": "Grants +15 crit.",
+    "cost": 0,
+    "emoji":"<:fe10_criticalplus15:1317297791869124609>",
+    "reference": {
+      "Class": "Marksman"
+    },
+    "ALT_NAME": [
+      "crit15",
+      "crt15"
+    ]
+  },
+  "crtplus20": {
+    "name": "Critical +20",
+    "desc": "Grants +20 crit.",
+    "cost": 0,
+    "emoji":"<:fe10_criticalplus20:1317297802681782343>",
+    "reference": {
+      "Class": "Trueblade"
+    },
+    "ALT_NAME": [
+      "crit20",
+      "crt20"
+    ]
+  },
+  "crtplus25": {
+    "name": "Critical +25",
+    "desc": "Grants +25 crit.",
+    "cost": 0,
+    "emoji":"<:fe10_criticalplus25:1317297814748790814>",
+    "reference": {
+      "Class": "Assassin"
+    },
+    "ALT_NAME": [
+      "crit25",
+      "crt25"
+    ]
+  },
+  "crtplus5": {
+    "name": "Critical +5",
+    "desc": "Grants +5 crit.",
+    "cost": 0,
+    "emoji":"<:fe10_criticalplus5:1317297770637295736>",
+    "reference": {
+      "Class": "Myrmidon\nHalberdier\nReaver"
+    },
+    "ALT_NAME": [
+      "crit5",
+      "crt5"
+    ]
+  },
+  "daunt": {
+    "name": "Daunt",
+    "desc": "Inflicts -5 accuracy/crit to enemies within 3 tiles.",
+    "cost": 10,
+    "emoji":"<:fe10_daunt:1317297825016709192>",
+    "reference": {}
+  },
+  "deadeye": {
+    "name": "Deadeye",
+    "desc": "(Skill/2)% chance to multiply damage by 3 and inflict sleep on foe.",
+    "cost": 25,
+    "emoji":"<:fe10_deadeye:1317297837821919252>",
+    "reference": {
+      "Class": "Marksman"
+    }
+  },
+  "disarm": {
+    "name": "Disarm",
+    "desc": "(Skill/2)% to unequip the foe's equipped weapon.",
+    "cost": 10,
+    "emoji":"<:fe10_disarm:1317297847267491970>",
+    "reference": {
+      "Class": "Beorc",
+      "Character": "Brom"
+    }
+  },
+  "discipline": {
+    "name": "Discipline",
+    "desc": "Doubles the user's weapon experience gain.",
+    "cost": 10,
+    "emoji":"<:fe10_discipline:1317297860898852935>",
+    "reference": {
+      "Class": "Beorc"
+    }
+  },
+  "dragonfoe": {
+    "name": "Dragonfoe",
+    "desc": "All attacks do effective damage against dragon laguz.",
+    "cost": 15,
+    "emoji":"<:fe10_dragonfoe:1317297877759950900>",
+    "reference": {}
+  },
+  "eclipse": {
+    "name": "Eclipse",
+    "desc": "(Skill/2)% chance to mutiply user's strength by 5 and ignore foe's defense.",
+    "cost": 30,
+    "emoji":"<:fe10_eclipse:1317297891391569940>",
+    "reference": {
+      "Class": "Black Knight"
+    }
+  },
+  "flare": {
+    "name": "Flare",
+    "desc": "(Skill/2)% chance to ignore foe's resistance and restore HP based on damage dealt to the enemy.",
+    "cost": 30,
+    "emoji":"<:fe10_flare:1317297905375383552>",
+    "reference": {
+      "Class": "Archsage\nEmpress\nSummoner"
+    }
+  },
+  "flourish": {
+    "name": "Flourish",
+    "desc": "Command: Reduces user's attack by half.",
+    "cost": 10,
+    "emoji":"<:fe10_flourish:1317297918406955029>",
+    "reference": {}
+  },
+  "formshift": {
+    "name": "Formshift",
+    "desc": "User's transform gauge is always full.",
+    "cost": 0,
+    "emoji":"<:fe10_formshift:1317297932545949778>",
+    "reference": {
+      "Class": "Wolf Queen\nLion King\nRaven King\nHawk King\nDragon Prince"
+    }
+  },
+  "fortune": {
+    "name": "Fortune",
+    "desc": "Negates the foe's ability to inflict critical hits against the user.",
+    "cost": 20,
+    "emoji":"<:fe10_fortune:1317297947255246930>",
+    "reference": {
+      "Character": "Meg\nCaineghis"
+    }
+  },
+  "galdrar": {
+    "name": "Galdrar",
+    "desc": "Command: Effect changes depending on selected chant, new ones can be unlocked via level:\n**Lv.1 / Vigor:** Allows adjacent allies to move again.\n**Lv. 15 / Bliss:** Raises the biorhythm of adjacent allies to its highest point.\n**Lv. 15 / Sorrow:**: Lowers the biorhythm of adjacent enemies to its lowest point.\n**Lv. 30 / Valor:** Fills fully the transform gauge of adjacent laguz allies.\n**Lv. 40 / Recovery:** Restores the HP and cures the status conditions of nearby allies.\nLeanne's galdrar only affects units behind and in the front of her\nand Reyson while unstransformed only affects one adjacent unit.",
+    "cost": 0,
+    "emoji":"<:fe10_galdrar:1317297958907154453>",
+    "reference": {
+      "Class": "Heron"
+    }
+  },
+  "gamble": {
+    "name": "Gamble",
+    "desc": "Command: User's accuracy is halved and the critical rate is doubled for one round of combat.",
+    "cost": 10,
+    "emoji":"<:fe10_gamble:1317297973155070062>",
+    "reference": {
+      "Character": "Kieran"
+    }
+  },
+  "glare": {
+    "name": "Glare",
+    "desc": "Command: ([Skill/2] + [Biorhythm])% chance to inflict petrify on the target on hit.",
+    "cost": 30,
+    "emoji":"<:fe10_glare:1317297991861669948>",
+    "reference": {
+      "Character": "Nailah"
+    }
+  },
+  "guard": {
+    "name": "Guard",
+    "desc": "If user has a support with an adjacent unit, and that ally is attacked, (??, based on suport level?)% chance for the user to take the hit instead.",
+    "cost": 20,
+    "emoji":"<:fe10_guard:1317298007619670067>",
+    "reference": {
+      "Character": "Sothe\nNailah"
+    }
+  },
+  "howl": {
+    "name": "Howl",
+    "desc": "(Strength)% chance to inflict paralysis on foe if they initiate combat at 2 range and damages the user.",
+    "cost": 20,
+    "emoji":"<:fe10_howl:1317298018214477854>",
+    "reference": {
+      "Class": "Beast Laguz",
+      "Character": "Volug"
+    }
+  },
+  "imbue": {
+    "name": "Imbue",
+    "desc": "At the start of each turn, user restores HP as the same amount as user's magic. Can only be equipped by non-magic users (excl. White Dragon)",
+    "cost": 15,
+    "emoji":"<:fe10_imbue:1317298034933235743>",
+    "reference": {
+      "Character": "Fiona\nBlack Knight"
+    }
+  },
+  "impale": {
+    "name": "Impale",
+    "desc": "(Skill/2)% chance to multiply damage by 4.",
+    "cost": 30,
+    "emoji":"<:fe10_impale:1317298055971606648>",
+    "reference": {
+      "Class": "Sentinel"
+    }
+  },
+  "insight": {
+    "name": "Insight",
+    "desc": "Grants +20% accuracy and +5 fog vision.",
+    "cost": 0,
+    "emoji":"<:fe10_insight:1317298077748432926>",
+    "reference": {
+      "Character": "Janaff"
+    }
+  },
+  "ire": {
+    "name": "Ire",
+    "desc": "(Skill/2)% chance to multiply damage by 3.",
+    "cost": 30,
+    "emoji":"<:fe10_ire:1317298095587065896>",
+    "reference": {
+      "Class": "Red Dragon\nWhite Dragon\nBlack Dragon"
+    }
+  },
+  "lethality": {
+    "name": "Lethality",
+    "desc": "(Skill/2)% chance to kill the enemy. Cannot be used against bosses.",
+    "cost": 30,
+    "emoji":"<:fe10_lethality:1317298132119326720>",
+    "reference": {
+      "Class": "Assassin"
+    }
+  },
+  "luna": {
+    "name": "Luna",
+    "desc": "(Skill/2)% chance to mutiply user's strength by 3 and ignore foe's defense.",
+    "cost": 30,
+    "emoji":"<:fe10_luna:1317298146145075210>",
+    "reference": {
+      "Class": "Marshall"
+    }
+  },
+  "maelstrom": {
+    "name": "Maelstrom",
+    "desc": "(Skill)% chance to deal (user's strength) damage to foe if combat is happening above 1 range.",
+    "cost": 20,
+    "emoji":"<:fe10_maelstrom:1317298168869818439>",
+    "reference": {
+      "Class": "Hawk Laguz\nRaven Laguz",
+      "Character": "Naesala"
+    }
+  },
+  "mantle": {
+    "name": "Mantle",
+    "desc": "User can only be damaged by blessed weapons.",
+    "cost": 0,
+    "emoji":"<:fe10_mantle:1317298185554890752>",
+    "reference": {
+      "Character": "Lekain\nDheginsea\nLehran\nAshera"
+    }
+  },
+  "mercy": {
+    "name": "Mercy",
+    "desc": "If user deals a death blow to foe, leave the enemy with 1 HP. If enemy is at 1 HP, they will dodge the attack. Can only be equipped by Elincia.",
+    "cost": 10,
+    "emoji":"<:fe10_mercy:1317298203040682075>",
+    "reference": {
+      "Character": "Elincia"
+    }
+  },
+  "miracle": {
+    "name": "Miracle",
+    "desc": "(Luck)% chance to prevent an attack from killing the user. Instead the user's HP gets reduced to half of the current HP. If the current HP is 1 HP, the user will dodge.",
+    "cost": 5,
+    "emoji":"<:fe10_miracle:1317298217120956457>",
+    "reference": {
+      "Character": "Mist\nEna\nPelleas"
+    }
+  },
+  "nighttide": {
+    "name": "Night Tide",
+    "desc": "Increases adjacent allies defense and resistance by 5.",
+    "cost": 10,
+    "emoji":"<:fe10_nighttide:1317298238004662393>",
+    "reference": {
+      "Class": "Black Dragon",
+      "Character": "Kurthnaga"
+    }
+  },
+  "nihil": {
+    "name": "Nihil",
+    "desc": "Negates enemy's combat skills.'",
+    "cost": 20,
+    "emoji":"<:fe10_nihil:1317298258808148021>",
+    "reference": {
+      "Character": "Nolan\nBlack Knight\nCalill\nIke (Vanguard)\nNasir"
+    }
+  },
+  "nullify": {
+    "name": "Nullify",
+    "desc": "Negates foe's effective bonus towards the user.",
+    "cost": 20,
+    "emoji":"<:fe10_nullify:1317298304962269225>",
+    "reference": {
+      "Character": "Giffca"
+    }
+  },
+  "paragon": {
+    "name": "Paragon",
+    "desc": "User gains double experience from combat.",
+    "cost": 15,
+    "emoji":"<:fe10_paragon:1317298347861606441>",
+    "reference": {
+      "Character": "Astrid\nGeoffrey"
+    }
+  },
+  "parity": {
+    "name": "Parity",
+    "desc": "Command: Negates both user's and enemy's combat skills, terrain bonuses and support bonuses.",
+    "cost": 10,
+    "emoji":"<:fe10_parity:1317298360834588712>",
+    "reference": {
+      "Character": "Lucia"
+    }
+  },
+  "pass": {
+    "name": "Pass",
+    "desc": "User can move through enemies.",
+    "cost": 15,
+    "emoji":"<:fe10_pass:1317298375166660608>",
+    "reference": {
+      "Character": "Heather"
+    }
+  },
+  "pavise": {
+    "name": "Pavise",
+    "desc": "(Skill)% chance to ignore damage from one attack.",
+    "cost": 20,
+    "emoji":"<:fe10_pavise:1317298388785434644>",
+    "reference": {
+      "Character": "Tibarn"
+    }
+  },
+  "provoke": {
+    "name": "Provoke",
+    "desc": "Makes user more likely to be attacked by the enemy.",
+    "cost": 10,
+    "emoji":"<:fe10_provoke:1317298407630573568>",
+    "reference": {
+      "Character": "Shinon\nSkrimir"
+    }
+  },
+  "quickclaw": {
+    "name": "Quickclaw",
+    "desc": "(Speed)% chance to deal (user's strength) damage to foe if combat is happening above 1 range.",
+    "cost": 20,
+    "emoji":"<:fe10_quickclaw:1317298421534822471>",
+    "reference": {
+      "Class": "Beast Laguz",
+      "Character": "Kyza"
+    }
+  },
+  "rend": {
+    "name": "Rend",
+    "desc": "(Speed/2)% chance to multiply user's strength by 5 and inflict shock on the foe.",
+    "cost": 30,
+    "emoji":"<:fe10_rend:1317298452358758451>",
+    "reference": {
+      "Class": "Cat"
+    }
+  },
+  "renewal": {
+    "name": "Renewal",
+    "desc": "At the beginning of each turn\nuser recovers HP equal to 1/10 of their max HP.",
+    "cost": 15,
+    "emoji":"<:fe10_renewal:1317298469093904444>",
+    "reference": {
+      "Character": "Elincia\nEna"
+    }
+  },
+  "resolve": {
+    "name": "Resolve",
+    "desc": "When user is at half HP or lower, skill and speed are increased by 1.5.\n\n**JP**: Strength is also increased, user needs to be at 20% HP or lower, and has (Strength)% chance to activate.",
+    "cost": 15,
+    "emoji":"<:fe10_resolve:1317298487183933440>",
+    "reference": {
+      "Character": "Tauroneo\nSkrimir"
+    }
+  },
+  "roar": {
+    "name": "Roar",
+    "desc": "(Strength/2)% chance to multiply user's strength by 3 and inflict shock on the foe.",
+    "cost": 30,
+    "emoji":"<:fe10_roar:1317298509694631936>",
+    "reference": {
+      "Class": "Tiger\nLion\nLion King"
+    }
+  },
+  "sacrifice": {
+    "name": "Sacrifice",
+    "desc": "Command: Reduces own HP to recover an ally's HP and cures the status effect. Cannot be used at 1 HP.",
+    "cost": 0,
+    "emoji":"<:fe10_sacrifice:1317298521891799130>",
+    "reference": {
+      "Character": "Micaiah"
+    }
+  },
+  "savage": {
+    "name": "Savage",
+    "desc": "(Strength/2)% chance to multiply user's strength by 3 and halve foe's skill by one turn.",
+    "cost": 30,
+    "emoji":"<:fe10_savage:1317298539336040468>",
+    "reference": {
+      "Class": "Wolf\nWolf Queen"
+    }
+  },
+  "savior": {
+    "name": "Savior",
+    "desc": "User's stats aren't decreased when carrying an unit.",
+    "cost": 10,
+    "emoji":"<:fe10_savior:1317298553345019984>",
+    "reference": {
+      "Character": "Fiona\nTibarn"
+    }
+  },
+  "shade": {
+    "name": "Shade",
+    "desc": "Makes user less likely to be attacked by the enemy.",
+    "cost": 10,
+    "emoji":"<:fe10_shade:1317298573607698532>",
+    "reference": {
+      "Class": "Beorc",
+      "Character": "Ilyana"
+    }
+  },
+  "shove": {
+    "name": "Shove",
+    "desc": "Push a ally 1 tile further if user's con + 2 > ally's weight.",
+    "cost": 5,
+    "emoji":"<:fe10_shove:1317298588002549911>",
+    "reference": {
+      "Class": "Walking Units"
+    }
+  },
+  "shriek": {
+    "name": "Shriek",
+    "desc": "(Luck)% chance to reduce foe's luck to 0 for one turn if combat is happening above 1 range.",
+    "cost": 20,
+    "emoji":"<:fe10_shriek:1317298605492801546>",
+    "reference": {
+      "Class": "Raven Laguz\nHawk Laguz",
+      "Character": "Vika"
+    }
+  },
+  "smite": {
+    "name": "Smite",
+    "desc": "Command: Pushes units two tiles away if user's con + 2 > ally's weight.",
+    "cost": 15,
+    "emoji":"<:fe10_smite:1317298617538842684>",
+    "reference": {
+      "Character": "Mordecai"
+    }
+  },
+  "sol": {
+    "name": "Sol",
+    "desc": "(Skill/2)% chance to multiply damage by 3 and restore HP based on damage dealt to the enemy.",
+    "cost": 30,
+    "emoji":"<:fe10_sol:1317298629169381427>",
+    "reference": {
+      "Class": "Silver Knight\nGold Knight\nValkyrie"
+    }
+  },
+  "steal": {
+    "name": "Steal",
+    "desc": "Command: Steals an unequipped weapon/accessory or an item from the target's inventory if (user's speed > enemy's speed) and (user's strength > item's wt).",
+    "cost": 0,
+    "emoji":"<:fe10_steal:1317298640967962685>",
+    "reference": {
+      "Class": "Thief\nRogue\nWhisper"
+    }
+  },
+  "stillness": {
+    "name": "Stillness",
+    "desc": "User is much less likely to be targeted by enemy units.",
+    "cost": 25,
+    "emoji":"<:fe10_stillness:1317298652733247591>",
+    "reference": {
+      "Class": "Beorc",
+      "Character": "Volke"
+    }
+  },
+  "stun": {
+    "name": "Stun",
+    "desc": "(Skill/2)% chance to multiply user's strength by 3 and inflict paralysis on the foe.",
+    "cost": 25,
+    "emoji":"<:fe10_stun:1317298671049638000>",
+    "reference": {
+      "Class": "Queen\nDragon Lord\nSeraph Knight"
+    }
+  },
+  "tear": {
+    "name": "Tear",
+    "desc": "(Speed/2)% chance to mutiply user's strength by 3 for one turn and halve foe's speed for one turn.",
+    "cost": 30,
+    "emoji":"<:fe10_tear:1317298684433666111>",
+    "reference": {
+      "Class": "Raven\nRaven King\nHawk\nHawk King"
+    }
+  },
+  "vantage": {
+    "name": "Vantage",
+    "desc": "(Speed)% chance for the user to strike first if foe initiates combat.",
+    "cost": 10,
+    "emoji":"<:fe10_vantage:1317298697402454046>",
+    "reference": {
+      "Character": "Mia\nNaesala"
+    }
+  },
+  "vigilance": {
+    "name": "Vigilance",
+    "desc": "Grants +20 avoid and dodge.",
+    "cost": 0,
+    "emoji":"<:fe10_vigilance:1317298709721124876>",
+    "reference": {
+      "Character": "Ulki"
+    }
+  },
+  "whitepool": {
+    "name": "White Pool",
+    "desc": "Increases adjacent allies magic and speed by 5.",
+    "cost": 10,
+    "emoji":"<:fe10_whitepool:1317298722639708240>",
+    "reference": {
+      "Class": "White Dragon",
+      "Character": "Nasir"
+    }
+  },
+  "wildheart": {
+    "name": "Wildheart",
+    "desc": "**Part 1:** User remains permanently shifted, but their transformation stat boosts are halved.\n**Part 2 onward:** User can shift and revert at will, but their transformation bonuses are halved. The transformation gauge still decreases, but open untransforming it is filled fully.",
+    "cost": 10,
+    "emoji":"<:fe10_wildheart:1317298737047015454>",
+    "reference": {
+      "Class": "Non-Heron Laguz",
+      "Character": "Volug"
+    }
+  },
+  "wrath": {
+    "name": "Wrath",
+    "desc": "+50 crit when user is at 30% HP or lower.\n\n**JP:** User needs to be at 20% HP or lower\nand has (Skill)% chance to activate.",
+    "cost": 15,
+    "emoji":"<:fe10_wrath:1317298748761571328>",
+    "reference": {
+      "Character": "Edward\nNealuchi\nNephenee"
+    }
+  }
+}

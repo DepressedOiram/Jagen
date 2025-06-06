@@ -1,0 +1,507 @@
+{
+  "feh_pairup": {
+    "name": "feh_pairup",
+    "id": 1317238912363794494,
+    "animated": false
+  },
+  "feh_emblem": {
+    "name": "feh_emblem",
+    "id": 1317239481874780181,
+    "animated": false
+  },
+  "feh_ring": {
+    "name": "feh_ring",
+    "id": 1202348911357087764,
+    "animated": false
+  },
+  "aide": {
+    "name": "aided",
+    "id": 1317239286449573969,
+    "animated": false
+  },
+  "feh_duo": {
+    "name": "feh_duo",
+    "id": 1317239462874578975,
+    "animated": false
+  },
+  "feh_harmonized": {
+    "name": "feh_harmonized",
+    "id": 1317239586929377371,
+    "animated": false
+  },
+  "feh_Cavalry": {
+    "name": "feh_Cavalry",
+    "id": 1317239611461865623,
+    "animated": false
+  },
+  "feh_Armored": {
+    "name": "feh_Armored",
+    "id": 1317239600342630461,
+    "animated": false
+  },
+  "feh_Flying": {
+    "name": "feh_Flying",
+    "id": 1317239622958321715,
+    "animated": false
+  },
+  "feh_assist": {
+    "name": "feh_assist",
+    "id": 1317238837906509956,
+    "animated": false
+  },
+  "feh_weapons": {
+    "name": "feh_weapons",
+    "id": 1317238945842597919,
+    "animated": false
+  },
+  "feh_special": {
+    "name": "feh_special",
+    "id": 1317238933490499616,
+    "animated": false
+  },
+  "feh_Infantry": {
+    "name": "feh_Infantry",
+    "id": 1317239635759337472,
+    "animated": false
+  },
+  "feh_C": {
+    "name": "feh_C",
+    "id": 1317238858341159003,
+    "animated": false
+  },
+  "feh_A": {
+    "name": "feh_A",
+    "id": 1317238826573365403,
+    "animated": false
+  },
+  "feh_B": {
+    "name": "feh_B",
+    "id": 1317238848866095206,
+    "animated": false
+  },
+  "feh_S": {
+    "name": "feh_S",
+    "id": 1317238922358816858,
+    "animated": false
+  },
+  "feh_X": {
+    "name": "feh_X",
+    "id": 1317250890989572169,
+    "animated": false
+  },
+  "feh_Cap": {
+    "name": "feh_Cap",
+    "id": 1378032502446227466,
+    "animated": false
+  },
+  "feh_flowerArmored": {
+    "name": "feh_flowerArmored",
+    "id": 1317238865714741258,
+    "animated": false
+  },
+  "feh_flowerCavalry": {
+    "name": "feh_flowerCavalry",
+    "id": 1317238873427808326,
+    "animated": false
+  },
+  "feh_flowerFlying": {
+    "name": "feh_flowerFlying",
+    "id": 1317238883880140821,
+    "animated": false
+  },
+  "feh_flowerInfantry": {
+    "name": "feh_flowerInfantry",
+    "id": 1317238895368470578,
+    "animated": false
+  },
+  "sup_b": {
+    "name": "sup_b",
+    "id": 694751034924597299,
+    "animated": false
+  },
+  "sup_c": {
+    "name": "sup_c",
+    "id": 694751035142570023,
+    "animated": false
+  },
+  "sup_a": {
+    "name": "sup_a",
+    "id": 694751035151089694,
+    "animated": false
+  },
+  "sup_s": {
+    "name": "sup_s",
+    "id": 694751035239038976,
+    "animated": false
+  },
+  "Blessing_Dark": {
+    "name": "Blessing_Dark",
+    "id": 1317239451260555295,
+    "animated": false
+  },
+  "Blessing_Fire": {
+    "name": "Blessing_Fire",
+    "id": 1317239492800937986,
+    "animated": false
+  },
+  "Blessing_Astra": {
+    "name": "Blessing_Astra",
+    "id": 1317239319764799558,
+    "animated": false
+  },
+  "Blessing_Anima": {
+    "name": "Blessing_Anima",
+    "id": 1317239300265349241,
+    "animated": false
+  },
+  "Blessing_Earth": {
+    "name": "Blessing_Earth",
+    "id": 1317239472802365440,
+    "animated": false
+  },
+  "Blessing_Light": {
+    "name": "Blessing_Light",
+    "id": 1317239655015387146,
+    "animated": false
+  },
+  "Blessing_Water": {
+    "name": "Blessing_Water",
+    "id": 1317239742600970341,
+    "animated": false
+  },
+  "Blessing_Wind": {
+    "name": "Blessing_Wind",
+    "id": 1317239752319041556,
+    "animated": false
+  },
+  "star_3": {
+    "name": "star_3",
+    "id": 1317239031150547036,
+    "animated": false
+  },
+  "star_2": {
+    "name": "star_2",
+    "id": 1317239021138743409,
+    "animated": false
+  },
+  "star_5": {
+    "name": "star_5",
+    "id": 1317239261510107227,
+    "animated": false
+  },
+  "star_1": {
+    "name": "star_1",
+    "id": 1317239007045750846,
+    "animated": false
+  },
+  "star_4": {
+    "name": "star_4",
+    "id": 1317239042772963338,
+    "animated": false
+  },
+  "Blue_Dagger": {
+    "name": "Blue_Dagger",
+    "id": 1317239367529529445,
+    "animated": false
+  },
+  "Colorless_Breath": {
+    "name": "Colorless_Breath",
+    "id": 1317239411980767363,
+    "animated": false
+  },
+  "Blue_Breath": {
+    "name": "Blue_Breath",
+    "id": 1317239355835813939,
+    "animated": false
+  },
+  "Blue_Beast": {
+    "name": "Blue_Beast",
+    "id": 1317239339452731402,
+    "animated": false
+  },
+  "Blue_Bow": {
+    "name": "Blue_Bow",
+    "id": 1317239347577356328,
+    "animated": false
+  },
+  "Blue_Lance": {
+    "name": "Blue_Lance",
+    "id": 1317239378208096338,
+    "animated": false
+  },
+  "Blue_Tome": {
+    "name": "Blue_Tome",
+    "id": 1317239386491977749,
+    "animated": false
+  },
+  "Colorless_Dagger": {
+    "name": "Colorless_Dagger",
+    "id": 1317239418943438869,
+    "animated": false
+  },
+  "Colorless_Bow": {
+    "name": "Colorless_Bow",
+    "id": 1317239404204654703,
+    "animated": false
+  },
+  "Colorless_Staff": {
+    "name": "Colorless_Staff",
+    "id": 1317239426866483261,
+    "animated": false
+  },
+  "Colorless_Beast": {
+    "name": "Colorless_Beast",
+    "id": 1317239395534901248,
+    "animated": false
+  },
+  "Colorless_Tome": {
+    "name": "Colorless_Tome",
+    "id": 1317239438602145842,
+    "animated": false
+  },
+  "Green_Breath": {
+    "name": "Green_Breath",
+    "id": 1317239551693164595,
+    "animated": false
+  },
+  "Green_Dagger": {
+    "name": "Green_Dagger",
+    "id": 1317239563697127456,
+    "animated": false
+  },
+  "Green_Beast": {
+    "name": "Green_Beast",
+    "id": 1317239527953141870,
+    "animated": false
+  },
+  "Green_Tome": {
+    "name": "Green_Tome",
+    "id": 1317239575352971396,
+    "animated": false
+  },
+  "Red_Tome": {
+    "name": "Red_Tome",
+    "id": 1317239730714316800,
+    "animated": false
+  },
+  "Red_Sword": {
+    "name": "Red_Sword",
+    "id": 1317239717707911188,
+    "animated": false
+  },
+  "Red_Beast": {
+    "name": "Red_Beast",
+    "id": 1317239666944114688,
+    "animated": false
+  },
+  "Red_Dagger": {
+    "name": "Red_Dagger",
+    "id": 1317239707167490068,
+    "animated": false
+  },
+  "Green_Axe": {
+    "name": "Green_Axe",
+    "id": 1317239517136031897,
+    "animated": false
+  },
+  "Green_Bow": {
+    "name": "Green_Bow",
+    "id": 1317239539936268340,
+    "animated": false
+  },
+  "Red_Breath": {
+    "name": "Red_Breath",
+    "id": 1317239692189630504,
+    "animated": false
+  },
+  "Red_Bow": {
+    "name": "Red_Bow",
+    "id": 1317239680571543592,
+    "animated": false
+  },
+  "dew": {
+    "name": "dew",
+    "id": 1317238814972055733,
+    "animated": false
+  },
+  "medal": {
+    "name": "medal",
+    "id": 1317238980818763856,
+    "animated": false
+  },
+  "resplendent": {
+    "name": "resplendent",
+    "id": 1317238995201032276,
+    "animated": false
+  },
+  "pairup": {
+    "name": "pairup",
+    "id": 1317239062007906405,
+    "animated": false
+  },
+  "manual": {
+    "name": "manual",
+    "id": 1317238970001657917,
+    "animated": false
+  },
+  "floret": {
+    "name": "asc",
+    "id": 1317239311741227118,
+    "animated": false
+  },
+  "alf3": {
+    "name": "alf3",
+    "id": 1317238798844952577,
+    "animated": false
+  },
+  "alf0": {
+    "name": "alf0",
+    "id": 1317238773733654528,
+    "animated": false
+  },
+  "alf1": {
+    "name": "alf1",
+    "id": 1317238781853700326,
+    "animated": false
+  },
+  "alf2": {
+    "name": "alf2",
+    "id": 1317238790208749599,
+    "animated": false
+  },
+  "star_seasonal_5": {
+    "name": "star_seasonal_5",
+    "id": 1317238711372742656,
+    "animated": false
+  },
+  "star_forma_5": {
+    "name": "star_special_5",
+    "id": 1317238731509600277,
+    "animated": false
+  },
+  "star_special_5": {
+    "name": "star_special_5",
+    "id": 1317238731509600277,
+    "animated": false
+  },
+  "star_legend_5": {
+    "name": "star_legend_5",
+    "id": 1317238738694307840,
+    "animated": false
+  },
+  "star_seasonal_4": {
+    "name": "star_seasonal_4",
+    "id": 1317238746189533275,
+    "animated": false
+  },
+  "star_spcseasonal_5": {
+    "name": "star_spcseasonal_5",
+    "id": 1317238711372742656,
+    "animated": false
+  },
+  "star_grail_5": {
+    "name": "star_grail_5",
+    "id": 1317238755748352101,
+    "animated": false
+  },
+  "star_grail_4": {
+    "name": "star_grail_4",
+    "id": 1317238763499421766,
+    "animated": false
+  },
+  "star_grail_3": {
+    "name": "star_grail_3",
+    "id": 1317239051765547111,
+    "animated": false
+  },
+  "star_focus_5": {
+    "name": "star_focus_5",
+    "id": 1317238738694307840,
+    "animated": false
+  },
+  "arm": {
+    "name": "rearm",
+    "id": 1317247467460366427,
+    "animated": false
+  },
+  "attuned": {
+    "name": "attuned",
+    "id": 1317239328753193050,
+    "animated": false
+  },
+  "archanea": {
+    "name": "archanea",
+    "id": 1355577189239882021,
+    "animated": false
+  },
+  "fe4": {
+    "name": "fe4",
+    "id": 1355577198999765062,
+    "animated": false
+  },
+  "fe5": {
+    "name": "fe5",
+    "id": 1355577207530979411,
+    "animated": false
+  },
+  "fe6": {
+    "name": "fe6",
+    "id": 1355577215735169194,
+    "animated": false
+  },
+  "fe7": {
+    "name": "fe7",
+    "id": 1355577223897284853,
+    "animated": false
+  },
+  "fe8": {
+    "name": "fe8",
+    "id": 1355577231807611080,
+    "animated": false
+  },
+  "fe9": {
+    "name": "fe9",
+    "id": 1355577240443949137,
+    "animated": false
+  },
+  "fe10": {
+    "name": "fe10",
+    "id": 1355577250568732783,
+    "animated": false
+  },
+  "fe13": {
+    "name": "fe13",
+    "id": 1355577258751950878,
+    "animated": false
+  },
+  "fe14": {
+    "name": "fe14",
+    "id": 1355577268910686298,
+    "animated": false
+  },
+  "fe15": {
+    "name": "fe15",
+    "id": 1355577277945217235,
+    "animated": false
+  },
+  "fe17": {
+    "name": "fe17",
+    "id": 1355577287747047685,
+    "animated": false
+  },
+  "fodlan": {
+    "name": "fodlan",
+    "id": 1355577298593644716,
+    "animated": false
+  },
+  "heroes": {
+    "name": "heroes",
+    "id": 1355577306571210803,
+    "animated": false
+  },
+  "tms": {
+    "name": "tms",
+    "id": 1355577314758365245,
+    "animated": false
+  }
+}

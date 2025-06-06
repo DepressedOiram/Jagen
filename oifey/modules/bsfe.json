@@ -1,0 +1,59 @@
+{
+    "bsfe": {
+        "name": "Archanea Saga (BSFE)",
+        "default": "unit",
+        "data": {
+            "unit": {
+                "main": "database/bsfe/char.json",
+                "add": [
+                    "class",
+                    "weapon"
+                ],
+                "exclamation": "class",
+                "bool": {
+                    "personal": [],
+                    "secret": []
+                },
+                "entry": {
+                    "class": "database/bsfe/job.json",
+                    "weapon": "database/bsfe/item.json"
+                },
+                "classic_hidden": [
+                    "level"
+                ],
+                "level": [
+                    20,
+                    20
+                ],
+                "custom_help": {
+                    "Averages": "text/game/averages/fe3.txt"
+                },
+                "classic_hidden": [
+                    "level"
+                ],
+                "lua": [
+                    "bsfe",
+                    "Character"
+                ],
+                "comma": {
+                    "name": "compare",
+                    "size": 6
+                }
+            },
+            "class": {
+                "main": "database/bsfe/job.json",
+                "lua": [
+                    "bsfe",
+                    "Job"
+                ]
+            },
+            "item": {
+                "main": "database/bsfe/item.json",
+                "lua": [
+                    "bsfe",
+                    "Item"
+                ]
+            }
+        }
+    }
+}

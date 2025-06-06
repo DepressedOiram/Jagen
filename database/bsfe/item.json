@@ -1,0 +1,588 @@
+{
+    "ironsword": {
+        "name": "Iron Sword",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "mt": 5,
+            "hit": 90,
+            "wt": 2,
+            "rng": 1,
+            "uses": 42,
+            "price": 420,
+            "sell": 210
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "steelsword": {
+        "name": "Steel Sword",
+        "desc": false,
+        "stats": {
+            "wlv": 2,
+            "mt": 8,
+            "hit": 80,
+            "wt": 4,
+            "rng": 1,
+            "uses": 38,
+            "price": 760,
+            "sell": 380
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "killingedge": {
+        "name": "Killing Edge",
+        "desc": false,
+        "stats": {
+            "wlv": 7,
+            "mt": 8,
+            "hit": 100,
+            "wt": 2,
+            "crit": 20,
+            "rng": 1,
+            "uses": 22,
+            "price": 1100,
+            "sell": 550
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "silversword": {
+        "name": "Silver Sword",
+        "desc": false,
+        "stats": {
+            "wlv": 9,
+            "mt": 12,
+            "hit": 90,
+            "wt": 3,
+            "rng": 1,
+            "uses": 20,
+            "price": 2000,
+            "sell": 1000
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "armorslayer": {
+        "name": "Armorslayer",
+        "desc": "Effective against armored units.",
+        "stats": {
+            "wlv": 3,
+            "mt": 6,
+            "hit": 100,
+            "wt": 4,
+            "rng": 1,
+            "uses": 20,
+            "price": 1000,
+            "sell": 500
+        },
+        "type": "weapon",
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "brokensword": {
+        "name": "Broken Sword",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "hit": 20,
+            "wt": 20,
+            "rng": 1,
+            "price": 20,
+            "sell": 10
+        },
+        "type": "item",
+        "weapon": false
+    },
+    "ironlance": {
+        "name": "Iron Lance",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "mt": 7,
+            "hit": 100,
+            "wt": 6,
+            "rng": 1,
+            "uses": 38,
+            "price": 380,
+            "sell": 190
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "steellance": {
+        "name": "Steel Lance",
+        "desc": false,
+        "stats": {
+            "wlv": 2,
+            "mt": 10,
+            "hit": 90,
+            "wt": 8,
+            "rng": 1,
+            "uses": 28,
+            "price": 560,
+            "sell": 280
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "killerlance": {
+        "name": "Killer Lance",
+        "desc": false,
+        "stats": {
+            "wlv": 6,
+            "mt": 9,
+            "hit": 100,
+            "wt": 4,
+            "crit": 20,
+            "rng": 1,
+            "uses": 24,
+            "price": 1200,
+            "sell": 600
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "silverlance": {
+        "name": "Silver Lance",
+        "desc": false,
+        "stats": {
+            "wlv": 7,
+            "mt": 14,
+            "hit": 90,
+            "wt": 7,
+            "rng": 1,
+            "uses": 20,
+            "price": 1600,
+            "sell": 800
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "slimlance": {
+        "name": "Slim Lance",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "mt": 5,
+            "hit": 100,
+            "wt": 2,
+            "crit": 5,
+            "rng": 1,
+            "uses": 30,
+            "price": 450,
+            "sell": 220
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "ridersbane": {
+        "name": "Ridersbane",
+        "desc": "Effective against Cavaliers and Paladins.",
+        "stats": {
+            "wlv": 4,
+            "mt": 5,
+            "hit": 90,
+            "wt": 4,
+            "rng": 1,
+            "uses": 14,
+            "price": 700,
+            "sell": 350
+        },
+        "type": "weapon",
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "javelin": {
+        "name": "Javelin",
+        "desc": false,
+        "stats": {
+            "wlv": 3,
+            "mt": 8,
+            "hit": 70,
+            "wt": 20,
+            "rng": "1-2",
+            "uses": 20,
+            "price": 600,
+            "sell": 300
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "gradivus": {
+        "name": "Gradivus",
+        "desc": "Doubles wielder's EXP gain.",
+        "stats": {
+            "wlv": 12,
+            "mt": 20,
+            "hit": 100,
+            "wt": 8,
+            "rng": "1-2",
+            "uses": 17,
+            "price": 17000,
+            "sell": 8500
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "brokenlance": {
+        "name": "Broken Lance",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "hit": 20,
+            "wt": 20,
+            "rng": 1,
+            "price": 20,
+            "sell": 10
+        },
+        "type": "item",
+        "weapon": false
+    },
+    "ironaxe": {
+        "name": "Iron Axe",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "mt": 8,
+            "hit": 80,
+            "wt": 7,
+            "rng": 1,
+            "uses": 43,
+            "price": 430,
+            "sell": 210
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "steelaxe": {
+        "name": "Steel Axe",
+        "desc": false,
+        "stats": {
+            "wlv": 2,
+            "mt": 11,
+            "hit": 70,
+            "wt": 9,
+            "rng": 1,
+            "uses": 30,
+            "price": 600,
+            "sell": 300
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "silveraxe": {
+        "name": "Silver Axe",
+        "desc": false,
+        "stats": {
+            "wlv": 10,
+            "mt": 15,
+            "hit": 90,
+            "wt": 7,
+            "rng": 1,
+            "uses": 20,
+            "price": 10000,
+            "sell": 5000
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "devilaxe": {
+        "name": "Devil Axe",
+        "desc": "21 -Lck % chance to injure wielder.",
+        "stats": {
+            "wlv": 1,
+            "mt": 20,
+            "hit": 70,
+            "wt": 20,
+            "rng": 1,
+            "uses": 9,
+            "price": 900,
+            "sell": 450
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "handaxe": {
+        "name": "Hand Axe",
+        "desc": false,
+        "stats": {
+            "wlv": 3,
+            "mt": 5,
+            "hit": 60,
+            "wt": 9,
+            "rng": "1-2",
+            "uses": 15,
+            "price": 450,
+            "sell": 220
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "brokenaxe": {
+        "name": "Broken Axe",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "hit": 20,
+            "wt": 20,
+            "rng": 1,
+            "price": 20,
+            "sell": 10
+        },
+        "type": "item",
+        "weapon": false
+    },
+    "ironbow": {
+        "name": "Iron Bow",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "mt": 6,
+            "hit": 100,
+            "wt": 4,
+            "rng": 2,
+            "uses": 33,
+            "price": 330,
+            "sell": 160
+        },
+        "type": "weapon",
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "steelbow": {
+        "name": "Steel Bow",
+        "desc": false,
+        "stats": {
+            "wlv": 3,
+            "mt": 9,
+            "hit": 90,
+            "wt": 7,
+            "rng": 2,
+            "uses": 28,
+            "price": 560,
+            "sell": 280
+        },
+        "type": "weapon",
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "killerbow": {
+        "name": "Killer Bow",
+        "desc": false,
+        "stats": {
+            "wlv": 6,
+            "mt": 8,
+            "hit": 100,
+            "wt": 3,
+            "crit": 20,
+            "rng": 2,
+            "uses": 20,
+            "price": 1000,
+            "sell": 500
+        },
+        "type": "weapon",
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "silverbow": {
+        "name": "Silver Bow",
+        "desc": false,
+        "stats": {
+            "wlv": 7,
+            "mt": 13,
+            "hit": 100,
+            "wt": 6,
+            "rng": 2,
+            "uses": 22,
+            "price": 2200,
+            "sell": 1100
+        },
+        "type": "weapon",
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "brokenbow": {
+        "name": "Broken Bow",
+        "desc": false,
+        "stats": {
+            "wlv": 1,
+            "hit": 20,
+            "wt": 20,
+            "rng": 2,
+            "price": 20,
+            "sell": 10
+        },
+        "type": "item",
+        "weapon": false,
+        "equip": {
+            "effective": true
+        }
+    },
+    "fire": {
+        "name": "Fire",
+        "desc": "Effective against Ice Dragons.",
+        "stats": {
+            "wlv": 1,
+            "mt": 5,
+            "hit": 100,
+            "rng": "1-2",
+            "uses": 25,
+            "price": 500,
+            "sell": 250
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "thunder": {
+        "name": "Thunder",
+        "desc": false,
+        "stats": {
+            "wlv": 3,
+            "mt": 6,
+            "hit": 90,
+            "wt": 1,
+            "crit": 5,
+            "rng": "1-2",
+            "uses": 21,
+            "price": 630,
+            "sell": 310
+        },
+        "type": "weapon",
+        "weapon": true
+    },
+    "firebreath": {
+        "name": "Fire Breath",
+        "desc": "Only usable by Fire, Flying, and Mage Dragons. Effective against Ice Dragons.",
+        "stats": {
+            "wlv": 1,
+            "mt": 12,
+            "hit": 80,
+            "wt": 20,
+            "rng": "1-2"
+        },
+        "type": "weapon",
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "vulnerary": {
+        "name": "Vulnerary",
+        "desc": "Restores 10 HP to the user.",
+        "stats": {},
+        "type": "item",
+        "weapon": false
+    },
+    "doorkey": {
+        "name": "Door Key",
+        "desc": "Opens doors.",
+        "stats": {},
+        "type": "item",
+        "weapon": false
+    },
+    "chestkey": {
+        "name": "Chest Key",
+        "desc": "Opens chests.",
+        "stats": {},
+        "type": "item",
+        "weapon": false
+    },
+    "powerring": {
+        "name": "Power Ring",
+        "desc": "Increases user's Str by 4.",
+        "stats": {},
+        "type": "item",
+        "weapon": false
+    },
+    "dracoshield": {
+        "name": "Dracoshield",
+        "desc": "Increases user's Def by 4.",
+        "stats": {},
+        "type": "item",
+        "weapon": false
+    },
+    "speedring": {
+        "name": "Speed Ring",
+        "desc": "Increases user's Spd by 5.",
+        "stats": {},
+        "type": "item",
+        "weapon": false
+    },
+    "goddessicon": {
+        "name": "Goddess Icon",
+        "desc": "Increases user's Lck by 5.",
+        "stats": {},
+        "type": "item",
+        "weapon": false
+    },
+    "warpstaff": {
+        "name": "Warp Staff",
+        "desc": "Transports an adjacent unit to any traversable tile on the map.",
+        "stats": {
+            "wlv": 5,
+            "rng": 1,
+            "uses": 7,
+            "price": 14000,
+            "sell": 7000,
+            "exp": 42
+        },
+        "type": "item",
+        "weapon": false
+    },
+    "mendstaff": {
+        "name": "Mend Staff",
+        "desc": "Restores Str +20 HP to an adjacent ally.",
+        "stats": {
+            "wlv": 2,
+            "rng": 1,
+            "uses": 16,
+            "price": 1600,
+            "sell": 800,
+            "exp": 20
+        },
+        "type": "item",
+        "weapon": false
+    },
+    "healstaff": {
+        "name": "Heal Staff",
+        "desc": "Restores Str +10 HP to an adjacent ally.",
+        "stats": {
+            "wlv": 1,
+            "rng": 1,
+            "uses": 20,
+            "price": 1000,
+            "sell": 500,
+            "exp": 14
+        },
+        "type": "item",
+        "weapon": false
+    },
+    "physicstaff": {
+        "name": "Physic Staff",
+        "desc": "Restores Str +10 HP to an ally.",
+        "stats": {
+            "wlv": 7,
+            "rng": "All",
+            "uses": 12,
+            "price": 2400,
+            "sell": 1200,
+            "exp": 30
+        },
+        "type": "item",
+        "weapon": false
+    }
+}

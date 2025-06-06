@@ -1,0 +1,798 @@
+{
+    "acrobat": {
+        "name": "Acrobat",
+        "emoji": "<:fe13_acrobat:1317586670781988936>",
+        "desc": "Treats all accessible terrain as if it were a plain, movement-wise.",
+        "reference": {
+            "Class": "Trickster (Lv. 15)"
+        }
+    },
+    "aegis": {
+        "name": "Aegis",
+        "emoji": "<:fe13_aegis:1317586686233935882>",
+        "desc": "Halve bow/tome/dragonstone damage. Trigger % = (Skill stat)",
+        "reference": {
+            "Class": "Paladin (Lv. 15)"
+        }
+    },
+    "aegis+": {
+        "name": "Aegis+",
+        "emoji": "<:fe13_aegisplus:1317586704936341544>",
+        "desc": "Always halve bow/tome/dragonstone damage.",
+        "reference": {}
+    },
+    "aether": {
+        "name": "Aether",
+        "emoji": "<:fe13_aether:1317586713337663488>",
+        "desc": "Use Sol and Luna in succession. Trigger % = (Skill stat \u00f7 2)",
+        "reference": {
+            "Class": "Great Lord (F) (Lv. 5)\nGreat Lord (M) (Lv. 5)"
+        }
+    },
+    "aggressor": {
+        "name": "Aggressor",
+        "emoji": "<:fe13_aggressor:1317586722334310450>",
+        "icon": "aggressor.png",
+        "reference": {
+            "Class": "Dread Fighter (Lv. 15)"
+        },
+        "desc": "Grants Atk +10 when the unit initiates an attack."
+    },
+    "allstats2": {
+        "name": "All Stats +2",
+        "emoji": "<:fe13_allstatsplus2:1317586730509144154>",
+        "icon": "allstats2.png",
+        "reference": {},
+        "desc": "Grants +2 to all stats."
+    },
+    "anathema": {
+        "name": "Anathema",
+        "emoji": "<:fe13_anathema:1317586738511740959>",
+        "desc": "Reduces Avo/Ddg by 10 for all enemies within three spaces.",
+        "reference": {
+            "Class": "Dark Mage (Lv. 10)"
+        }
+    },
+    "aptitude": {
+        "name": "Aptitude",
+        "emoji": "<:fe13_aptitude:1317586745927143576>",
+        "desc": "Adds 20% to each stat's odds of increasing at level up.",
+        "reference": {
+            "Class": "Villager (Lv. 1)"
+        }
+    },
+    "armsthrift": {
+        "name": "Armsthrift",
+        "emoji": "<:fe13_armsthrift:1317586753758171187>",
+        "desc": "Attack without expending a weapon use. Trigger % = (Lck stat \u00d7 2)",
+        "reference": {
+            "Class": "Mercenary (Lv. 1)"
+        }
+    },
+    "astra": {
+        "name": "Astra",
+        "emoji": "<:fe13_astra:1317586761492205608>",
+        "desc": "Strike five times at half damage. Trigger % = (Skill stat \u00f7 2)",
+        "reference": {
+            "Class": "Swordmaster (Lv. 5)"
+        }
+    },
+    "avoid10": {
+        "name": "Avoid +10",
+        "emoji": "<:fe13_avoidplus10:1317586771718176928>",
+        "desc": "Grants Avo +10.",
+        "reference": {
+            "Class": "Myrmidon (Lv. 1)"
+        }
+    },
+    "axebreaker": {
+        "name": "Axebreaker",
+        "emoji": "<:fe13_axebreaker:1317586783156047892>",
+        "desc": "Grants Hit/Avo +50 if the enemy is using an axe.",
+        "reference": {
+            "Class": "Hero (Lv. 15)"
+        }
+    },
+    "axefaire": {
+        "name": "Axefaire",
+        "emoji": "<:fe13_axefaire:1317586796502192178>",
+        "desc": "Grants Str +5 if using an axe. (Mag +5 if using a Bolt Axe)",
+        "reference": {
+            "Class": "Berserker (Lv. 15)"
+        }
+    },
+    "beastbane": {
+        "name": "Beastbane",
+        "emoji": "<:fe13_beastbane:1317586806287630458>",
+        "desc": "Allows units in taguel form to deal bonus damage to beasts/riders.",
+        "reference": {
+            "Class": "Taguel (F) (Lv. 15)\nTaguel (M) (Lv. 15)"
+        }
+    },
+    "bond": {
+        "name": "Bond",
+        "emoji": "<:fe13_bond:1317586816731185242>",
+        "icon": "bond.png",
+        "reference": {
+            "Class": "Bride (Lv. 15)"
+        },
+        "desc": "Restores 10 HP to allies within three spaces at the start of each turn."
+    },
+    "bowbreaker": {
+        "name": "Bowbreaker",
+        "emoji": "<:fe13_bowbreaker:1317586827804278815>",
+        "desc": "Grants Hit/Avo +50 if the enemy is using a bow.",
+        "reference": {
+            "Class": "Bow Knight (Lv. 15)"
+        }
+    },
+    "bowfaire": {
+        "name": "Bowfaire",
+        "emoji": "<:fe13_bowfaire:1317586842237010090>",
+        "desc": "Grants Str +5 if using a bow.",
+        "reference": {
+            "Class": "Sniper (Lv. 15)"
+        }
+    },
+    "charm": {
+        "name": "Charm",
+        "emoji": "<:fe13_charm:1317586852244619354>",
+        "desc": "Grants Hit/Avo +5 to all allies within three spaces.",
+        "reference": {
+            "Class": "Lord (F) (Lv. 10)\nLord (M) (Lv. 10)"
+        }
+    },
+    "conquest": {
+        "name": "Conquest",
+        "emoji": "<:fe13_conquest:1317586863719972989>",
+        "desc": "Protects from bonus damage against beasts/riders/armor.",
+        "reference": {}
+    },
+    "counter": {
+        "name": "Counter",
+        "emoji": "<:fe13_counter:1317586874033770587>",
+        "desc": "Damage taken from an adjacent enemy is dealt back to that foe.",
+        "reference": {
+            "Class": "Warrior (Lv. 15)"
+        }
+    },
+    "defense2": {
+        "name": "Defense +2",
+        "emoji": "<:fe13_defenseplus2:1317586885912039576>",
+        "desc": "Grants Def +2.",
+        "reference": {
+            "Class": "Knight (Lv. 1)"
+        }
+    },
+    "defender": {
+        "name": "Defender",
+        "emoji": "<:fe13_defender:1317586895999602698>",
+        "desc": "Grants +1 to all stats while paired with another unit.",
+        "reference": {
+            "Class": "Paladin (Lv. 5)"
+        }
+    },
+    "deliverer": {
+        "name": "Deliverer",
+        "emoji": "<:fe13_deliverer:1317586907450048612>",
+        "desc": "Grants Mov +2 while paired with another unit.",
+        "reference": {
+            "Class": "Griffon Rider (Lv. 5)"
+        }
+    },
+    "demoiselle": {
+        "name": "Demoiselle",
+        "emoji": "<:fe13_demoiselle:1317586918178947193>",
+        "desc": "Grants Avo/Ddg +10 to all male allies within three spaces.",
+        "reference": {
+            "Class": "Troubadour (Lv. 10)"
+        }
+    },
+    "despoil": {
+        "name": "Despoil",
+        "emoji": "<:fe13_despoil:1317586951171342418>",
+        "desc": "Get a Bullion (S) if the unit's target falls. Trigger % = (Lck stat)",
+        "reference": {
+            "Class": "Barbarian (Lv. 1)"
+        }
+    },
+    "discipline": {
+        "name": "Discipline",
+        "emoji": "<:fe13_discipline:1317586966963028048>",
+        "desc": "Doubles the amount of weapon experience the unit receives.",
+        "reference": {
+            "Class": "Cavalier (Lv. 1)"
+        }
+    },
+    "dragonskin": {
+        "name": "Dragonskin",
+        "emoji": "<:fe13_dragonskin:1317586976316063867>",
+        "desc": "Nullifies Lethality and Counter, and more than halves damage.",
+        "reference": {}
+    },
+    "dualguard+": {
+        "name": "Dual Guard+",
+        "emoji": "<:fe13_dualguardplus:1317586990136430654>",
+        "desc": "Increases the trigger rate of Dual Guards by 10%.",
+        "reference": {
+            "Class": "Great Knight (Lv. 15)"
+        }
+    },
+    "dualstrike+": {
+        "name": "Dual Strike+",
+        "emoji": "<:fe13_dualstrikeplus:1317586999799975987>",
+        "desc": "Increases the trigger rate of Dual Strikes by 10%.",
+        "reference": {
+            "Class": "Lord (F) (Lv. 1)\nLord (M) (Lv. 1)"
+        }
+    },
+    "dualsupport+": {
+        "name": "Dual Support+",
+        "emoji": "<:fe13_dualsupportplus:1317587010357039191>",
+        "desc": "Increases Dual Support bonuses.",
+        "reference": {
+            "Class": "Valkyrie (Lv. 15)"
+        }
+    },
+    "evenrhythm": {
+        "name": "Even Rhythm",
+        "emoji": "<:fe13_evenrhythm:1317587025486155847>",
+        "desc": "Grants Hit/Avo +10 during even-numbered turns.",
+        "reference": {
+            "Class": "Taguel (F) (Lv. 1)\nTaguel (M) (Lv. 1)"
+        }
+    },
+    "focus": {
+        "name": "Focus",
+        "emoji": "<:fe13_focus:1317587037351706634>",
+        "desc": "Grants Crit +10 when there are no allies within three spaces.",
+        "reference": {
+            "Class": "Mage (Lv. 10)"
+        }
+    },
+    "galeforce": {
+        "name": "Galeforce",
+        "emoji": "<:fe13_galeforce:1317587049322250360>",
+        "desc": "Allows the unit to act again upon defeating a foe. (Once per turn.)",
+        "reference": {
+            "Class": "Dark Flier (Lv. 15)"
+        }
+    },
+    "gamble": {
+        "name": "Gamble",
+        "emoji": "<:fe13_gamble:1317587065549885490>",
+        "desc": "Reduces Hit by 5, but grants Crit +10.",
+        "reference": {
+            "Class": "Barbarian (Lv. 10)"
+        }
+    },
+    "hawkeye": {
+        "name": "Hawkeye",
+        "emoji": "<:fe13_hawkeye:1317587084281647236>",
+        "desc": "Ensures every attack hits.",
+        "reference": {}
+    },
+    "healtouch": {
+        "name": "Healtouch",
+        "emoji": "<:fe13_healtouch:1317587098156400641>",
+        "desc": "Adds 5 HP to the amount recovered when healing allies with a staff.",
+        "reference": {
+            "Class": "Cleric (Lv. 10)\nPriest (Lv. 10)"
+        }
+    },
+    "hex": {
+        "name": "Hex",
+        "emoji": "<:fe13_hex:1317587113167949885>",
+        "desc": "Reduces Avo by 15 for all adjacent enemies.",
+        "reference": {
+            "Class": "Dark Mage (Lv. 1)"
+        }
+    },
+    "hitrate10": {
+        "name": "Hit Rate +10",
+        "emoji": "<:fe13_hitrateplus10:1317587124525994055>",
+        "desc": "Grants Hit +10.",
+        "reference": {}
+    },
+    "hitrate20": {
+        "name": "Hit Rate +20",
+        "emoji": "<:fe13_hitrateplus20:1317587139008921670>",
+        "desc": "Grants Hit +20.",
+        "reference": {
+            "Class": "Sniper (Lv. 5)"
+        }
+    },
+    "hp5": {
+        "name": "HP +5",
+        "emoji": "<:fe13_hpplus5:1317587150983794689>",
+        "desc": "Grants Max HP +5.",
+        "reference": {
+            "Class": "Fighter (Lv. 1)"
+        }
+    },
+    "ignis": {
+        "name": "Ignis",
+        "emoji": "<:fe13_ignis:1317587164992897104>",
+        "desc": "Add half Mag or Str to the other value. Trigger % = (Skill stat)",
+        "reference": {
+            "Class": "Grandmaster (Lv. 5)"
+        }
+    },
+    "indoorfighter": {
+        "name": "Indoor Fighter",
+        "emoji": "<:fe13_indoorfighter:1317587176954925176>",
+        "desc": "Grants Hit/Avo +10 while fighting indoors.",
+        "reference": {
+            "Class": "Knight (Lv. 10)"
+        }
+    },
+    "iotesshield": {
+        "name": "Iote's Shield",
+        "emoji": "<:fe13_iotesshield:1317587191538651146>",
+        "icon": "iotesshield.png",
+        "reference": {},
+        "desc": "Negates the user's flying weakness."
+    },
+    "lancebreaker": {
+        "name": "Lancebreaker",
+        "emoji": "<:fe13_lancebreaker:1317587203110735953>",
+        "desc": "Grants Hit/Avo +50 if the enemy is using a lance.",
+        "reference": {
+            "Class": "Griffon Rider (Lv. 15)"
+        }
+    },
+    "lancefaire": {
+        "name": "Lancefaire",
+        "emoji": "<:fe13_lancefaire:1317587217387884696>",
+        "desc": "Grants Str +5 if using a lance. (Mag +5 if using a Shockstick)",
+        "reference": {
+            "Class": "Falcon Knight (Lv. 15)"
+        }
+    },
+    "lethality": {
+        "name": "Lethality",
+        "emoji": "<:fe13_lethality:1317587231493455902>",
+        "desc": "Fell an enemy in one hit. Trigger % = (Skill stat \u00f7 4)",
+        "reference": {
+            "Class": "Assassin (Lv. 5)"
+        }
+    },
+    "lifetaker": {
+        "name": "Lifetaker",
+        "emoji": "<:fe13_lifetaker:1317587247998042132>",
+        "desc": "When attacking, restores 50% HP if the enemy is defeated.",
+        "reference": {
+            "Class": "Dark Knight (Lv. 15)"
+        }
+    },
+    "limitbreaker": {
+        "name": "Limit Breaker",
+        "emoji": "<:fe13_limitbreaker:1317587272421474394>",
+        "icon": "limitbreaker.png",
+        "reference": {},
+        "desc": "Extends all stat caps by 10."
+    },
+    "locktouch": {
+        "name": "Locktouch",
+        "emoji": "<:fe13_locktouch:1317587293606772776>",
+        "desc": "Allows the unit to open doors and chests without keys.",
+        "reference": {
+            "Class": "Thief (Lv. 1)"
+        }
+    },
+    "luck4": {
+        "name": "Luck +4",
+        "emoji": "<:fe13_luckplus4:1317587311302545458>",
+        "desc": "Grants Lck +4.",
+        "reference": {
+            "Class": "Dancer (Lv. 1)"
+        }
+    },
+    "luckyseven": {
+        "name": "Lucky Seven",
+        "emoji": "<:fe13_luckyseven:1317587327031181412>",
+        "desc": "Grants Hit/Avo +20 for the first seven turns.",
+        "reference": {
+            "Class": "Trickster (Lv. 5)"
+        }
+    },
+    "luna": {
+        "name": "Luna",
+        "emoji": "<:fe13_luna:1317587342420217916>",
+        "desc": "Halve enemy Def/Res when attacking. Trigger % = (Skill stat)",
+        "reference": {
+            "Class": "Great Knight (Lv. 5)"
+        }
+    },
+    "luna+": {
+        "name": "Luna+",
+        "emoji": "<:fe13_lunaplus:1317587357045751919>",
+        "desc": "Halve enemy Def/Res when attacking. Effects do not stack.",
+        "reference": {}
+    },
+    "magic2": {
+        "name": "Magic +2",
+        "emoji": "<:fe13_magicplus2:1317587369796571166>",
+        "desc": "Grants Mag +2.",
+        "reference": {
+            "Class": "Mage (Lv. 1)"
+        }
+    },
+    "miracle": {
+        "name": "Miracle",
+        "emoji": "<:fe13_miracle:1317587392034766888>",
+        "desc": "Survive lethal attacks if HP \uff1e 1. Trigger % = (Lck stat)",
+        "reference": {
+            "Class": "Cleric (Lv. 1)\nPriest (Lv. 1)"
+        }
+    },
+    "movement1": {
+        "name": "Movement +1",
+        "emoji": "<:fe13_movementplus1:1317587409583472740>",
+        "desc": "Grants Mov +1.",
+        "reference": {
+            "Class": "Thief (Lv. 10)"
+        }
+    },
+    "oddrhythm": {
+        "name": "Odd Rhythm",
+        "emoji": "<:fe13_oddrhythm:1317587425312247828>",
+        "desc": "Grants Hit/Avo +10 during odd-numbered turns.",
+        "reference": {
+            "Class": "Manakete (Lv. 1)"
+        }
+    },
+    "outdoorfighter": {
+        "name": "Outdoor Fighter",
+        "emoji": "<:fe13_outdoorfighter:1317587442827530311>",
+        "desc": "Grants Hit/Avo +10 while fighting outdoors.",
+        "reference": {
+            "Class": "Cavalier (Lv. 10)"
+        }
+    },
+    "paragon": {
+        "name": "Paragon",
+        "emoji": "<:fe13_paragon:1317587461043650560>",
+        "icon": "paragon.png",
+        "reference": {},
+        "desc": "Doubles the EXP this unit receives."
+    },
+    "pass": {
+        "name": "Pass",
+        "emoji": "<:fe13_pass:1317587477023821955>",
+        "desc": "Allows the unit to pass through spaces occupied by enemies.",
+        "reference": {
+            "Class": "Assassin (Lv. 15)"
+        }
+    },
+    "patience": {
+        "name": "Patience",
+        "emoji": "<:fe13_patience:1317587501589856296>",
+        "desc": "Grants Hit/Avo +10 when the unit is under attack.",
+        "reference": {
+            "Class": "Mercenary (Lv. 10)"
+        }
+    },
+    "pavise": {
+        "name": "Pavise",
+        "emoji": "<:fe13_pavise:1317587519822364724>",
+        "desc": "Halve sword/lance/axe/beaststone/blight damage. Trigger % = (Skill stat)",
+        "reference": {
+            "Class": "General (Lv. 15)"
+        }
+    },
+    "pavise+": {
+        "name": "Pavise+",
+        "emoji": "<:fe13_paviseplus:1317587533667762216>",
+        "desc": "Always halve sword/lance/axe/beaststone damage.",
+        "reference": {}
+    },
+    "prescience": {
+        "name": "Prescience",
+        "emoji": "<:fe13_prescience:1317587550973591744>",
+        "desc": "Grants Hit/Avo +15 when the unit initiates an attack.",
+        "reference": {
+            "Class": "Archer (Lv. 10)"
+        }
+    },
+    "quickburn": {
+        "name": "Quick Burn",
+        "emoji": "<:fe13_quickburn:1317587566194593942>",
+        "desc": "Grants Hit/Avo +15 at the start of battle. Stats gradually revert.",
+        "reference": {
+            "Class": "Wyvern Lord (Lv. 5)"
+        }
+    },
+    "rallydefense": {
+        "name": "Rally Defense",
+        "emoji": "<:fe13_rallydefense:1317587583571853372>",
+        "desc": "Use \"Rally\" to grant Def +4 to units within three spaces for one turn.",
+        "reference": {
+            "Class": "General (Lv. 5)"
+        }
+    },
+    "rallyheart": {
+        "name": "Rally Heart",
+        "emoji": "<:fe13_rallyheart:1317587605134639155>",
+        "icon": "rallyheart.png",
+        "reference": {
+            "Class": "Bride (Lv. 1)"
+        },
+        "desc": "Use \"Rally\" to grant +2 all stats/Mov +1 to units within three spaces for one turn."
+    },
+    "rallyluck": {
+        "name": "Rally Luck",
+        "emoji": "<:fe13_rallyluck:1317587620225749033>",
+        "desc": "Use \"Rally\" to grant Lck +8 to units within three spaces for one turn.",
+        "reference": {
+            "Class": "War Cleric (Lv. 5)\nWar Monk (Lv. 5)"
+        }
+    },
+    "rallymagic": {
+        "name": "Rally Magic",
+        "emoji": "<:fe13_rallymagic:1317587640941547530>",
+        "desc": "Use \"Rally\" to grant Mag +4 to units within three spaces for one turn.",
+        "reference": {
+            "Class": "Sage (Lv. 5)"
+        }
+    },
+    "rallymovement": {
+        "name": "Rally Movement",
+        "emoji": "<:fe13_rallymovement:1317587659450744932>",
+        "desc": "Use \"Rally\" to grant Mov +1 to units within three spaces for one turn.",
+        "reference": {
+            "Class": "Dark Flier (Lv. 5)"
+        }
+    },
+    "rallyresistance": {
+        "name": "Rally Resistance",
+        "emoji": "<:fe13_rallyresistance:1317587679348527104>",
+        "desc": "Use \"Rally\" to grant Res +4 to units within three spaces for one turn.",
+        "reference": {
+            "Class": "Valkyrie (Lv. 5)"
+        }
+    },
+    "rallyskill": {
+        "name": "Rally Skill",
+        "emoji": "<:fe13_rallyskill:1317587695220031498>",
+        "desc": "Use \"Rally\" to grant Skill +4 to units within three spaces for one turn.",
+        "reference": {
+            "Class": "Bow Knight (Lv. 5)"
+        }
+    },
+    "rallyspectrum": {
+        "name": "Rally Spectrum",
+        "emoji": "<:fe13_rallyspectrum:1317587715654684724>",
+        "desc": "Use \"Rally\" to grant +4 to all stats to units within three spaces for one turn.",
+        "reference": {
+            "Class": "Grandmaster (Lv. 15)"
+        }
+    },
+    "rallyspeed": {
+        "name": "Rally Speed",
+        "emoji": "<:fe13_rallyspeed:1317587728921268254>",
+        "desc": "Use \"Rally\" to grant Spd +4 to units within three spaces for one turn.",
+        "reference": {
+            "Class": "Falcon Knight (Lv. 5)"
+        }
+    },
+    "rallystrength": {
+        "name": "Rally Strength",
+        "emoji": "<:fe13_rallystrength:1317587741491597434>",
+        "desc": "Use \"Rally\" to grant Str +4 to units within three spaces for one turn.",
+        "reference": {
+            "Class": "Warrior (Lv. 5)"
+        }
+    },
+    "relief": {
+        "name": "Relief",
+        "emoji": "<:fe13_relief:1317587758235258890>",
+        "desc": "Restores 20% HP each turn if no units are within three spaces.",
+        "reference": {
+            "Class": "Pegasus Knight (Lv. 10)"
+        }
+    },
+    "renewal": {
+        "name": "Renewal",
+        "emoji": "<:fe13_renewal:1317587773682749520>",
+        "desc": "Restores 30% HP at the start of each turn.",
+        "reference": {
+            "Class": "War Cleric (Lv. 15)\nWar Monk (Lv. 15)"
+        }
+    },
+    "resistance10": {
+        "name": "Resistance +10",
+        "emoji": "<:fe13_resistanceplus10:1317587814380208199>",
+        "icon": "resistance10.png",
+        "reference": {
+            "Class": "Dread Fighter (Lv. 1)"
+        },
+        "desc": "Grants Res +10."
+    },
+    "resistance2": {
+        "name": "Resistance +2",
+        "emoji": "<:fe13_resistanceplus2:1317587794469589032>",
+        "desc": "Grants Res +2.",
+        "reference": {
+            "Class": "Troubadour (Lv. 1)"
+        }
+    },
+    "rightfulgod": {
+        "name": "Rightful God",
+        "emoji": "<:fe13_rightfulgod:1317587828548435968>",
+        "desc": "Increases the trigger rate of the unit's skills by 30%.",
+        "reference": {}
+    },
+    "rightfulking": {
+        "name": "Rightful King",
+        "emoji": "<:fe13_rightfulking:1317587842356088852>",
+        "desc": "Increases the trigger rate of the unit's skills by 10%.",
+        "reference": {
+            "Class": "Great Lord (F) (Lv. 15)\nGreat Lord (M) (Lv. 15)"
+        }
+    },
+    "shadowgift": {
+        "name": "Shadowgift",
+        "emoji": "<:fe13_shadowgift:1317587863822401606>",
+        "desc": "Allows non-dark mages to use dark magic.",
+        "reference": {}
+    },
+    "skill2": {
+        "name": "Skill +2",
+        "emoji": "<:fe13_skillplus2:1317587876359307365>",
+        "desc": "Grants Skill +2.",
+        "reference": {
+            "Class": "Archer (Lv. 1)"
+        }
+    },
+    "slowburn": {
+        "name": "Slow Burn",
+        "emoji": "<:fe13_slowburn:1317587892268171305>",
+        "desc": "Increases Hit/Avo by 1 each turn. Effects end after 15 turns.",
+        "reference": {
+            "Class": "Dark Knight (Lv. 5)"
+        }
+    },
+    "sol": {
+        "name": "Sol",
+        "emoji": "<:fe13_sol:1317587910031048835>",
+        "desc": "Absorb HP equal to half damage dealt. Trigger % = (Skill stat)",
+        "reference": {
+            "Class": "Hero (Lv. 5)"
+        }
+    },
+    "solidarity": {
+        "name": "Solidarity",
+        "emoji": "<:fe13_solidarity:1317587930877001808>",
+        "desc": "Grants Crit/Ddg +10 to all adjacent allies.",
+        "reference": {
+            "Class": "Tactician (Lv. 10)"
+        }
+    },
+    "specialdance": {
+        "name": "Special Dance",
+        "emoji": "<:fe13_specialdance:1317587946689527838>",
+        "desc": "Allies that act again receive Str/Mag/Def/Res +2 that turn.",
+        "reference": {
+            "Class": "Dancer (Lv. 15)"
+        }
+    },
+    "speed2": {
+        "name": "Speed +2",
+        "emoji": "<:fe13_speedplus2:1317587963273674823>",
+        "desc": "Grants Spd +2.",
+        "reference": {
+            "Class": "Pegasus Knight (Lv. 1)"
+        }
+    },
+    "strength2": {
+        "name": "Strength +2",
+        "emoji": "<:fe13_strengthplus2:1317587977815457822>",
+        "desc": "Grants Str +2.",
+        "reference": {
+            "Class": "Wyvern Rider (Lv. 1)"
+        }
+    },
+    "swordbreaker": {
+        "name": "Swordbreaker",
+        "emoji": "<:fe13_swordbreaker:1317587991983820840>",
+        "desc": "Grants Hit/Avo +50 if the enemy is using a sword.",
+        "reference": {
+            "Class": "Wyvern Lord (Lv. 15)"
+        }
+    },
+    "swordfaire": {
+        "name": "Swordfaire",
+        "emoji": "<:fe13_swordfaire:1317588007108350032>",
+        "desc": "Grants Str +5 if using a sword. (Mag +5 if using a Levin Sword)",
+        "reference": {
+            "Class": "Swordmaster (Lv. 15)"
+        }
+    },
+    "tantivy": {
+        "name": "Tantivy",
+        "emoji": "<:fe13_tantivy:1317588020894892082>",
+        "desc": "Grants Hit/Avo +10 when there are no allies within three spaces.",
+        "reference": {
+            "Class": "Wyvern Rider (Lv. 10)"
+        }
+    },
+    "tomebreaker": {
+        "name": "Tomebreaker",
+        "emoji": "<:fe13_tomebreaker:1317588036128870520>",
+        "desc": "Grants Hit/Avo +50 if the enemy is using a tome.",
+        "reference": {
+            "Class": "Sorcerer (Lv. 15)"
+        }
+    },
+    "tomefaire": {
+        "name": "Tomefaire",
+        "emoji": "<:fe13_tomefaire:1317588051605848125>",
+        "desc": "Grants Mag +5 if using a tome.",
+        "reference": {
+            "Class": "Sage (Lv. 15)"
+        }
+    },
+    "underdog": {
+        "name": "Underdog",
+        "emoji": "<:fe13_underdog:1317588067846066216>",
+        "desc": "Hit/Avo +15 if a foe's level is higher. (For adv. classes, add +20 to level.)",
+        "reference": {
+            "Class": "Villager (Lv. 15)"
+        }
+    },
+    "vantage": {
+        "name": "Vantage",
+        "emoji": "<:fe13_vantage:1317588081033084989>",
+        "desc": "If HP is half or less, always strike first, even when attacked.",
+        "reference": {
+            "Class": "Myrmidon (Lv. 10)"
+        }
+    },
+    "vantage+": {
+        "name": "Vantage+",
+        "emoji": "<:fe13_vantageplus:1317588095276683355>",
+        "desc": "Always strike first, even when attacked.",
+        "reference": {}
+    },
+    "vengeance": {
+        "name": "Vengeance",
+        "emoji": "<:fe13_vengeance:1317588108824281129>",
+        "desc": "Add half accrued damage to attacks. Trigger % = (Skill stat \u00d7 2)",
+        "reference": {
+            "Class": "Sorcerer (Lv. 5)"
+        }
+    },
+    "veteran": {
+        "name": "Veteran",
+        "emoji": "<:fe13_veteran:1317588123873443870>",
+        "desc": "Grants the unit 50% more EXP while paired with another unit.",
+        "reference": {
+            "Class": "Tactician (Lv. 1)"
+        }
+    },
+    "wrath": {
+        "name": "Wrath",
+        "emoji": "<:fe13_wrath:1317588137358262353>",
+        "desc": "Grants Crit +20 when HP is half or less.",
+        "reference": {
+            "Class": "Berserker (Lv. 5)"
+        }
+    },
+    "wyrmsbane": {
+        "name": "Wyrmsbane",
+        "emoji": "<:fe13_wyrmsbane:1317588151354654812>",
+        "desc": "Allows units in manakete form to deal bonus damage to dragons.",
+        "reference": {
+            "Class": "Manakete (Lv. 15)"
+        }
+    },
+    "zeal": {
+        "name": "Zeal",
+        "emoji": "<:fe13_zeal:1317588166533709845>",
+        "desc": "Grants Crit +5.",
+        "reference": {
+            "Class": "Fighter (Lv. 10)"
+        }
+    }
+}

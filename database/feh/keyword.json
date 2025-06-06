@@ -1,0 +1,5723 @@
+{
+    "actionendsimmediately": {
+        "name": "After Start-of-Turn Skills Trigger, Action Ends Immediately",
+        "description": "Through unit's next action, after start-of-turn skills trigger, action ends immediately.",
+        "color": "Colorless",
+        "icon": "actionendsimmediately",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Gray Illusion"
+            ],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "lyon5": "<:Green_Tome:1317239575352971396>Valentines Lyon"
+        },
+        "HARD_ALT_NAME": [
+            "Action Ends Immediately",
+            "Turn End"
+        ]
+    },
+    "airorders": {
+        "name": "Air Orders (Status Effect)",
+        "description": "Unit can move to a space adjacent to any ally within 2 spaces.",
+        "color": "Blue",
+        "icon": "airorders",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Inseverable Spear",
+                "Pure-Wing Spear"
+            ],
+            "Axe": [
+                "Corsair Cleaver",
+                "Flower Hauteclere",
+                "Wedding-Bell Axe"
+            ],
+            "Staff": [
+                "Salvage"
+            ],
+            "Bow": [
+                "Divine Yewfelle"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Dark Spikes T"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Arcane Truthfire",
+                    "Ve\u00f0rf\u00f6lnir's Egg"
+                ],
+                "Colorless_Tome": [
+                    "\u00D3\u00F0r of Creation"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Gentle Dream",
+                "Gentle Dream+",
+                "Tender Dream"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Inf. Null Follow 4",
+                "Air Orders 4",
+                "Ground Orders 3",
+                "Atk/Spd Oath 4",
+                "Atk/Def Oath 4",
+                "Atk/Res Oath 4",
+                "Def/Res Oath 4",
+                "Goddess Bearer",
+                "Goddess Bearer II"
+            ],
+            "X": [
+                "Atk Oath Echo"
+            ],
+            "S": [],
+            "captain": [
+                "Tandem Form"
+            ]
+        },
+        "reference_hero": {
+            "peony2": "<:Green_Tome:1317239575352971396>Duo Peony"
+        },
+        "HARD_ALT_NAME": [
+            "Air Orders",
+            "Ground Orders",
+            "Warp"
+        ]
+    },
+    "anathema": {
+        "name": "Anathema",
+        "description": "Inflicts Spd/Def/Res-4 on foes within 3 spaces of unit during combat.",
+        "color": "Red",
+        "icon": "anathema",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Scroll of Curses"
+                ],
+                "Blue_Tome": [
+                    "Arcane Medusa"
+                ],
+                "Green_Tome": [
+                    "Kindred Tome"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Atk/Spd Hexedge",
+                "Already Dead"
+            ],
+            "B": [],
+            "C": [
+                "Blood & Thunder"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "assigndecoy": {
+        "name": "Assign Decoy",
+        "description": "If foe's Range = unit's Range and foe initiates combat against an ally within 2 spaces of unit, triggers\u3010Savior\u3011on unit (that turn only; triggers only if unit is not equipped with a skill that can trigger the Savior effect).",
+        "color": "Colorless",
+        "icon": "assigndecoy",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Arch-Sage Tome"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Quieting Branch"
+            ]
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Impregnable"
+            ]
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "beastcavalry": {
+        "name": "Beast (Cavalry)",
+        "description": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+        "color": "Green",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Bunny Fang"
+            ]
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "bonded": {
+        "name": "Bonded",
+        "description": "Grants a status that can trigger certain skill effects to unit for 1 turn.",
+        "color": "Colorless",
+        "icon": "bonded",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Bond Blast"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "bonus": {
+        "name": "Bonus",
+        "description": "All effects that last \"for 1 turn\" or \"that turn only.\" Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).",
+        "color": "Green",
+        "icon": "bonus",
+        "reference_weapon": {
+            "Sword": [
+                "Ancient Ragnell",
+                "Blade of Renais",
+                "Exalted Falchion",
+                "Fiery War Sword",
+                "Laevatein",
+                "Pledged Blade+",
+                "Spirited Sword+",
+                "Suave Blade"
+            ],
+            "Lance": [
+                "Geidriful",
+                "Penitent Lance",
+                "Queenslance",
+                "Reginleif",
+                "Scythe of Sariel",
+                "Sealed Falchion",
+                "Spirited Spear+"
+            ],
+            "Axe": [
+                "Axe of Dusk",
+                "Binding Reginleif",
+                "Blue Yule Axe",
+                "Ebon B\u00f6lverk",
+                "Garm",
+                "Huge Fan+",
+                "Legacy Axe",
+                "Scepter of Love",
+                "Spirited Axe+",
+                "Summertime Axe",
+                "Tiger-Eye Axe",
+                "Unyielding Oar",
+                "Wind Tribe Club+"
+            ],
+            "Staff": [
+                "Seaside Parasol+",
+                "Staff of Yngvi",
+                "Sunlight+",
+                "Thief"
+            ],
+            "Bow": [
+                "Cunning Bow",
+                "Divine Yewfelle",
+                "Flame of M\u00faspell",
+                "Gainful Bow+",
+                "Partnership Bow",
+                "Randgr\u00ed\u00f0r",
+                "Setsuna's Yumi",
+                "Stall-Game Bow+",
+                "Tanngrisnir",
+                "The Inexhaustible",
+                "Wind Parthia",
+                "Whitewind Bow+",
+                "Ylisse Ninja Bow"
+            ],
+            "Dagger": [
+                "Gainful Dagger+",
+                "Hurricane Dagger",
+                "Levin Dagger"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Child's Compass",
+                    "Rau\u00f0rcrab+"
+                ],
+                "Blue_Tome": [
+                    "Bright-Shell Egg",
+                    "Devoted Cup+",
+                    "Fimbulvetr Morn",
+                    "The Cycle's Turn"
+                ],
+                "Green_Tome": [
+                    "Ereshkigal",
+                    "Kindred Tome",
+                    "K\u00f6rmt",
+                    "Nova",
+                    "Tome of Luxuries",
+                    "Winds of Change"
+                ],
+                "Colorless_Tome": [
+                    "Joyful Vows",
+                    "Juicy Bucketful+",
+                    "\u00D3\u00F0r of Creation",
+                    "Order's Sentence",
+                    "Void Tome"
+                ]
+            },
+            "Breath": [
+                "Eternal Breath",
+                "Frostfire Breath",
+                "Godly Breath",
+                "Oracle's Breath",
+                "Razing Breath",
+                "Zephyr Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "A Fate Changed!"
+            ],
+            "special": [],
+            "A": [
+                "Sly Swift Sparrow",
+                "Sly Sturdy Blow",
+                "Sly Mirror",
+                "Atk/Spd Hexblade",
+                "Spd/Res Hexblade",
+                "Bonus Doubler 4",
+                "Atk/Spd Ideal 4",
+                "Atk/Def Ideal 4",
+                "Atk/Res Ideal 4",
+                "Spd/Def Ideal 4",
+                "Spd/Res Ideal 4",
+                "Def/Res Ideal 4",
+                "Atk/Spd Prime 4",
+                "Atk/Def Prime 4",
+                "Spd/Def Prime 4",
+                "Divine Toxin",
+                "Obsidian Tactics"
+            ],
+            "B": [
+                "Full Disarm",
+                "Lull Atk/Def 4",
+                "Lull Spd/Def 4",
+                "Lull Spd/Res 4",
+                "Fallen Star II",
+                "Pure Atrocity"
+            ],
+            "C": [],
+            "X": [
+                "Lull Echo"
+            ],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "thorr2": "<:Blue_Tome:1317239386491977749>Duo Th\u00f3rr"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "bonusdoubler": {
+        "name": "Bonus Doubler (Status Effect)",
+        "description": "Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.",
+        "color": "Red",
+        "icon": "bonusdoubler",
+        "reference_weapon": {
+            "Sword": [
+                "Ardent Durandal",
+                "Blade of Sands",
+                "Suave Blade"
+            ],
+            "Lance": [
+                "Guarding Lance"
+            ],
+            "Axe": [
+                "Heavy War Axe"
+            ],
+            "Staff": [
+                "Martyr's Staff",
+                "Staff of the Saint"
+            ],
+            "Bow": [
+                "Damiell Bow",
+                "Dusk Rifle"
+            ],
+            "Dagger": [
+                "Convoy Dagger"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Fimbulvetr Morn"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Frostfire Breath"
+            ],
+            "Beast": [
+                "Delivering Antler",
+                "Quieting Antler"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Spring's Dream",
+                "To Change Fate! II"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Atk/Spd Ploy 3",
+                "Atk/Res Ploy 3",
+                "Spd/Res Ploy 3",
+                "Def/Res Ploy 3",
+                "Pulse Up: Ploy",
+                "Inborn Idealism"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "edelgard5": "<:Red_Sword:1317239717707911188>Harmonic Edelgard",
+            "goldmary": "<:Blue_Lance:1317239378208096338>Summer Goldmary",
+            "lysithea3": "<:Colorless_Tome:1317239438602145842>Harmonic Lysithea",
+            "marth4": "<:Colorless_Bow:1317239404204654703>Winter Marth"
+        },
+        "HARD_ALT_NAME": [
+            "Bonus Doubler"
+        ]
+    },
+    "bulwark": {
+        "name": "Bulwark",
+        "description": "Foes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills).\nFoes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).",
+        "color": "Colorless",
+        "icon": "bulwark",
+        "reference_weapon": {
+            "Sword": [
+                "Fellowship Blade"
+            ],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Ancient Voice"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Darkling Guard II"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "goldmary": "<:Blue_Lance:1317239378208096338>Summer Goldmary"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "cancelaffinity": {
+        "name": "Cancel Affinity (Status Effect)",
+        "description": "If unit has weapon-triangle disadvantage, reverses weapon-triangle advantage granted by foe's skills for 1 turn.",
+        "color": "Colorless",
+        "icon": "cancelaffinity",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Punishment Staff"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Blood Tome"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Cancel Affinity"
+        ]
+    },
+    "canto\uff11": {
+        "name": "Canto (\uff11)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move \uff11 space(s).",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [
+                "Ilian Frost Blade"
+            ],
+            "Lance": [
+                "Apothesis Spear",
+                "Springing Spear",
+                "Starpoint Lance"
+            ],
+            "Axe": [],
+            "Staff": [
+                "Staff of the Saint",
+                "Staff of Yngvi",
+                "Supreme Th\u00f6kk"
+            ],
+            "Bow": [
+                "Bow of Twelve",
+                "Breaker Bow",
+                "Failnaught",
+                "Fujin-Raijin Yumi"
+            ],
+            "Dagger": [
+                "Florid Knife+",
+                "Kindling Taiko"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "General-to-Be",
+                    "Sky-Hopper Egg"
+                ],
+                "Blue_Tome": [
+                    "Eagle's Egg",
+                    "Goddess Temari",
+                    "The Cycle's Turn",
+                    "Tome of Storms"
+                ],
+                "Green_Tome": [
+                    "Teatime Set+",
+                    "Tender Vessel"
+                ],
+                "Colorless_Tome": [
+                    "Baked Treats",
+                    "Inner Wellspring"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Reposition Gait",
+                "Gold Serpent",
+                "Tender Dream"
+            ],
+            "special": [
+                "Gifted Magic II",
+                "Sacred Wind"
+            ],
+            "A": [],
+            "B": [
+                "Escape Route 4",
+                "Atk/Res Havoc",
+                "Firestorm Dance 3",
+                "Rockslide Dance 3",
+                "Atk/Spd Link 4",
+                "Spd/Def Link 4",
+                "According to Plan",
+                "Deep Star",
+                "Full Light & Dark",
+                "Moonlit Bangle F",  
+                "Soaring Wings"
+            ],
+            "C": [
+                "Alarm Atk/Spd",
+                "Alarm Atk/Def",
+                "Alarm Spd/Def",
+                "Alarm Def/Res",
+                "Lookout 3",
+                "Fanged Ties",
+                "Glittering Anima",
+                "Twinkling Anima",
+                "Vision of Arcadia II"
+            ],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Headlong Rush"
+            ]
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto 1"
+        ]
+    },
+    "canto\uff12": {
+        "name": "Canto (\uff12)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move \uff12 space(s).",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [
+                "Absolute Amiti",
+                "Aerial Longsword",
+                "Feather Sword",
+                "Holytide Tyrfing",
+                "Honorable Blade",
+                "Ladyblade"
+            ],
+            "Lance": [
+                "Flower Lance",
+                "L\u00fain",
+                "Mirage Feather",
+                "Obsidian Lance",
+                "Prince's Lance",
+                "Proud Spear",
+                "Silesse Frost",
+                "Wing-Lifted Spear"
+            ],
+            "Axe": [
+                "Blazing Polearms",
+                "Blue Yule Axe",
+                "Dolphin-Dive Axe",
+                "Laconic Axe",
+                "Payday Pouch",
+                "Twin Star Axe",
+                "War-God Mj\u00f6lnir"
+            ],
+            "Staff": [
+                "Staff of the Saint",
+                "Staff of Yngvi",
+                "Supreme Th\u00f6kk",
+                "Salvage"
+            ],
+            "Bow": [],
+            "Dagger": [
+                "Ni\u00f0avellir Sprig"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Ni\u00f0avellir Lots",
+                    "Icy Fimbulvetr"
+                ],
+                "Green_Tome": [
+                    "Grim Brokkr"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Frostfire Breath"
+            ],
+            "Beast": [
+                "Cute Paper Crane",
+                "Quieting Antler",
+                "World-Tree Tail"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Future Focus"
+            ],
+            "special": [
+                "Requiem Prayer"
+            ],
+            "A": [
+                "Atk/Spd Mastery",
+                "Blue Skies 4"
+            ],
+            "B": [
+                "Lunar Brace II",
+                "Moonlight Bangle",
+                "Solar Brace II",
+                "Under the Sun"
+            ],
+            "C": [
+                "Lookout Force",
+                "Active Lookout",
+                "Fetters of Dromi",
+                "Darkling Guard II",
+                "Quiet Strength"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto 2"
+        ]
+    },
+    "canto\uff13": {
+        "name": "Canto (\uff13)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move \uff13 space(s).",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [
+                "Lynghei\u00f0r"
+            ],
+            "Lance": [
+                "Holy-War Spear",
+                "Hrei\u00f0marr"
+            ],
+            "Axe": [
+                "Auto-Lofnhei\u00f0r",
+                "Lofnhei\u00f0r"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto 3"
+        ]
+    },
+    "cantocontrol": {
+        "name": "Canto Control (Status Effect)",
+        "description": "Limits the number of spaces target can move with Canto through their next action. If target's Range = 1, target can move 1 space when Canto triggers. If target's Range = 2, target's action ends when Canto triggers.",
+        "color": "Colorless",
+        "icon": "cantocontrol",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Doting Staff",
+                "Salvage"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Canto Control 3",
+                "Firm Canto Curb",
+                "Quiet Strength"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Control"
+        ]
+    },
+    "cantorem": {
+        "name": "Canto (Rem.)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn. (If unit used a movement skill that warped them, its remaining movement is 0.)",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [
+                "Frozen Delight"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Radiant Scrolls"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Dazzle Far Trace",
+                "A/S Far Trace 3",
+                "A/D Far Trace 3",
+                "A/R Far Trace 3",
+                "S/D Far Trace 3",
+                "S/R Far Trace 3"
+            ],
+            "C": [],
+            "X": [],
+            "S": [
+                "Gullinbursti"
+            ],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Rem"
+        ]
+    },
+    "cantorem1": {
+        "name": "Canto (Rem. +1)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn +1. (If unit used a movement skill that warped them, its remaining movement is 0.)",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [
+                "Florid Cane+",
+                "Hallowed Tyrfing",
+                "Surfer's Spire",
+                "Wildflower Edge"
+            ],
+            "Lance": [
+                "Heavenly Icicle",
+                "Jolly Jade Lance",
+                "Queenslance",
+                "Reginleif",
+                "Surfer's Spade",
+                "Tri-Edge Lance",
+                "Whitedown Spear"
+            ],
+            "Axe": [
+                "Summertime Axe",
+                "Talregan Axe",
+                "Unyielding Oar"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Bride's Fang",
+                "Closing Florets",
+                "Full Rabbit Fang",
+                "Nightmare Horn",
+                "Royal Hatari Fang",
+                "Wolf Queen Fang"
+            ]
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Knightly Devotion"
+            ],
+            "B": [
+                "A/S Near Trace 3",
+                "A/D Near Trace 3",
+                "A/R Near Trace 3",
+                "S/D Near Trace 3",
+                "S/R Near Trace 3",
+                "Flow N Trace 3",
+                "Beast N Trace 3",
+                "Chivalry",
+                "Ho\u00f0r's Zeal",
+                "Murderous Lion"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Rem +1"
+        ]
+    },
+    "cantoremmin1": {
+        "name": "Canto (Rem.; Min \uff11)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn (min. \uff11; if unit used a movement skill that warped them, unit can move \uff11 space(s)).",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Baton of Dusk"
+            ],
+            "Bow": [
+                "Deer's Heart"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Tome of Dusk"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Hrist"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "A/R Far Trace 4",
+                "S/D Far Trace 4",
+                "S/R Far Trace 4",
+                "A/R Far Resound"
+            ],
+            "C": [],
+            "X": [
+                "Far Trace Echo"
+            ],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Rem; Min 1"
+        ]
+    },
+    "cantorem1min2": {
+        "name": "Canto (Rem. +1; Min \uff12)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn (min. \uff12; if unit used a movement skill that warped them, unit can move \uff12 space(s)).",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [
+                "Lion's Heart",
+                "Sword of Dusk"
+            ],
+            "Lance": [
+                "Springing Spear"
+            ],
+            "Axe": [
+                "Eagle's Heart"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "S/D Near Trace 4",
+                "S/R Near Trace 4",
+                "Bestial Agility",
+                "Bestial Assault",
+                "Chivalry II"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Rem +1; Min 2"
+        ]
+    },
+    "cantodistmax3": {
+        "name": "Canto (Dist.; Max \uff13)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position unit moved prior to taking action (max \uff13).",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [
+                "The Inexhaustible"
+            ],
+            "Dagger": [
+                "Brightwind Fans",
+                "Silent Yule Knife"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Scroll of Curses"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Dist; Max 3"
+        ]
+    },
+    "cantodist1max4": {
+        "name": "Canto (Dist. +1; Max \uff14)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position unit moved prior to taking action (max \uff14).",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [
+                "Teatime's Edge"
+            ],
+            "Lance": [],
+            "Axe": [
+                "Axe of Dusk",
+                "Gate-Anchor Axe",
+                "Majestic Glitnir",
+                "Tri-Path Splitter"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Ni\u00f0avellir Ballista"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Heavenly Wings"
+            ],
+            "C": [
+                "Brutal Tempest",
+                "Forever Yours",
+                "The Heir to Light"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Dist +1; Max 4"
+        ]
+    },
+    "cantodist2max5": {
+        "name": "Canto (Dist. +2; Max \uff15)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +2. (Max \uff15.)",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Dvergr Wayfinder",
+                "Iron Hrei\u00f0marr"
+            ],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Dist +2; Max 5"
+        ]
+    },
+    "cantoally2": {
+        "name": "Canto (Ally 2)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move to a space adjacent to any ally within 2 spaces.",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [
+                "Heartbroker Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Soothing Scent"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Ally 2"
+        ]
+    },
+    "cantoally5": {
+        "name": "Canto (Ally 5)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move to a space adjacent to any ally within 5 spaces.",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Nova"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Ally 5"
+        ]
+    },
+    "cantounit3x3": {
+        "name": "Canto (Unit 3\u00d73)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move to a space within 3 rows and 3 columns centered on unit.",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Lofty Leaflet"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Unit 3x3"
+        ]
+    },
+    "cantorecall": {
+        "name": "Canto (Recall)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can return to the space they moved from.",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [
+                "Shadowy Quill"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Recall"
+        ]
+    },
+    "cantox": {
+        "name": "Canto (X)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move X spaces.",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": false,
+        "reference_skill": false,
+        "reference_hero": {
+            "sigurd5": "<:Blue_Lance:1317239378208096338>Emblem Sigurd"
+        },
+        "HARD_ALT_NAME": [
+            "Canto X"
+        ]
+    },
+    "charge": {
+        "name": "Charge",
+        "description": "Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)",
+        "color": "Red",
+        "icon": "charge",
+        "reference_weapon": {
+            "Sword": [
+                "Lib\u00e9ration"
+            ],
+            "Lance": [
+                "Heired Gungnir"
+            ],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Sky-Hopper Egg"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "New Year Treats"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Cloying Dreams"
+            ],
+            "special": [],
+            "A": [],
+            "B": [
+                "Raging Tempest"
+            ],
+            "C": [
+                "Air Orders 4",
+                "Assault Troop 3",
+                "Assault Rush",
+                "Rallying Cry"
+            ],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Headlong Rush"
+            ]
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "counterattacksdisrupted": {
+        "name": "Counterattacks Disrupted",
+        "description": "Unit cannot counterattack through its next action.",
+        "color": "Red",
+        "icon": "counterattacksdisrupted",
+        "reference_weapon": {
+            "Sword": [
+                "Flower of Ease",
+                "Venin Edge"
+            ],
+            "Lance": [],
+            "Axe": [
+                "Wolf Berg"
+            ],
+            "Staff": [
+                "Candlelight+",
+                "Doting Staff",
+                "Dusk-Dawn Staff",
+                "Flash+"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Imhullu"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Obsessive Curse",
+                    "Faded Paper Fan"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Frostbite Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Glitter of Light"
+            ],
+            "A": [],
+            "B": [
+                "Dark Perfume"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Flash"
+        ]
+    },
+    "dagger\uff15": {
+        "name": "Dagger \uff15",
+        "description": "After combat, if unit attacked, inflicts Def/Res-\uff15 on target and foes within 2 spaces of target through their next actions.",
+        "color": "Red",
+        "icon": "penalty",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [
+                "Armorpin Dagger",
+                "Bone Carver",
+                "Broadleaf Fan",
+                "Bunny's Egg",
+                "Caltrop Dagger",
+                "Clever Dagger",
+                "Courtly Fan",
+                "Courtly Mask",
+                "Florid Knife",
+                "Gainful Dagger",
+                "Giant Shuriken",
+                "Helping Dagger",
+                "Hidden Thorns",
+                "Ice Dagger",
+                "Jehanna Dagger",
+                "Miasma Dagger",
+                "Minty Cane",
+                "Pumpkin-a-Box",
+                "Quick Dagger",
+                "Scallop Blade",
+                "Small Spade",
+                "Temari",
+                "Tropical Treats",
+                "Vicious Dagger"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Dagger 5"
+        ]
+    },
+    "dagger\uff16": {
+        "name": "Dagger \uff16",
+        "description": "After combat, if unit attacked, inflicts Def/Res-\uff16 on target and foes within 2 spaces of target through their next actions.",
+        "color": "Red",
+        "icon": "penalty",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [
+                "Spy's Dagger"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Dagger 6"
+        ]
+    },
+    "dagger\uff17": {
+        "name": "Dagger \uff17",
+        "description": "After combat, if unit attacked, inflicts Def/Res-\uff17 on target and foes within 2 spaces of target through their next actions.",
+        "color": "Red",
+        "icon": "penalty",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [
+                "Abyssal Blade",
+                "Arcane Sly Knife",
+                "Arcane Tempest",
+                "Arcane Void",
+                "Armorpin Dagger+",
+                "Asura Blades",
+                "Athame",
+                "Barb Shuriken+",
+                "Blade of Jehanna",
+                "Blade Royale",
+                "Bone Carver+",
+                "Brightwind Fans",
+                "Broadleaf Fan+",
+                "Bunny's Egg+",
+                "Caltrop Dagger+",
+                "Candied Dagger",
+                "Clever Dagger+",
+                "Constant Dagger",
+                "Convoy Dagger",
+                "Courtly Fan+",
+                "Courtly Mask+",
+                "Dreamflake",
+                "Dual Sword",
+                "Fireman's Hook",
+                "Florid Knife+",
+                "Frozen Delight",
+                "Gainful Dagger+",
+                "Giant Shuriken+",
+                "G\u00f6ndul",
+                "Helping Dagger+",
+                "Hidden Blade",
+                "Hidden Thorns+",
+                "Honorable Blade",
+                "Hunting Blade",
+                "Hurricane Dagger",
+                "Ice Dagger+",
+                "Jakob's Tray",
+                "Jehanna Dagger+",
+                "Kagero's Dart",
+                "Kaze's Needle",
+                "Kindling Taiko",
+                "Levin Dagger",
+                "Miasma Dagger+",
+                "Minty Cane+",
+                "Nabata Kunai",
+                "Ni\u00f0avellir Sprig",      
+                "Perspicacious",
+                "Pumpkin-a-Box+",
+                "Quick Dagger+",
+                "Red-Fist Blades",
+                "S\u00e6hr\u00edmnir",
+                "Scallop Blade+",
+                "Shadowy Quill",
+                "Small Spade+",
+                "Spy's Shuriken",
+                "Summer Strikers",
+                "Tailwind Shuriken",
+                "Temari+",
+                "Thief's Honesty",
+                "Tropical Treats+",
+                "Vicious Dagger+",
+                "Wildcat Dagger",
+                "Ymir, Everliving"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Dagger 7"
+        ]
+    },
+    "deepstar": {
+        "name": "Deep Star (Status Effect)",
+        "description": "For 1 turn, if it is unit's first combat initiated by foe that turn, reduces damage from foe's first attack by 80% during combat (that turn only; \"first attack\" normally means only the first strike; for effects that grant \"unit attacks twice,\" it means the first and second strikes).",
+        "color": "Colorless",
+        "icon": "deepstar",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Deep Star",
+                "Fallen Star II",
+                "Pure Starfall"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Deep Star"
+        ]
+    },
+    "deepwounds": {
+        "name": "Deep Wounds",
+        "description": "Unit's HP cannot be healed through its next action.",
+        "color": "Green",
+        "icon": "deepwounds",
+        "reference_weapon": {
+            "Sword": [
+                "Final Sword"
+            ],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Incurable+",
+                "Serpentine Staff+"
+            ],
+            "Bow": [
+                "Rampart Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Dark Monograph",
+                    "Dark Scripture"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Flamelick Breath"
+            ],
+            "Beast": [
+                "Nectar Horn",
+                "Horn of Harvest"
+            ]
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Aether's Path",
+                "Life Unending II"
+            ],
+            "A": [],
+            "B": [
+                "Special Fighter 4",
+                "Mounting Fear"
+            ],
+            "C": [
+                "Breath of Life 4",
+                "Fatal Smoke 4",
+                "Divine Nectar",
+                "Nectar's Magic"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "desperation": {
+        "name": "Desperation (Status Effect)",
+        "description": "Grants the following effect for 1 turn: \"If unit initiates combat, unit can make a follow-up attack before foe can counterattack.\"",
+        "color": "Red",
+        "icon": "desperation",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [
+                "Lady's Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Nabata Beacon+"
+                ],
+                "Blue_Tome": [
+                    "Dead-Crow Tome",
+                    "Wind Genesis"
+                ],
+                "Green_Tome": [
+                    "Crow's Crystal",
+                    "Winds of Silesse"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Firestorm Dance 3"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "byleth3": "<:Red_Tome:1317239730714316800>Duo Byleth",
+            "catria4": "<:Green_Axe:1317239517136031897>Harmonic Catria",
+            "igrene3": "<:Blue_Bow:1317239347577356328>Nabata Igrene",
+            "leif3": "<:Colorless_Bow:1317239404204654703>Harmonic Leif"
+        },
+        "HARD_ALT_NAME": [
+            "Desperation"
+        ]
+    },
+    "discord": {
+        "name": "Discord",
+        "description": "Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.",
+        "color": "Colorless",
+        "icon": "discord",
+        "reference_weapon": {
+            "Sword": [
+                "Venin Edge"
+            ],
+            "Lance": [
+                "Brilliant Brident",
+                "Proud Spear"
+            ],
+            "Axe": [
+                "Axe of Dusk",
+                "Tiger-Eye Axe"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Arcane Hex Bow",
+                "Carrot Bow+",
+                "Partnership Bow"
+            ],
+            "Dagger": [
+                "Constant Dagger",
+                "Hidden Blade"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Grimleal Text"
+                ],
+                "Blue_Tome": [
+                    "Devoted Cup+"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Nectar Horn"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Frightful Dream+"
+            ],
+            "special": [],
+            "A": [],
+            "B": [
+                "Dazzling Discord",
+                "Atk/Res Discord",
+                "Spd/Res Discord",
+                "Def/Res Discord",
+                "Atk/Spd Ruse 4",
+                "Spd/Def Ruse 4",
+                "Ruler of Nihility",
+                "Yggdrasill's Alter",
+                "Yune's Protection"
+            ],
+            "C": [
+                "Glittering Anima",
+                "Twinkling Anima"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "divinenectar": {
+        "name": "Divine Nectar (Status Effect)",
+        "description": "Neutralizes\u3010Deep Wounds\u3011during combat.\nRestores 20 HP to unit as unit's combat begins (triggers after effects that deal damage as combat begins; only highest value applied; does not stack). If it is unit's first combat initiated by foe or first combat initiated by unit that turn, reduces damage from foe's attacks by 10 during combat (excluding area-of-effect Specials).",
+        "color": "Blue",
+        "icon": "divinenectar",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "New Year Treats"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Divine Nectar",
+                "Nectar's Magic"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Divine Nectar"
+        ]
+    },
+    "divinelyinspiring": {
+        "name": "Divinely Inspiring",
+        "description": "Grants bonus to unit's Atk/Spd/Def/Res = X \u00d7 3 (X = number of allies with the Divinely Inspiring effect within 3 spaces of unit, excluding unit; max 2), grants Special cooldown count-X to unit before foe's first attack, and when unit deals damage to foe during combat, restores X \u00d7 4 HP to unit during combat.",
+        "color": "Blue",
+        "icon": "divinelyinspiring",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Wintery Arts"
+            ],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "divineveinflame": {
+        "name": "Divine Vein (Flame)",
+        "description": "Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to \"cannot be slowed by terrain\" effects; movement cost cannot exceed unit's allowed movement). At start of enemy phase, deals 7 damage to foe, and also, as combat begins, deals an additional 7 damage to foe (effects that reduce damage \"during combat\" do not apply; will not reduce foe's HP below 1). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)",
+        "color": "Red",
+        "icon": "divineveinflame",
+        "reference_weapon": {
+            "Sword": [
+                "Sun Sword"
+            ],
+            "Lance": [
+                "Black Yule Lance"
+            ],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Fell War Tome",
+                    "General-to-Be"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Flared Sparrow",
+                "Flared Mirror"
+            ],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Divine Vein Flame",
+            "Flame Tile",
+            "Flame Tiles"
+        ]
+    },
+    "divineveingreen": {
+        "name": "Divine Vein (Green)",
+        "description": "Applies the following effects on space for foes: Foe cannot warp from this space or into this space (does not affect units with Pass skills or warp effects from structures like camps and fortresses in Rival Domains). Inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)",
+        "color": "Green",
+        "icon": "divineveingreen",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Mending Heart"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "heidrun2": "<:Colorless_Tome:1317239438602145842>New Year Hei\u00f0r\u00fan"
+        },
+        "HARD_ALT_NAME": [
+            "Divine Vein Green",
+            "Green Tile",
+            "Green Tiles"
+        ]
+    },
+    "divineveinhaze": {
+        "name": "Divine Vein (Haze)",
+        "description": "Applies the following effects on space: Inflicts Atk/Spd/Def/Res-5 on foe and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat. (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)",
+        "color": "Colorless",
+        "icon": "divineveinhaze",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Pure Atrocity",
+                "Deadly Miasma"
+            ],
+            "B": [
+                "Tut-Tut!"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Divine Vein Haze",
+            "Haze Tile",
+            "Haze Tiles"
+        ]
+    },
+    "divineveinice": {
+        "name": "Divine Vein (Ice)",
+        "description": "Applies the following status on space: Foes treat space as impassable terrain while status is active, but status is destructible (with 1 HP). Allies can move into and occupy space. If any allies occupy spaces with Divine Vein (Ice) applied, attacks targeting those spaces will hit the ally over destroying the Divine Vein (Ice). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain. Does not trigger in Pawns of Loki.)",
+        "color": "Blue",
+        "icon": "divineveinice",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "Exalt's Tactics"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Ice Lock+"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "fjorm6": "<:Blue_Lance:1317239378208096338>Ice Fjorm"
+        },
+        "HARD_ALT_NAME": [
+            "Divine Vein Ice",
+            "Ice Tile",
+            "Ice Tiles"
+        ]
+    },
+    "divineveinstone": {
+        "name": "Divine Vein (Stone)",
+        "description": "Applies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)",
+        "color": "Colorless",
+        "icon": "divineveinstone",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [
+                "Taciturn Axe"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Vallastone"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Fortifications",
+                "Oath of Ostia"
+            ],
+            "B": [],
+            "C": [
+                "Corrupted Dragon",
+                "Dragon Monarch"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "rhea4": "<:Colorless_Breath:1317239411980767363>Valentines Rhea"
+        },
+        "HARD_ALT_NAME": [
+            "Divine Vein Stone",
+            "Stone Vein",
+            "Stone Tile",
+            "Stone Tiles",
+            "Stealth Rocks"
+        ]
+    },
+    "divineveinwater": {
+        "name": "Divine Vein (Water)",
+        "description": "Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to \"cannot be slowed by terrain\" effects; movement cost cannot exceed unit's allowed movement). Inflicts Spd-5 on foe and reduces the percentage of non-Special \"reduce damage by X%\" skills by 50% during combat (excluding area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)",
+        "color": "Blue",
+        "icon": "divineveinwater",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Dragon Fang Fire",
+                "Dragon Fang Shot"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Divine Vein Water",
+            "Water Tile",
+            "Water Tiles"
+        ]
+    },
+    "dodge": {
+        "name": "Dodge",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 4 (max 40%).",
+        "color": "Green",
+        "icon": "dodge",
+        "reference_weapon": {
+            "Sword": [
+                "Sharp War Sword",
+                "Swirling Scimitar"
+            ],
+            "Lance": [
+                "Apothesis Spear",
+                "Ilian Merc Lance",
+                "Jehanna Lance+",
+                "Silesse Frost"
+            ],
+            "Axe": [
+                "Sisterly Axe"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [
+                "Jehanna Dagger+"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Guide's Hourglass"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Astral Breath",
+                "Brutal Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Rockslide Dance 3",
+                "Barbarity"
+            ],
+            "C": [
+                "Spd Smoke 4",
+                "Absolute Closure",
+                "Severance"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "eirika5": "<:Red_Sword:1317239717707911188>Duo Eirika",
+            "linde3": "<:Red_Tome:1317239730714316800>Harmonic Linde"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "dominance": {
+        "name": "Dominance",
+        "description": "Unit deals additional damage = total penalties on foe for 1 turn.",
+        "color": "Blue",
+        "icon": "dominance",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Fiery Bolganone"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Crow's Crystal"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {
+            "elise4": "<:Colorless_Staff:1317239426866483261>Duo Elise",
+            "micaiah4": "<:Colorless_Tome:1317239438602145842>Duo Micaiah"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "dosage": {
+        "name": "Dosage",
+        "description": "Grants Atk/Spd/Def/Res+5 to unit during combat and restores 10 HP to unit after combat.\nWhen a foe triggers \"grants the\u3010Bonus\u3011 effects active on foe\" and \"neutralizes any \u3010Bonus\u3011active on foe\" effects from skills such as Essence Drain on unit with this status active, prevents those effects on unit and other targets and neutralizes any\u3010Bonus\u3011effects active on that foe (does not neutralize\u3010Bonus\u3011 effects applied at the same time).",
+        "color": "Red",
+        "icon": "dosage",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Divine Toxin"
+            ],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "draconichex": {
+        "name": "Draconic Hex",
+        "description": "Inflicts Atk/Spd/Def/Res-5 on foe during combat and inflicts penalty on each of those stats = 5 - current penalty on each of those stats for 1 turn (min 0; calculates each stat penalty independently).",
+        "color": "Red",
+        "icon": "draconichex",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Duskstone"
+            ],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "dualstrike": {
+        "name": "Dual Strike",
+        "description": "If unit initiates combat and is adjacent to an ally with Dual Strike (excluding unit), unit attacks twice. (That turn only. Does not stack.)",
+        "color": "Blue",
+        "icon": "dualstrike",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Inseverable Spear"
+            ],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Gold Serpent"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "robin14": "<:Blue_Tome:1317239386491977749>Young Female Robin"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "effectiveagainstdragons": {
+        "name": "Effective against dragons",
+        "description": "Grants \"effective against dragons\" for 1 turn.",
+        "color": "Green",
+        "icon": "effectiveagainstdragons",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Divine Fang",
+                "Divine Fang+",
+                "Divine God Fang"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Dragon Effectiveness"
+        ]
+    },
+    "elixir": {
+        "name": "Elixir",
+        "description": "Restores 99 HP to all allies",
+        "color": "Green",
+        "icon": "elixir",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [
+                "Elixir Seal"
+            ],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Elixir Seal"
+        ]
+    },
+    "empathy": {
+        "name": "Empathy",
+        "description": "Grants bonus to unit's Atk/Spd/Def/Res = number of types of\u3010Bonus\u3011effects, excluding stat bonuses, and\u3010Penalty\u3011effects, excluding stat penalties, active on player team and enemy team during combat (max 7).",
+        "color": "Colorless",
+        "icon": "empathy",
+        "reference_weapon": {
+            "Sword": [
+                "Azure Twin Edge"
+            ],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Staff of Yngvi"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "\u00D3\u00F0r of Creation"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Divine God Fang"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "julia5": "<:Colorless_Tome:1317239438602145842>Bridal Julia"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "engarde": {
+        "name": "En Garde",
+        "description": "Neutralizes damage outside of combat (from skills like Poison Strike, structures like Bolt Tower, etc.) except damage dealt by area-of-effect Specials.",
+        "color": "Colorless",
+        "icon": "engarde",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Ancient Betrayal",
+                "Shadow Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "essencedrain": {
+        "name": "Essence Drain",
+        "description": "After combat, if unit attacked, grants any \u3010Bonus\u3011effects active on target and foes within 2 spaces of target to unit and allies with the Essence Drain effect, and neutralizes any\u3010Bonus\u3011active on target and foes within 2 spaces of target (excluding Bonus effects being granted at the same time). After combat, if foe was defeated in combat, restores 10 HP to unit and allies with the Essence Drain effect.",
+        "color": "Green",
+        "icon": "essencedrain",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Fimbulvetr Morn"
+                ],
+                "Green_Tome": [
+                    "Ereshkigal"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "exposure": {
+        "name": "Exposure",
+        "description": "Foe's attacks deal +10 damage.",
+        "color": "Blue",
+        "icon": "exposure",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Bereft Lance",
+                "Brilliant Brident"
+            ],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [
+                "Rampart Bow"
+            ],
+            "Dagger": [
+                "Athame",
+                "Spy's Shuriken"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Retainer's Report"
+                ],
+                "Blue_Tome": [
+                    "Divine Whimsy",
+                    "Eagle's Egg",
+                    "Icy Fimbulvetr",
+                    "Tome of Storms"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "Light of Etruria"
+                ]
+            },
+            "Breath": [],
+            "Beast": [
+                "New Year Talon",
+                "Quieting Claw",
+                "Sky-Pirate Claw",
+                "Twin-Crest Power"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Fate Unchanged..."
+            ],
+            "special": [],
+            "A": [],
+            "B": [
+                "Atk/Res Detect",
+                "Spd/Def Detect",
+                "Killing Intent+",
+                "Mounting Fear",
+                "Pure Storm",
+                "Yune's Protection"
+            ],
+            "C": [
+                "Atk/Spd Ploy 3",
+                "Atk/Res Ploy 3",
+                "Spd/Res Ploy 3",
+                "Def/Res Ploy 3",
+                "Pulse Up: Ploy",
+                "Divine Deceit"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "fallenstar": {
+        "name": "Fallen Star (Status Effect)",
+        "description": "For 1 turn, during unit's first combat in player phase and enemy phase, reduces damage from foe's first attack by 80%.",
+        "color": "Colorless",
+        "icon": "fallenstar",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Fallen Star"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Fallen Star"
+        ]
+    },
+    "falsestart": {
+        "name": "False Start",
+        "description": "Through their next action, target cannot activate skill effects that trigger at start of turn. (Start-of-turn effects that cause unit to transform or that refresh availability of Duo Skills or Harmonized Skills will still trigger. If this effect is neutralized at start of turn by skills like Even Recovery, Odd Recovery, etc., effects that would have triggered at start of turn, like healing and damage, will then trigger.)",
+        "color": "Colorless",
+        "icon": "falsestart",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Staff of the Saint"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "fellspirit": {
+        "name": "Fell Spirit",
+        "description": "Inflicts Atk/Spd/Def/Res-4 on foe and neutralizes effects that prevent unit's counterattacks during combat, any \"reduces damage by X%\" effect that can be triggered only once per combat by unit's equipped Special skill can be triggered up to twice per combat (excludes boosted Special effects from engaging; only highest value applied: does not stack), and also, when unit or foe is engaged, inflicts an additional Atk/Spd/Def/Res-2 on foe during combat. (For 1 turn.)",
+        "color": "Red",
+        "icon": "fellspirit",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Fell Blast"
+            ],
+            "A": [
+                "Bond Breaker"
+            ],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "feud": {
+        "name": "Feud",
+        "description": "Disables all ally skills (excluding unit's) during combat through unit's next action.",
+        "color": "Colorless",
+        "icon": "feud",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [
+                "Gate-Anchor Axe"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Noble Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Absolute Closure",
+                "Blood & Thunder",
+                "Severance"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "shamir3": "<:Blue_Bow:1317239347577356328>Duo Shamir"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "fireemblem": {
+        "name": "Fire Emblem",
+        "description": "Neutralizes \"effective against\" bonuses for all movement types.\nGrants bonus to unit's Atk/Spd/Def/Res = highest bonus on each stat between unit and allies within 2 spaces of unit (calculates each stat bonus independently) and reduces damage from foe's first attack by 10 during combat (\"first attack\" normally means only the first strike; for effects that grant \"unit attacks twice,\" it means the first and second strikes).",
+        "color": "Red",
+        "icon": "fireemblem",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "The Fire Emblem"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "foecannotfollowup": {
+        "name": "Foe Cannot Follow-Up",
+        "description": "Foe cannot make a follow-up attack for 1 turn.",
+        "color": "Red",
+        "icon": "foecannotfollowup",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [
+                "Heavy War Axe",
+                "Plegian War Axe"
+            ],
+            "Staff": [
+                "Diplomacy Staff",
+                "Mystic War Staff"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Iago's Tome"
+                ],
+                "Blue_Tome": [
+                    "Goddess Temari"
+                ],
+                "Green_Tome": [
+                    "Sei\u00f0r"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Despairing Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Atk Smoke 4",
+                "Darkling Guardian",
+                "Darkling Guard II",
+                "Mila's Turnwheel II"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "chrom6": "<:Red_Bow:1317239680571543592>Duo Chrom",
+            "myrrh3": "<:Colorless_Breath:1317239411980767363>Harmonic Myrrh"
+        },
+        "HARD_ALT_NAME": [
+            "Deny Follow-Up",
+            "dfu"
+        ]
+    },
+    "foepenaltydoubler": {
+        "name": "Foe Penalty Doubler",
+        "description": "Inflicts penalty on foe's Atk/Spd/Def/Res during combat = any current penalty on each of those stats through their next action. Calculates each stat penalty independently.",
+        "color": "Colorless",
+        "icon": "foepenaltydoubler",
+        "reference_weapon": {
+            "Sword": [
+                "Dead-Wolf Blade"
+            ],
+            "Lance": [
+                "Guarding Lance"
+            ],
+            "Axe": [],
+            "Staff": [
+                "Snowman Staff"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "Nightmare's Egg"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Cloying Dreams"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Panic Smoke 4"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "foespddifferenceincrease": {
+        "name": "Foe Spd Difference Increase",
+        "description": "Increases Spd difference necessary for foe to make a follow-up attack by 10 during combat for 1 turn.",
+        "color": "Green",
+        "icon": "foespddifferenceincrease",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Swirling Lance"
+            ],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "foresightsnare": {
+        "name": "Foresight Snare",
+        "description": "If foe initiates combat and there were no combat instances on the current turn yet (player phase and enemy phase are counted separately), triggers the following effects:\n- Cancels foe's attack, ending their action.\n- Inflicts\u3010Isolation\u3011and status preventing counterattacks on foe through foe's next action.\n- Cancels Foresight Snare granted to your army.\n(These effect trigger after Aether Raids traps but before Savior; does not trigger in Pawns of Loki).",
+        "color": "Blue",
+        "icon": "foresightsnare",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Gjallarhorn"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "fortifyinghorn": {
+        "name": "Fortifying Horn",
+        "description": "Grants all allies Atk/Spd/Def/Res+6 for 1 turn.",
+        "color": "Green",
+        "icon": "fortifyinghorn",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [
+                "Horn Seal"
+            ],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Horn Seal"
+        ]
+    },
+    "frozen": {
+        "name": "Frozen",
+        "description": "Reduces inflicted unit's follow-up ability and increases foe's follow-up ability through unit's next action:\nIncreases Spd difference necessary for unit to make a follow-up attack by X and decreases Spd difference necessary for foe to make a follow-up attack by X during combat (if foe's Def > unit's Def, X = 10 + difference between Def stats \u00d7 2; otherwise, X = 10). (For example, if Spd difference necessary increases by 10, Spd must be \u2265 15 more than foe's Spd to make a follow-up attack; stacks with similar skills.)",
+        "color": "Blue",
+        "icon": "frozen",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Sky-Pirate Claw"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Dreamlike Night"
+            ],
+            "special": [],
+            "A": [],
+            "B": [
+                "Ice Prince's Seal"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Piercing Cold"
+            ]
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "futurewitness": {
+        "name": "Future Witness",
+        "description": "Enables\u3010Canto (\uff12)\u3011.\nGrants Atk/Spd/Def/Res+5 to unit and reduces damage from foe's first attack by 7 during combat (\"first attack\" normally means only the first strike; for effects that grant \"unit attacks twice,\" it means the first and second strikes), and also, if unit initiates combat and foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed the foe's maximum Special cooldown).",
+        "color": "Blue",
+        "icon": "futurewitness",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [
+                "Future Focus"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "gallop": {
+        "name": "Gallop",
+        "description": "Unit can move 2 extra spaces (that turn only; only highest value applied; does not stack).",
+        "color": "Colorless",
+        "icon": "gallop",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Holy-War Spear"
+            ],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "grandstrategy": {
+        "name": "Grand Strategy",
+        "description": "Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of unit's stats \u00d7 2 for 1 turn. (Example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7.) Calculates each stat bonus independently.\nUnit's negative effects that last \"through unit's next action\" will remain in effect until this status (Grand Strategy) is neutralized.",
+        "color": "Green",
+        "icon": "grandstrategy",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Master's Tactics"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Atk/Spd Ploy 3",
+                "Atk/Res Ploy 3",
+                "Spd/Res Ploy 3",
+                "Def/Res Ploy 3",
+                "Pulse Up: Ploy",
+                "Divine Deceit"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "chrom6": "<:Red_Bow:1317239680571543592>Duo Chrom"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "gravity": {
+        "name": "Gravity (Status Effect)",
+        "description": "Restricts target's movement to 1 space through its next action.",
+        "color": "Red",
+        "icon": "gravity",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Elise's Staff",
+                "Gravity+",
+                "Sanngri\u00f0r",
+                "Springtime Staff",
+                "Th\u00f6kk"
+            ],
+            "Bow": [
+                "Duskbloom Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Banshee \u0398",
+                    "Brynhildr",
+                    "Flower of Plenty",
+                    "Golden Sunlight",
+                    "Petrify",
+                    "Tome of Dusk"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "Gullveig",
+                    "Quietus Gullveig"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Ice Lock+",
+                "Magic Shield+"
+            ],
+            "special": [
+                "Holy Pressure",
+                "Light Is Time",
+                "Nj\u00f6run's Zeal",
+                "Nj\u00f6run's Zeal II",
+                "Requiem Dance",
+                "Time and Light",
+                "Time Is Light"
+            ],
+            "A": [],
+            "B": [
+                "Brutal Ferocity",
+                "Deep Star",
+                "Fallen Star",
+                "Fallen Star II",
+                "Fruit of Life",
+                "Gold Unwinding",
+                "Pure Starfall"
+            ],
+            "C": [
+                "Divine Deceit",
+                "Glare"
+            ],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Heavy Burden"
+            ]
+        },
+        "reference_hero": {
+            "hinoka4": "<:Green_Bow:1317239539936268340>Duo Hinoka",
+            "shamir3": "<:Blue_Bow:1317239347577356328>Duo Shamir",
+            "thorr2": "<:Blue_Tome:1317239386491977749>Duo Th\u00f3rr"
+        },
+        "HARD_ALT_NAME": [
+            "Gravity"
+        ]
+    },
+    "greattalent": {
+        "name": "Great Talent",
+        "description": "Adds value of Great Talent (+X) to specified stats (until end of battle; max value of X is determined by the stat reaching the limit of 99, each stat calculated separately and cannot exceed max value for each skill; stat increases are not treated as Bonus effects).",
+        "color": "Colorless",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [
+                "True-Bond Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Makings of a King"
+            ],
+            "A": [],
+            "B": [
+                "Speedtaker 4"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "guaranteedfollowups": {
+        "name": "Guaranteed Follow-Ups",
+        "description": "Unit makes a guaranteed follow-up attack during combat",
+        "color": "Colorless",
+        "icon": "guaranteedfollowups",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Full Light & Dark"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Guaranteed Follow-Up",
+            "gfu"
+        ]
+    },
+    "guaranteedfollowupspp": {
+        "name": "Guaranteed Follow-Ups (Player Phase)",
+        "description": "If unit initiates combat, unit makes a guaranteed follow-up attack for 1 turn.",
+        "color": "Red",
+        "icon": "guaranteedfollowups",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Coyote's Lance"
+            ],
+            "Axe": [
+                "Wind Tribe Club+"
+            ],
+            "Staff": [
+                "Crimean Scepter",
+                "Diplomacy Staff",
+                "Staff of Yngvi"
+            ],
+            "Bow": [
+                "Stall-Game Bow+",
+                "Th\u00f6gn"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Iago's Tome",
+                    "Rau\u00f0rcrab+",
+                    "Sevenfold Gifts"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Tome of Luxuries"
+                ],
+                "Colorless_Tome": [
+                    "Juicy Bucketful+"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Sweet Dreams+"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Divine Fang+"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "catria4": "<:Green_Axe:1317239517136031897>Harmonic Catria",
+            "leif3": "<:Colorless_Bow:1317239404204654703>Harmonic Leif"
+        },
+        "HARD_ALT_NAME": [
+            "Guaranteed Follow-UpPP",
+            "Guaranteed Follow-Up (PP)",
+            "gfupp",
+            "gfu pp",
+            "gfu (pp)"
+        ]
+    },
+    "guard": {
+        "name": "Guard (Status Effect)",
+        "description": "Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "color": "Colorless",
+        "icon": "guard",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Hrei\u00f0marr",
+                "Inspirited Spear"
+            ],
+            "Axe": [],
+            "Staff": [
+                "Melancholy+",
+                "Seaside Parasol+",
+                "Staff of Lilies",
+                "Sunlight+",
+                "Th\u00f6kk",
+                "Witchy Wand+"
+            ],
+            "Bow": [
+                "Failnaught"
+            ],
+            "Dagger": [
+                "Levin Dagger"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Banshee \u0398",
+                    "Iago's Tome",
+                    "Retainer's Report"
+                ],
+                "Blue_Tome": [
+                    "Icy Fimbulvetr"
+                ],
+                "Green_Tome": [
+                    "Caring Conch",
+                    "Golden Curse",
+                    "Hei\u00f0r"
+                ],
+                "Colorless_Tome": [
+                    "Light of Etruria",
+                    "Rite of Souls"
+                ]
+            },
+            "Breath": [
+                "Enveloping Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Frightful Dream",
+                "Frightful Dream+",
+                "Harrowing Dream"
+            ],
+            "special": [
+                "Light's Restraint"
+            ],
+            "A": [],
+            "B": [
+                "Atk/Spd Ruse 4",
+                "Atk/Def Ruse 3",
+                "Atk/Res Ruse 3",
+                "Spd/Def Ruse 4",
+                "Spd/Res Ruse 3",
+                "Def/Res Ruse 3",
+                "Atrocity II",
+                "Freezing Seal II",
+                "Ice Prince's Seal"
+            ],
+            "C": [
+                "Pulse Smog",
+                "Mila's Turnwheel II"
+            ],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Dauntless"
+            ]
+        },
+        "reference_hero": {
+            "ike6": "<:Red_Sword:1317239717707911188>Duo Ike",
+            "mark": "<:Blue_Tome:1317239386491977749>Duo Mark"
+        },
+        "HARD_ALT_NAME": [
+            "Guard"
+        ]
+    },
+    "halvesnonspecialdamagereduction": {
+        "name": "Halves non-Special damage reduction",
+        "description": "Reduces the percentage of foe's non-Special \"reduce damage by X%\" skills by 50% during combat for 1 turn (excluding area-of-effect Specials).",
+        "color": "Colorless",
+        "icon": "halvesnon-specialdamagereduction",
+        "reference_weapon": {
+            "Sword": [
+                "Suave Blade"
+            ],
+            "Lance": [
+                "Geidriful"
+            ],
+            "Axe": [
+                "Summertime Axe"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Dusk Rifle"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Sparking Tome"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "New Year Fang"
+            ]
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Spoil Rotten"
+            ],
+            "C": [
+                "Connected World",
+                "Order's Restraint+"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "alear6": "<:Blue_Breath:1317239355835813939>Winter Alear"
+        },
+        "HARD_ALT_NAME": [
+            "Halve Damage Reduction",
+            "DR Shred"
+        ]
+    },
+    "hexblade": {
+        "name": "Hexblade",
+        "description": "Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).",
+        "color": "Red",
+        "icon": "hexblade",
+        "reference_weapon": {
+            "Sword": [
+                "Hexblade Sword+"
+            ],
+            "Lance": [
+                "Nabata Lance+",
+                "Penitent Lance"
+            ],
+            "Axe": [
+                "Payday Pouch"
+            ],
+            "Staff": [
+                "Kia Staff"
+            ],
+            "Bow": [
+                "Daniel-Made Bow",
+                "Ni\u00f0avellir Ballista"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Iago's Tome",
+                    "Tome of Fury"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Exotic Fruit Juice"
+                ],
+                "Colorless_Tome": [
+                    "Jokers Wild",
+                    "Light of Etruria"
+                ]
+            },
+            "Breath": [],
+            "Beast": [
+                "New Year Fang"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Sweet Dreams+"
+            ],
+            "special": [],
+            "A": [
+                "Atk/Spd Hexblade",
+                "Spd/Res Hexblade"
+            ],
+            "B": [],
+            "C": [
+                "Order's Restraint+"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "byleth9": "<:Red_Sword:1317239717707911188>Winter Byleth"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "hushspectrum": {
+        "name": "Hush Spectrum",
+        "description": "Inflicts Atk/Spd/Def/Res-5 on unit during combat. If unit's attack can trigger unit's Special, inflicts Special cooldown count+1 on unit before unit's first attack during combat (cannot exceed the unit's maximum Special cooldown). If unit's maximum Special cooldown count is reduced (Special trigger is accelerated) and if foe's attack can trigger foe's Special, grants Special cooldown count-1 to foe before unit's first attack during combat.",
+        "color": "Blue",
+        "icon": "hushspectrum",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Tome of Despair"
+                ],
+                "Blue_Tome": [
+                    "Draconic Pacts"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "According to Plan"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "imbue": {
+        "name": "Imbue",
+        "description": "Reduces the effect of\u3010Deep Wounds\u3011on unit by 50% during combat, and restores 40% of unit's maximum HP as unit's combat begins for 1 turn (triggers after effects that deal damage as combat begins; only highest value applied; does not stack).",
+        "color": "Green",
+        "icon": "imbue",
+        "reference_weapon": {
+            "Sword": [
+                "Final Sword"
+            ],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "incited": {
+        "name": "Incited",
+        "description": "If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).",
+        "color": "Red",
+        "icon": "incited",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Hr\u00edmfaxi"
+            ],
+            "Axe": [
+                "Auto-Lofnhei\u00f0r"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Divine Yewfelle"
+            ],
+            "Dagger": [
+                "Red-Fist Blades"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Changing Waters"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "A/S Incite Hone",
+                "A/R Incite Hone",
+                "Incite Atk/Spd",
+                "Incite Atk/Res",
+                "Incite Spd/Def",
+                "The Heir to Light"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "chloe2": "<:Red_Tome:1317239730714316800>Spring Chlo\u00e9"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "infantryboots": {
+        "name": "Infantry Boots",
+        "description": "Grants +1 to movement to all allies for 1 turn.",
+        "color": "Green",
+        "icon": "infantryboots",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [
+                "Boots Seal"
+            ],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Boots Seal"
+        ]
+    },
+    "isolation": {
+        "name": "Isolation",
+        "description": "Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)",
+        "color": "Green",
+        "icon": "isolation",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Gjallarbr\u00fa"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Gjallarhorn"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "A Fate Changed!",
+                "Dragon's Dance",
+                "Fate Unchanged...",
+                "To Change Fate!",
+                "To Change Fate! II"
+            ],
+            "special": [],
+            "A": [],
+            "B": [
+                "Lone Wolf"
+            ],
+            "C": [
+                "Mila's Turnwheel",
+                "Mila's Turnwheel II"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "hilda3": "<:Colorless_Staff:1317239426866483261>Duo Fodlan Hilda",
+            "mark": "<:Blue_Tome:1317239386491977749>Duo Mark"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "mobilityincreased": {
+        "name": "Mobility Increased",
+        "description": "Unit can move 1 extra space (that turn only; does not stack).",
+        "color": "Green",
+        "icon": "mobilityincreased",
+        "reference_weapon": {
+            "Sword": [
+                "Dracofalchion",
+                "Ladyblade",
+                "Lion's Heart"
+            ],
+            "Lance": [
+                "Reginleif",
+                "Starpoint Lance",
+                "United Bouquet"
+            ],
+            "Axe": [
+                "Crusher",
+                "Ebon B\u00f6lverk",
+                "Majestic Glitnir",
+                "Seafoam Splitter",
+                "Talregan Axe"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Damiell Bow",
+                "Sandglass Bow"
+            ],
+            "Dagger": [
+                "Honorable Blade"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Child's Compass"
+                ],
+                "Blue_Tome": [
+                    "Icebound Tome"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Adult (Flier)",
+                "Bride's Fang",
+                "Closing Florets",
+                "Crossbones Claw",
+                "Ebon-Pirate Claw",
+                "Enclosing Claw",
+                "Fang of Closure",
+                "Fang of Finality",
+                "Fledgling (Flier)",
+                "Flower Hauteclere",
+                "Hatchling (Flier)",
+                "Hawk King Claw",
+                "Heron Wing",
+                "New Year Talon",
+                "Quieting Claw",
+                "Raven King Beak",
+                "Sky-Pirate Claw"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Call to Flame",
+                "Changing Waters",
+                "Gray Waves",
+                "Gray Waves II"
+            ],
+            "special": [
+                "Chivalric Aura",
+                "Holy-Knight Aura",
+                "Holy-Knight II"
+            ],
+            "A": [],
+            "B": [
+                "Raging Tempest"
+            ],
+            "C": [
+                "A/S Rein Snap",
+                "S/D Rein Snap",
+                "Armor March 3",
+                "Armored Stride 3",
+                "Odd Tempest 3",
+                "Even Tempest 3",
+                "Endless Tempest",
+                "Brutal Tempest",
+                "Assault Rush",
+                "Divine Talon",
+                "Fanged Ties",
+                "Fetters of Dromi",
+                "Heir to Light",
+                "Solitary Dream",
+                "The Heir to Light"
+            ],
+            "X": [],
+            "S": [
+                "Armored Boots"
+            ],
+            "captain": [
+                "Turmoil"
+            ]
+        },
+        "reference_hero": {
+            "ayra2": "<:Red_Sword:1317239717707911188>Harmonic Ayra",
+            "ephraim5": "<:Blue_Lance:1317239378208096338>Duo Ephraim",
+            "hinoka4": "<:Green_Bow:1317239539936268340>Duo Hinoka",
+            "kagero4": "<:Colorless_Dagger:1317239418943438869>Wind Kagero",
+            "marisa3": "<:Green_Axe:1317239517136031897>Jehanna Marisa",
+            "nephenee3": "<:Red_Tome:1317239730714316800>Festival Nephenee",
+            "nina2": "<:Colorless_Dagger:1317239418943438869>Duo Nina",
+            "palla3": "<:Blue_Lance:1317239378208096338>Duo Palla",
+            "sigurd5": "<:Blue_Lance:1317239378208096338>Emblem Sigurd"
+        },
+        "HARD_ALT_NAME": [
+            "Tempest"
+        ]
+    },
+    "neutralizebonuses": {
+        "name": "Neutralize Bonuses",
+        "description": "Neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat for 1 turn.",
+        "color": "Green",
+        "icon": "neutralizebonuses",
+        "reference_weapon": {
+            "Sword": [
+                "Sword of Isaach"
+            ],
+            "Lance": [
+                "Geidriful",
+                "Ilian Merc Lance",
+                "Lance of Grado",
+                "Spear",
+                "Worldly Lance"
+            ],
+            "Axe": [
+                "Gerbera Axe",
+                "Praise-Piner Axe",
+                "Twin Star Axe"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Fundament",
+                    "Iago's Tome",
+                    "Tome of Fury"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Ancient Betrayal",
+                "Brutal Breath"
+            ],
+            "Beast": [
+                "Wolfpup Fang"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Whimsical Dream+"
+            ],
+            "special": [],
+            "A": [],
+            "B": [
+                "Called to Serve"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "alear6": "<:Blue_Breath:1317239355835813939>Winter Alear",
+            "duma2": "<:Red_Breath:1317239692189630504>Duo Duma",
+            "kagero4": "<:Colorless_Dagger:1317239418943438869>Wind Kagero",
+            "marth8": "<:Red_Sword:1317239717707911188>Duo Marth",
+            "rhea4": "<:Colorless_Breath:1317239411980767363>Valentines Rhea",
+            "tiki10": "<:Colorless_Breath:1317239411980767363>Harmonic Adult Tiki"
+        },
+        "HARD_ALT_NAME": [
+            "Dull All",
+            "Null Bonuses"
+        ]
+    },
+    "neutralizeeffectiveagainstarmored": {
+        "name": "Neutralize Effective Against Armored",
+        "description": "Neutralizes \"effective against armored\" bonuses for 1 turn.",
+        "color": "Green",
+        "icon": "neutralizeeffectiveagainstarmored",
+        "reference_weapon": false,
+        "reference_skill": false,
+        "reference_hero": {
+            "byleth9": "<:Red_Sword:1317239717707911188>Winter Byleth",
+            "idunn2": "<:Red_Breath:1317239692189630504>Duo Idunn"
+        },
+        "HARD_ALT_NAME": [
+            "Neutralize Armored Effectiveness",
+            "Neutralize Armor Effectiveness",
+            "Null Armored Effectiveness",
+            "Null Armor Effectiveness",
+            "Svalinn Shield"
+        ]
+    },
+    "neutralizeeffectiveagainstdragons": {
+        "name": "Neutralize Effective Against Dragons",
+        "description": "Neutralizes \"effective against dragons\" bonuses for 1 turn.",
+        "color": "Green",
+        "icon": "neutralizeeffectiveagainstdragons",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [
+                "Ice-Tribe Axe"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Divine God Fang"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "idunn2": "<:Red_Breath:1317239692189630504>Duo Idunn",
+            "nagi2": "<:Red_Breath:1317239692189630504>Halloween Nagi"
+        },
+        "HARD_ALT_NAME": [
+            "Neutralize Dragon Effectiveness",
+            "Null Dragon Effectiveness"
+        ]
+    },
+    "neutralizeeffectiveagainstflying": {
+        "name": "Neutralize Effective Against Flying",
+        "description": "Neutralizes \"effective against flying\" bonuses for 1 turn.",
+        "color": "Green",
+        "icon": "neutralizeeffectiveagainstflying",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Frelian Lance",
+                "Spear"
+            ],
+            "Axe": [
+                "Summertime Axe"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Darkling Guard II"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "myrrh3": "<:Colorless_Breath:1317239411980767363>Harmonic Myrrh"
+        },
+        "HARD_ALT_NAME": [
+            "Neutralize Flying Effectiveness",
+            "Null Flying Effectiveness",
+            "Iote's Shield",
+            "Iotes Shield",
+            "Iote Shield"
+        ]
+    },
+    "neutralizesnon-specialnunitsurviveswith1HPeffects": {
+        "name": "Neutralizes non-Special \"unit survives with 1 HP\" effects",
+        "description": "Neutralizes non-Special \"if foe would reduce unit's HP to 0, unit survives with 1 HP\" effects active on unit through unit's next action.",
+        "color": "Red",
+        "icon": "neutralizesnon-specialnunitsurviveswith1HPeffects",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Dark Scripture"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Nectar Horn",
+                "Quieting Claw"
+            ]
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Fatal Smoke 4"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Anti Miracle",
+            "Null Miracle",
+            "Neutralize Miracle"
+        ]
+    },
+    "neutralizepenalties": {
+        "name": "Neutralize Penalties",
+        "description": "Neutralizes unit's penalties during combat for 1 turn.",
+        "color": "Red",
+        "icon": "neutralizepenalties",
+        "reference_weapon": {
+            "Sword": [
+                "Aerial Longsword",
+                "Ladyblade",
+                "Lion's Heart",
+                "Swirling Scimitar"
+            ],
+            "Lance": [
+                "Jehanna Lance+",
+                "Wing-Lifted Spear"
+            ],
+            "Axe": [
+                "Desert-Tiger Axe"
+            ],
+            "Staff": [
+                "Martyr's Staff"
+            ],
+            "Bow": [],
+            "Dagger": [
+                "Blade Royale",
+                "Convoy Dagger",
+                "Jehanna Dagger+"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Aureola"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Ancient Voice"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Magic Shield+",
+                "Gentle Dream+"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Glittering Anima",
+                "Twinkling Anima"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "tiki10": "<:Colorless_Breath:1317239411980767363>Harmonic Adult Tiki"
+        },
+        "HARD_ALT_NAME": [
+            "Null Penalties"
+        ]
+    },
+    "nullfollowup": {
+        "name": "Null Follow-Up (Status Effect)",
+        "description": "If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.",
+        "color": "Green",
+        "icon": "nullfollowup",
+        "reference_weapon": {
+            "Sword": [
+                "Aerial Longsword",
+                "Sharp War Sword",
+                "Ve\u00f0rf\u00f6lnir's Edge"
+            ],
+            "Lance": [],
+            "Axe": [
+                "Blue Yule Axe",
+                "Ebon B\u00f6lverk",
+                "Payday Pouch",
+                "Talregan Axe",
+                "Tri-Path Splitter"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Deer's Heart",
+                "Gainful Bow+",
+                "Whitewind Bow+"
+            ],
+            "Dagger": [
+                "Gainful Dagger+",
+                "Playful Pinwheel",
+                "Spy's Shuriken"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Celestial Globe",
+                    "General-to-Be"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "Inner Wellspring"
+                ]
+            },
+            "Breath": [
+                "Silent Power"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Future Focus"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Inf. Spd Tactic",
+                "Inf. Null Follow 4",
+                "Goddess Bearer",
+                "Goddess Bearer II",
+                "Heart of Crimea",
+                "Heir to Light",
+                "Order's Restraint+",
+                "Paranoia",
+                "The Heir to Light"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "sothis3": "<:Blue_Breath:1317239355835813939>Duo Sothis"
+        },
+        "HARD_ALT_NAME": [
+            "Null Follow-Up",
+            "NFU"
+        ]
+    },
+    "nullpanic": {
+        "name": "Null Panic",
+        "description": "If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the \"converts bonuses on target into penalties\" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)",
+        "color": "Green",
+        "icon": "nullpanic",
+        "reference_weapon": {
+            "Sword": [
+                "Blade of Sands",
+                "Fellowship Blade"
+            ],
+            "Lance": [
+                "Penitent Lance",
+                "Swirling Lance"
+            ],
+            "Axe": [
+                "Desert-Tiger Axe",
+                "Tri-Path Splitter",
+                "Twin Star Axe",
+                "Wind Tribe Club+"  
+            ],
+            "Staff": [],
+            "Bow": [
+                "Gainful Bow+",
+                "Whitewind Bow+"
+            ],
+            "Dagger": [
+                "Gainful Dagger+",
+                "Playful Pinwheel"
+            ],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "Jokers Wild"
+                ]
+            },
+            "Breath": [
+                "Frostfire Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Gray Waves II"
+            ],
+            "special": [
+                "The Fire Emblem"
+            ],
+            "A": [],
+            "B": [],
+            "C": [
+                "Rouse Atk/Spd 4",
+                "Rouse Atk/Def 4",
+                "Rouse Atk/Res 4",
+                "Rouse Spd/Def 4",
+                "Inborn Idealism",
+                "Order's Restraint",
+                "Order's Restraint+",
+                "Vision of Arcadia II"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "lightningcharm": {
+        "name": "Lightning Charm",
+        "description": "Inflicts 20 damage to all enemies.",
+        "color": "Red",
+        "icon": "lightningcharm",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [
+                "Charm Seal"
+            ],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Charm Seal"
+        ]
+    },
+    "panic": {
+        "name": "Panic (Status Effect)",
+        "description": "Converts bonuses on target into penalties through its next action.",
+        "color": "Red",
+        "icon": "panic",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Breaker Lance"
+            ],
+            "Axe": [
+                "Sneering Axe"
+            ],
+            "Staff": [
+                "Elena's Staff"
+            ],
+            "Bow": [
+                "Dignified Bow",
+                "Partnership Bow",
+                "Skadi"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Dark Monograph",
+                    "Grimleal Text",
+                    "Iago's Tome",
+                    "Incipit Kvasir",
+                    "Kvasir",
+                    "Packleader Tome"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Tiger Spirit"
+                ],
+                "Colorless_Tome": [
+                    "Nightmare's Egg"
+                ]
+            },
+            "Breath": [],
+            "Beast": [
+                "Quieting Branch",
+                "Twin-Crest Power"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Spring's Dream"
+            ],
+            "special": [
+                "Holy Panic"
+            ],
+            "A": [],
+            "B": [
+                "Sudden Panic 3",
+                "According to Plan",
+                "I Remember...",
+                "Mounting Fear",
+                "Prescience II"
+            ],
+            "C": [
+                "Beast Threaten",
+                "Panic Smoke 4",
+                "Chaos Named+",
+                "Glittering Anima",
+                "Twinkling Anima"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "nina2": "<:Colorless_Dagger:1317239418943438869>Duo Nina"
+        },
+        "HARD_ALT_NAME": [
+            "Panic"
+        ]
+    },
+    "paranoia": {
+        "name": "Paranoia (Status Effect)",
+        "description": "At start of combat, if unit's HP \u2264 99%, grants Atk+5 to unit during combat, and also, if unit initiates combat, unit can make a follow-up attack before foe's next attack.\nAt start of combat, if unit's HP \u2264 99%, if foe initiates combat, and if either that foe's Range = unit's Range or number of \u3010Penalty\u3011 effects active on foe excluding stat penalties \u2265 3, unit can counterattack before foe's first attack (excluding when unit's Savior effect triggers).",
+        "color": "Red",
+        "icon": "paranoia",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Hrist"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Paranoia"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Paranoia"
+        ]
+    },
+    "pathfinder": {
+        "name": "Pathfinder",
+        "description": "When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)",
+        "color": "Blue",
+        "icon": "pathfinder",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Hr\u00edmfaxi"
+            ],
+            "Axe": [
+                "Skinfaxi"
+            ],
+            "Staff": [],
+            "Bow": [
+                "J\u00f6tnar Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Tome of Luxuries"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Brutal Ferocity",
+                "Twin-Sky Wing",
+                "Ve\u00f0rf\u00f6lnir's Wing"
+            ],
+            "C": [
+                "Def/Res Smoke 3"
+            ],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Eminence"
+            ]
+        },
+        "reference_hero": {
+            "dagr2": "<:Green_Bow:1317239539936268340>Duo Dagr"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "penalty": {
+        "name": "Penalty",
+        "description": "All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+        "color": "Red",
+        "icon": "penalty",
+        "reference_weapon": {
+            "Sword": [
+                "Blade of Renais",
+                "Flower of Ease",
+                "Gj\u00f6ll",
+                "Petal Parasol+"
+            ],
+            "Lance": [
+                "Carrot-Tip Spear+",
+                "Cursed Lance",
+                "Geidriful"
+            ],
+            "Axe": [
+                "Arthur's Axe",
+                "Axe of Dusk",
+                "Hel's Reaper",
+                "Legacy Axe",
+                "Runeaxe",
+                "Tiger-Eye Axe",
+                "Wind Tribe Club+"
+            ],
+            "Staff": [
+                "Kia Staff",
+                "Repair",
+                "Seaside Parasol+",
+                "Staff of Yngvi",
+                "Sunlight+"
+            ],
+            "Bow": [
+                "Big-Catch Bow+",
+                "Carrot-Tip Bow+",
+                "Cunning Bow",
+                "Divine Yewfelle",
+                "Dusk Rifle",
+                "Gainful Bow+",
+                "Golden Yule Bow+",
+                "Lucky Bow",
+                "Partnership Bow",
+                "Persecution Bow",
+                "Randgr\u00ed\u00f0r",
+                "Violdrake Bow",
+                "Whitewind Bow+",
+                "Ylisse Ninja Bow"
+            ],
+            "Dagger": [
+                "Dreamflake",
+                "Gainful Dagger+",
+                "Levin Dagger",
+                "Scallop Blade+"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Aversa's Night",
+                    "Banshee \u0398",
+                    "Grimleal Text",
+                    "Retainer's Report"
+                ],
+                "Blue_Tome": [
+                    "Bright-Shell Egg",
+                    "Daydream Egg",
+                    "Devoted Cup+",
+                    "Divine Draught",
+                    "Eagle's Egg",
+                    "Fimbulvetr",
+                    "Scroll of Teas",
+                    "Weirding Tome"
+                ],
+                "Green_Tome": [
+                    "Chaos Manifest",
+                    "Kindred Tome",
+                    "K\u00f6rmt",
+                    "Light of Dawn",
+                    "Nova",
+                    "Silver of Dawn"
+                ],
+                "Colorless_Tome": [
+                    "Joyful Vows",
+                    "\u00D3\u00F0r of Creation",
+                    "Void Tome"
+                ]
+            },
+            "Breath": [
+                "Everliving Breath",
+                "Faithful Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Maiden's Solace"
+            ],
+            "special": [],
+            "A": [
+                "Sly Swift Sparrow",
+                "Sly Sturdy Blow",
+                "Sly Mirror",
+                "Atk/Spd Catch 4",
+                "Atk/Def Catch 4",
+                "Atk/Res Catch 4",
+                "Spd/Def Catch 4",
+                "Spd/Res Catch 4",
+                "Def/Res Catch 4",
+                "Beyond Reason"
+            ],
+            "B": [
+                "Full Disarm",
+                "Deadly Balance",
+                "Deadly Balance+",
+                "Divine Strength",
+                "Fallen Star II",
+                "Killing Intent",
+                "Killing Intent+",
+                "Ruler of Nihility"
+            ],
+            "C": [
+                "Creation Pulse",
+                "Odd Recovery 3",
+                "Even Recovery 3",
+                "Absolute Closure",
+                "Blood & Thunder",
+                "Divine Talon",
+                "Dream Deliverer",
+                "Paranoia",
+                "Severance"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "alear6": "<:Blue_Breath:1317239355835813939>Winter Alear",
+            "alm4": "<:Green_Axe:1317239517136031897>Duo Alm",
+            "ayra2": "<:Red_Sword:1317239717707911188>Harmonic Ayra",
+            "duma2": "<:Red_Breath:1317239692189630504>Duo Duma",
+            "nagi2": "<:Red_Breath:1317239692189630504>Halloween Nagi",
+            "nephenee3": "<:Red_Tome:1317239730714316800>Festival Nephenee",
+            "nina2": "<:Colorless_Dagger:1317239418943438869>Duo Nina",
+            "tiki10": "<:Colorless_Breath:1317239411980767363>Harmonic Adult Tiki",
+            "ymir2": "<:Colorless_Tome:1317239438602145842>Duo Ymir"
+        }
+    },
+    "phantom": {
+        "name": "Phantom",
+        "description": "If a skill effect compares unit's stats to a foe's stats, treats unit's stats as if granted +X.",
+        "color": "Colorless",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Airborne Spear"
+            ],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Pegasus Rift",
+                "Wyvern Rift"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "ploy": {
+        "name": "Ploy",
+        "description": "Neutralizes\u3010Bonus Doubler\u3011,\u3010Treachery\u3011, and\u3010Grand Strategy\u3011effects active on unit during combat through unit's next action.",
+        "color": "Red",
+        "icon": "ploy",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Tome of Despair"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Atk/Spd Ploy 3",
+                "Atk/Res Ploy 3",
+                "Spd/Res Ploy 3",
+                "Def/Res Ploy 3",
+                "Pulse Up: Ploy",
+                "Divine Deceit"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "potentfollow": {
+        "name": "Potent Follow X%",
+        "description": "Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like \"reduce damage by X%\" still apply, but this effect is not affected by effects that prevent follow-ups or \"attacks twice\" effects; only highest value applied; does not stack).",
+        "color": "Green",
+        "icon": "potentfollow",
+        "reference_weapon": {
+            "Sword": [
+                "Sword of Isaach",
+                "Thunderbrand"
+            ],
+            "Lance": [
+                "Brilliant Brident"
+            ],
+            "Axe": [
+                "Axe of Dusk"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Lady's Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Sparking Tome"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Astra Storm",
+                "Lodestar Rush"
+            ],
+            "A": [
+                "Obsession"
+            ],
+            "B": [
+                "Potent Disarm",
+                "Potent Assault",
+                "Potent 4",
+                "Potent Finish"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Decisive"
+            ]
+        },
+        "reference_hero": {
+            "marth8": "<:Red_Sword:1317239717707911188>Duo Marth"
+        },
+        "HARD_ALT_NAME": [
+            "Potent",
+            "Potent Follow"
+        ]
+    },
+    "potentfollow100": {
+        "name": "Potent Follow (100%)",
+        "description": "Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = 100% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like \"reduce damage by X%\" still apply, but this effect is not affected by effects that prevent follow-ups or \"attacks twice\" effects; only highest value applied; does not stack).",
+        "color": "Green",
+        "icon": "potentfollow",
+        "reference_weapon": {},
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Shield of Hope",
+                "Yngvi Ascendant+"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Potent 100",
+            "Potent Follow 100%"
+        ]
+    },
+    "preemptpulse": {
+        "name": "Preempt Pulse",
+        "description": "Grants Special cooldown count-1 to unit before unit's first attack during combat.",
+        "color": "Red",
+        "icon": "preemptpulse",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [
+                "Deer's Heart",
+                "Lady's Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [],
+            "captain": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "rallyspectrum": {
+        "name": "Rally Spectrum",
+        "description": "Grants Atk/Spd/Def/Res+5 to unit during combat and if unit's attack can trigger unit's Special, grants Special cooldown count-X to unit before unit's first attack during combat (X = 1 if unit can trigger the \"unit attacks twice\" effect or if unit's maximum Special cooldown count is reduced (Special trigger is accelerated); otherwise, X = 2). (That turn only.)",
+        "color": "Blue",
+        "icon": "rallyspectrum",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Despairing Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Tip the Scales!"
+            ],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Flyting Talent"
+            ]
+        },
+        "reference_hero": {
+            "robin14": "<:Blue_Tome:1317239386491977749>Young Female Robin"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "reduceareaofeffectspecialdamagetaken": {
+        "name": "Reduce Area-of-Effect Special Damage Taken",
+        "description": "Reduces damage from area-of-effect Specials by 80% for 1 turn. (excluding Røkkr area-of-effect Specials)",
+        "color": "Colorless",
+        "icon": "reduceareaofeffectspecialdamagetaken",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Fundament",
+                    "Gentle Fell Egg"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": [
+                    "Brilliant Starlight"
+                ]
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {
+            "byleth9": "<:Red_Sword:1317239717707911188>Winter Byleth"
+        },
+        "HARD_ALT_NAME": [
+            "Area-of-Effect Damage Reduction",
+            "Area-of-Effect DR",
+            "AoE Damage Reduction",
+            "AOE DR"
+        ]
+    },
+    "reducesdamagewheninitiating": {
+        "name": "Reduces Damage When Initiating",
+        "description": "If unit initiates combat, reduces damage from foe's first attack during combat by 40% for 1 turn.",
+        "color": "Colorless",
+        "icon": "reducesdamagewheninitiating",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Sky-Hopper Egg"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Future Sight"
+            ],
+            "special": [
+                "Holy-Knight II"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Damage Reduction on First Hit",
+            "DR on First Hit",
+            "Damage Reduction on 1st Hit",
+            "DR on 1st Hit",
+            "Remote"
+        ]
+    },
+    "reflex": {
+        "name": "Reflex",
+        "description": "Reduces damage from foe's first attack by 7 during combat (\"first attack\" normally means only the first strike; for effects that grant \"unit attacks twice,\" it means the first and second strikes) and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills; resets at end of combat).\n(For 1 turn.)",
+        "color": "Colorless",
+        "icon": "reflex",
+        "reference_weapon": {
+            "Sword": [
+                "Final Sword"
+            ],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "reposition": {
+        "name": "Reposition",
+        "description": "Range = 1. Target moves to opposite side of unit.",
+        "color": "Colorless",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Shadow Shift 4",
+                "The Heir to Light"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "resonanceblades": {
+        "name": "Resonance: Blades",
+        "description": "Grants Atk/Spd+4 during combat for 1 turn.",
+        "color": "Colorless",
+        "icon": "resonanceblades",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Gentle Fell Egg"
+                ],
+                "Blue_Tome": [
+                    "Obscurit\u00e9"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Connected World",
+                "Opened Domain"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "altina2": "<:Red_Sword:1317239717707911188>Harmonic Altina",
+            "anna5": "<:Green_Axe:1317239517136031897>Halloween Anna",
+            "ayra2":"<:Red_Sword:1317239717707911188>Harmonic Ayra",
+            "azura6": "<:Green_Tome:1317239575352971396>Harmonic Azura",
+            "caeda4": "<:Green_Axe:1317239517136031897>Harmonic Caeda",
+            "catria4":"<:Green_Axe:1317239517136031897>Harmonic Catria",
+            "chloe2":"<:Red_Tome:1317239730714316800>Spring Chlo\u00e9",
+            "cordelia4": "<:Blue_Lance:1317239378208096338>Harmonic Cordelia",
+            "igrene3":"<:Blue_Bow:1317239347577356328>Nabata Igrene",
+            "karla3": "<:Green_Axe:1317239517136031897>Harmonic Karla",
+            "leif3":"<:Colorless_Bow:1317239404204654703>Harmonic Leif",
+            "linde3":"<:Red_Tome:1317239730714316800>Harmonic Linde",
+            "lysithea3":"<:Colorless_Tome:1317239438602145842>Harmonic Lysithea",
+            "marisa3":"<:Green_Axe:1317239517136031897>Jehanna Marisa",
+            "mia3": "<:Colorless_Dagger:1317239418943438869>Harmonic Mia",
+            "myrrh3":"<:Colorless_Breath:1317239411980767363>Harmonic Myrrh",
+            "nephenee3":"<:Red_Tome:1317239730714316800>Festival Nephenee",
+            "plumeria4": "<:Blue_Lance:1317239378208096338>Spring Plumeria",
+            "sonya2": "<:Green_Tome:1317239575352971396>Harmonic Sonya",
+            "tana4": "<:Green_Dagger:1317239563697127456>Harmonic Tana",
+            "tiki7": "<:Blue_Breath:1317239355835813939>Harmonic Young Tiki"
+        },
+        "HARD_ALT_NAME": [
+            "Resonance Blades"
+        ]
+    },
+    "resonanceshields": {
+        "name": "Resonance: Shields",
+        "description": "Grants Def/Res+4 during combat and the following effect for 1 turn: \"During unit's first combat in player phase or enemy phrase, foe cannot make a follow-up attack.\"",
+        "color": "Colorless",
+        "icon": "resonanceshields",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Gentle Fell Egg"
+                ],
+                "Blue_Tome": [
+                    "Obscurit\u00e9"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Connected World",
+                "Dream Deliverer",
+                "Opened Domain"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "anna5": "<:Green_Axe:1317239517136031897>Halloween Anna",
+            "dorothea3": "<:Red_Tome:1317239730714316800>Harmonic Dorothea",
+            "edelgard5": "<:Red_Sword:1317239717707911188>Harmonic Edelgard",
+            "goldmary": "<:Blue_Lance:1317239378208096338>Summer Goldmary",
+            "nagi2": "<:Red_Breath:1317239692189630504>Halloween Nagi",
+            "roy5": "<:Green_Axe:1317239517136031897>Harmonic Roy",
+            "tiki10": "<:Colorless_Breath:1317239411980767363>Harmonic Adult Tiki",
+            "veronica3": "<:Green_Axe:1317239517136031897>Harmonic Veronica"
+        },
+        "HARD_ALT_NAME": [
+            "Resonance Shields"
+        ]
+    },
+    "sabotage": {
+        "name": "Sabotage",
+        "description": "Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.",
+        "color": "Red",
+        "icon": "sabotage",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [
+                "Flame Battleaxe"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Failnaught",
+                "Survivalist Bow"
+            ],
+            "Dagger": [
+                "Hidden Blade"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Banshee \u0398",
+                    "Dark Scripture",
+                    "Mirage Rod",
+                    "Petrify",
+                    "Tome of Dusk"
+                ],
+                "Blue_Tome": [
+                    "Ancient Trickery",
+                    "Total War Tome"
+                ],
+                "Green_Tome": [
+                    "Grafcalibur",
+                    "Grim Brokkr",
+                    "Nova"
+                ],
+                "Colorless_Tome": [
+                    "Baked Treats",
+                    "Joyful Vows"
+                ]
+            },
+            "Breath": [],
+            "Beast": [
+                "Dosing Fang",
+                "Enticing Dose",
+                "New Year Talon",
+                "Quieting Branch"
+            ]
+        },
+        "reference_skill": {
+            "assist": [
+                "Dreamlike Night",
+                "Harrowing Dream"
+            ],
+            "special": [],
+            "A": [],
+            "B": [
+                "Atk/Res Havoc",
+                "A/D Cantrip 3",
+                "A/R Cantrip 3",
+                "Atk/Def Snag 4",
+                "Spd/Def Snag 4",
+                "Full Light & Dark",
+                "I Remember...",
+                "Prescience II",
+                "Pure Storm",
+                "Spoil Rotten"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "salvage": {
+        "name": "Salvage (Status Effect)",
+        "description": "Enables\u3010Canto (\uff12)\u3011.\nWhen\u3010Canto Control\u3011is applied to unit, if unit's Range = 1, unit can move 2 spaces with Canto instead of 1 space, and if unit's Range = 2, unit can move 1 space with Canto instead of 0 spaces.",
+        "color": "Colorless",
+        "icon": "salvage",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Salvage"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Quiet Strength"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Salvage"
+        ]
+    },
+    "savior": {
+        "name": "Savior",
+        "description": "Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.\nSavior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.",
+        "color": "Colorless",
+        "icon": "assigndecoy",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Arch-Sage Tome"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Quieting Branch"
+            ]
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Lower Ground",
+                "Higher Ground",
+                "A/S Near Save 3",
+                "A/D Near Save 3",
+                "A/R Near Save 3",
+                "D/R Near Save 3",
+                "A/D Twin N Save",
+                "A/R Twin N Save",
+                "D/R Twin N Save",
+                "A/R Briar N Save",
+                "A/S Far Save 3",
+                "A/D Far Save 3",
+                "A/R Far Save 3",
+                "D/R Far Save 3",
+                "A/D Twin F Save",
+                "A/R Twin F Save",
+                "A/D Briar F Save",
+                "Darkling Dragon",
+                "For the True King",
+                "With Everyone!",
+                "Woeful Upheaval"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "schism": {
+        "name": "Schism",
+        "description": "Neutralizes Triangle Attack, Dual Strike, and Pathfinder effects active on unit through unit's next action. Unit is excluded from ally Triangle Attack and Dual Strike effects calculated using numbers of allies. When this status (Schism) is neutralized, Triangle Attack, Dual Strike, and Pathfinder effects are also neutralized.",
+        "color": "Red",
+        "icon": "schism",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Grim Brokkr"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Bond Breaker"
+            ],
+            "B": [
+                "Atk/Res Havoc",
+                "Atk/Spd Ruse 4",
+                "Spd/Def Ruse 4",
+                "Full Light & Dark"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "sharespoils": {
+        "name": "Share Spoils",
+        "description": "Inflicts Atk/Spd/Def/Res-5 on unit during combat and neutralizes \"reduces damage by X%\" effects from unit's non-Special skills (excluding area-of-effect Specials). If foe initiates combat and if unit is defeated in combat, grants another action to that foe after combat (this effect has priority over other similar effects, including Time Is Light; in such cases, these other similar effects are treated as not having triggered).",
+        "color": "Red",
+        "icon": "sharespoils",
+        "reference_weapon": {
+            "Sword": [
+                "Wildflower Edge"
+            ],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "sing/dance": {
+        "name": "Sing/Dance",
+        "description": "Range = 1. Grants another action to target ally.",
+        "color": "Colorless",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Icy Fimbulvetr"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Requiem Prayer"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "smite": {
+        "name": "Smite",
+        "description": "Range = 1. Pushes target ally 2 spaces away.",
+        "color": "Colorless",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Shadow Smite 4"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "specialblade": {
+        "name": "Special Blade",
+        "description": "Enables use of Specials for all allies.",
+        "color": "Blue",
+        "icon": "specialblade",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [
+                "Blade Seal"
+            ],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Blade Seal"
+        ]
+    },
+    "specialcooldowncharge": {
+        "name": "Special Cooldown Charge +1",
+        "description": "Grants Special cooldown charge +1 per attack during combat for 1 turn. (only highest value applied; does not stack)",
+        "color": "Red",
+        "icon": "specialcooldowncharge",
+        "reference_weapon": {
+            "Sword": [
+                "Lion's Heart"
+            ],
+            "Lance": [
+                "Flingster Spear",
+                "Forager Naginata",
+                "Lance of Grado",
+                "Silesse Frost",
+                "Starpoint Lance",
+                "Wing-Lifted Spear"
+            ],
+            "Axe": [
+                "Dragoon Axe",
+                "Ebon B\u00f6lverk"
+            ],
+            "Staff": [
+                "Caduceus Staff",
+                "Baton of Dusk"
+            ],
+            "Bow": [
+                "Daniel-Made Bow"
+            ],
+            "Dagger": [
+                "Red-Fist Blades"
+            ],
+            "Tome": {
+                "Red_Tome": [
+                    "Rau\u00f0rlantern+",
+                    "Scroll of Curses"
+                ],
+                "Blue_Tome": [
+                    "Magical Lantern+"
+                ],
+                "Green_Tome": [
+                    "Gronnlantern+",
+                    "Saintly Seraphim",
+                    "Winds of Silesse"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [
+                "Oracle's Breath"
+            ],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Call to Flame"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Atk/Spd Pledge",
+                "Def/Res Pledge",
+                "Rallying Cry"
+            ],
+            "X": [],
+            "S": [],
+            "captain": [
+                "Dauntless"
+            ]
+        },
+        "reference_hero": {
+            "linde3": "<:Red_Tome:1317239730714316800>Harmonic Linde",
+            "seidr2": "<:Blue_Tome:1317239386491977749>New Year Sei\u00f0r"
+        },
+        "HARD_ALT_NAME": [
+            "Blade",
+            "Breath"
+        ]
+    },
+    "stall": {
+        "name": "Stall",
+        "description": "If unit has \"unit can move 1 extra space,\" converts that effect into \"restricts movement to 1 space\" through its next action.",
+        "color": "Red",
+        "icon": "stall",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [
+                "Proud Spear"
+            ],
+            "Axe": [],
+            "Staff": [
+                "Th\u00f6kk"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [
+                    "Argent Aura",
+                    "Divine Whimsy",
+                    "Total War Tome"
+                ],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Stall Ploy 3",
+                "Fetters of Dromi"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "style": {
+        "name": "Style",
+        "description": "Change Style using the Style button at the bottom of the screen.\nA unit's Style is only active when that unit is taking an action. When unit is equipped with a skill that has a Style, unit will not be able to use skills like Duo Skills or Harmonized Skills. Style use is disabled when unit is deployed using Pair Up or when unit is equipped with multiple skills that have a Style.",
+        "color": "Colorless",
+        "reference_weapon": {
+            "Sword": [
+                "Azure Twin Edge"
+            ],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Astra Storm"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "lyn9": "<:Green_Bow:1317239539936268340>Emblem Lyn"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "timesgate": {
+        "name": "Time's Gate",
+        "description": "Allies within 4 spaces of unit can move to a space adjacent to unit (that turn only).",
+        "color": "Blue",
+        "icon": "timesgate",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Light Is Time"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "seidr2": "<:Blue_Tome:1317239386491977749>New Year Sei\u00f0r"
+        },
+        "HARD_ALT_NAME": [
+            "Times Gate"
+        ]
+    },
+    "timesgrip": {
+        "name": "Time's Grip",
+        "description": "Inflicts Atk/Spd/Def/Res-4 during combat. Neutralizes unit's skills during allies' combat through unit's next action.",
+        "color": "Blue",
+        "icon": "timesgrip",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Future-Sighted"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "traverseterrain": {
+        "name": "Traverse Terrain",
+        "description": "Unit cannot be slowed by terrain for 1 turn. (does not apply to impassable terrain)",
+        "color": "Blue",
+        "icon": "traverseterrain",
+        "reference_weapon": {
+            "Sword": [
+                "Hexblade Sword+"
+            ],
+            "Lance": [
+                "Nabata Lance+"
+            ],
+            "Axe": [
+                "Auto-Lofnhei\u00f0r"
+            ],
+            "Staff": [],
+            "Bow": [
+                "Sandglass Bow"
+            ],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "Celestial Globe",
+                    "Child's Compass",
+                    "Nabata Beacon+",
+                    "Rau\u00f0rlantern+"
+                ],
+                "Blue_Tome": [
+                    "Guide's Hourglass",
+                    "Magical Lantern+"
+                ],
+                "Green_Tome": [
+                    "Crow's Crystal",
+                    "Gronnlantern+"
+                ],
+                "Colorless_Tome": [
+                    "Lightburst Tome"
+                ]
+            },
+            "Breath": [],
+            "Beast": [
+                "Bride's Fang"
+            ]
+        },
+        "reference_skill": false,
+        "reference_hero": {
+            "marisa3": "<:Green_Axe:1317239517136031897>Jehanna Marisa"
+        },
+        "HARD_ALT_NAME": [
+            "Unhindered Terrain"
+        ]
+    },
+    "treachery": {
+        "name": "Treachery",
+        "description": "Unit deals additional damage = total bonuses on unit for 1 turn.",
+        "color": "Red",
+        "icon": "treachery",
+        "reference_weapon": {
+            "Sword": [
+                "Thunderbrand"
+            ],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Baton of Dusk"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [
+                    "General-to-Be"
+                ],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": {
+            "assist": [
+                "Future Sight",
+                "Gold Serpent"
+            ],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Atk/Spd Ploy 3",
+                "Atk/Res Ploy 3",
+                "Spd/Res Ploy 3",
+                "Def/Res Ploy 3",
+                "Pulse Up: Ploy"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "cordelia4": "<:Blue_Lance:1317239378208096338>Harmonic Cordelia",
+            "igrene3": "<:Blue_Bow:1317239347577356328>Nabata Igrene",
+            "roy5": "<:Green_Axe:1317239517136031897>Harmonic Roy"
+        },
+        "HARD_ALT_NAME": []
+    },
+    "triangleadept": {
+        "name": "Triangle Adept (Status Effect)",
+        "description": "If unit has weapon-triangle advantage, boosts Atk by 20% through its next action, and if unit has weapon-triangle disadvantage, reduces Atk by 20% through its next action.",
+        "color": "Red",
+        "icon": "triangleadept",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [
+                "Punishment Staff"
+            ],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Blood Tome"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Triangle Adept"
+        ]
+    },
+    "triangleattack": {
+        "name": "Triangle Attack",
+        "description": "If unit initiates combat and 2 or more allies (excluding unit) with Triangle Attack are within 2 spaces of unit, unit attacks twice.",
+        "color": "Colorless",
+        "icon": "triangleattack",
+        "reference_weapon": {
+            "Sword": [
+                "Ilian Frost Blade"
+            ],
+            "Lance": [],
+            "Axe": [
+                "Wedding-Bell Axe"
+            ],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "undefended": {
+        "name": "Undefended",
+        "description": "Unit cannot be protected by Savior through their next action.",
+        "color": "Red",
+        "icon": "undefended",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Jaws of Closure"
+            ]
+        },
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Dark Perfume"
+            ],
+            "C": [
+                "Absolute Closure",
+                "Severance"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "vantage": {
+        "name": "Vantage (Status Effect)",
+        "description": "If foe initiates combat, unit can counterattack before foe's first attack for 1 turn.",
+        "color": "Red",
+        "icon": "vantage",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Barbarity",
+                "Faithful Loyalty",
+                "Faithful Loyalty II",
+                "Pure Starfall"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "altina2": "<:Red_Sword:1317239717707911188>Harmonic Altina"
+        },
+        "HARD_ALT_NAME": [
+            "Vantage"
+        ]
+    },
+    "dancersveil": {
+        "name": "Dancer's Veil",
+        "description": "Allows one random ally that has already acted to take another action.",
+        "color": "Colorless",
+        "icon": "dancersveil",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [
+                "Veil Seal"
+            ],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Veil Seal"
+        ]
+    },
+    "warpbubble": {
+        "name": "Warp Bubble",
+        "description": "Foes cannot warp into spaces within 4 spaces of unit. (Does not affect foes with Pass skills or warp effects from structures, like camps and fortresses in Rival Domains.)",
+        "color": "Blue",
+        "icon": "warpbubble",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Darkling Dragon",
+                "Darkling Guardian",
+                "Darkling Guard II"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {
+            "nagi2": "<:Red_Breath:1317239692189630504>Halloween Nagi"
+        },
+        "HARD_ALT_NAME": []
+    }
+}

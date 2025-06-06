@@ -1,0 +1,12 @@
+# fly.toml app configuration file generated for jakebot on 2024-12-10T18:19:52Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'jakebot'
+kill_signal = "SIGINT"
+kill_timeout = 5
+primary_region = "ord"
+processes = []
+
+[env]

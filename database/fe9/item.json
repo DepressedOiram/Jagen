@@ -1,0 +1,2907 @@
+{
+    "slimsword": {
+        "name": "Slim Sword",
+        "type": "sword",
+        "desc": "A lightweight sword favored by female fighters. It's easy to wield but has low power.",
+        "stats": {
+            "rank": "E",
+            "mt": 3,
+            "hit": 100,
+            "wt": 5,
+            "crit": 5,
+            "rng": 1,
+            "uses": 35,
+            "price": 560,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "ironsword": {
+        "name": "Iron Sword",
+        "type": "sword",
+        "desc": "A sword possessing high durability but little power. It is the most common sword.",
+        "stats": {
+            "rank": "E",
+            "mt": 5,
+            "hit": 90,
+            "wt": 7,
+            "rng": 1,
+            "uses": 46,
+            "price": 460,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "trainer": {
+        "name": "Trainer",
+        "type": "sword",
+        "desc": "A sword used for training. It deals no real damage, and it does not wear down with use.",
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 150,
+            "wt": 3,
+            "rng": 1,
+            "price": 230,
+            "wexp": 1,
+            "crit" : false
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Cannot perform critical hits."
+        }
+    },
+    "veninedge": {
+        "name": "Venin Edge",
+        "type": "sword",
+        "desc": "A sword whose blade conceals a poison reservoir. Units hit with this will be poisoned.",
+        "stats": {
+            "rank": "D",
+            "mt": 3,
+            "hit": 70,
+            "wt": 8,
+            "rng": 1,
+            "uses": 40,
+            "price": 520,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "steelsword": {
+        "name": "Steel Sword",
+        "type": "sword",
+        "desc": "A sturdy sword with a good edge. It is slightly difficult to wield.",
+        "stats": {
+            "rank": "D",
+            "mt": 8,
+            "hit": 75,
+            "wt": 12,
+            "rng": 1,
+            "uses": 35,
+            "price": 700,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "ironblade": {
+        "name": "Iron Blade",
+        "type": "sword",
+        "desc": "A sword with a large, heavy blade. The weight of the blade gives it good power.",
+        "stats": {
+            "rank": "D",
+            "mt": 9,
+            "hit": 70,
+            "wt": 15,
+            "rng": 1,
+            "uses": 35,
+            "price": 980,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "armorslayer": {
+        "name": "Armorslayer",
+        "type": "sword",
+        "desc": "A sword for use against armored foes. It is especially effective against generals and knights.",
+        "stats": {
+            "rank": "D",
+            "mt": 8,
+            "hit": 80,
+            "wt": 17,
+            "rng": 1,
+            "uses": 18,
+            "price": 1260,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "longsword": {
+        "name": "Longsword",
+        "type": "sword",
+        "desc": "A sword designed to deal increased damage against units mounted on horseback.",
+        "stats": {
+            "rank": "D",
+            "mt": 6,
+            "hit": 85,
+            "wt": 15,
+            "rng": 1,
+            "uses": 18,
+            "price": 1260,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "killingedge": {
+        "name": "Killing Edge",
+        "type": "sword",
+        "desc": "A sword with an unusually high chance of landing a critical hit.",
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 75,
+            "wt": 9,
+            "crit": 30,
+            "rng": 1,
+            "uses": 20,
+            "price": 1300,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "laguzslayer": {
+        "name": "Laguzslayer",
+        "type": "sword",
+        "desc": "A sword designed for use against demihumans. It does increased damage against laguz.",
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 75,
+            "wt": 12,
+            "rng": 1,
+            "uses": 15,
+            "price": 1800,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "steelblade": {
+        "name": "Steel Blade",
+        "type": "sword",
+        "desc": "A sword with a heavy steel blade. It is large and fairly powerful.",
+        "stats": {
+            "rank": "C",
+            "mt": 11,
+            "hit": 75,
+            "wt": 17,
+            "rng": 1,
+            "uses": 35,
+            "price": 700,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "bravesword": {
+        "name": "Brave Sword",
+        "type": "sword",
+        "desc": "A very difficult sword to use, but its wielder can attack twice in a single round.",
+        "stats": {
+            "rank": "B",
+            "mt": 9,
+            "hit": 75,
+            "wt": 16,
+            "rng": 1,
+            "uses": 30,
+            "price": 5400,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "sonicsword": {
+        "name": "Sonic Sword",
+        "type": "sword",
+        "desc": "A sorcerous blade that uses magic, not strength, to attack.",
+        "stats": {
+            "rank": "B",
+            "mt": 10,
+            "hit": 70,
+            "wt": 9,
+            "rng": "1-2",
+            "uses": 25,
+            "price": 5500,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "magical": true,
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Counts as <:tellius_wind:1317293383676334201>Wind magic under the Trinity of Magic and not as a sword under the weapon triangle.\nEffective against Flying units."
+        }
+    },
+    "silversword": {
+        "name": "Silver Sword",
+        "type": "sword",
+        "desc": "A sword with an incredibly sharp edge. It is difficult to wield and expensive to purchase.",
+        "stats": {
+            "rank": "A",
+            "mt": 13,
+            "hit": 80,
+            "wt": 11,
+            "rng": 1,
+            "uses": 25,
+            "price": 1875,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "silverblade": {
+        "name": "Silver Blade",
+        "type": "sword",
+        "desc": "A high-priced sword of high power. It's large, heavy, and difficult to wield.",
+        "stats": {
+            "rank": "A",
+            "mt": 15,
+            "hit": 60,
+            "wt": 14,
+            "rng": 1,
+            "uses": 15,
+            "price": 1800,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "runesword": {
+        "name": "Runesword",
+        "type": "sword",
+        "desc": "A magic sword that restores HP to the wielder in the amount of half of the damage it inflicts.",
+        "stats": {
+            "rank": "A",
+            "mt": 15,
+            "hit": 65,
+            "wt": 19,
+            "rng": "1-2",
+            "uses": 15,
+            "price": 7200,
+            "wexp": 2
+        },
+        "weapon": true,
+        "reference": {
+            "magical": true,
+            "Other Effects": "Counts as <:tellius_light:1317303113777938473>Light magic under the Trinity of Magic and not as a sword under the weapon triangle.\nCannot trigger offensives skills at 2 range."
+        }
+    },
+    "vaguekatti": {
+        "name": "Vague Katti",
+        "type": "sword",
+        "desc": "Grants +3 Defense.\nA unique sword forged by a master craftsman. It's powerful but difficult to wield.",
+        "stats": {
+            "rank": "S",
+            "mt": 12,
+            "hit": 80,
+            "wt": 8,
+            "crit": 35,
+            "rng": 1,
+            "uses": 25,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "def": 3
+            }
+        }
+    },
+    "amiti": {
+        "name": "Amiti",
+        "type": "sword",
+        "desc": "Grants +3 Defense, +3 Resistance.\nElincia's royal Crimean sword. Allows her to strike twice per turn.",
+        "stats": {
+            "mt": 9,
+            "hit": 75,
+            "wt": 12,
+            "rng": 1,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "def": 3,
+                "res": 3
+            }
+        }
+    },
+    "alondite": {
+        "name": "Alondite",
+        "type": "sword",
+        "desc": "Grants Defense +5.\nA unique sword imbued with great hidden strength. Only the Black Knight can wield it.",
+        "stats": {
+            "mt": 18,
+            "hit": 80,
+            "wt": 20,
+            "crit": 5,
+            "rng": "1-2",
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "def": 5
+            }
+        },
+        "reference": {
+            "Other Effects": "Reduces foe's critical rate to 0% against user, or 50% if foe has Wrath active."
+        }
+    },
+    "gurgurant": {
+        "name": "Gurgurant",
+        "type": "sword",
+        "desc": "A mighty sword that only Ashnard, king of Daein, can wield.",
+        "stats": {
+            "mt": 20,
+            "hit": 90,
+            "wt": 25,
+            "rng": "1-2",
+            "wexp": 2
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Reduces foe's critical rate to 0% against user, or 50% if foe has Wrath active."
+        }
+    },
+    "regalsword": {
+        "name": "Regal Sword",
+        "type": "sword",
+        "desc": "The sword Ike received from his father. It's light and easy to wield. Only Ike can wield it.",
+        "stats": {
+            "mt": 7,
+            "hit": 95,
+            "wt": 6,
+            "crit": 10,
+            "rng": 1,
+            "uses": 40,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Armored and Knight units."
+        }
+    },
+    "ragnell": {
+        "name": "Ragnell",
+        "type": "sword",
+        "desc": "Grants +5 Defense.\nA sword consecrated to oppose Alondite. Only Ike can wield it.",
+        "stats": {
+            "mt": 18,
+            "hit": 80,
+            "wt": 20,
+            "crit": 5,
+            "rng": "1-2",
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "def": 5
+            }
+        },
+        "reference": {
+            "Other Effects": "Negates non-Wrath critical hits.\nNegates the blessing on the Black Knight and Ashnard."
+        }
+    },
+    "ironlance": {
+        "name": "Iron Lance",
+        "type": "lance",
+        "desc": "A lance possessing high durability but little power. It is the most common lance.",
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 80,
+            "wt": 8,
+            "rng": 1,
+            "uses": 45,
+            "price": 360,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "slimlance": {
+        "name": "Slim Lance",
+        "type": "lance",
+        "desc": "A lightweight lance favored by female fighters. It's easy to wield but has low power.",
+        "stats": {
+            "rank": "E",
+            "mt": 4,
+            "hit": 85,
+            "wt": 6,
+            "crit": 5,
+            "rng": 1,
+            "uses": 35,
+            "price": 525,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "javelin": {
+        "name": "Javelin",
+        "type": "lance",
+        "desc": "A lance that can be thrown at distant enemies. It's a little difficult to wield.",
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 60,
+            "wt": 11,
+            "rng": "1-2",
+            "uses": 25,
+            "price": 500,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "veninlance": {
+        "name": "Venin Lance",
+        "type": "lance",
+        "desc": "A lance whose blade conceals a poison reservoir. Units hit with this will be poisoned.",
+        "stats": {
+            "rank": "E",
+            "mt": 4,
+            "hit": 65,
+            "wt": 9,
+            "rng": 1,
+            "uses": 40,
+            "price": 440,
+            "wexp": 1
+        },
+        "weapon": true,
+        "reference": {
+            "Notes": "Unused."
+        }
+    },
+    "steellance": {
+        "name": "Steel Lance",
+        "type": "lance",
+        "desc": "A sturdy lance with a strong head. It is slightly difficult to wield.",
+        "stats": {
+            "rank": "D",
+            "mt": 10,
+            "hit": 70,
+            "wt": 13,
+            "rng": 1,
+            "uses": 35,
+            "price": 560,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "knightkiller": {
+        "name": "Knight Killer",
+        "type": "lance",
+        "desc": "A lance designed to deal increased damage against units mounted on horseback.",
+        "stats": {
+            "rank": "D",
+            "mt": 7,
+            "hit": 70,
+            "wt": 16,
+            "rng": 1,
+            "uses": 18,
+            "price": 1170,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "ALT_NAME": [
+            "ridersbane"
+        ]
+    },
+    "heavyspear": {
+        "name": "Heavy Spear",
+        "type": "lance",
+        "desc": "A lance for use against armored foes. It is especially effective against generals and knights.",
+        "stats": {
+            "rank": "D",
+            "mt": 8,
+            "hit": 80,
+            "wt": 18,
+            "rng": 1,
+            "uses": 18,
+            "price": 1260,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "shortspear": {
+        "name": "Short Spear",
+        "type": "lance",
+        "desc": "A lance of especially light construction. It can also be thrown at distant enemies.",
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 70,
+            "wt": 12,
+            "rng": "1-2",
+            "uses": 15,
+            "price": 1950,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "killerlance": {
+        "name": "Killer Lance",
+        "type": "lance",
+        "desc": "A lance with an unusually high chance of landing a critical hit.",
+        "stats": {
+            "rank": "C",
+            "mt": 10,
+            "hit": 70,
+            "wt": 10,
+            "crit": 30,
+            "rng": 1,
+            "uses": 20,
+            "price": 1200,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "laguzlance": {
+        "name": "Laguz Lance",
+        "type": "lance",
+        "desc": "A lance designed for use against demihumans. It does increased damage against laguz.",
+        "stats": {
+            "rank": "C",
+            "mt": 12,
+            "hit": 75,
+            "wt": 17,
+            "rng": 1,
+            "uses": 15,
+            "price": 1620,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "flamelance": {
+        "name": "Flame Lance",
+        "type": "lance",
+        "desc": "A magic lance. Its attacks deal magical, rather than physical, damage.",
+        "stats": {
+            "rank": "B",
+            "mt": 10,
+            "hit": 70,
+            "wt": 12,
+            "rng": "1-2",
+            "uses": 25,
+            "price": 7500,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "magical": true,
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Counts as <:tellius_fire:1317293355259920444>Fire magic under the Trinity of Magic and not as a lance under the weapon triangle.\nEffective against Beast Laguz units."
+        }
+    },
+    "bravelance": {
+        "name": "Brave Lance",
+        "type": "lance",
+        "desc": "A very difficult lance to use, but its wielder can attack twice in a single round.",
+        "stats": {
+            "rank": "B",
+            "mt": 11,
+            "hit": 70,
+            "wt": 17,
+            "rng": 1,
+            "uses": 30,
+            "price": 5700,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "spear": {
+        "name": "Spear",
+        "type": "lance",
+        "desc": "A refined spear of high power. It can be thrown at distant enemies.",
+        "stats": {
+            "rank": "B",
+            "mt": 12,
+            "hit": 70,
+            "wt": 15,
+            "crit": 5,
+            "rng": "1-2",
+            "uses": 15,
+            "price": 5700,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "silverlance": {
+        "name": "Silver Lance",
+        "type": "lance",
+        "desc": "A high-priced lance of high power. It's large, heavy, and difficult to wield.",
+        "stats": {
+            "rank": "A",
+            "mt": 15,
+            "hit": 75,
+            "wt": 12,
+            "rng": 1,
+            "uses": 25,
+            "price": 1500,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "wishblade": {
+        "name": "Wishblade",
+        "type": "lance",
+        "desc": "Grants +3 Luck.\nA unique lance forged by a master craftsman. It's powerful but difficult to wield.",
+        "stats": {
+            "rank": "S",
+            "mt": 16,
+            "hit": 80,
+            "wt": 15,
+            "crit": 5,
+            "rng": "1-2",
+            "uses": 20,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "lck": 3
+            }
+        }
+    },
+    "ironaxe": {
+        "name": "Iron Axe",
+        "type": "axe",
+        "desc": "An axe possessing high durability but little power. It is the most common axe.",
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "hit": 75,
+            "wt": 10,
+            "rng": 1,
+            "uses": 45,
+            "price": 270,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "practiceaxe": {
+        "name": "Practice Axe",
+        "type": "axe",
+        "desc": "An axe used for training. It deals no real damage, and it does not wear down with use.",
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "hit": 150,
+            "wt": 4,
+            "rng": 1,
+            "price": 225,
+            "wexp": 1,
+            "crit" : false
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Cannot perform critical hits."
+        }
+    },
+    "handaxe": {
+        "name": "Hand Axe",
+        "type": "axe",
+        "desc": "An axe that can be thrown at distant enemies. It's a little difficult to wield.",
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 55,
+            "wt": 13,
+            "rng": "1-2",
+            "uses": 25,
+            "price": 375,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "steelaxe": {
+        "name": "Steel Axe",
+        "type": "axe",
+        "desc": "A sturdy axe with a good edge. It is slightly difficult to wield.",
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 65,
+            "wt": 15,
+            "rng": 1,
+            "uses": 35,
+            "price": 420,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "devilaxe": {
+        "name": "Devil Axe",
+        "type": "axe",
+        "desc": "A cursed axe. It is very powerful, but there is a chance that it will harm its wielder.",
+        "stats": {
+            "rank": "E",
+            "mt": 18,
+            "hit": 55,
+            "wt": 18,
+            "rng": 1,
+            "uses": 20,
+            "price": 900,
+            "wexp": 8
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Unused.\nBackfire rate: Unknown"
+        }
+    },
+    "veninaxe": {
+        "name": "Venin Axe",
+        "type": "axe",
+        "desc": "An axe whose blade conceals a poison reservoir. Units hit with this will be poisoned.",
+        "stats": {
+            "rank": "D",
+            "mt": 5,
+            "hit": 60,
+            "wt": 11,
+            "rng": 1,
+            "uses": 40,
+            "price": 360,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "hammer": {
+        "name": "Hammer",
+        "type": "axe",
+        "desc": "An axe for use against armored foes. It is especially effective against generals and knights.",
+        "stats": {
+            "rank": "D",
+            "mt": 10,
+            "hit": 55,
+            "wt": 20,
+            "rng": 1,
+            "uses": 20,
+            "price": 800,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "poleax": {
+        "name": "Poleax",
+        "type": "axe",
+        "desc": "An axe designed to deal increased damage against units mounted on horseback.",
+        "stats": {
+            "rank": "D",
+            "mt": 10,
+            "hit": 60,
+            "wt": 18,
+            "rng": 1,
+            "uses": 18,
+            "price": 810,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "shortaxe": {
+        "name": "Short Axe",
+        "type": "axe",
+        "desc": "An axe of especially light construction. It can be thrown at distant enemies.",
+        "stats": {
+            "rank": "C",
+            "mt": 10,
+            "hit": 65,
+            "wt": 13,
+            "rng": "1-2",
+            "uses": 15,
+            "price": 1500,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "killeraxe": {
+        "name": "Killer Axe",
+        "type": "axe",
+        "desc": "An axe with an unusually high chance of landing a critical hit.",
+        "stats": {
+            "rank": "C",
+            "mt": 12,
+            "hit": 65,
+            "wt": 12,
+            "crit": 30,
+            "rng": 1,
+            "uses": 20,
+            "price": 1000,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "laguzaxe": {
+        "name": "Laguz Axe",
+        "type": "axe",
+        "desc": "An axe designed for use against demihumans. It does increased damage against laguz.",
+        "stats": {
+            "rank": "C",
+            "mt": 13,
+            "hit": 65,
+            "wt": 16,
+            "rng": 1,
+            "uses": 15,
+            "price": 5250,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "boltaxe": {
+        "name": "Bolt Axe",
+        "type": "axe",
+        "desc": "A magic axe. Its attacks deal magical, rather than physical, damage.",
+        "stats": {
+            "rank": "B",
+            "mt": 10,
+            "hit": 70,
+            "wt": 12,
+            "rng": "1-2",
+            "uses": 25,
+            "price": 3750,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "magical": true,
+            "Other Effects": "Counts as <:tellius_thunder:1317293369742856227>Thunder magic under the Trinity of Magic and not as an axe under the weapon triangle.\nEffective against Dragon Laguz units."
+        }
+    },
+    "braveaxe": {
+        "name": "Brave Axe",
+        "type": "axe",
+        "desc": "A very difficult axe to use, but its wielder can attack twice in a single round.",
+        "stats": {
+            "rank": "B",
+            "mt": 10,
+            "hit": 65,
+            "wt": 20,
+            "rng": 1,
+            "uses": 30,
+            "price": 5250,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "tomahawk": {
+        "name": "Tomahawk",
+        "type": "axe",
+        "desc": "A well-designed axe of great power. It can be thrown at distant enemies.",
+        "stats": {
+            "rank": "B",
+            "mt": 13,
+            "hit": 65,
+            "wt": 17,
+            "rng": "1-2",
+            "uses": 15,
+            "price": 5550,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "silveraxe": {
+        "name": "Silver Axe",
+        "type": "axe",
+        "desc": "An axe with an incredibly sharp edge. It is difficult to wield and expensive to purchase.",
+        "stats": {
+            "rank": "A",
+            "mt": 16,
+            "hit": 70,
+            "wt": 14,
+            "rng": 1,
+            "uses": 25,
+            "price": 1250,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "urvan": {
+        "name": "Urvan",
+        "type": "axe",
+        "desc": "Grants +3 Resistance.\nA unique axe forged by a master craftsman. It's powerful but difficult to wield.",
+        "stats": {
+            "rank": "S",
+            "mt": 18,
+            "hit": 70,
+            "wt": 18,
+            "crit": 5,
+            "rng": 1,
+            "uses": 20,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "res": 3
+            }
+        },
+        "reference": {
+            "Notes": "Unused."
+        }
+    },
+    "ironbow": {
+        "name": "Iron Bow",
+        "type": "bow",
+        "desc": "A bow possessing high durability but little power. It is the most common bow.",
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 85,
+            "wt": 5,
+            "rng": 2,
+            "uses": 45,
+            "price": 540,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "ballista": {
+        "name": "Ballista",
+        "type": "bow",
+        "desc": "A long-range weapon for use by archers and snipers.",
+        "stats": {
+            "rank": "E",
+            "mt": 18,
+            "hit": 100,
+            "wt": 20,
+            "rng": "3-10",
+            "uses": 5,
+            "wexp": 4
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Ignores user's strength."
+        }
+    },
+    "longballista": {
+        "name": "Long Ballista",
+        "type": "bow",
+        "desc": "A long-range weapon for use by archers and snipers. Its range surpasses the ballista.",
+        "stats": {
+            "rank": "E",
+            "mt": 22,
+            "hit": 90,
+            "wt": 20,
+            "rng": "3-15",
+            "uses": 5,
+            "wexp": 4
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Ignores user's strength."
+        }
+    },
+    "killerballista": {
+        "name": "Killer Ballista",
+        "type": "bow",
+        "desc": "A long-range weapon that has a high chance of dealing a critical hit.",
+        "stats": {
+            "rank": "E",
+            "mt": 20,
+            "hit": 95,
+            "wt": 20,
+            "crit": 10,
+            "rng": "3-10",
+            "uses": 5,
+            "wexp": 4
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Ignores user's strength."
+        }
+    },
+    "onager": {
+        "name": "Onager",
+        "type": "bow",
+        "desc": "A long-range, stone-throwing siege weapon with a wide area of effect. For archery units only.",
+        "stats": {
+            "rank": "E",
+            "mt": 20,
+            "hit": 255,
+            "wt": 20,
+            "rng": "3-10",
+            "uses": 5,
+            "wexp": 4,
+            "crit" : false
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Ignores user's strength. Cannot perform critical hits.\nDeals 50% damage to all units adjacent to target."
+        }
+    },
+    "veninbow": {
+        "name": "Venin Bow",
+        "type": "bow",
+        "desc": "A bow that fires poison arrows. A unit hit by it will be poisoned.",
+        "stats": {
+            "rank": "D",
+            "mt": 4,
+            "hit": 65,
+            "wt": 5,
+            "rng": 2,
+            "uses": 40,
+            "price": 600,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "longbow": {
+        "name": "Longbow",
+        "type": "bow",
+        "desc": "A yew-hewn bow of above-average size. It can hit enemies at great distances.",
+        "stats": {
+            "rank": "D",
+            "mt": 5,
+            "hit": 65,
+            "wt": 10,
+            "rng": "2-3",
+            "uses": 20,
+            "price": 2000,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "steelbow": {
+        "name": "Steel Bow",
+        "type": "bow",
+        "desc": "A sturdy bow whose composition makes it slightly difficult to wield.",
+        "stats": {
+            "rank": "D",
+            "mt": 9,
+            "hit": 70,
+            "wt": 9,
+            "rng": 2,
+            "uses": 35,
+            "price": 840,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "killerbow": {
+        "name": "Killer Bow",
+        "type": "bow",
+        "desc": "A bow with an unusually high chance of landing a critical hit.",
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 75,
+            "wt": 7,
+            "crit": 30,
+            "rng": 2,
+            "uses": 15,
+            "price": 1050,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "laguzbow": {
+        "name": "Laguz Bow",
+        "type": "bow",
+        "desc": "A bow designed for use against demihumans. It does increased damage against laguz.",
+        "stats": {
+            "rank": "C",
+            "mt": 10,
+            "hit": 75,
+            "wt": 10,
+            "rng": 2,
+            "uses": 15,
+            "price": 1950,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "bravebow": {
+        "name": "Brave Bow",
+        "type": "bow",
+        "desc": "A very difficult bow to use, but its wielder can attack twice in a single round.",
+        "stats": {
+            "rank": "B",
+            "mt": 10,
+            "hit": 70,
+            "wt": 12,
+            "rng": 2,
+            "uses": 30,
+            "price": 5850,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "brightbow": {
+        "name": "Bright Bow",
+        "type": "bow",
+        "desc": "An arcane bow that uses magic, not strength, to attack.",
+        "stats": {
+            "rank": "B",
+            "mt": 10,
+            "hit": 70,
+            "wt": 9,
+            "rng": "1-2",
+            "uses": 25,
+            "price": 5750,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Unused.\nCounts as <:tellius_light:1317303113777938473>Light magic under the Trinity of Magic and not as a bow."
+        }
+    },
+    "silverbow": {
+        "name": "Silver Bow",
+        "type": "bow",
+        "desc": "A high-priced bow of high power. It is expensive and difficult to wield.",
+        "stats": {
+            "rank": "A",
+            "mt": 13,
+            "hit": 75,
+            "wt": 6,
+            "rng": 2,
+            "uses": 25,
+            "price": 2000,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "doublebow": {
+        "name": "Double Bow",
+        "type": "bow",
+        "desc": "Grants +3 Strength.\nA unique bow made by a master craftsman. It's powerful but difficult to wield.",
+        "stats": {
+            "rank": "S",
+            "mt": 7,
+            "hit": 65,
+            "wt": 10,
+            "rng": 4,
+            "uses": 20,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "str": 3
+            },
+            "effective": true
+        }
+    },
+    "rolfsbow": {
+        "name": "Rolf's Bow",
+        "type": "bow",
+        "desc": "A special bow designed to help Rolf master archery. Only Rolf can wield it.",
+        "stats": {
+            "mt": 8,
+            "hit": 100,
+            "wt": 2,
+            "crit": 5,
+            "rng": 2,
+            "uses": 45,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
+    },
+    "fire": {
+        "name": "Fire",
+        "type": "fire",
+        "desc": "Low-level fire magic. It is simple to master, but it possesses little destructive power.",
+        "stats": {
+            "rank": "E",
+            "mt": 3,
+            "hit": 95,
+            "wt": 3,
+            "rng": "1-2",
+            "uses": 40,
+            "price": 560,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Beast Laguz units."
+        }
+    },
+    "elfire": {
+        "name": "Elfire",
+        "type": "fire",
+        "desc": "Mid-level fire magic. It is somewhat difficult to master, but it deals a fair amount of damage.",
+        "stats": {
+            "rank": "D",
+            "mt": 5,
+            "hit": 85,
+            "wt": 5,
+            "rng": "1-2",
+            "uses": 30,
+            "price": 1800,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Beast Laguz units."
+        }
+    },
+    "meteor": {
+        "name": "Meteor",
+        "type": "fire",
+        "desc": "Long-range fire magic. Although it is difficult to master, it can strike enemies from afar.",
+        "stats": {
+            "rank": "C",
+            "mt": 11,
+            "hit": 70,
+            "wt": 11,
+            "rng": "3-10",
+            "uses": 5,
+            "price": 750,
+            "wexp": 3
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Beast Laguz units."
+        }
+    },
+    "bolganone": {
+        "name": "Bolganone",
+        "type": "fire",
+        "desc": "High-level fire magic. It's very difficult to master, but it bears much destructive strength.",
+        "stats": {
+            "rank": "A",
+            "mt": 9,
+            "hit": 85,
+            "wt": 9,
+            "rng": "1-2",
+            "uses": 20,
+            "price": 2000,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Beast Laguz units."
+        }
+    },
+    "rexflame": {
+        "name": "Rexflame",
+        "type": "fire",
+        "desc": "Grants +3 Speed.\nThe highest level of fire magic. Mastery is quite difficult, but it is devastatingly powerful.",
+        "stats": {
+            "rank": "S",
+            "mt": 14,
+            "hit": 85,
+            "wt": 12,
+            "rng": "1-2",
+            "uses": 20,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "spd": 3
+            },
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Beast Laguz units."
+        }
+    },
+    "thunder": {
+        "name": "Thunder",
+        "type": "thunder",
+        "desc": "Low-level lightning magic. It is simple to master, but it possesses little destructive power.",
+        "stats": {
+            "rank": "E",
+            "mt": 4,
+            "hit": 85,
+            "wt": 3,
+            "crit": 5,
+            "rng": "1-2",
+            "uses": 40,
+            "price": 600,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Dragon Laguz units."
+        }
+    },
+    "elthunder": {
+        "name": "Elthunder",
+        "type": "thunder",
+        "desc": "Mid-level thunder magic. It is somewhat difficult to master, but it deals a fair amount of damage.",
+        "stats": {
+            "rank": "D",
+            "mt": 7,
+            "hit": 75,
+            "wt": 6,
+            "crit": 10,
+            "rng": "1-2",
+            "uses": 30,
+            "price": 1950,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Dragon Laguz units."
+        }
+    },
+    "bolting": {
+        "name": "Bolting",
+        "type": "thunder",
+        "desc": "Long-range lightning magic. It is difficult to master, but it can strike enemies from afar.",
+        "stats": {
+            "rank": "C",
+            "mt": 13,
+            "hit": 65,
+            "wt": 13,
+            "crit": 5,
+            "rng": "3-10",
+            "uses": 5,
+            "price": 800,
+            "wexp": 3
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Dragon Laguz units."
+        }
+    },
+    "thoron": {
+        "name": "Thoron",
+        "type": "thunder",
+        "desc": "High-level lightning magic. It is very difficult to master, but it bears much destructive strength.",
+        "stats": {
+            "rank": "A",
+            "mt": 10,
+            "hit": 85,
+            "wt": 7,
+            "crit": 5,
+            "rng": "1-2",
+            "uses": 20,
+            "price": 2200,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Dragon Laguz units."
+        }
+    },
+    "rexbolt": {
+        "name": "Rexbolt",
+        "type": "thunder",
+        "desc": "Grants +3 Skill.\nThe highest level of lightning magic. Mastery is quite difficult, but it is devastatingly powerful.",
+        "stats": {
+            "rank": "S",
+            "mt": 15,
+            "hit": 75,
+            "wt": 14,
+            "crit": 10,
+            "rng": "1-2",
+            "uses": 20,
+            "wexp": 2
+        },
+        "equip": {
+            "stats": {
+                "skl": 3
+            },
+            "effective": true
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Effective against Dragon Laguz units."
+        }
+    },
+    "wind": {
+        "name": "Wind",
+        "type": "wind",
+        "desc": "Low-level wind magic. It is simple to master, but it possesses little destructive power.",
+        "stats": {
+            "rank": "E",
+            "mt": 2,
+            "hit": 100,
+            "wt": 1,
+            "rng": "1-2",
+            "uses": 40,
+            "price": 520,
+            "wexp": 1
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Flying units."
+        }
+    },
+    "vortex": {
+        "name": "Vortex",
+        "type": "wind",
+        "desc": "Attacks with the same effect as Wind.",
+        "stats": {
+            "mt": 4,
+            "hit": 90,
+            "wt": 2,
+            "rng": "1-2",
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Flying units."
+        }
+    },
+    "elwind": {
+        "name": "Elwind",
+        "type": "wind",
+        "desc": "Mid-level wind magic. It is somewhat difficult to master, but it deals a fair amount of damage.",
+        "stats": {
+            "rank": "D",
+            "mt": 4,
+            "hit": 90,
+            "wt": 2,
+            "rng": "1-2",
+            "uses": 30,
+            "price": 1650,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Flying units."
+        }
+    },
+    "blizzard": {
+        "name": "Blizzard",
+        "type": "wind",
+        "desc": "Long-range wind magic. Although it is difficult to master, it can strike enemies from afar.",
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 75,
+            "wt": 10,
+            "rng": "3-10",
+            "uses": 5,
+            "price": 700,
+            "wexp": 3
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Flying units."
+        }
+    },
+    "tornado": {
+        "name": "Tornado",
+        "type": "wind",
+        "desc": "High-level wind magic. It is very difficult to master, but it bears much destructive strength.",
+        "stats": {
+            "rank": "A",
+            "mt": 6,
+            "hit": 90,
+            "wt": 5,
+            "rng": "1-2",
+            "uses": 20,
+            "price": 1800,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Flying units."
+        }
+    },
+    "rexcalibur": {
+        "name": "Rexcalibur",
+        "type": "wind",
+        "desc": "The highest level of wind magic. Mastery is quite difficult, but it is devastatingly powerful.",
+        "stats": {
+            "rank": "S",
+            "mt": 12,
+            "hit": 85,
+            "wt": 9,
+            "rng": "1-2",
+            "uses": 20,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "lck": 3
+            },
+            "effective": true
+        },
+        "reference": {
+            "Other Effects": "Effective against Flying units."
+        }
+    },
+    "light": {
+        "name": "Light",
+        "type": "light",
+        "desc": "Low-level light magic. It is simple to master, but it possesses little destructive power.",
+        "stats": {
+            "rank": "D",
+            "mt": 2,
+            "hit": 80,
+            "wt": 4,
+            "rng": "1-2",
+            "uses": 40,
+            "price": 800,
+            "wexp": 1
+        },
+        "weapon": true
+    },
+    "shine": {
+        "name": "Shine",
+        "type": "light",
+        "desc": "Mid-level light magic. It is somewhat difficult to master, but it deals a fair amount of damage.",
+        "stats": {
+            "rank": "C",
+            "mt": 4,
+            "hit": 75,
+            "wt": 6,
+            "rng": "1-2",
+            "uses": 30,
+            "price": 2100,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "purge": {
+        "name": "Purge",
+        "type": "light",
+        "desc": "Long-range light magic. It is difficult to master, but it can strike enemies from afar.",
+        "stats": {
+            "rank": "B",
+            "mt": 10,
+            "hit": 70,
+            "wt": 8,
+            "rng": "3-10",
+            "uses": 5,
+            "price": 1000,
+            "wexp": 3
+        },
+        "weapon": true
+    },
+    "nosferatu": {
+        "name": "Nosferatu",
+        "type": "light",
+        "desc": "High-level light magic. The spell caster receives as much HP as the spell inflicts.",
+        "stats": {
+            "rank": "A",
+            "mt": 7,
+            "hit": 70,
+            "wt": 12,
+            "rng": "1-2",
+            "uses": 20,
+            "price": 1500,
+            "wexp": 2
+        },
+        "weapon": true
+    },
+    "rexaura": {
+        "name": "Rexaura",
+        "type": "light",
+        "desc": "Grants +3 Defense.\nThe highest level of light magic. Mastery is quite difficult, but it is devastatingly powerful.",
+        "stats": {
+            "rank": "S",
+            "mt": 12,
+            "hit": 85,
+            "wt": 10,
+            "crit": 5,
+            "rng": "1-2",
+            "uses": 20,
+            "wexp": 2
+        },
+        "weapon": true,
+        "equip": {
+            "stats": {
+                "def": 3
+            }
+        }
+    },
+    "heal": {
+        "name": "Heal",
+        "type": "staff",
+        "desc": "A staff that restores 10 HP plus the wielder's Mg (converted to HP) to a target unit.",
+        "stats": {
+            "rank": "E",
+            "hit": 100,
+            "wt": 2,
+            "rng": 1,
+            "uses": 40,
+            "price": 800,
+            "wexp": 3,
+            "exp": 11
+        },
+        "weapon": false
+    },
+    "mend": {
+        "name": "Mend",
+        "type": "staff",
+        "desc": "A staff that restores 20 HP plus the wielder's Mg (converted to HP) to a target unit.",
+        "stats": {
+            "rank": "D",
+            "hit": 100,
+            "wt": 4,
+            "rng": 1,
+            "uses": 20,
+            "price": 1000,
+            "wexp": 3,
+            "exp": 12
+        },
+        "weapon": false
+    },
+    "unlock": {
+        "name": "Unlock",
+        "type": "staff",
+        "desc": "Unused.",
+        "stats": {
+            "rank": "D",
+            "hit": 100,
+            "wt": 7,
+            "rng": "1-2",
+            "uses": 10,
+            "price": 1500,
+            "wexp": 5,
+            "exp": 17
+        },
+        "weapon": false,
+        "reference": {
+            "Notes": "Unused."
+        }
+    },
+    "torch": {
+        "name": "Torch",
+        "type": "item",
+        "desc": "A staff that burns like a torch, illuminating an area for a short while.",
+        "stats": {
+            "uses": 5,
+            "price": 500
+        },
+        "weapon": false
+    },
+    "ward": {
+        "name": "Ward",
+        "type": "staff",
+        "desc": "A staff that strengthens a unit's magic resistance for a short while.",
+        "stats": {
+            "rank": "C",
+            "hit": 100,
+            "wt": 4,
+            "rng": 1,
+            "uses": 15,
+            "price": 2250,
+            "wexp": 4,
+            "exp": 17
+        },
+        "weapon": false
+    },
+    "restore": {
+        "name": "Restore",
+        "type": "staff",
+        "desc": "A staff that restores a unit to normal condition.",
+        "stats": {
+            "rank": "C",
+            "hit": 100,
+            "wt": 4,
+            "rng": 1,
+            "uses": 10,
+            "price": 2000,
+            "wexp": 3,
+            "exp": 20
+        },
+        "weapon": false
+    },
+    "physic": {
+        "name": "Physic",
+        "type": "staff",
+        "desc": "A staff that restores 10 HP plus the wielder's Mg (converted to HP) to a far unit.",
+        "stats": {
+            "rank": "C",
+            "hit": 100,
+            "wt": 5,
+            "rng": "1-(Mag/2)",
+            "uses": 15,
+            "price": 3750,
+            "wexp": 4,
+            "exp": 22
+        },
+        "weapon": false
+    },
+    "hammerne": {
+        "name": "Hammerne",
+        "type": "staff",
+        "desc": "A staff that restores an item to its maximum durability.",
+        "stats": {
+            "rank": "C",
+            "hit": 100,
+            "wt": 7,
+            "rng": 1,
+            "uses": 3,
+            "price": 1800,
+            "wexp": 8,
+            "exp": 40
+        },
+        "weapon": false
+    },
+    "silence": {
+        "name": "Silence",
+        "type": "staff",
+        "desc": "A staff that prevents enemies from using magic, it can strike enemies from afar.",
+        "stats": {
+            "rank": "B",
+            "hit": 70,
+            "wt": 7,
+            "rng": "1-(Mag/2)",
+            "uses": 3,
+            "price": 1200,
+            "wexp": 5,
+            "exp": 30
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Infliction rate: [30 + {[(Magic) - (Foe's Resistance)] \u00d7 5} + (Skill) - (distance from Foe \u00d7 2)]"
+        }
+    },
+    "sleep": {
+        "name": "Sleep",
+        "type": "staff",
+        "desc": "A staff that puts enemy units to sleep for a short time, it can strike enemies from afar.",
+        "stats": {
+            "rank": "B",
+            "hit": 65,
+            "wt": 8,
+            "rng": "1-(Mag/2)",
+            "uses": 3,
+            "price": 1500,
+            "wexp": 5,
+            "exp": 35
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Infliction rate: [30 + {[(Magic) - (Foe's Resistance)] \u00d7 5} + (Skill) - (distance from Foe \u00d7 2)]"
+        }
+    },
+    "berserk": {
+        "name": "Berserk",
+        "type": "staff",
+        "desc": false,
+        "stats": {
+            "rank": "B",
+            "hit": 60,
+            "wt": 8,
+            "rng": "1-(Mag/2)",
+            "uses": 3,
+            "price": 1800,
+            "wexp": 5,
+            "exp": 40
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Unused.\nInfliction rate: [30 + {[(Magic) - (Foe's Resistance)] \u00d7 5} + (Skill) - (distance from Foe \u00d7 2)]"
+        }
+    },
+    "rescue": {
+        "name": "Rescue",
+        "type": "staff",
+        "desc": "A staff that teleports allied units to a space near the wielder.",
+        "stats": {
+            "rank": "B",
+            "hit": 100,
+            "wt": 6,
+            "rng": "1-(Mag/2)",
+            "uses": 3,
+            "price": 1800,
+            "wexp": 5,
+            "exp": 40
+        },
+        "weapon": false
+    },
+    "recover": {
+        "name": "Recover",
+        "type": "staff",
+        "desc": "A staff that restores all HP to a target unit.",
+        "stats": {
+            "rank": "B",
+            "hit": 100,
+            "wt": 6,
+            "rng": 1,
+            "uses": 15,
+            "price": 2250,
+            "wexp": 4,
+            "exp": 17
+        },
+        "weapon": false
+    },
+    "warp": {
+        "name": "Warp",
+        "type": "staff",
+        "desc": false,
+        "stats": {
+            "rank": "A",
+            "hit": 100,
+            "wt": 5,
+            "rng": 1,
+            "uses": 5,
+            "price": 7500,
+            "wexp": 7,
+            "exp": 85
+        },
+        "weapon": false,
+        "reference": {
+            "Other Effects": "Unused.\nDestination range: 1-(Mag/2)"
+        }
+    },
+    "fortify": {
+        "name": "Fortify",
+        "type": "staff",
+        "desc": "A staff that heals all surrounding allied units. HP restored = (Magic + 10)",
+        "stats": {
+            "rank": "A",
+            "hit": 100,
+            "wt": 7,
+            "rng": "1-[5+(Mag/2)]",
+            "uses": 8,
+            "price": 8000,
+            "wexp": 5,
+            "exp": 60
+        },
+        "weapon": false
+    },
+    "asherastaff": {
+        "name": "Ashera Staff",
+        "type": "staff",
+        "desc": "A staff that restores all HP to all allied units, as well as restoring their conditions to normal.",
+        "stats": {
+            "rank": "S",
+            "hit": 100,
+            "wt": 4,
+            "rng": "All",
+            "uses": 3,
+            "wexp": 4,
+            "exp": "100%"
+        },
+        "weapon": false
+    },
+    "clawcat": {
+        "name": "Claw (Cat)",
+        "type": "strike",
+        "desc": "Razor-sharp cat claws. They never wear out and cannot be unequipped or dropped.",
+        "stats": {
+            "mt": 8,
+            "hit": 90,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true
+    },
+    "clawtiger": {
+        "name": "Claw (Tiger)",
+        "type": "strike",
+        "desc": "Razor-sharp tiger claws. They never wear out and cannot be unequipped or dropped",
+        "stats": {
+            "mt": 9,
+            "hit": 90,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true
+    },
+    "clawlion": {
+        "name": "Claw (Lion)",
+        "type": "strike",
+        "desc": "Razor-sharp lion claws. They never wear out and can never be unequipped or dropped.",
+        "stats": {
+            "mt": 10,
+            "hit": 95,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Negates non-Wrath critical hits.\nNegates the blessing on the Black Knight and Ashnard."
+        }
+    },
+    "breathwhite": {
+        "name": "Breath (White)",
+        "type": "strike",
+        "desc": "The icy breath of a white dragon. It never runs out and cannot be unequipped or dropped.",
+        "stats": {
+            "mt": 10,
+            "hit": 75,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Negates the blessing on the Black Knight and Ashnard."
+        }
+    },
+    "breathred": {
+        "name": "Breath (Red)",
+        "type": "strike",
+        "desc": "The fiery breath of a red dragon. It never runs out and cannot be unequipped or dropped.",
+        "stats": {
+            "mt": 10,
+            "hit": 90,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Negates the blessing on the Black Knight and Ashnard."
+        }
+    },
+    "beakhawk": {
+        "name": "Beak (Hawk)",
+        "type": "strike",
+        "desc": "The fierce beak of a hawk. It never wears out and cannot be unequipped or dropped.",
+        "stats": {
+            "mt": 7,
+            "hit": 90,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true
+    },
+    "beaktibarn": {
+        "name": "Beak (Tibarn)",
+        "type": "strike",
+        "desc": "The fierce beak of a hawk. It never wears out and cannot be unequipped or dropped.",
+        "stats": {
+            "mt": 8,
+            "hit": 95,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Negates non-Wrath critical hits.\nNegates the blessing on the Black Knight and Ashnard."
+        }
+    },
+    "beakraven": {
+        "name": "Beak (Raven)",
+        "type": "strike",
+        "desc": "The fierce beak of a raven. It never wears out and cannot be unequipped or dropped.",
+        "stats": {
+            "mt": 7,
+            "hit": 90,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true
+    },
+    "beaknaesala": {
+        "name": "Beak (Naesala)",
+        "type": "strike",
+        "desc": "The fierce beak of a raven. It never wears out and cannot be unequipped or dropped.",
+        "stats": {
+            "mt": 8,
+            "hit": 95,
+            "wt": 1,
+            "rng": 1
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Negates non-Wrath critical hits.\nNegates the blessing on the Black Knight and Ashnard."
+        }
+    },
+    "laguzstone2uses": {
+        "name": "Laguz Stone (2 uses)",
+        "type": "item",
+        "desc": "An item that allows a laguz to remain in animal form.",
+        "stats": {
+            "uses": 2,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "laguzstone1use": {
+        "name": "Laguz Stone (1 use)",
+        "type": "item",
+        "desc": "An item that allows a laguz to remain in animal form.",
+        "stats": {
+            "uses": 1,
+            "price": 1000
+        },
+        "weapon": false
+    },
+    "masterseal": {
+        "name": "Master Seal",
+        "type": "item",
+        "desc": "An item that allows units of level ten or higher to upgrade classes.",
+        "stats": {
+            "uses": 1,
+            "price": 10000
+        },
+        "weapon": false
+    },
+    "chestkey": {
+        "name": "Chest Key",
+        "type": "item",
+        "desc": "A key that unlocks treasure chests.",
+        "stats": {
+            "uses": 2,
+            "price": 600
+        },
+        "weapon": false
+    },
+    "doorkey": {
+        "name": "Door Key",
+        "type": "item",
+        "desc": "A key that unlocks doors.",
+        "stats": {
+            "uses": 2,
+            "price": 100
+        },
+        "weapon": false
+    },
+    "silvercard": {
+        "name": "Silver Card",
+        "type": "item",
+        "desc": "A special card that brings the bearer bargains galore at shops.",
+        "stats": {
+            "uses": 0,
+            "price": 0
+        },
+        "weapon": false,
+        "reference": {
+            "Notes": "Unused."
+        }
+    },
+    "vulnerary": {
+        "name": "Vulnerary",
+        "type": "item",
+        "desc": "A potion that restores 10 HP when consumed.",
+        "stats": {
+            "uses": 3,
+            "price": 300
+        },
+        "weapon": false
+    },
+    "elixir": {
+        "name": "Elixir",
+        "type": "item",
+        "desc": "A potent potion that restores all HP when consumed.",
+        "stats": {
+            "uses": 3,
+            "price": 3000
+        },
+        "weapon": false
+    },
+    "purewater": {
+        "name": "Pure Water",
+        "type": "item",
+        "desc": "A phial of blessed water that reduces damage from magical attacks temporarily.",
+        "stats": {
+            "uses": 3,
+            "price": 900
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Grants +7 Resistance (effect lowers each turn)."
+        }
+    },
+    "antitoxin": {
+        "name": "Antitoxin",
+        "type": "item",
+        "desc": "A draught that neutralizes the effects of poison when consumed..",
+        "stats": {
+            "uses": 3,
+            "price": 450
+        },
+        "weapon": false
+    },
+    "whitegem": {
+        "name": "White Gem",
+        "type": "item",
+        "desc": "A very valuable gemstone. It can be sold for an extremely high price..",
+        "stats": {
+            "uses": 1,
+            "price": 20000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Sells for 10000g."
+        }
+    },
+    "bluegem": {
+        "name": "Blue Gem",
+        "type": "item",
+        "desc": "A valuable gemstone. It can be sold for a high price.",
+        "stats": {
+            "uses": 1,
+            "price": 10000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Sells for 5000g."
+        }
+    },
+    "redgem": {
+        "name": "Red Gem",
+        "type": "item",
+        "desc": "A moderately valuable gemstone. It can be sold for a decent price.",
+        "stats": {
+            "uses": 1,
+            "price": 5000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Sells for 2500g."
+        }
+    },
+    "coin": {
+        "name": "Coin",
+        "type": "item",
+        "desc": "A golden coin used for currency. It can be exchanged for exactly one gold.",
+        "stats": {
+            "uses": 1,
+            "price": 2
+        },
+        "weapon": false
+    },
+    "seraphrobe": {
+        "name": "Seraph Robe",
+        "type": "item",
+        "desc": "A magic item that increases the user's maximum HP.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises HP by 7 points."
+        }
+    },
+    "energydrop": {
+        "name": "Energy Drop",
+        "type": "item",
+        "desc": "A magic item that increases the user's strength.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Strength by 2 points."
+        }
+    },
+    "spiritdust": {
+        "name": "Spirit Dust",
+        "type": "item",
+        "desc": "A magic item that increases the user's magic power.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Magic by 2 points."
+        }
+    },
+    "secretbook": {
+        "name": "Secret Book",
+        "type": "item",
+        "desc": "A magic item that increases the user's skill.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Skill by 2 points."
+        }
+    },
+    "speedwing": {
+        "name": "Speedwing",
+        "type": "item",
+        "desc": "A magic item that increases the user's speed.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Speed by 2 points."
+        }
+    },
+    "asheraicon": {
+        "name": "Ashera Icon",
+        "type": "item",
+        "desc": "A magic item that increases the user's luck.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Luck by 2 points."
+        }
+    },
+    "dracoshield": {
+        "name": "Dracoshield",
+        "type": "item",
+        "desc": "A magic item that increases the user's defense.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Defense by 2 points."
+        }
+    },
+    "talisman": {
+        "name": "Talisman",
+        "type": "item",
+        "desc": "A magic item that increases the user's magic resistance.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Resistance by 2 points."
+        }
+    },
+    "boots": {
+        "name": "Boots",
+        "type": "item",
+        "desc": "A magic item that increases the user's movement.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Movement by 2 points."
+        }
+    },
+    "statuefrag": {
+        "name": "Statue Frag",
+        "type": "item",
+        "desc": "A magic item that increases the user's build.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false,
+        "reference": {
+            "Effects": "Permanently raises Constitution by 2 points."
+        }
+    },
+    "armsscroll": {
+        "name": "Arms Scroll",
+        "type": "item",
+        "desc": "An item that increases the weapon level of the currently equipped weapon.",
+        "stats": {
+            "uses": 1,
+            "price": 8000
+        },
+        "weapon": false
+    },
+    "occultscroll": {
+        "name": "Occult Scroll",
+        "type": "item",
+        "desc": "Teaches promoted units a class-specific mastery skill.",
+        "stats": {
+            "uses": 1
+        },
+        "weapon": false
+    },
+    "resolvescroll": {
+        "name": "Resolve Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_resolve:1317288992236113971>Resolve.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "saviorscroll": {
+        "name": "Savior Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_savior:1317289020723826828>Savior.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "vantagescroll": {
+        "name": "Vantage Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_vantage:1317289102290452510>Vantage.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "nihilscroll": {
+        "name": "Nihil Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_nihil:1317288881833508925>Nihil.",
+        "stats": {
+            "uses": 1,
+            "price": 3000
+        },
+        "weapon": false
+    },
+    "wrathscroll": {
+        "name": "Wrath Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_wrath:1317289132829179955>Wrath.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "corrosionscroll": {
+        "name": "Corrosion Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_corrode:1317288695254224927>Corrosion.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "miraclescroll": {
+        "name": "Miracle Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_miracle:1317288872526483617>Miracle.",
+        "stats": {
+            "uses": 1,
+            "price": 1000
+        },
+        "weapon": false
+    },
+    "counterscroll": {
+        "name": "Counter Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_counter:1317288702975807528>Counter.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "provokescroll": {
+        "name": "Provoke Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_provoke:1317288935025672273>Provoke.",
+        "stats": {
+            "uses": 1,
+            "price": 1000
+        },
+        "weapon": false
+    },
+    "shadescroll": {
+        "name": "Shade Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_shade:1317289041468592168>Shade.",
+        "stats": {
+            "uses": 1,
+            "price": 1000
+        },
+        "weapon": false
+    },
+    "gamblescroll": {
+        "name": "Gamble Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_gamble:1317288756344262749>Gamble.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "parityscroll": {
+        "name": "Parity Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_parity:1317288921696178326>Parity.",
+        "stats": {
+            "uses": 1,
+            "price": 1000
+        },
+        "weapon": false
+    },
+    "smitescroll": {
+        "name": "Smite Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_smite:1317289051136589864>Smite.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "guardscroll": {
+        "name": "Guard Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_guard:1317288764149600317>Guard.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "adeptscroll": {
+        "name": "Adept Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_adept:1317288608964673557>Adept.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false
+    },
+    "renewalscroll": {
+        "name": "Renewal Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_renewal:1317288960984088668>Renewal.",
+        "stats": {
+            "uses": 1
+        },
+        "weapon": false
+    },
+    "paragonscroll": {
+        "name": "Paragon Scroll",
+        "type": "item",
+        "desc": "Astrid and Geoffrey only. Teaches <:fe9_paragon:1317288906210934825>Paragon.",
+        "stats": {
+            "uses": 1,
+            "price": 3000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "celerityscroll": {
+        "name": "Celerity Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_celerity:1317288679420723241>Celerity.",
+        "stats": {
+            "uses": 1,
+            "price": 3000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "impregnablescroll": {
+        "name": "Impregnable Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_ironwall:1317288790984757310>Impregnable.",
+        "stats": {
+            "uses": 1,
+            "price": 1000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        },
+        "ALT_NAME": [
+            "ironwallscroll"
+        ]
+    },
+    "tempestscroll": {
+        "name": "Tempest Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_tempest:1317288790984757310>Tempest.",
+        "stats": {
+            "uses": 1,
+            "price": 1000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "serenityscroll": {
+        "name": "Serenity Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_serenity:1317289028965499061>Serenity.",
+        "stats": {
+            "uses": 1,
+            "price": 1000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "dauntscroll": {
+        "name": "Daunt Scroll",
+        "type": "item",
+        "desc": "Teaches <:fe9_daunt:1317288719061094482>Daunt.",
+        "stats": {
+            "uses": 1,
+            "price": 2000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "cantoscroll": {
+        "name": "Canto Scroll",
+        "type": "item",
+        "desc": "Transformed Herons only. Teaches <:fe9_canto:1317288671690621058>Canto.\nNote: Due to Herons not being able to transform while in the Base, this item cannot be actually used.",
+        "stats": {
+            "uses": 1,
+            "price": 6000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "blossomscroll": {
+        "name": "Blossom Scroll",
+        "type": "item",
+        "desc": "Sothe only. Teaches <:fe9_blossom:1317288647627898880>Blossom.",
+        "stats": {
+            "uses": 1,
+            "price": 3000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "reinforcescroll": {
+        "name": "Reinforce Scroll",
+        "type": "item",
+        "desc": "Tanith only. Teaches <:fe9_reinforce:1317288947839402045>Reinforce.",
+        "stats": {
+            "uses": 1,
+            "price": 3000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "insightscroll": {
+        "name": "Insight Scroll",
+        "type": "item",
+        "desc": "Janaff only. Teaches <:fe9_insight:1317288778787983370>Insight.",
+        "stats": {
+            "uses": 1,
+            "price": 3000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "vigilancescroll": {
+        "name": "Vigilance Scroll",
+        "type": "item",
+        "desc": "Ulki only. Teaches <:fe9_vigilance:1317289113157632040>Vigilance.",
+        "stats": {
+            "uses": 1,
+            "price": 3000
+        },
+        "weapon": false,
+        "reference":{
+            "Notes": "Unused."
+        }
+    },
+    "laguzguard": {
+        "name": "Laguzguard",
+        "type": "item",
+        "desc": "A magic item that, when equipped, halves the damage done by laguz attacks. For use by beorc only.",
+        "stats": {
+            "price": 8000
+        },
+        "weapon": false
+    },
+    "beorcguard": {
+        "name": "Beorcguard",
+        "type": "item",
+        "desc": "A magic item that, when equipped, halves the damage done by beorc attacks. For use by laguz only.",
+        "stats": {
+            "price": 8000
+        },
+        "weapon": false
+    },
+    "fullguard": {
+        "name": "Full Guard",
+        "type": "item",
+        "desc": "An item that, when equipped, negates any bonus damage a weapon might have dealt.",
+        "stats": {
+            "price": 10000
+        },
+        "weapon": false
+    },
+    "knightward": {
+        "name": "Knight Ward",
+        "type": "item",
+        "desc": "Grants +2 Defense, +2 Resistance, +30% Speed Growth.\nA magic item that, when equipped, raises defenses. For use by soldiers, knights, and paladins only.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "demiband": {
+        "name": "Demi Band",
+        "type": "item",
+        "desc": "A band that, when equipped, allows its wearer to maintain animal form at all times. All abilities are slightly lower while using the band.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false,
+        "reference": {
+            "Notes": "Can be used by any Laguz except Reyson."
+        }
+    },
+    "laguzband": {
+        "name": "Laguz Band",
+        "type": "item",
+        "desc": "A band that, when equipped, allows its wearer to maintain animal form at all times. Abilities are not affected. For laguz nobles only.",
+        "stats": {},
+        "weapon": false
+    },
+    "knightring": {
+        "name": "Knight Ring",
+        "type": "item",
+        "desc": "Grants <:fe9_canto:1317289113157632040>Canto.\nAn item that, when equipped, allows the wearer a second movement, as with cavalry.",
+        "stats": {},
+        "weapon": false
+    },
+    "swordband": {
+        "name": "Sword Band",
+        "type": "item",
+        "desc": "Grants +5% Skill Growth, +5% Luck Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a myrmidon.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "soldierband": {
+        "name": "Soldier Band",
+        "type": "item",
+        "desc": "Grants +5 HP Growth, +5% Defense Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a soldier.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "fighterband": {
+        "name": "Fighter Band",
+        "type": "item",
+        "desc": "Grants +5% HP Growth, +5% Strength Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a warrior.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "archerband": {
+        "name": "Archer Band",
+        "type": "item",
+        "desc": "Grants +5% Skill Growth, +5% Speed Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of an archer.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "knightband": {
+        "name": "Knight Band",
+        "type": "item",
+        "desc": "Grants +5% Strength Growth, +5% Defense Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a knight.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "paladinband": {
+        "name": "Paladin Band",
+        "type": "item",
+        "desc": "Grants +5% HP Growth, +5% Speed Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a paladin.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "pegasusband": {
+        "name": "Pegasus Band",
+        "type": "item",
+        "desc": "Grants +5% Luck Growth, +5% Resistance Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a pegasus knight.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "wyvernband": {
+        "name": "Wyvern Band",
+        "type": "item",
+        "desc": "Grants +5% Strength Growth, +5% Defense Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a wyvern rider.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "mageband": {
+        "name": "Mage Band",
+        "type": "item",
+        "desc": "Grants +10% Magic Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a mage.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "priestband": {
+        "name": "Priest Band",
+        "type": "item",
+        "desc": "Grants +5% Luck Growth, +5% Resistance Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a priest.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "thiefband": {
+        "name": "Thief Band",
+        "type": "item",
+        "desc": "Grants +5% Skill Growth, +5% Speed Growth.\nAn armlet that, when equipped, alters the direction of a level upgrade. It contains the essence of a thief.",
+        "stats": {
+            "price": 4000
+        },
+        "weapon": false
+    },
+    "knife": {
+        "name": "Knife",
+        "type": "knife",
+        "desc": "A light and easy-to-wield combat knife.",
+        "stats": {
+            "mt": 2,
+            "hit": 100,
+            "wt": 2,
+            "crit": 5,
+            "rng": 1,
+            "uses": 30,
+            "price": 480
+        },
+        "weapon": true
+    },
+    "dagger": {
+        "name": "Dagger",
+        "type": "knife",
+        "desc": "A more powerful combat knife.",
+        "stats": {
+            "mt": 4,
+            "hit": 90,
+            "wt": 4,
+            "rng": 1,
+            "uses": 30,
+            "price": 600
+        },
+        "weapon": true
+    },
+    "stiletto": {
+        "name": "Stiletto",
+        "type": "knife",
+        "desc": "The most powerful combat knife.",
+        "stats": {
+            "mt": 8,
+            "hit": 95,
+            "wt": 8,
+            "crit": 10,
+            "rng": 1,
+            "uses": 20,
+            "price": 1500
+        },
+        "weapon": true,
+        "reference": {
+            "Other Effects": "Effective against Armored units."
+        }
+    }
+}
