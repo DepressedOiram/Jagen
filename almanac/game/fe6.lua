@@ -59,12 +59,13 @@ Character.section = almanac.get("database/fe6/char.json")
 Character.helper_portrait = "database/fe6/images"
 
 Character.helper_job_base = true
+
+Character.allow_show_promo = true
 Character.promo_use_fixed = true
 
 Character.allow_show_cap = false
 Character.compare_cap = false
 
-Character.allow_show_promo = true
 Character.allow_promo_skill = false
 Character.average_classic = false
 Character.rank_exp = rank_exp
@@ -254,12 +255,20 @@ function Character:show_sup()
     return infobox
 end
 
+-- Base
+function Character:calc_base()
+    local base = workspaces.Character.calc_base(self)
+    
+    return base
+end
+
 -- Change stats based on difficulty
 function Character:final_base()
-    local base = self:calc_base()
+    local base = workspaces.Character.final_base(self)
 
-    if not self.personal then
-        base = base + self.job:get_base()
+    if self.job.id ~= self.data.job then
+        
+        local job = self.Job:new(self.data.job)
     end
 
     -- if it's mounted

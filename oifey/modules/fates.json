@@ -614,7 +614,7 @@
                 "prefix": {
                     "boon": "+",
                     "bane": "-",
-                    "modifiers": "+",
+                    "modifiers": "$",
                     "mt": "+",
                     "hit": "-",
                     "crit": "?"

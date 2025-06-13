@@ -41,7 +41,7 @@
         "lvl": 2,
         "type": "fixed",
         "skill": [
-            "pursuit",
+            "followup",
             "nihil"
         ],
         "base": {
@@ -155,7 +155,7 @@
         "lvl": 7,
         "type": "fixed",
         "skill": [
-            "pursuit",
+            "followup",
             "adept",
             "vantage"
         ],
@@ -200,11 +200,11 @@
         "portrait": "asaello.png",
         "promo": "sniper",
         "gold": 2000,
-        "job": "archer",
+        "job": "bowfighter",
         "lvl": 9,
         "type": "fixed",
         "skill": [
-            "accost"
+            "onslaught"
         ],
         "base": {
             "hp": 36,
@@ -233,7 +233,7 @@
         "portrait": "ayra.png",
         "promo": "swordmaster",
         "gold": 3000,
-        "job": "myrmidon",
+        "job": "swordfighter",
         "lvl": 4,
         "type": "fixed",
         "skill": [
@@ -273,7 +273,7 @@
         "lvl": 1,
         "type": "fixed",
         "skill": [
-            "pursuit"
+            "followup"
         ],
         "base": {
             "hp": 30,
@@ -308,8 +308,8 @@
         "lvl": 9,
         "type": "fixed",
         "skill": [
-            "pursuit",
-            "accost"
+            "followup",
+            "onslaught"
         ],
         "base": {
             "hp": 38,
@@ -414,9 +414,9 @@
     "chulainn": {
         "name": "Chulainn",
         "portrait": "holyn.png",
-        "promo": "hero",
+        "promo": "forester",
         "gold": 10000,
-        "job": "myrmidon",
+        "job": "swordfighter",
         "lvl": 12,
         "type": "fixed",
         "skill": [
@@ -494,9 +494,9 @@
     "creidne": {
         "name": "Creidne",
         "portrait": "radney.png",
-        "promo": "hero",
+        "promo": "forester",
         "gold": 2000,
-        "job": "myrmidon",
+        "job": "swordfighter",
         "lvl": 1,
         "type": "fixed",
         "skill": [],
@@ -558,9 +558,9 @@
     "dalvin": {
         "name": "Dalvin",
         "portrait": "roddlevan.png",
-        "promo": "hero",
+        "promo": "forester",
         "gold": 2000,
-        "job": "myrmidon",
+        "job": "swordfighter",
         "lvl": 1,
         "type": "fixed",
         "skill": [
@@ -591,13 +591,13 @@
     "deimne": {
         "name": "Deimne",
         "portrait": "dimna.png",
-        "promo": "archknight",
+        "promo": "bowknight",
         "gold": 2000,
-        "job": "bowknight",
+        "job": "archerknight",
         "lvl": 1,
         "type": "fixed",
         "skill": [
-            "pursuit"
+            "followup"
         ],
         "base": {
             "hp": 30,
@@ -712,7 +712,7 @@
         "lvl": 6,
         "type": "fixed",
         "skill": [
-            "pursuit"
+            "followup"
         ],
         "base": {
             "hp": 32,
@@ -776,7 +776,7 @@
         "portrait": "faval.png",
         "promo": "sniper",
         "gold": "2000 + Inheritance Gold",
-        "job": "archer",
+        "job": "bowfighter",
         "lvl": 9,
         "type": "child",
         "mother": "brigid",
@@ -804,7 +804,7 @@
         "lvl": 1,
         "type": "fixed",
         "skill": [
-            "pursuit",
+            "followup",
             "miracle"
         ],
         "base": {
@@ -872,7 +872,7 @@
         "lvl": 14,
         "type": "fixed",
         "skill": [
-            "pursuit"
+            "followup"
         ],
         "base": {
             "hp": 38,
@@ -972,11 +972,11 @@
         "portrait": "johalvier.png",
         "promo": "warrior",
         "gold": 5000,
-        "job": "fighter",
+        "job": "axefighter",
         "lvl": 12,
         "type": "fixed",
         "skill": [
-            "accost"
+            "onslaught"
         ],
         "base": {
             "hp": 42,
@@ -1007,12 +1007,12 @@
         "portrait": "jamke.png",
         "promo": "sniper",
         "gold": 5000,
-        "job": "archer",
+        "job": "bowfighter",
         "lvl": 6,
         "type": "fixed",
         "skill": [
             "adept",
-            "accost"
+            "onslaught"
         ],
         "base": {
             "hp": 36,
@@ -1076,7 +1076,7 @@
         "lvl": 1,
         "type": "fixed",
         "skill": [
-            "pursuit",
+            "followup",
             "adept",
             "nihil"
         ],
@@ -1157,7 +1157,7 @@
         "portrait": "larcei.png",
         "promo": "swordmaster",
         "gold": "2000 + Inheritance Gold",
-        "job": "myrmidon",
+        "job": "swordfighter",
         "lvl": 1,
         "type": "child",
         "mother": "ayra",
@@ -1224,9 +1224,9 @@
     "lester": {
         "name": "Lester",
         "portrait": "lester.png",
-        "promo": "archknight",
+        "promo": "bowknight",
         "gold": "2000 + Inheritance Gold",
-        "job": "bowknight",
+        "job": "archerknight",
         "lvl": 1,
         "type": "child",
         "mother": "edain",
@@ -1344,14 +1344,14 @@
     "midir": {
         "name": "Midir",
         "portrait": "midir.png",
-        "promo": "archknight",
+        "promo": "bowknight",
         "gold": 2000,
-        "job": "bowknight",
+        "job": "archerknight",
         "lvl": 2,
         "type": "fixed",
         "skill": [
-            "pursuit",
-            "accost"
+            "followup",
+            "onslaught"
         ],
         "base": {
             "hp": 32,
@@ -1428,7 +1428,7 @@
         "type": "fixed",
         "skill": [
             "critical",
-            "accost"
+            "onslaught"
         ],
         "base": {
             "hp": 33,
@@ -1461,7 +1461,7 @@
         "lvl": 15,
         "type": "fixed",
         "skill": [
-            "pursuit",
+            "followup",
             "critical"
         ],
         "base": {
@@ -1538,9 +1538,9 @@
     "scathach": {
         "name": "Sc\u00e1thach",
         "portrait": "ulster.png",
-        "promo": "hero",
+        "promo": "forester",
         "gold": "2000 + Inheritance Gold",
-        "job": "myrmidon",
+        "job": "swordfighter",
         "lvl": 1,
         "type": "child",
         "mother": "ayra",
@@ -1552,7 +1552,7 @@
         "portrait": "seliph.png",
         "promo": "knightlord",
         "gold": "2000 + Inheritance Gold",
-        "job": "lord",
+        "job": "lordling",
         "lvl": 1,
         "type": "child",
         "mother": "deirdre",
@@ -1603,7 +1603,7 @@
         "lvl": 5,
         "type": "fixed",
         "skill": [
-            "pursuit"
+            "followup"
         ],
         "base": {
             "hp": 35,

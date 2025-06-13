@@ -1,37 +1,18 @@
 {
-    "archerf": {
-        "name": "Archer (F)",
+    "archer": {
+        "name": "Archer",
         "dismount": false,
         "exp": 2,
         "skill": [],
         "base": {
-            "hp": 16,
-            "str": 2,
-            "mag": 0,
-            "skl": 3,
-            "spd": 5,
-            "def": 1,
-            "con": 4,
-            "mov": 6
-        },
-        "rank": {
-            "bow": 50
-        }
-    },
-    "archerm": {
-        "name": "Archer (M)",
-        "dismount": false,
-        "exp": 2,
-        "skill": [],
-        "base": {
-            "hp": 18,
+            "hp": 20,
             "str": 3,
             "mag": 0,
-            "skl": 3,
-            "spd": 4,
+            "skl": 0,
+            "spd": 0,
             "def": 1,
             "con": 6,
-            "mov": 7
+            "mov": 5
         },
         "rank": {
             "bow": 50
@@ -40,83 +21,83 @@
     "archknightf": {
         "name": "Arch Knight (F)",
         "dismount": "archknightfdismounted",
-        "exp": 4,
+        "exp": 3,
         "skill": [],
         "base": {
-            "hp": 20,
-            "str": 4,
-            "mag": 1,
-            "skl": 6,
-            "spd": 7,
-            "def": 5,
-            "con": 5,
-            "mov": 9
+            "hp": 16,
+            "str": 2,
+            "mag": 0,
+            "skl": 3,
+            "spd": 5,
+            "def": 3,
+            "con": 4,
+            "mov": 8
         },
         "rank": {
-            "bow": 100
+            "bow": 50
         }
     },
     "archknightfdismounted": {
         "name": "Arch Knight (F) (Dismounted)",
         "dismount": false,
-        "exp": 3,
+        "exp": 2,
         "skill": [],
         "base": {
-            "hp": 20,
-            "str": 3,
-            "mag": 1,
-            "skl": 5,
-            "spd": 5,
-            "def": 4,
-            "con": 5,
-            "mov": 6
+            "hp": 16,
+            "str": 1,
+            "mag": 0,
+            "skl": 2,
+            "spd": 3,
+            "def": 2,
+            "con": 4,
+            "mov": 5
         },
         "rank": {
-            "bow": 100
+            "bow": 50
         },
         "IGNORE": true
     },
     "archknightm": {
         "name": "Arch Knight (M)",
         "dismount": "archknightmdismounted",
-        "exp": 4,
+        "exp": 3,
         "skill": [],
         "base": {
-            "hp": 24,
-            "str": 5,
-            "mag": 1,
-            "skl": 6,
-            "spd": 6,
-            "def": 5,
-            "con": 7,
-            "mov": 9
+            "hp": 20,
+            "str": 3,
+            "mag": 0,
+            "skl": 3,
+            "spd": 4,
+            "def": 3,
+            "con": 6,
+            "mov": 8
         },
         "rank": {
-            "bow": 100
+            "bow": 50
         }
     },
     "archknightmdismounted": {
         "name": "Arch Knight (M) (Dismounted)",
         "dismount": false,
-        "exp": 3,
+        "exp": 2,
         "skill": [],
         "base": {
-            "hp": 24,
-            "str": 4,
-            "mag": 1,
-            "skl": 5,
-            "spd": 4,
-            "def": 4,
-            "con": 7,
-            "mov": 6
+            "hp": 20,
+            "str": 2,
+            "mag": 0,
+            "skl": 2,
+            "spd": 2,
+            "def": 2,
+            "con": 6,
+            "mov": 5
         },
         "rank": {
-            "bow": 100
+            "bow": 50
         },
         "IGNORE": true
     },
-    "armoredaxe": {
-        "name": "Armored Axe",
+    "axearmor": {
+        "name": "Axe Armor",
         "dismount": false,
         "exp": 3,
         "skill": [],
@@ -134,8 +115,8 @@
             "axe": 50
         }
     },
-    "armoredlance": {
-        "name": "Armored Lance",
+    "axefighter": {
+        "name": "Axe Fighter",
         "dismount": false,
         "exp": 3,
         "skill": [],
@@ -143,33 +124,14 @@
             "hp": 20,
             "str": 4,
             "mag": 0,
-            "skl": 0,
-            "spd": 0,
-            "def": 8,
-            "con": 9,
-            "mov": 5
+            "skl": 4,
+            "spd": 5,
+            "def": 2,
+            "con": 8,
+            "mov": 6
         },
         "rank": {
-            "lance": 50
-        }
-    },
-    "armoredsword": {
-        "name": "Armored Sword",
-        "dismount": false,
-        "exp": 3,
-        "skill": [],
-        "base": {
-            "hp": 20,
-            "str": 4,
-            "mag": 0,
-            "skl": 0,
-            "spd": 0,
-            "def": 8,
-            "con": 9,
-            "mov": 5
-        },
-        "rank": {
-            "sword": 50
+            "axe": 50
         }
     },
     "axeknight": {
@@ -210,6 +172,24 @@
             "sword": 50
         },
         "IGNORE": true
+    },
+    "ballistician": {
+        "name": "Ballistician",
+        "dismount": false,
+        "exp": 3,
+        "base": {
+            "hp": 20,
+            "str": 4,
+            "mag": 0,
+            "skl": 3,
+            "spd": 0,
+            "def": 5,
+            "con": 6,
+            "mov": 0
+        },
+        "rank": {
+            "bow": 100
+        }
     },
     "bard": {
         "name": "Bard",
@@ -351,20 +331,39 @@
             "bow": 50
         }
     },
-    "bowfighter": {
-        "name": "Bow Fighter",
+    "bowfighterf": {
+        "name": "Bow Fighter (F)",
         "dismount": false,
         "exp": 2,
         "skill": [],
         "base": {
-            "hp": 20,
+            "hp": 16,
+            "str": 2,
+            "mag": 0,
+            "skl": 3,
+            "spd": 5,
+            "def": 1,
+            "con": 4,
+            "mov": 6
+        },
+        "rank": {
+            "bow": 50
+        }
+    },
+    "bowfighterm": {
+        "name": "Bow Fighter (M)",
+        "dismount": false,
+        "exp": 2,
+        "skill": [],
+        "base": {
+            "hp": 18,
             "str": 3,
             "mag": 0,
-            "skl": 0,
-            "spd": 0,
+            "skl": 3,
+            "spd": 4,
             "def": 1,
             "con": 6,
-            "mov": 5
+            "mov": 7
         },
         "rank": {
             "bow": 50
@@ -373,78 +372,79 @@
     "bowknightf": {
         "name": "Bow Knight (F)",
         "dismount": "bowknightfdismounted",
-        "exp": 3,
+        "exp": 4,
         "skill": [],
         "base": {
-            "hp": 16,
-            "str": 2,
-            "mag": 0,
-            "skl": 3,
-            "spd": 5,
-            "def": 3,
-            "con": 4,
-            "mov": 8
+            "hp": 20,
+            "str": 4,
+            "mag": 1,
+            "skl": 6,
+            "spd": 7,
+            "def": 5,
+            "con": 5,
+            "mov": 9
         },
         "rank": {
-            "bow": 50
+            "bow": 100
         }
     },
     "bowknightfdismounted": {
         "name": "Bow Knight (F) (Dismounted)",
         "dismount": false,
-        "exp": 2,
+        "exp": 3,
         "skill": [],
         "base": {
-            "hp": 16,
-            "str": 1,
-            "mag": 0,
-            "skl": 2,
-            "spd": 3,
-            "def": 2,
-            "con": 4,
-            "mov": 5
+            "hp": 20,
+            "str": 3,
+            "mag": 1,
+            "skl": 5,
+            "spd": 5,
+            "def": 4,
+            "con": 5,
+            "mov": 6
         },
         "rank": {
-            "bow": 50
+            "bow": 100
         },
         "IGNORE": true
     },
     "bowknightm": {
         "name": "Bow Knight (M)",
         "dismount": "bowknightmdismounted",
-        "exp": 3,
+        "exp": 4,
         "skill": [],
         "base": {
-            "hp": 20,
-            "str": 3,
-            "mag": 0,
-            "skl": 3,
-            "spd": 4,
-            "def": 3,
-            "con": 6,
-            "mov": 8
+            "hp": 24,
+            "str": 5,
+            "mag": 1,
+            "skl": 6,
+            "spd": 6,
+            "def": 5,
+            "con": 7,
+            "mov": 9
         },
         "rank": {
-            "bow": 50
+            "bow": 100
         }
     },
     "bowknightmdismounted": {
         "name": "Bow Knight (M) (Dismounted)",
         "dismount": false,
-        "exp": 2,
+        "exp": 3,
         "skill": [],
         "base": {
-            "hp": 20,
-            "str": 2,
-            "mag": 0,
             "skl": 2,
-            "spd": 2,
-            "def": 2,
-            "con": 6,
-            "mov": 5
+            "hp": 24,
+            "str": 4,
+            "mag": 1,
+            "skl": 5,
+            "spd": 4,
+            "def": 4,
+            "con": 7,
+            "mov": 6
         },
         "rank": {
-            "bow": 50
+            "bow": 100
         },
         "IGNORE": true
     },
@@ -614,7 +614,7 @@
         }
     },
     "darkmage": {
-        "name": "Sorcerer",
+        "name": "Dark Mage",
         "dismount": false,
         "exp": 3,
         "skill": [],
@@ -767,24 +767,51 @@
         },
         "IGNORE": true
     },
-    "fighter": {
-        "name": "Fighter",
+    "forrestf": {
+        "name": "Forrest (F)",
         "dismount": false,
-        "exp": 3,
+        "exp": 4,
         "skill": [],
         "base": {
             "hp": 20,
-            "str": 4,
-            "mag": 0,
-            "skl": 4,
-            "spd": 5,
-            "def": 2,
-            "con": 8,
+            "str": 5,
+            "mag": 1,
+            "skl": 7,
+            "spd": 9,
+            "def": 5,
+            "con": 5,
             "mov": 6
         },
         "rank": {
+            "sword": 100,
             "axe": 50
-        }
+        },
+        "ALT_NAME": [
+            "hero2f"
+        ]
+    },
+    "forrestm": {
+        "name": "Forrest (M)",
+        "dismount": false,
+        "exp": 4,
+        "skill": [],
+        "base": {
+            "hp": 24,
+            "str": 6,
+            "mag": 1,
+            "skl": 7,
+            "spd": 8,
+            "def": 5,
+            "con": 5,
+            "mov": 5
+        },
+        "rank": {
+            "sword": 100,
+            "axe": 50
+        },
+        "ALT_NAME": [
+            "hero2m"
+        ]
     },
     "freeknight": {
         "name": "Free Knight",
@@ -885,92 +912,6 @@
             "sword": 50
         },
         "IGNORE": true
-    },
-    "hero2f": {
-        "name": "Hero (2) (F)",
-        "dismount": false,
-        "exp": 4,
-        "skill": [],
-        "base": {
-            "hp": 20,
-            "str": 5,
-            "mag": 1,
-            "skl": 7,
-            "spd": 9,
-            "def": 5,
-            "con": 5,
-            "mov": 6
-        },
-        "rank": {
-            "sword": 100,
-            "axe": 50
-        }
-    },
-    "hero2m": {
-        "name": "Hero (2) (M)",
-        "dismount": false,
-        "exp": 4,
-        "skill": [],
-        "base": {
-            "hp": 24,
-            "str": 6,
-            "mag": 1,
-            "skl": 7,
-            "spd": 8,
-            "def": 5,
-            "con": 5,
-            "mov": 5
-        },
-        "rank": {
-            "sword": 100,
-            "axe": 50
-        }
-    },
-    "herof": {
-        "name": "Hero (F)",
-        "dismount": false,
-        "exp": 4,
-        "skill": [],
-        "base": {
-            "hp": 20,
-            "str": 5,
-            "mag": 1,
-            "skl": 7,
-            "spd": 9,
-            "def": 5,
-            "con": 7,
-            "mov": 6
-        },
-        "rank": {
-            "sword": 100,
-            "axe": 50
-        },
-        "ALT_NAME": [
-            "mercenaryf"
-        ]
-    },
-    "herom": {
-        "name": "Hero (M)",
-        "dismount": false,
-        "exp": 4,
-        "skill": [],
-        "base": {
-            "hp": 24,
-            "str": 6,
-            "mag": 1,
-            "skl": 7,
-            "spd": 8,
-            "def": 5,
-            "con": 8,
-            "mov": 6
-        },
-        "rank": {
-            "sword": 100,
-            "axe": 50
-        },
-        "ALT_NAME": [
-            "mercenarym"
-        ]
     },
     "highpriestf": {
         "name": "High Priest (F)",
@@ -1129,6 +1070,25 @@
         },
         "IGNORE": true
     },
+    "lancearmor": {
+        "name": "Lance Armor",
+        "dismount": false,
+        "exp": 3,
+        "skill": [],
+        "base": {
+            "hp": 20,
+            "str": 4,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "def": 8,
+            "con": 9,
+            "mov": 5
+        },
+        "rank": {
+            "lance": 50
+        }
+    },
     "lanceknight": {
         "name": "Lance Knight",
         "dismount": "lanceknightdismounted",
@@ -1187,8 +1147,8 @@
             "bow": 50
         }
     },
-    "loptrianmagef": {
-        "name": "Loptrian Mage (F)",
+    "loptrmagef": {
+        "name": "Loptr Mage (F)",
         "dismount": false,
         "exp": 3,
         "skill": [],
@@ -1210,8 +1170,8 @@
             "dark": 150
         }
     },
-    "loptrianmagem": {
-        "name": "Loptrian Mage (M)",
+    "loptrmagem": {
+        "name": "Loptr Mage (M)",
         "dismount": false,
         "exp": 3,
         "skill": [],
@@ -1526,43 +1486,51 @@
         },
         "IGNORE": true
     },
-    "myrmidonf": {
-        "name": "Myrmidon (F)",
+    "mercenaryf": {
+        "name": "Mercenary (F)",
         "dismount": false,
-        "exp": 3,
-        "skill": [],
-        "base": {
-            "hp": 18,
-            "str": 2,
-            "mag": 0,
-            "skl": 5,
-            "spd": 7,
-            "def": 2,
-            "con": 5,
-            "mov": 6
-        },
-        "rank": {
-            "sword": 50
-        }
-    },
-    "myrmidonm": {
-        "name": "Myrmidon (M)",
-        "dismount": false,
-        "exp": 3,
+        "exp": 4,
         "skill": [],
         "base": {
             "hp": 20,
-            "str": 3,
-            "mag": 0,
-            "skl": 5,
-            "spd": 6,
-            "def": 2,
-            "con": 6,
+            "str": 5,
+            "mag": 1,
+            "skl": 7,
+            "spd": 9,
+            "def": 5,
+            "con": 7,
             "mov": 6
         },
         "rank": {
-            "sword": 50
-        }
+            "sword": 100,
+            "axe": 50
+        },
+        "ALT_NAME": [
+            "herof"
+        ]
+    },
+    "mercenarym": {
+        "name": "Mercenary (M)",
+        "dismount": false,
+        "exp": 4,
+        "skill": [],
+        "base": {
+            "hp": 24,
+            "str": 6,
+            "mag": 1,
+            "skl": 7,
+            "spd": 8,
+            "def": 5,
+            "con": 8,
+            "mov": 6
+        },
+        "rank": {
+            "sword": 100,
+            "axe": 50
+        },
+        "ALT_NAME": [
+            "herom"
+        ]
     },
     "paladinf": {
         "name": "Paladin (F)",
@@ -1857,50 +1825,6 @@
         },
         "IGNORE": true
     },
-    "roguef": {
-        "name": "Rogue (F)",
-        "dismount": false,
-        "exp": 3,
-        "skill": [
-            "steal",
-            "vantage"
-        ],
-        "base": {
-            "hp": 16,
-            "str": 3,
-            "mag": 1,
-            "skl": 3,
-            "spd": 9,
-            "def": 2,
-            "con": 4,
-            "mov": 7
-        },
-        "rank": {
-            "sword": 100
-        }
-    },
-    "roguem": {
-        "name": "Rogue (M)",
-        "dismount": false,
-        "exp": 3,
-        "skill": [
-            "steal",
-            "vantage"
-        ],
-        "base": {
-            "hp": 18,
-            "str": 4,
-            "mag": 1,
-            "skl": 3,
-            "spd": 8,
-            "def": 2,
-            "con": 6,
-            "mov": 7
-        },
-        "rank": {
-            "sword": 100
-        }
-    },
     "sagef": {
         "name": "Sage (F)",
         "dismount": false,
@@ -2008,6 +1932,63 @@
             "lance": 50
         }
     },
+    "swordarmor": {
+        "name": "Sword Armor",
+        "dismount": false,
+        "exp": 3,
+        "skill": [],
+        "base": {
+            "hp": 20,
+            "str": 4,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "def": 8,
+            "con": 9,
+            "mov": 5
+        },
+        "rank": {
+            "sword": 50
+        }
+    },
+    "swordfighterf": {
+        "name": "Sword Fighter (F)",
+        "dismount": false,
+        "exp": 3,
+        "skill": [],
+        "base": {
+            "hp": 18,
+            "str": 2,
+            "mag": 0,
+            "skl": 5,
+            "spd": 7,
+            "def": 2,
+            "con": 5,
+            "mov": 6
+        },
+        "rank": {
+            "sword": 50
+        }
+    },
+    "swordfighterm": {
+        "name": "Sword Fighter (M)",
+        "dismount": false,
+        "exp": 3,
+        "skill": [],
+        "base": {
+            "hp": 20,
+            "str": 3,
+            "mag": 0,
+            "skl": 5,
+            "spd": 6,
+            "def": 2,
+            "con": 6,
+            "mov": 6
+        },
+        "rank": {
+            "sword": 50
+        }
+    },
     "swordmasterf": {
         "name": "Swordmaster (F)",
         "dismount": false,
@@ -2112,6 +2093,56 @@
         "rank": {
             "sword": 50
         }
+    },
+    "thieffighterf": {
+        "name": "Thief Fighter (F)",
+        "dismount": false,
+        "exp": 3,
+        "skill": [
+            "steal",
+            "vantage"
+        ],
+        "base": {
+            "hp": 16,
+            "str": 3,
+            "mag": 1,
+            "skl": 3,
+            "spd": 9,
+            "def": 2,
+            "con": 4,
+            "mov": 7
+        },
+        "rank": {
+            "sword": 100
+        },
+        "ALT_NAME": [
+            "roguef"
+        ]
+    },
+    "thieffighterm": {
+        "name": "Thief Fighter (M)",
+        "dismount": false,
+        "exp": 3,
+        "skill": [
+            "steal",
+            "vantage"
+        ],
+        "base": {
+            "hp": 18,
+            "str": 4,
+            "mag": 1,
+            "skl": 3,
+            "spd": 8,
+            "def": 2,
+            "con": 6,
+            "mov": 7
+        },
+        "rank": {
+            "sword": 100
+        },
+        "ALT_NAME": [
+            "roguem"
+        ]
     },
     "thundermagef": {
         "name": "Thunder Mage (F)",

@@ -1,12 +1,4 @@
 {
-  "accost": {
-    "name": "Accost",
-    "desc": "If agile, user may continue a round of battle.\nActivation: (User's AS - foe's AS + [user's HP/2])%",
-    "emoji": "<:jugdral_charge:1317280235846238261>",
-    "reference": {
-      "Character": "Beowolf\nJamke\nNaoise\nMidir\nAsaello\nIucharba"
-    }
-  },
   "adept": {
     "name": "Adept",
     "desc": "May strike foe two successive times, if user is faster.\nActivation: (AS + 20)%",
@@ -68,6 +60,27 @@
       "Class": "Dancer"
     }
   },
+  "followup": {
+    "name": "Follow-Up",
+    "ALT_NAME": [
+      "pursuit"
+    ],
+    "desc": "Allows the user to double attack if attack speed exceeds foe's.",
+    "emoji": "<:jugdral_pursuit:1317280319455498312>",
+    "reference": {
+      "Character": "Alec\nAzelle\nBeowolf\nErinys\nFinn\nMidir\nSigurd\nAres\nCed\nDeimne\nFee\nHawk\nJulia\nOifey\nSeliph",
+      "Class": "Master Knight\nMyrmidon\nSwordmaster\nHero\nArcher\nSniper\nWyvern Lord\nThief Fighter\nDark Bishop",
+      "Items": "Follow-Up Ring"
+    }
+  },
+  "heal": {
+    "name": "Heal",
+    "desc": "Restores 5-10 HP to the user every turn.",
+    "emoji": "<:jugdral_renewal:1317280328284639252>",
+    "reference": {
+      "Items": "Circlet\nHeal Bracelet\nYewfelle"
+    }
+  },
   "luna": {
     "name": "Luna",
     "desc": "May negate the foe's defense.\nActivation: (Skill)%",
@@ -82,7 +95,7 @@
     "emoji": "<:jugdral_miracle:1317280280125378642>",
     "reference": {
       "Character": "Finn\nSilvia\nCoirpre\nDaisy\nLene",
-      "Items": "Circlet\nMiracle Ring\nMiracle Sword\nTyrfing"
+      "Items": "Circlet\nMiracle Bracelet\nMiracle Sword\nTyrfing"
     }
   },
   "nihil": {
@@ -91,6 +104,17 @@
     "emoji": "<:jugdral_nihil:1317280288644272188>",
     "reference": {
       "Character": "Alec\nAyra\nDeirdre\nJulia\nLarcei\nScáthach\nSeliph"
+    }
+  },
+  "onslaught": {
+    "name": "Onslaught",
+    "ALT_NAME": [
+      "accost"
+    ],
+    "desc": "If agile, user may continue a round of battle.\nActivation: (User's AS - foe's AS + [user's HP/2])%",
+    "emoji": "<:jugdral_charge:1317280235846238261>",
+    "reference": {
+      "Character": "Beowolf\nJamke\nNaoise\nMidir\nAsaello\nIucharba"
     }
   },
   "paragon": {
@@ -111,30 +135,12 @@
       "Class": "General\nBaron\nEmperor"
     }
   },
-  "pursuit": {
-    "name": "Pursuit",
-    "desc": "Allows the user to double attack if attack speed exceeds foe's.",
-    "emoji": "<:jugdral_pursuit:1317280319455498312>",
-    "reference": {
-      "Character": "Alec\nAzelle\nBeowolf\nErinys\nFinn\nMidir\nSigurd\nAres\nCed\nDeimne\nFee\nHawk\nJulia\nOifey\nSeliph",
-      "Class": "Master Knight\nMyrmidon\nSwordmaster\nHero\nArcher\nSniper\nWyvern Lord\nThief Fighter\nDark Bishop",
-      "Items": "Pursuit Ring"
-    }
-  },
   "recover": {
     "name": "Recover",
     "desc": "Heals all of the user's HP at the beginning of the user's phase.",
     "emoji": "<:jugdral_recover:1352755169212895342>",
     "reference": {
       "Items": "Recover Ring"
-    }
-  },
-  "renewal": {
-    "name": "Renewal",
-    "desc": "Restores 5-10 HP to the user every turn.",
-    "emoji": "<:jugdral_renewal:1317280328284639252>",
-    "reference": {
-      "Items": "Circlet\nRenewal Band\nYewfelle"
     }
   },
   "return": {

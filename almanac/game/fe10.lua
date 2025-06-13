@@ -255,18 +255,19 @@ function Character:show_mod()
     
     if self.minimal and not self:has_averages() and not self.item then
         local pagebox = Pagebox:new()
-        
+
         pagebox:page(infobox)
         pagebox:stats_button()
         
-        local laguzbox = self:show_strike()
-        
-        pagebox:page(laguz_weapon)
-        pagebox:button({label="Strike", emoji="manual"})
-        
+        if self:is_laguz() then
+            local laguzbox = self:show_strike()
+
+            pagebox:page(laguzbox)
+            pagebox:button({label="Strike", emoji="manual"})
+        end
+
         return pagebox
     end
-    
     return infobox
 end
 
@@ -293,6 +294,12 @@ function Character:show_strike()
 end
 
 -- Base
+function Character:calc_base()
+    local base = workspaces.Character.calc_base(self)
+    
+    return base
+end
+
 function Character:show_base()
     local base = self:final_base()
     
@@ -314,16 +321,14 @@ function Character:show_base()
 end
 
 function Character:final_base()
-    local base = self:calc_base()
+    local base = workspaces.Character.final_base(self)
     
     -- Apply base class stats
     local job = self.data.job
-    if self:is_changed("class") then job = self.job else job = self.Job:new(self.data.job) end
-    
-    base = base + job:get_base()
-    
-    if self:has_averages() then
-        base = self:calc_averages_classic(base)
+    if self.job.id ~= self.data.job then
+        job = self.job
+    else 
+        job = self.Job:new(self.data.job)
     end
     
     if self.transform and self:is_laguz() and (self.item or self._compare) then

@@ -38,6 +38,23 @@
                 "comma": {
                     "name": "compare",
                     "size": 6
+                },
+                "stats": {
+                    "modifiers": [
+                        "hp",
+                        "atk",
+                        "skl",
+                        "spd",
+                        "lck",
+                        "def",
+                        "res",
+                        "hit",
+                        "crit",
+                        "as"
+                    ]
+                },
+                "prefix": {
+                    "modifiers": "$"
                 }
             },
             "class": {

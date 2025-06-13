@@ -3,42 +3,42 @@
         "name": "Archer",
         "gold": 1000,
         "skill": [
-            "pursuit"
+            "followup"
+        ],
+        "base": {
+            "hp": 30,
+            "str": 6,
+            "mag": 0,
+            "skl": 5,
+            "spd": 5,
+            "lck": 0,
+            "def": 7,
+            "res": 0,
+            "mov": 6
+        },
+        "rank": {
+            "bow": 2
+        }
+    },
+    "archerknight": {
+        "name": "Archer Knight",
+        "gold": 1000,
+        "skill": [
+            "canto"
         ],
         "base": {
             "hp": 30,
             "str": 7,
             "mag": 0,
-            "skl": 10,
-            "spd": 10,
+            "skl": 6,
+            "spd": 6,
             "lck": 0,
-            "def": 5,
+            "def": 6,
             "res": 0,
-            "mov": 6
+            "mov": 8
         },
         "rank": {
-            "bow": 4
-        }
-    },
-    "archknight": {
-        "name": "Arch Knight",
-        "gold": 3000,
-        "skill": [
-            "canto"
-        ],
-        "base": {
-            "hp": 40,
-            "str": 10,
-            "mag": 0,
-            "skl": 8,
-            "spd": 8,
-            "lck": 0,
-            "def": 8,
-            "res": 3,
-            "mov": 9
-        },
-        "rank": {
-            "bow": 4
+            "bow": 3
         }
     },
     "axearmor": {
@@ -58,6 +58,25 @@
         },
         "rank": {
             "axe": 3
+        }
+    },
+    "axefighter": {
+        "name": "Axe Fighter",
+        "gold": 2000,
+        "skill": [],
+        "base": {
+            "hp": 35,
+            "str": 8,
+            "mag": 0,
+            "skl": 3,
+            "spd": 10,
+            "lck": 0,
+            "def": 8,
+            "res": 0,
+            "mov": 6
+        },
+        "rank": {
+            "axe": 4
         }
     },
     "axeknight": {
@@ -98,6 +117,27 @@
         },
         "rank": {
             "axe": 2
+        }
+    },
+    "banneret": {
+        "name": "Banneret",
+        "gold": 3000,
+        "skill": [
+            "canto"
+        ],
+        "base": {
+            "hp": 40,
+            "str": 12,
+            "mag": 0,
+            "skl": 7,
+            "spd": 7,
+            "lck": 0,
+            "def": 8,
+            "res": 3,
+            "mov": 9
+        },
+        "rank": {
+            "lance": 4
         }
     },
     "barbarian": {
@@ -210,44 +250,46 @@
             "bow": 3
         }
     },
-    "bowknight": {
-        "name": "Bow Knight",
+    "bowfighter": {
+        "name": "Bow Fighter",
         "gold": 1000,
         "skill": [
-            "canto"
+            "followup"
         ],
         "base": {
             "hp": 30,
             "str": 7,
             "mag": 0,
-            "skl": 6,
-            "spd": 6,
+            "skl": 10,
+            "spd": 10,
             "lck": 0,
-            "def": 6,
-            "res": 0,
-            "mov": 8
-        },
-        "rank": {
-            "bow": 3
-        }
-    },
-    "bowsoldier": {
-        "name": "Bow Soldier",
-        "gold": 1000,
-        "skill": [],
-        "base": {
-            "hp": 30,
-            "str": 6,
-            "mag": 0,
-            "skl": 5,
-            "spd": 5,
-            "lck": 0,
-            "def": 7,
+            "def": 5,
             "res": 0,
             "mov": 6
         },
         "rank": {
-            "bow": 2
+            "bow": 4
+        }
+    },
+    "bowknight": {
+        "name": "Bow Knight",
+        "gold": 3000,
+        "skill": [
+            "canto"
+        ],
+        "base": {
+            "hp": 40,
+            "str": 10,
+            "mag": 0,
+            "skl": 8,
+            "spd": 8,
+            "lck": 0,
+            "def": 8,
+            "res": 3,
+            "mov": 9
+        },
+        "rank": {
+            "bow": 4
         }
     },
     "brigand": {
@@ -350,7 +392,7 @@
         "name": "Dark Bishop",
         "gold": 5000,
         "skill": [
-            "pursuit"
+            "followup"
         ],
         "base": {
             "hp": 40,
@@ -413,27 +455,6 @@
             "dark": 4
         }
     },
-    "dukeknight": {
-        "name": "Duke Knight",
-        "gold": 3000,
-        "skill": [
-            "canto"
-        ],
-        "base": {
-            "hp": 40,
-            "str": 12,
-            "mag": 0,
-            "skl": 7,
-            "spd": 7,
-            "lck": 0,
-            "def": 8,
-            "res": 3,
-            "mov": 9
-        },
-        "rank": {
-            "lance": 4
-        }
-    },
     "emperor": {
         "name": "Emperor",
         "gold": 6000,
@@ -485,25 +506,6 @@
             "sword": 4,
             "lance": 4,
             "staff": 2
-        }
-    },
-    "fighter": {
-        "name": "Fighter",
-        "gold": 2000,
-        "skill": [],
-        "base": {
-            "hp": 35,
-            "str": 8,
-            "mag": 0,
-            "skl": 3,
-            "spd": 10,
-            "lck": 0,
-            "def": 8,
-            "res": 0,
-            "mov": 6
-        },
-        "rank": {
-            "axe": 4
         }
     },
     "firemage": {
@@ -610,11 +612,11 @@
             "axe": 4
         }
     },
-    "hero": {
-        "name": "Hero",
+    "forester": {
+        "name": "Forester",
         "gold": 3000,
         "skill": [
-            "pursuit"
+            "followup"
         ],
         "base": {
             "hp": 40,
@@ -810,8 +812,8 @@
             "bow": 4
         }
     },
-    "lord": {
-        "name": "Lord",
+    "lordling": {
+        "name": "Lordling",
         "gold": 6000,
         "skill": [],
         "base": {
@@ -927,7 +929,7 @@
         "name": "Master Knight",
         "gold": 3000,
         "skill": [
-            "pursuit",
+            "followup",
             "canto"
         ],
         "base": {
@@ -951,27 +953,6 @@
             "wind": 4,
             "light": 2,
             "staff": 4
-        }
-    },
-    "myrmidon": {
-        "name": "Myrmidon",
-        "gold": 1000,
-        "skill": [
-            "pursuit"
-        ],
-        "base": {
-            "hp": 30,
-            "str": 7,
-            "mag": 0,
-            "skl": 10,
-            "spd": 10,
-            "lck": 0,
-            "def": 5,
-            "res": 0,
-            "mov": 6
-        },
-        "rank": {
-            "sword": 4
         }
     },
     "paladinf": {
@@ -1268,11 +1249,32 @@
             "sword": 3
         }
     },
+    "swordfighter": {
+        "name": "Sword Fighter",
+        "gold": 1000,
+        "skill": [
+            "followup"
+        ],
+        "base": {
+            "hp": 30,
+            "str": 7,
+            "mag": 0,
+            "skl": 10,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 0,
+            "mov": 6
+        },
+        "rank": {
+            "sword": 4
+        }
+    },
     "swordmaster": {
         "name": "Swordmaster",
         "gold": 3000,
         "skill": [
-            "pursuit",
+            "followup",
             "adept"
         ],
         "base": {
@@ -1334,7 +1336,7 @@
         "name": "Thief Fighter",
         "gold": 6000,
         "skill": [
-            "pursuit",
+            "followup",
             "steal"
         ],
         "base": {
@@ -1458,7 +1460,7 @@
         "name": "Wyvern Lord",
         "gold": 5000,
         "skill": [
-            "pursuit",
+            "followup",
             "canto"
         ],
         "base": {

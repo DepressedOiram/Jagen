@@ -32,9 +32,9 @@
     "weapon": true
   },
   "veninsword": {
-    "name": "Venin Sword",
+    "name": "Venin Edge",
     "type": "sword",
-    "desc": "Applies Poison on contact. Turns into an Iron Sword if stolen.",
+    "desc": "Poisons the target on hit. Turns into an Iron Sword if stolen.",
     "stats": {
       "rank": "E",
       "mt": 3,
@@ -48,8 +48,8 @@
     "ALT_NAME": [
       "poisonsword",
       "poison sword",
-      "veninedge",
-      "venin edge"
+      "veninsword",
+      "venin sword"
     ]
   },
   "slimsword": {
@@ -72,7 +72,7 @@
   "paragonsword": {
     "name": "Paragon Sword",
     "type": "sword",
-    "desc": "Increases Def by 5. Gives <:jugdral_paragon:1317280296944795668>Paragon.",
+    "desc": "Gives <:jugdral_paragon:1317280296944795668>Paragon and +5 Def.",
     "stats": {
       "rank": "E",
       "mt": 9,
@@ -141,7 +141,7 @@
   "rapier": {
     "name": "Rapier",
     "type": "sword",
-    "desc": "Effective against armored and cavalry units.",
+    "desc": "Anti-Armor, Anti-Cavalry.",
     "stats": {
       "rank": "C",
       "mt": 4,
@@ -175,8 +175,8 @@
     },
     "weapon": true
   },
-  "kingsword": {
-    "name": "King Sword",
+  "kingmaker": {
+    "name": "Kingmaker",
     "type": "sword",
     "desc": "Strikes consecutively. High critical rate. Gives <:jugdral_charm:1317280245442941029>Charm.",
     "stats": {
@@ -189,7 +189,10 @@
       "uses": 60,
       "wexp": 1
     },
-    "weapon": true
+    "weapon": true,
+    "ALT_NAME": [
+      "King Sword"
+    ]
   },
   "greatsword": {
     "name": "Great Sword",
@@ -226,7 +229,7 @@
   "armorslayer": {
     "name": "Armorslayer",
     "type": "sword",
-    "desc": "Effective against armored units.",
+    "desc": "Anti-Armor.",
     "stats": {
       "rank": "B",
       "mt": 10,
@@ -260,7 +263,7 @@
   "flamesword": {
     "name": "Flame Sword",
     "type": "sword",
-    "desc": "Attack with <:jugdral_fire:1317240001200652298>Fire magic at range. Increases Mag by 5.",
+    "desc": "Casts <:jugdral_fire:1317240001200652298>Fire magic at range. Gives +5 Mag.",
     "stats": {
       "rank": "B",
       "mt": 9,
@@ -284,7 +287,7 @@
   "lightningsword": {
     "name": "Lightning Sword",
     "type": "sword",
-    "desc": "Attack with <:jugdral_thunder:1317240071778467841>Thunder magic at range. Increases Skl by 5.",
+    "desc": "Casts <:jugdral_thunder:1317240071778467841>Thunder magic at range. Gives +5 Skl.",
     "stats": {
       "rank": "B",
       "mt": 9,
@@ -309,7 +312,7 @@
   "windsword": {
     "name": "Wind Sword",
     "type": "sword",
-    "desc": "Attack with <:jugdral_wind:1317240642895609886>Wind magic at range. Increases Spd by 5.",
+    "desc": "Casts <:jugdral_wind:1317240642895609886>Wind magic at range. Gives +5 Spd.",
     "stats": {
       "rank": "B",
       "mt": 9,
@@ -347,10 +350,10 @@
     },
     "weapon": true
   },
-  "sleepsword": {
-    "name": "Sleep Sword",
+  "sleepedge": {
+    "name": "Sleep Edge",
     "type": "sword",
-    "desc": "Inflicts Sleep on hit.",
+    "desc": "Puts the target to Sleep on hit. Targets on thrones or gates are immune.",
     "stats": {
       "rank": "A",
       "mt": 8,
@@ -366,7 +369,7 @@
   "berserksword": {
     "name": "Berserk Sword",
     "type": "sword",
-    "desc": "Inflicts Berserk on hit.",
+    "desc": "Berserks the target on hit. Targets on thrones or gates are immune.",
     "stats": {
       "rank": "A",
       "mt": 8,
@@ -382,7 +385,7 @@
   "lightbrand": {
     "name": "Light Brand",
     "type": "sword",
-    "desc": "Leif only. Attack with <:jugdral_light:1317240024613519480>Light magic at range. Increases Lck by 10. Can be used as an item to heal all HP.",
+    "desc": "Leif only. Casts <:jugdral_light:1317240024613519480>Light magic at range. Gives +10 Lck. Use to heal all HP.",
     "stats": {
       "mt": 12,
       "hit": 80,
@@ -401,7 +404,7 @@
   "landssword": {
     "name": "Lands Sword",
     "type": "sword",
-    "desc": "Nanna only. Attack with <:jugdral_light:1317240024613519480>Light magic at range. Drains target's HP.",
+    "desc": "Nanna only. Casts potent <:jugdral_light:1317240024613519480>Light magic at range. Drains target's HP.",
     "stats": {
       "mt": 12,
       "hit": 80,
@@ -446,10 +449,10 @@
     },
     "weapon": true
   },
-  "beossword": {
-    "name": "Beo's Sword",
+  "beoblade": {
+    "name": "Beo Blade",
     "type": "sword",
-    "desc": "Diarmuid/Fergus only. Gives <:jugdral_vantage:1317280354343845949>Vantage and <:jugdral_wrath:1317280364766691439>Wrath.",
+    "desc": "Diarmuid/Fergus only. High critcal rate. Gives <:jugdral_vantage:1317280354343845949>Vantage and <:jugdral_wrath:1317280364766691439>Wrath.",
     "stats": {
       "mt": 16,
       "hit": 70,
@@ -459,12 +462,15 @@
       "uses": 60,
       "wexp": 1
     },
-    "weapon": true
+    "weapon": true,
+    "ALT_NAME": [
+      "beosword"
+    ]
   },
   "blessedsword": {
     "name": "Blessed Sword",
     "type": "sword",
-    "desc": "Olwen only. Strikes consecutively. Effective against cavalry units. Increases Mag by 10. Gives <:jugdral_miracle:1317280280125378642>Miracle.",
+    "desc": "Olwen only. Strikes consecutively. High critical rate. Anti-Cavalry. Gives +10 Mag and <:jugdral_miracle:1317280280125378642>Miracle.",
     "stats": {
       "mt": 17,
       "hit": 65,
@@ -482,10 +488,10 @@
       "effective": true
     }
   },
-  "bragisword": {
-    "name": "Bragi Sword",
+  "bragisblade": {
+    "name": "Bragi's Blade",
     "type": "sword",
-    "desc": "Effective against armored units. Seals the Loptr Sword.",
+    "desc": "Leif/Nanna/Diarmuid/Fergus only. Pierces Loptrian Fang's curse. Anti-Armor. Gives <:jugdral_miracle:1317280280125378642>Miracle.",
     "stats": {
       "mt": 15,
       "hit": 70,
@@ -498,14 +504,14 @@
     "equip": {
       "effective": true
     },
-    "reference": {
-      "Other Effects": "Leif/Nanna/Diarmuid/Fergus only. Gives <:jugdral_miracle:1317280280125378642>Miracle."
-    }
+    "ALT_NAME": [
+      "bragisword"
+    ]
   },
-  "loptrsword": {
-    "name": "Loptr Sword",
+  "loptrianfang": {
+    "name": "Loptrian Fang",
     "type": "sword",
-    "desc": "Raydrik only. Halves enemy's attack power. Increases Mag by 20.",
+    "desc": "Raydrik only. Halves enemy's attack power. Gives +20 Mag.",
     "stats": {
       "mt": 15,
       "hit": 70,
@@ -521,8 +527,8 @@
       }
     },
     "ALT_NAME": [
-      "loptrianfang",
-      "loptrian fang"
+      "loptriansword",
+      "loptrsword"
     ]
   },
   "brokensword": {
@@ -574,7 +580,7 @@
   "veninlance": {
     "name": "Venin Lance",
     "type": "lance",
-    "desc": "Applies Poison on contact. Turns into an Iron Lance if stolen.",
+    "desc": "Poisons the target on hit. Turns into an Iron Lance if stolen.",
     "stats": {
       "rank": "E",
       "mt": 4,
@@ -608,10 +614,10 @@
     },
     "weapon": true
   },
-  "darknesslance": {
-    "name": "Darkness Lance",
+  "shadowspear": {
+    "name": "Shadow Spear",
     "type": "lance",
-    "desc": "Gives <:jugdral_nihil:1317280288644272188>Nihil.",
+    "desc": "Can attack at range. Gives <:jugdral_nihil:1317280288644272188>Nihil.",
     "stats": {
       "rank": "E",
       "mt": 20,
@@ -625,7 +631,10 @@
     "weapon": true,
     "reference": {
       "Notes": "Unused." 
-    }
+    },
+    "ALT_NAME": [
+      "darknesslance"
+    ]
   },
   "steellance": {
     "name": "Steel Lance",
@@ -743,7 +752,7 @@
   "gaebolg": {
     "name": "G\u00e1e Bolg",
     "type": "lance",
-    "desc": "It is a legendary spear.",
+    "desc": "High critical rate. Strikes consecutively. Gives +10 Str, <:jugdral_nihil:1317280288644272188>Nihil, <:jugdral_wrath:1317280364766691439>Wrath, <:jugdral_vantage:1317280354343845949>Vantage and <:jugdral_charm:1317280245442941029>Charm.",
     "stats": {
       "rank": "B",
       "mt": 20,
@@ -762,14 +771,13 @@
       }
     },
     "reference": {
-      "Notes": "Unused.",
-      "Other Effects": "Increases Str by 10. Gives <:jugdral_charm:1317280245442941029>Charm, <:jugdral_vantage:1317280354343845949>Vantage, <:jugdral_nihil:1317280288644272188>Nihil and <:jugdral_wrath:1317280364766691439>Wrath."
+      "Notes": "Unused."
     }
   },
   "gungnir": {
     "name": "Gungnir",
     "type": "lance",
-    "desc": "Hacking is bad.",
+    "desc": "High critical rate. Strikes consecutively. Gives +10 Def, <:jugdral_nihil:1317280288644272188>Nihil, <:jugdral_wrath:1317280364766691439>Wrath, <:jugdral_vantage:1317280354343845949>Vantage and <:jugdral_paragon:1317280296944795668>Paragon.",
     "stats": {
       "rank": "B",
       "mt": 20,
@@ -788,8 +796,7 @@
       }
     },
     "reference": {
-      "Notes": "Unused.",
-      "Other Effects": "Increases Def by 10. Gives <:jugdral_vantage:1317280354343845949>Vantage, <:jugdral_nihil:1317280288644272188>Nihil, <:jugdral_wrath:1317280364766691439>Wrath and <:jugdral_paragon:1317280296944795668>Paragon."
+      "Notes": "Unused."
     }
   },
   "masterlance": {
@@ -811,7 +818,7 @@
   "dragonlance": {
     "name": "Dragon Lance",
     "type": "lance",
-    "desc": "Deaen/Altena only. Strikes consecutively. Gives <:jugdral_vantage:1317280354343845949>Vantage.",
+    "desc": "Dean/Altena only. Strikes consecutively. Gives <:jugdral_vantage:1317280354343845949>Vantage.",
     "stats": {
       "mt": 16,
       "hit": 65,
@@ -828,7 +835,7 @@
   "bravelance": {
     "name": "Brave Lance",
     "type": "lance",
-    "desc": "Finn only. Strikes consecutively. Increases Lck by 10.",
+    "desc": "Finn only. Strikes consecutively. Gives +10 Lck.",
     "stats": {
       "mt": 13,
       "hit": 70,
@@ -877,7 +884,7 @@
   "veninaxe": {
     "name": "Venin Axe",
     "type": "axe",
-    "desc": "Applies poison on contact. Turns into an Iron Axe if stolen",
+    "desc": "Poisons the target on hit. Turns into an Iron Axe if stolen",
     "stats": {
       "rank": "E",
       "mt": 6,
@@ -959,7 +966,7 @@
   "hammer": {
     "name": "Hammer",
     "type": "axe",
-    "desc": "Effective against armored units.",
+    "desc": "Anti-Armor.",
     "stats": {
       "rank": "C",
       "mt": 12,
@@ -1094,7 +1101,7 @@
   "ironbow": {
     "name": "Iron Bow",
     "type": "bow",
-    "desc": "Common, quality bow.",
+    "desc": "Common, quality bow. Anti-Fliers.",
     "stats": {
       "rank": "E",
       "mt": 7,
@@ -1113,7 +1120,7 @@
   "veninbow": {
     "name": "Venin Bow",
     "type": "bow",
-    "desc": "Applies Poison on contact. Turns into an Iron Bow if stolen.",
+    "desc": "Anti-Fliers. Poisons the target on hit. Turns into an Iron Bow if stolen.",
     "stats": {
       "rank": "E",
       "mt": 4,
@@ -1131,7 +1138,7 @@
   "shortbow": {
     "name": "Short Bow",
     "type": "bow",
-    "desc": "Common, simple bow.",
+    "desc": "Common, simple bow. Anti-Fliers.",
     "stats": {
       "rank": "E",
       "mt": 5,
@@ -1150,7 +1157,7 @@
   "steelbow": {
     "name": "Steel Bow",
     "type": "bow",
-    "desc": "Strong, quality bow.",
+    "desc": "Strong, quality bow. Anti-Fliers.",
     "stats": {
       "rank": "D",
       "mt": 10,
@@ -1169,7 +1176,7 @@
   "longbow": {
     "name": "Longbow",
     "type": "bow",
-    "desc": "Strong, simple bow.",
+    "desc": "Strong, simple bow. Anti-Fliers.",
     "stats": {
       "rank": "D",
       "mt": 10,
@@ -1188,7 +1195,7 @@
   "greatbow": {
     "name": "Great Bow",
     "type": "bow",
-    "desc": "Massive, simple bow.",
+    "desc": "Massive, simple bow. Anti-Fliers.",
     "stats": {
       "rank": "C",
       "mt": 18,
@@ -1207,7 +1214,7 @@
   "silverbow": {
     "name": "Silver Bow",
     "type": "bow",
-    "desc": "Rare, quality bow.",
+    "desc": "Rare, quality bow. Anti-Fliers.",
     "stats": {
       "rank": "B",
       "mt": 15,
@@ -1226,7 +1233,7 @@
   "killerbow": {
     "name": "Killer Bow",
     "type": "bow",
-    "desc": "High critical rate.",
+    "desc": "High critical rate. Anti-Fliers.",
     "stats": {
       "rank": "B",
       "mt": 11,
@@ -1246,7 +1253,7 @@
   "bravebow": {
     "name": "Brave Bow",
     "type": "bow",
-    "desc": "Strikes consecutively.",
+    "desc": "Strikes consecutively. High critical rate. Anti-Fliers.",
     "stats": {
       "rank": "B",
       "mt": 14,
@@ -1262,10 +1269,10 @@
       "effective": true
     }
   },
-  "meisterbogen": {
-    "name": "Meisterbogen",
+  "masterbow": {
+    "name": "Master Bow",
     "type": "bow",
-    "desc": "Strikes consecutively.",
+    "desc": "Strikes consecutively. Anti-Fliers.",
     "stats": {
       "rank": "A",
       "mt": 13,
@@ -1279,12 +1286,15 @@
     "weapon": true,
     "equip": {
       "effective": true
-    }
+    },
+    "ALT_NAME": [
+      "meisterbogen"
+    ]
   },
   "ballista": {
     "name": "Ballista",
     "type": "bow",
-    "desc": "Long range.",
+    "desc": "Long range. Anti-Fliers.",
     "stats": {
       "mt": 15,
       "hit": 75,
@@ -1299,13 +1309,13 @@
       "effective": true
     },
     "reference": {
-      "Notes": "Ballista (class) only."
+      "Notes": "Ballistician (class) only."
     }
   },
   "ironballista": {
     "name": "Iron Ballista",
     "type": "bow",
-    "desc": "Super long range",
+    "desc": "Super long range. Anti-Fliers.",
     "stats": {
       "mt": 20,
       "hit": 75,
@@ -1320,13 +1330,13 @@
       "effective": true
     },
     "reference": {
-      "Notes": "Ballista (class) only."
+      "Notes": "Ballistician (class) only."
     }
   },
   "veninballista": {
     "name": "Venin Ballista",
     "type": "bow",
-    "desc": "Applies poison on contact. Turns into a Ballista if stolen",
+    "desc": "Long Range. Anti-Fliers. Poisons the target on hit. Turns into a Ballista if stolen",
     "stats": {
       "mt": 10,
       "hit": 50,
@@ -1340,13 +1350,13 @@
       "effective": true
     },
     "reference": {
-      "Notes": "Ballista (class) only."
+      "Notes": "Ballistician (class) only."
     }
   },
   "brokenbow": {
     "name": "Broken Bow",
     "type": "bow",
-    "desc": "A broken bow. Almost unusable.",
+    "desc": "A broken bow. Almost unusable. Anti-Fliers.",
     "stats": {
       "rank": "E",
       "wt": 12,
@@ -1362,7 +1372,7 @@
   "fire": {
     "name": "Fire",
     "type": "fire",
-    "desc": "Basic fire tome.",
+    "desc": "Basic fire magic.",
     "stats": {
       "rank": "E",
       "mt": 5,
@@ -1378,7 +1388,7 @@
   "elfire": {
     "name": "Elfire",
     "type": "fire",
-    "desc": "Potent fire tome.",
+    "desc": "Potent fire magic.",
     "stats": {
       "rank": "C",
       "mt": 11,
@@ -1394,7 +1404,7 @@
   "bolganone": {
     "name": "Bolganone",
     "type": "fire",
-    "desc": "Superior fire tome.",
+    "desc": "Superior fire magic.",
     "stats": {
       "rank": "A",
       "mt": 20,
@@ -1405,12 +1415,15 @@
       "wexp": 1,
       "price": 2200
     },
-    "weapon": true
+    "weapon": true,
+    "reference": {
+      "Notes": "Unused."
+    }
   },
   "meteor": {
     "name": "Meteor",
     "type": "fire",
-    "desc": "Long range fire tome.",
+    "desc": "Long range fire magic.",
     "stats": {
       "rank": "A",
       "mt": 9,
@@ -1426,7 +1439,7 @@
   "valflame": {
     "name": "Valflame",
     "type": "fire",
-    "desc": false,
+    "desc": "Exalted fire magic. High critical rate.",
     "stats": {
       "mt": 20,
       "hit": 90,
@@ -1444,7 +1457,7 @@
   "thunder": {
     "name": "Thunder",
     "type": "thunder",
-    "desc": "Basic thunder tome.",
+    "desc": "Basic thunder magic.",
     "stats": {
       "rank": "E",
       "mt": 7,
@@ -1461,7 +1474,7 @@
   "thoron": {
     "name": "Thoron",
     "type": "thunder",
-    "desc": "Superior thunder tome. High critical rate.",
+    "desc": "Superior thunder magic. High critical rate.",
     "stats": {
       "rank": "A",
       "mt": 18,
@@ -1478,7 +1491,7 @@
   "bolting": {
     "name": "Bolting",
     "type": "thunder",
-    "desc": "Long range thunder tome. High critical rate.",
+    "desc": "Long range thunder magic. High critical rate.",
     "stats": {
       "rank": "A",
       "mt": 10,
@@ -1510,7 +1523,7 @@
   "mjolnir": {
     "name": "Mj\u00f6lnir",
     "type": "thunder",
-    "desc": "Ishtar only.",
+    "desc": "Exalted thunder magic. High critical rate.",
     "stats": {
       "mt": 20,
       "hit": 90,
@@ -1529,7 +1542,7 @@
   "wind": {
     "name": "Wind",
     "type": "wind",
-    "desc": "Basic wind tome. Effective against flying units.",
+    "desc": "Basic wind magic. Anti-Fliers.",
     "stats": {
       "rank": "D",
       "mt": 6,
@@ -1549,7 +1562,7 @@
   "tornado": {
     "name": "Tornado",
     "type": "wind",
-    "desc": "Superior wind tome. Effective against flying units.",
+    "desc": "Superior wind tome. Anti-Fliers.",
     "stats": {
       "rank": "A",
       "mt": 18,
@@ -1568,7 +1581,7 @@
   "blizzard": {
     "name": "Blizzard",
     "type": "wind",
-    "desc": "Inflicts sleep on hit.",
+    "desc": "Loing range wind magic. Applies Sleep on hit. Targets on thrones or gates are immune.",
     "stats": {
       "rank": "A",
       "mt": 9,
@@ -1587,7 +1600,7 @@
   "grafcalibur": {
     "name": "Grafcalibur",
     "type": "wind",
-    "desc": "Asbel only. High critical rate. Effective against flying units.",
+    "desc": "Asbel only. High critical rate. Anti-Fliers.",
     "stats": {
       "mt": 13,
       "hit": 100,
@@ -1605,7 +1618,7 @@
   "forseti": {
     "name": "Forseti",
     "type": "wind",
-    "desc": "Ced only. High critical rate. Exalted wind tome. Effective against flying units. Increases Skl by 20 and Spd by 20.",
+    "desc": "Ced only. Gives +20 Skl & Spd, High critical rate. Exalted wind magic. Anti-Fliers.",
     "stats": {
       "mt": 20,
       "hit": 90,
@@ -1627,7 +1640,7 @@
   "lightning": {
     "name": "Lightning",
     "type": "light",
-    "desc": "Basic light tome. High critical rate.",
+    "desc": "Basic light magic. High critical rate.",
     "stats": {
       "rank": "E",
       "mt": 9,
@@ -1644,7 +1657,7 @@
   "nosferatu": {
     "name": "Nosferatu",
     "type": "light",
-    "desc": "Drains target's HP.",
+    "desc": "Potent light magic. Drains target's HP.",
     "stats": {
       "rank": "B",
       "mt": 12,
@@ -1660,7 +1673,7 @@
   "aura": {
     "name": "Aura",
     "type": "light",
-    "desc": false,
+    "desc": "Superior light magic.",
     "stats": {
       "rank": "A",
       "mt": 20,
@@ -1679,7 +1692,7 @@
   "jormungand": {
     "name": "J\u00f6rmungand",
     "type": "dark",
-    "desc": "Potent dark tome. Applies poison on contact if used by enemy mages.",
+    "desc": "Potent dark magic. Poisons the target on hit if used by enemy mages.",
     "stats": {
       "rank": "C",
       "mt": 14,
@@ -1700,7 +1713,7 @@
   "fenrir": {
     "name": "Fenrir",
     "type": "dark",
-    "desc": "Long range dark tome.",
+    "desc": "Long range dark magic.",
     "stats": {
       "rank": "A",
       "mt": 18,
@@ -1716,7 +1729,7 @@
   "poison": {
     "name": "Poison",
     "type": "dark",
-    "desc": "Applies poison on contact. Turns into a Fenrir if stolen",
+    "desc": "Poisons the target on hit. Turns into a Fenrir if stolen",
     "stats": {
       "rank": "A",
       "mt": 8,
@@ -1732,7 +1745,7 @@
   "petrify": {
     "name": "Petrify",
     "type": "dark",
-    "desc": "Long range dark tome. Applies Stone on contact. Turns into a Fenrir if stolen.",
+    "desc": "Long range dark magic. Petrifies on hit. Turns into a Fenrir if stolen.",
     "stats": {
       "rank": "A",
       "mt": 1,
@@ -1747,7 +1760,7 @@
   "hel": {
     "name": "Hel",
     "type": "dark",
-    "desc": "Enemy mages only. Reduces target's HP to 1. Cannot kill.",
+    "desc": "Loptrians only. Reduces target's HP to 1. Cannot kill.",
     "stats": {
       "hit": 60,
       "wt": 20,
@@ -1776,7 +1789,7 @@
   "drainedtome": {
     "name": "Drained Tome",
     "type": "item",
-    "desc": "A tome drained of its magic. Unusable",
+    "desc": "A tome drained of its magic. Unusable.",
     "stats": {
       "price": 200
     },
@@ -1789,7 +1802,7 @@
   "heal": {
     "name": "Heal",
     "type": "staff",
-    "desc": "Restore 10 HP + user's Mag to the target.",
+    "desc": "Restore 10 HP + user's Mag to an ally.",
     "stats": {
       "rank": "E",
       "wt": 4,
@@ -1804,7 +1817,7 @@
   "mend": {
     "name": "Mend",
     "type": "staff",
-    "desc": "Restore 20 HP + user's Mag to the target.",
+    "desc": "Restore 20 HP + user's Mag to an ally.",
     "stats": {
       "rank": "D",
       "wt": 6,
@@ -1816,10 +1829,25 @@
     },
     "weapon": false
   },
+  "torchstaff": {
+    "name": "Torch Staff",
+    "type": "staff",
+    "desc": "Gives +10 vision in fog of war. Effect decreases by 1 every turn.",
+    "stats": {
+      "rank": "D",
+      "wt": 6,
+      "rng": "All",
+      "uses": 5,
+      "wexp": 2,
+      "price": 2200,
+      "exp": 30
+    },
+    "weapon": false
+  },
   "torch": {
     "name": "Torch",
     "type": "item",
-    "desc": "Gives +10 vision in the dark. Effect wanes every turn.",
+    "desc": "Gives +10 vision in fog of war. Effect decreases by 1 every turn.",
     "stats": {
       "uses": 1,
       "price": 500
@@ -1844,7 +1872,7 @@
   "physic": {
     "name": "Physic",
     "type": "staff",
-    "desc": "Restore 10 HP + user's Mag to the target.",
+    "desc": "Restore 10 HP + user's Mag to an ally.",
     "stats": {
       "rank": "C",
       "wt": 8,
@@ -1874,7 +1902,7 @@
   "sleep": {
     "name": "Sleep",
     "type": "staff",
-    "desc": "Applies Sleep to target with lower Mag than the user's. Ignores Throne/Gate",
+    "desc": "Puts a target with lower Mag to Sleep. Enemies on thrones or gates are immune.",
     "stats": {
       "rank": "C",
       "wt": 8,
@@ -1888,6 +1916,21 @@
     "reference": {
       "Other Effects": "Infliction rate: Hit + (Skill \u00d7 4)\nNever miss if user's Skill \u2265 10."
     }
+  },
+  "ensorcel": {
+    "name": "Ensorcel",
+    "type": "staff",
+    "desc": "Gives +7 Mag to an ally. Effect decreases by 1 every turn.",
+    "stats": {
+      "rank": "C",
+      "wt": 8,
+      "rng": 1,
+      "uses": 5,
+      "wexp": 3,
+      "price": 2200,
+      "exp": 30
+    },
+    "weapon": false
   },
   "watch": {
     "name": "Watch",
@@ -1925,7 +1968,7 @@
   "rescue": {
     "name": "Rescue",
     "type": "staff",
-    "desc": "Brings an ally next to the user.",
+    "desc": "Transports an ally to a traversable tile next to the user.",
     "stats": {
       "rank": "B",
       "wt": 7,
@@ -1940,7 +1983,7 @@
   "silence": {
     "name": "Silence",
     "type": "staff",
-    "desc": "Applies Silence to target with lower Mag than the user's. Ignores Throne/Gate",
+    "desc": "Silences a target with lower Mag. Enemies on thrones or gates are immune.",
     "stats": {
       "rank": "B",
       "wt": 9,
@@ -1958,7 +2001,7 @@
   "warp": {
     "name": "Warp",
     "type": "staff",
-    "desc": "Transports an ally to any traversable space on the map",
+    "desc": "Transports an ally to any traversable tile on the map.",
     "stats": {
       "rank": "A",
       "wt": 8,
@@ -1991,7 +2034,7 @@
   "return": {
     "name": "Return",
     "type": "staff",
-    "desc": "Causes a single ally to withdraw.",
+    "desc": "Allows an ally to escape the chapter.",
     "stats": {
       "rank": "A",
       "wt": 7,
@@ -2009,7 +2052,7 @@
   "rewarp": {
     "name": "Rewarp",
     "type": "staff",
-    "desc": "Transports the user to any traversable space on the map.",
+    "desc": "Transports the user to any traversable tile on the map.",
     "stats": {
       "rank": "A",
       "wt": 6,
@@ -2021,10 +2064,10 @@
     },
     "weapon": false
   },
-  "repair": {
-    "name": "Repair",
+  "hammerne": {
+    "name": "Hammerne",
     "type": "staff",
-    "desc": "Safy only. Restore a staff or weapon to pristine condition.",
+    "desc": "Safy only. Restores an ally's staff or weapon to pristine condition.",
     "stats": {
       "wt": 6,
       "rng": 1,
@@ -2032,12 +2075,15 @@
       "wexp": 10,
       "exp": 30
     },
-    "weapon": false
+    "weapon": false,
+    "ALT_NAME": [
+      "repair"
+    ]
   },
   "thief": {
     "name": "Thief",
     "type": "staff",
-    "desc": "Tina only. Steal from inventory of target with lower Mag.",
+    "desc": "Tina only. Steals a weapon, staff or item from a target with lower Mag.",
     "stats": {
       "wt": 5,
       "rng": "All",
@@ -2053,7 +2099,7 @@
   "unlock": {
     "name": "Unlock",
     "type": "staff",
-    "desc": "Tina only. Opens doors and chests, or lower drawbridges.",
+    "desc": "Tina only. Opens a door or chest, or lower a drawbridge.",
     "stats": {
       "wt": 5,
       "rng": "All",
@@ -2082,7 +2128,7 @@
   "brokenstaff": {
     "name": "Broken Staff",
     "type": "item",
-    "desc": "A staff drained of its magic. Unusable",
+    "desc": "A staff drained of its magic. Unusable.",
     "stats": {
       "price": 200
     },
@@ -2101,15 +2147,15 @@
   "purewater": {
     "name": "Pure Water",
     "type": "item",
-    "desc": "Gives +7 Mag to the user. Effect wanes every turn.",
+    "desc": "Gives +7 Mag to the user. Effect decreases by 1 every turn.",
     "stats": {
       "uses": 1,
       "price": 1000
     },
     "weapon": false
   },
-  "antidote": {
-    "name": "Antidote",
+  "antitoxin": {
+    "name": "Antitoxin",
     "type": "item",
     "desc": "Removes Poison status.",
     "stats": {
@@ -2151,7 +2197,7 @@
   "lockpick": {
     "name": "Lockpick",
     "type": "item",
-    "desc": "Units with <:jugdral_steal:1317280345183354901>Steal only. Opens doors and chests, or lowers drawbridges.",
+    "desc": "Opens doors and chests, or lowers drawbridges. Units with <:jugdral_steal:1317280345183354901>Steal only.",
     "stats": {
       "uses": 30,
       "price": 3000
@@ -2166,20 +2212,26 @@
       "uses": 1,
       "price": 5000
     },
-    "weapon": false
+    "weapon": false,
+    "ALT_NAME": [
+      "staminadrink"
+    ]
   },
-  "knightproof": {
-    "name": "Knight Proof",
+  "masterseal": {
+    "name": "Master Seal",
     "type": "item",
-    "desc": "Promotes most base class units at Level 10 or above to an advanced class.",
+    "desc": "Promotes most base class units that are at least Level 10 to an advanced class.",
     "stats": {
       "uses": 1,
       "price": 8000
     },
-    "weapon": false
+    "weapon": false,
+    "ALT_NAME": [
+      "knightproof"
+    ]
   },
-  "masterproof": {
-    "name": "Master Proof",
+  "mastercrown": {
+    "name": "Master Crown",
     "type": "item",
     "desc": false,
     "stats": {
@@ -2189,12 +2241,15 @@
     "weapon": false,
     "reference": {
       "Notes": "Unused."
-    }
+    },
+    "ALT_NAME": [
+      "masterproof"
+    ]
   },
   "membercard": {
     "name": "Member Card",
     "type": "item",
-    "desc": "Bearer can enter the secret shop.",
+    "desc": "If someone with this card stops in a suspicious space...",
     "weapon": false
   },
   "paragonmanual": {
@@ -2343,15 +2398,18 @@
     },
     "weapon": false
   },
-  "powerring": {
-    "name": "Power Ring",
+  "strengthring": {
+    "name": "Strength Ring",
     "type": "item",
     "desc": "Increases Strength by 3. Vanishes after use.",
     "stats": {
       "uses": 1,
       "price": 8000
     },
-    "weapon": false
+    "weapon": false,
+    "ALT_NAME": [
+      "powerring"
+    ]
   },
   "bodyring": {
     "name": "Body Ring",

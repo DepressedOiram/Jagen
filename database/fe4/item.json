@@ -101,8 +101,8 @@
         "desc": false,
         "weapon": true
     },
-    "miraclesword": {
-        "name": "Miracle Sword",
+    "prayersword": {
+        "name": "Prayer Sword",
         "type": "sword",
         "stats": {
             "rank": "C",
@@ -275,8 +275,8 @@
             }
         }
     },
-    "flamesword": {
-        "name": "Flame Sword",
+    "flamebrand": {
+        "name": "Flame Brand",
         "type": "sword",
         "stats": {
             "rank": "C",
@@ -290,6 +290,9 @@
             "sell": 5000
         },
         "desc": "Casts Elfire.",
+        "ALT_NAME": [
+            "flamesword"
+        ],
         "weapon": true,
         "equip": {
             "cast": "elfire"
@@ -319,8 +322,8 @@
             "cast": "nosferatu"
         }
     },
-    "lightningsword": {
-        "name": "Lightning Sword",
+    "levinsword": {
+        "name": "Levin Sword",
         "type": "sword",
         "stats": {
             "rank": "C",
@@ -336,7 +339,7 @@
         "desc": "Casts Elthunder.",
         "ALT_NAME": [
             "thundersword",
-            "levinsword"
+            "lightningsword"
         ],
         "weapon": true,
         "equip": {
@@ -383,8 +386,8 @@
             "cast": "lightning"
         }
     },
-    "armorslayer": {
-        "name": "Armorslayer",
+    "ironbanesword": {
+        "name": "Ironbane Sword",
         "type": "sword",
         "stats": {
             "rank": "B",
@@ -398,6 +401,9 @@
             "sell": 2500
         },
         "desc": "Cripples armor units.",
+        "ALT_NAME": [
+            "armorslayer"
+        ],
         "weapon": true,
         "equip": {
             "effective": true
@@ -418,6 +424,9 @@
             "sell": 2500
         },
         "desc": "Cripples flying units.",
+        "ALT_NAME": [
+            "wingslayer"
+        ],
         "weapon": true,
         "equip": {
             "effective": true
@@ -607,8 +616,8 @@
         "desc": false,
         "weapon": true
     },
-    "horseslayer": {
-        "name": "Horseslayer",
+    "ridersbane": {
+        "name": "Ridersbane",
         "type": "lance",
         "stats": {
             "rank": "C",
@@ -627,7 +636,7 @@
             "effective": true
         },
         "ALT_NAME": [
-            "ridersbane"
+            "horseslayer"
         ]
     },
     "bravelance": {
@@ -975,7 +984,7 @@
             "price per use": 1000,
             "sell": 25000
         },
-        "desc": "Grants +10 Strength, +10 Speed. Grants <:jugdral_renewal:1317280328284639252>Renewal when equipped. Cripples flying units.",
+        "desc": "Grants +10 Strength, +10 Speed. Grants <:jugdral_renewal:1317280328284639252>Heal when equipped. Cripples flying units.",
         "reference": {
             "Other Effects": "Major <:ullr:1317240323071807488><a:major:1317240102463868958>Ullr blood units only."
         },
@@ -1458,8 +1467,8 @@
             }
         }
     },
-    "jormungand": {
-        "name": "Jormungand",
+    "jormungandr": {
+        "name": "J\u00f6rmungandr",
         "type": "dark",
         "stats": {
             "rank": "C",
@@ -1473,6 +1482,10 @@
             "sell": 32767
         },
         "desc": false,
+        "ALT_NAME": [
+            "jormungand",
+            "j\u00f6mungand"
+        ],
         "weapon": true
     },
     "fenrir": {
@@ -1553,8 +1566,8 @@
         "desc": false,
         "weapon": true
     },
-    "heal": {
-        "name": "Heal",
+    "healstaff": {
+        "name": "Heal Staff",
         "type": "staff",
         "stats": {
             "rank": "C",
@@ -1566,13 +1579,16 @@
             "sell": 2500
         },
         "desc": "Restores HP to an adjacent ally.",
+        "ALT_NAME": [
+            "heal"
+        ],
         "reference": {
             "Other Effects": "Healing calculation: (10 + Magic)"
         },
         "weapon": false
     },
-    "mend": {
-        "name": "Mend",
+    "mendstaff": {
+        "name": "Mend Staff",
         "type": "staff",
         "stats": {
             "rank": "C",
@@ -1584,13 +1600,16 @@
             "sell": 5000
         },
         "desc": "Restores many HP to an adjacent ally.",
+        "ALT_NAME": [
+            "mend"
+        ],
         "reference": {
             "Other Effects": "Healing calculation: [20 + (Magic x 2)]"
         },
         "weapon": false
     },
-    "recover": {
-        "name": "Recover",
+    "recoverstaff": {
+        "name": "Recover Staff",
         "type": "staff",
         "stats": {
             "rank": "B",
@@ -1602,10 +1621,13 @@
             "sell": 7500
         },
         "desc": "Restores all HP to an adjacent ally.",
+        "ALT_NAME": [
+            "recover"
+        ],
         "weapon": false
     },
-    "physic": {
-        "name": "Physic",
+    "physicstaff": {
+        "name": "Physic Staff",
         "type": "staff",
         "stats": {
             "rank": "B",
@@ -1617,13 +1639,16 @@
             "sell": 2500
         },
         "desc": "Restores HP to one ally up to 10 spaces away.",
+        "ALT_NAME": [
+            "physic"
+        ],
         "reference": {
             "Other Effects": "Healing calculation: (10 + Magic)"
         },
         "weapon": false
     },
-    "fortify": {
-        "name": "Fortify",
+    "fortifystaff": {
+        "name": "Fortify Staff",
         "type": "staff",
         "stats": {
             "rank": "A",
@@ -1639,12 +1664,15 @@
             "Other Effects": "Healing calculation: (10 + Magic)"
         },
         "ALT_NAME": [
-            "reserve"
+            "reserve",
+            "reservestaff",
+            "reserve staff",
+            "fortify"
         ],
         "weapon": false
     },
-    "return": {
-        "name": "Return",
+    "returnstaff": {
+        "name": "Return Staff",
         "type": "staff",
         "stats": {
             "rank": "C",
@@ -1656,10 +1684,13 @@
             "sell": 2500
         },
         "desc": "Warps one adjacent ally back to the base castle.",
+        "ALT_NAME": [
+            "return"
+        ],
         "weapon": false
     },
-    "warp": {
-        "name": "Warp",
+    "warpstaff": {
+        "name": "Warp Staff",
         "type": "staff",
         "stats": {
             "rank": "B",
@@ -1671,10 +1702,13 @@
             "sell": 5000
         },
         "desc": "Warps one adjacent ally to an allied castle.",
+        "ALT_NAME": [
+            "warp"
+        ],
         "weapon": false
     },
-    "rescue": {
-        "name": "Rescue",
+    "rescuestaff": {
+        "name": "Rescue Staff",
         "type": "staff",
         "stats": {
             "rank": "A",
@@ -1686,10 +1720,13 @@
             "sell": 7500
         },
         "desc": "Warps one ally within 10 spaces next to user.",
+        "ALT_NAME": [
+            "rescue"
+        ],
         "weapon": false
     },
-    "restore": {
-        "name": "Restore",
+    "restorestaff": {
+        "name": "Restore Staff",
         "type": "staff",
         "stats": {
             "rank": "B",
@@ -1701,10 +1738,13 @@
             "sell": 5000
         },
         "desc": "Restores one ally within 10 spaces to normal status.",
+        "ALT_NAME": [
+            "restore"
+        ],
         "weapon": false
     },
-    "silence": {
-        "name": "Silence",
+    "silencestaff": {
+        "name": "Silence Staff",
         "type": "staff",
         "stats": {
             "rank": "B",
@@ -1716,13 +1756,16 @@
             "sell": 15000
         },
         "desc": "Inhibits a single foe within 10 spaces from using magic or staves.",
+        "ALT_NAME": [
+            "silence"
+        ],
         "reference": {
             "Other Effects": "Infliction rate: If (Magic > Foe's Resistance)"
         },
         "weapon": false
     },
-    "sleep": {
-        "name": "Sleep",
+    "sleepstaff": {
+        "name": "Sleep Staff",
         "type": "staff",
         "stats": {
             "rank": "B",
@@ -1733,13 +1776,16 @@
             "sell": 15000
         },
         "desc": "Puts a single foe within 10 spaces to sleep for a few turns.",
+        "ALT_NAME": [
+            "sleep"
+        ],
         "reference": {
             "Other Effects": "Infliction rate: If (Magic > Foe's Resistance)"
         },
         "weapon": false
     },
-    "berserk": {
-        "name": "Berserk",
+    "berserkstaff": {
+        "name": "Berserk Staff",
         "type": "staff",
         "stats": {
             "rank": "B",
@@ -1750,13 +1796,16 @@
             "sell": 15000
         },
         "desc": "Sends a single foe within 10 spaces into a berserker rage.",
+        "ALT_NAME": [
+            "berserk"
+        ],
         "reference": {
             "Other Effects": "Infliction rate: If (Magic > Foe's Resistance)"
         },
         "weapon": false
     },
-    "valkyrie": {
-        "name": "Valkyrie",
+    "valkyriestaff": {
+        "name": "Valkyrie Staff",
         "type": "staff",
         "stats": {
             "rank": "S",
@@ -1767,13 +1816,17 @@
             "sell": 15000
         },
         "desc": "Resurrects one deceased ally when in the base castle.",
+        "ALT_NAME": [
+            "valkyrie",
+            "valkyria"
+        ],
         "reference": {
             "Other Effects": "Major <:bragi:1317239923795038263><a:major:1317240102463868958>Bragi blood units only."
         },
         "weapon": false
     },
-    "charm": {
-        "name": "Charm",
+    "charmstaff": {
+        "name": "Charm Staff",
         "type": "staff",
         "stats": {
             "rank": "A",
@@ -1789,12 +1842,11 @@
         },
         "weapon": false,
         "ALT_NAME": [
-            "charmstaff",
-            "charm staff"
+            "charm"
         ]
     },
-    "thief": {
-        "name": "Thief",
+    "thiefstaff": {
+        "name": "Thief Staff",
         "type": "staff",
         "stats": {
             "rank": "B",
@@ -1805,6 +1857,9 @@
             "sell": 0
         },
         "desc": false,
+        "ALT_NAME": [
+            "thief"
+        ],
         "reference": {
             "Notes": "Unused.",
             "Other Effects": "Steals foe's gold when using map animations."
@@ -1915,23 +1970,28 @@
         ],
         "weapon": false
     },
-    "renewalband": {
-        "name": "Renewal Band",
+    "healbracelet": {
+        "name": "Heal Bracelet",
         "type": "item",
         "stats": {
             "price": 40000,
             "sell": 20000
         },
-        "desc": "Grants <:jugdral_renewal:1317280328284639252>Renewal.",
+        "desc": "Grants <:jugdral_renewal:1317280328284639252>Heal.",
         "ALT_NAME": [
             "lifeband",
             "lifering",
-            "renewalring"
+            "lifebracelet",
+            "renewalring",
+            "renewalband",
+            "renewalbracelet",
+            "healring",
+            "healband"
         ],
         "weapon": false
     },
-    "miraclering": {
-        "name": "Miracle Ring",
+    "miraclebracelet": {
+        "name": "Miracle Bracelet",
         "type": "item",
         "stats": {
             "price": 40000,
@@ -1940,8 +2000,10 @@
         "desc": "Grants <:jugdral_miracle:1317280280125378642>Miracle.",
         "ALT_NAME": [
             "miracleband",
+            "miraclering",
             "prayerband",
-            "prayerring"
+            "prayerring",
+            "prayerbracelet"
         ],
         "weapon": false
     },
@@ -1958,8 +2020,8 @@
         ],
         "weapon": false
     },
-    "bargainband": {
-        "name": "Bargain Band",
+    "bargainbracelet": {
+        "name": "Bargain Bracelet",
         "type": "item",
         "stats": {
             "price": 40000,
@@ -1967,12 +2029,13 @@
         },
         "desc": "Grants <:jugdral_bargain:1317280224068763678>Bargain.",
         "ALT_NAME": [
-            "bargainring"
+            "bargainring",
+            "bargainband"
         ],
         "weapon": false
     },
-    "thiefsband": {
-        "name": "Thief's Band",
+    "thiefbracelet": {
+        "name": "Thief Bracelet",
         "type": "item",
         "stats": {
             "price": 40000,
@@ -1983,7 +2046,8 @@
             "thiefring",
             "thief ring",
             "thiefband",
-            "thief band"
+            "thief band",
+            "thief bracelet"
         ],
         "weapon": false
     },
@@ -2000,16 +2064,18 @@
         ],
         "weapon": false
     },
-    "pursuitring": {
-        "name": "Pursuit Ring",
+    "followupring": {
+        "name": "Follow-Up Ring",
         "type": "item",
         "stats": {
             "price": 40000,
             "sell": 20000
         },
-        "desc": "Grants <:jugdral_pursuit:1317280319455498312>Pursuit.",
+        "desc": "Grants <:jugdral_pursuit:1317280319455498312>Follow-Up.",
         "ALT_NAME": [
-            "pursuitband"
+            "pursuitband",
+            "followupband",
+            "pursuitring"
         ],
         "weapon": false
     },
@@ -2020,7 +2086,7 @@
             "price": 0,
             "sell": 0
         },
-        "desc": "Grants <:jugdral_miracle:1317280280125378642>Miracle and <:jugdral_renewal:1317280328284639252>Renewal.",
+        "desc": "Grants <:jugdral_miracle:1317280280125378642>Miracle and <:jugdral_renewal:1317280328284639252>Heal.",
         "weapon": false
     },
     "recoverring": {

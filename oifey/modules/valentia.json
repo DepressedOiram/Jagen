@@ -183,7 +183,7 @@
                 "stats": {
                     "modifiers": [
                         "hp",
-                        "atk",
+                        "str",
                         "skl",
                         "spd",
                         "lck",

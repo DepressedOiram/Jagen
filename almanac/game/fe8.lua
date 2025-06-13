@@ -57,15 +57,16 @@ Character.section = almanac.get("database/fe8/char.json")
 Character.helper_portrait = "database/fe8/images"
 
 Character.helper_job_base = true
+
+Character.average_classic = true
+
+Character.allow_show_promo = true
 Character.promo_use_fixed = true
 
 Character.allow_show_cap = false
 Character.compare_cap = false
 
-Character.allow_show_promo = true
 Character.allow_promo_skill = false
-
-Character.average_classic = true
 
 Character.rank_exp = rank_exp
 Character.pack = gba_pack
@@ -280,23 +281,24 @@ function Character:show_sup()
     return infobox
 end
 
+-- Base
+function Character:calc_base()
+    local base = workspaces.Character.calc_base(self)
+    
+    return base
+end
+
 -- Change stats based on difficulty
 function Character:final_base()
-    local base = self:calc_base()
+    local base = workspaces.Character.final_base(self)
 
     -- Apply base class stats
     local job = self.data.job
-    if self:is_changed("class") then job = self.job else job = self.Job:new(self.data.job) end
-
-    if not self.personal then
-        base = self:calc_base() + job:get_base()
+    if self.job.id ~= self.data.job then
+        job = self.job
+    else 
+        job = self.Job:new(self.data.job)
     end
-    
-    if self:has_averages() then
-        base = self:calc_averages_classic(base)
-    end
-
-    job = self.job.data.base
 
     -- if it's mounted
     if self.job.data.mov then
@@ -455,6 +457,15 @@ function Job:crit_bonus()
         
     else
         return 0
+    end
+end
+
+function Job:get_promo_bonus()
+    if self.data.promo_bonus then
+        return util.copy(self.data.promo_bonus)
+        
+    else
+        return {}
     end
 end
 
