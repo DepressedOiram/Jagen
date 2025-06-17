@@ -695,7 +695,13 @@
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "S Palla",
+      "Beach Palla",
+      "palla5"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -896,7 +902,13 @@
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "S Palla",
+      "Beach Palla",
+      "palla5"
     ],
     "heroes": {
       "clair": "<:Blue_Lance:1317239378208096338>Clair",
@@ -914,7 +926,8 @@
       "pallaR": "<:Red_Sword:1317239717707911188>Palla (Resplendent)",
       "palla2": "<:Red_Dagger:1317239717707911188>Spring Palla",
       "palla3": "<:Blue_Lance:1317239378208096338>Duo Palla",
-      "palla4": "<:Red_Sword:1317239717707911188>Valentian Palla"
+      "palla4": "<:Red_Sword:1317239717707911188>Valentian Palla",
+      "palla5": "<:Green_Axe:1317239517136031897>Summer Palla"
     },
     "name": "Alexis Tipton"
   },
@@ -9240,7 +9253,16 @@
       "Emblem Celica",
       "Engage Celica",
       "E Celica",
-      "celica6"
+      "celica6",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "S Celica",
+      "Beach Celica",
+      "H Celica",
+      "Harmonic Celica",
+      "Harmonized Celica",
+      "celica7"
     ],
     "HARD_ALT_NAME": [
       "Imprisoned Soul",
@@ -9391,7 +9413,16 @@
       "Emblem Celica",
       "Engage Celica",
       "E Celica",
-      "celica6"
+      "celica6",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "S Celica",
+      "Beach Celica",
+      "H Celica",
+      "Harmonic Celica",
+      "Harmonized Celica",
+      "celica7"
     ],
     "heroes": {
       "alm4": "<:Green_Axe:1317239517136031897>Duo Alm",
@@ -9403,6 +9434,7 @@
       "celica4": "<:Green_Tome:1317239575352971396>Legendary Celica",
       "celica5": "<:Colorless_Tome:1317239438602145842>Ascended Celica",
       "celica6": "<:Blue_Tome:1317239386491977749>Emblem Celica",
+      "celica7": "<:Colorless_Tome:1317239438602145842>Summer Celica",
       "myrrh": "<:Green_Breath:1317239551693164595>Myrrh",
       "myrrh2": "<:Red_Breath:1317239692189630504>Halloween Myrrh",
       "myrrh3": "<:Colorless_Breath:1317239411980767363>Harmonic Myrrh",
@@ -14220,7 +14252,11 @@
       "Fallen Lloyd",
       "F Lloyd",
       "Corrupted Lloyd",
-      "lloyd2"
+      "lloyd2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "narcian",
@@ -14299,12 +14335,17 @@
       "Fallen Lloyd",
       "F Lloyd",
       "Corrupted Lloyd",
-      "lloyd2"
+      "lloyd2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "heroes": {
       "lloyd": "<:Red_Sword:1317239717707911188>Lloyd",
       "lloyd2": "<:Red_Sword:1317239717707911188>Fallen Lloyd",
       "narcian": "<:Green_Axe:1317239517136031897>Narcian",
+      "narcianR": "<:Green_Axe:1317239517136031897>Narcian (Resplendent)",
       "narcian2": "<:Blue_Lance:1317239378208096338>Spring Narcian",
       "odin": "<:Blue_Tome:1317239386491977749>Odin",
       "odinR": "<:Blue_Tome:1317239386491977749>Odin (Resplendent)",
@@ -14565,8 +14606,9 @@
     },
     "name": "Karen Strassman"
   },
-  "katedavis": {
+  "katehiggins": {
     "ALT_NAME": [
+      "Kate Davis",
       "Serra: Outspoken Cleric",
       "Outspoken Cleric",
       "Base Serra",
@@ -14582,9 +14624,48 @@
       "Winter Lissa",
       "Christmas Lissa",
       "Winter Liz",
-      "Christmas Liz"
+      "Christmas Liz",
+      "Lissa: Sweet Celebrant",
+      "Sweet Celebrant",
+      "Valentines Lissa",
+      "Valentine Lissa",
+      "Valentines Liz",
+      "Valentine Liz",
+      "Littlest Princess",
+      "Lissa: Littlest Princess",
+      "Young Lissa",
+      "Y Lissa",
+      "Baby Lissa",
+      "Child Lissa",
+      "lissa4",
+      "Serra: Outspoken Cleric",
+      "Outspoken Cleric",
+      "Base Serra",
+      "Normal Serra",
+      "Lissa: Sprightly Cleric",
+      "Sprightly Cleric",
+      "Base Lissa",
+      "Normal Lissa",
+      "Base Liz",
+      "Normal Liz",
+      "Lissa: Pure Joy",
+      "Pure Joy",
+      "Winter Lissa",
+      "Christmas Lissa",
+      "Winter Liz",
+      "Christmas Liz",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "S Celica",
+      "Beach Celica",
+      "H Celica",
+      "Harmonic Celica",
+      "Harmonized Celica",
+      "celica7"
     ],
     "HARD_ALT_NAME": [
+      "Kate Davis",
       "serra",
       "Serra",
       "serra1",
@@ -14612,33 +14693,7 @@
       "Wissa",
       "Christmas Lissa",
       "Winter Liz",
-      "Christmas Liz"
-    ],
-    "heroes": {
-      "lissa": "<:Colorless_Staff:1317239426866483261>Lissa",
-      "lissa2": "<:Green_Axe:1317239517136031897>Winter Lissa",
-      "serra": "<:Colorless_Staff:1317239426866483261>Serra",
-      "serraR": "<:Colorless_Staff:1317239426866483261>Serra (Resplendent)"
-    },
-    "name": "Kate Davis"
-  },
-  "katehiggins": {
-    "ALT_NAME": [
-      "Lissa: Sweet Celebrant",
-      "Sweet Celebrant",
-      "Valentines Lissa",
-      "Valentine Lissa",
-      "Valentines Liz",
-      "Valentine Liz",
-      "Littlest Princess",
-      "Lissa: Littlest Princess",
-      "Young Lissa",
-      "Y Lissa",
-      "Baby Lissa",
-      "Child Lissa",
-      "lissa4"
-    ],
-    "HARD_ALT_NAME": [
+      "Christmas Liz",
       "lissa3",
       "Valentines Lissa",
       "liz3",
@@ -14655,13 +14710,27 @@
       "Y Lissa",
       "Baby Lissa",
       "Child Lissa",
-      "lissa4"
+      "lissa4",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "S Celica",
+      "Beach Celica",
+      "H Celica",
+      "Harmonic Celica",
+      "Harmonized Celica",
+      "celica7"
     ],
     "heroes": {
+      "celica7": "<:Colorless_Tome:1317239438602145842>Summer Celica",
+      "lissa": "<:Colorless_Staff:1317239426866483261>Lissa",
+      "lissa2": "<:Green_Axe:1317239517136031897>Winter Lissa",
       "lissa3": "<:Colorless_Staff:1317239426866483261>Valentines Lissa",
-      "lissa4": "<:Green_Axe:1317239517136031897>Young Lissa"
+      "lissa4": "<:Green_Axe:1317239517136031897>Young Lissa",
+      "serra": "<:Colorless_Staff:1317239426866483261>Serra",
+      "serraR": "<:Colorless_Staff:1317239426866483261>Serra (Resplendent)"
     },
-    "name": "Kate Higgins"
+    "name": "Kate Higgins / Kate Davis"
   },
   "katelyngault": {
     "ALT_NAME": [
@@ -25272,7 +25341,13 @@
       "Nino: Fang's Heart",
       "Attuned Nino",
       "Attune Nino",
-      "nino5"
+      "nino5",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "S Nino",
+      "Beach Nino",
+      "nino6"
     ],
     "HARD_ALT_NAME": [
       "kagero",
@@ -25438,7 +25513,13 @@
       "Attuned Nino",
       "Attune Nino",
       "nino5",
-      "nino5"
+      "nino5",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "S Nino",
+      "Beach Nino",
+      "nino6"
     ],
     "heroes": {
       "fae": "<:Green_Breath:1317239551693164595>Fae",
@@ -25459,7 +25540,8 @@
       "nino2R": "<:Green_Tome:1317239575352971396>Pegasus Nino (Resplendent)",
       "nino3": "<:Blue_Tome:1317239386491977749>Winter Nino",
       "nino4": "<:Red_Tome:1317239730714316800>Khadein Nino",
-      "nino5": "<:Green_Dagger:1317239563697127456>Attuned Nino"
+      "nino5": "<:Green_Dagger:1317239563697127456>Attuned Nino",
+      "nino6": "<:Red_Tome:1317239730714316800>Summer Nino"
     },
     "name": "Sarah Blandy"
   },
@@ -29567,7 +29649,19 @@
       "Zihark: Ninja Blademaster",
       "Ninja Blademaster",
       "Ninja Zihark",
-      "Ninja Twihark"
+      "Ninja Twihark",
+      "Affable Prince",
+      "Fogado: Affable Prince",
+      "Regular Fogado",
+      "Base Fogado",
+      "Normal Fogado",
+      "fogado",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "S Fogado",
+      "Beach Fogado",
+      "fogado2"
     ],
     "HARD_ALT_NAME": [
       "ross",
@@ -29586,9 +29680,23 @@
       "N Zihark",
       "N Twihark",
       "Nihark",
-      "Ninja Twihark"
+      "Ninja Twihark",
+      "Affable Prince",
+      "Fogado: Affable Prince",
+      "Regular Fogado",
+      "Base Fogado",
+      "Normal Fogado",
+      "fogado",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "S Fogado",
+      "Beach Fogado",
+      "fogado2"
     ],
     "heroes": {
+      "fogado": "<:Green_Bow:1317239539936268340>Fogado",
+      "fogado2": "<:Colorless_Dagger:1317239418943438869>Summer Fogado",
       "ross": "<:Green_Axe:1317239517136031897>Ross",
       "zihark": "<:Red_Sword:1317239717707911188>Ninja Zihark"
     },
@@ -30081,19 +30189,12 @@
       "Duo Hei\u00f0r\u00fan"
     ]
   },
-  "kenn": {
+  "patrickmealey": {
     "heroes": {
-      "fogado": "<:Green_Bow:1317239539936268340>Fogado",
       "ogier": "<:Red_Sword:1317239717707911188>Ogier"
     },
-    "name": "KENN",
+    "name": "Patrick Mealey",
     "ALT_NAME": [
-      "Affable Prince",
-      "Fogado: Affable Prince",
-      "Regular Fogado",
-      "Base Fogado",
-      "Normal Fogado",
-      "fogado",
       "Ostia's New Blade",
       "Ogier: Ostia's New Blade",
       "Base Ogier",
@@ -30102,12 +30203,6 @@
       "ogier"
     ],
     "HARD_ALT_NAME": [
-      "Affable Prince",
-      "Fogado: Affable Prince",
-      "Regular Fogado",
-      "Base Fogado",
-      "Normal Fogado",
-      "fogado",
       "Ostia's New Blade",
       "Ogier: Ostia's New Blade",
       "Base Ogier",
@@ -30303,6 +30398,42 @@
       "Rearm pjazi",
       "Arm pjazi",
       "pjazi"
+    ]
+  },
+  "anjalikunapaneni": {
+    "heroes": {
+      "excellus": "<:Red_Beast:1317239666944114688>N\u00ED\u00F0h\u00F6ggr"
+    },
+    "name": "Anjali Kunapaneni",
+    "ALT_NAME": [
+      "Quieting Dose",
+      "Nidhoggr: Quieting Dose",
+      "Base Nidhoggr",
+      "Normal Nidhoggr",
+      "Mythic Nidhoggr",
+      "snake lady",
+      "snek",
+      "nidhoggr",
+      "N\u00ED\u00F0h\u00F6ggr",
+      "Base N\u00ED\u00F0h\u00F6ggr",
+      "Normal N\u00ED\u00F0h\u00F6ggr",
+      "Mythic N\u00ED\u00F0h\u00F6ggr",
+      "N\u00ED\u00F0h\u00F6ggr: Quieting Dose"
+    ],
+    "HARD_ALT_NAME": [
+      "Quieting Dose",
+      "Nidhoggr: Quieting Dose",
+      "Base Nidhoggr",
+      "Normal Nidhoggr",
+      "Mythic Nidhoggr",
+      "snake lady",
+      "snek",
+      "nidhoggr",
+      "N\u00ED\u00F0h\u00F6ggr",
+      "Base N\u00ED\u00F0h\u00F6ggr",
+      "Normal N\u00ED\u00F0h\u00F6ggr",
+      "Mythic N\u00ED\u00F0h\u00F6ggr",
+      "N\u00ED\u00F0h\u00F6ggr: Quieting Dose"
     ]
   },
   "kanashimanuki": {

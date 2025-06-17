@@ -1184,7 +1184,7 @@
     "geosphere": {
         "name": "Geosphere",
         "type": "item",
-        "desc": "Deals damage to all units (both allies and enemies) in the map when used.",
+        "desc": "Rolls a single random number between 4 and 11 for all player units and one between 8 and 15 for all enemy units; deals damage to all units equal to their affiliation's random number minus their Luck stat.\nDoes not damage the user.\nLeaves units with 1 HP if damage would kill them.",
         "stats": {
             "uses": 3
         },

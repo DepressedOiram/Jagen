@@ -980,7 +980,13 @@
       "H Lethe",
       "Harvest Lethe",
       "Spooky Lethe",
-      "lethe3"
+      "lethe3",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "S Nino",
+      "Beach Nino",
+      "nino6"
     ],
     "HARD_ALT_NAME": [
       "Maid Lysithea",
@@ -1000,11 +1006,18 @@
       "H Lethe",
       "Harvest Lethe",
       "Spooky Lethe",
-      "lethe3"
+      "lethe3",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "S Nino",
+      "Beach Nino",
+      "nino6"
     ],
     "heroes": {
       "lethe3": "<:Blue_Beast:1317239339452731402>Halloween Lethe",
-      "lysithea4": "<:Colorless_Tome:1317239438602145842>Maid Lysithea"
+      "lysithea4": "<:Colorless_Tome:1317239438602145842>Maid Lysithea",
+      "nino6": "<:Red_Tome:1317239730714316800>Summer Nino"
     },
     "name": "Amagasa Yun (\u96e8\u5098\u3086\u3093)"
   },
@@ -1282,7 +1295,13 @@
       "Desert Ike",
       "J Ike",
       "D Ike",
-      "ike8"
+      "ike8",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "S Fogado",
+      "Beach Fogado",
+      "fogado2"
     ],
     "HARD_ALT_NAME": [
       "gaiusR",
@@ -1499,12 +1518,19 @@
       "Desert Ike",
       "J Ike",
       "D Ike",
-      "ike8"
+      "ike8",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "S Fogado",
+      "Beach Fogado",
+      "fogado2"
     ],
     "heroes": {
       "alfonse3": "<:Blue_Tome:1317239386491977749>Duo Alfonse",
       "alfonse4": "<:Green_Tome:1317239575352971396>Valentines Alfonse",
       "conrad2": "<:Red_Sword:1317239717707911188>Valentines Conrad",
+      "fogado2": "<:Colorless_Dagger:1317239418943438869>Summer Fogado",
       "mcorrin4": "<:Blue_Breath:1317239355835813939>Fallen Male Corrin",
       "mcorrin6": "<:Green_Breath:1317239551693164595>Halloween Male Corrin",
       "cormag": "<:Blue_Lance:1317239378208096338>Cormag",
@@ -13151,6 +13177,19 @@
       "Mythical Hraesvelgr",
       "Legendary Hraesvelgr",
       "hraesvelgr",
+      "Quieting Dose",
+      "Nidhoggr: Quieting Dose",
+      "Base Nidhoggr",
+      "Normal Nidhoggr",
+      "Mythic Nidhoggr",
+      "snake lady",
+      "snek",
+      "nidhoggr",
+      "N\u00ED\u00F0h\u00F6ggr",
+      "Base N\u00ED\u00F0h\u00F6ggr",
+      "Normal N\u00ED\u00F0h\u00F6ggr",
+      "Mythic N\u00ED\u00F0h\u00F6ggr",
+      "N\u00ED\u00F0h\u00F6ggr: Quieting Dose",
       "Quieting Heart",
       "Laeradr: Quieting Heart",
       "Base Laeradr",
@@ -13412,6 +13451,19 @@
       "Mythical Hraesvelgr",
       "Legendary Hraesvelgr",
       "hraesvelgr",
+      "Quieting Dose",
+      "Nidhoggr: Quieting Dose",
+      "Base Nidhoggr",
+      "Normal Nidhoggr",
+      "Mythic Nidhoggr",
+      "snake lady",
+      "snek",
+      "nidhoggr",
+      "N\u00ED\u00F0h\u00F6ggr",
+      "Base N\u00ED\u00F0h\u00F6ggr",
+      "Normal N\u00ED\u00F0h\u00F6ggr",
+      "Mythic N\u00ED\u00F0h\u00F6ggr",
+      "N\u00ED\u00F0h\u00F6ggr: Quieting Dose",
       "Quieting Heart",
       "Laeradr: Quieting Heart",
       "Base Laeradr",
@@ -13457,6 +13509,7 @@
       "lif": "<:Red_Sword:1317239717707911188>L\u00edf",
       "lif3": "<:Red_Sword:1317239717707911188>Rearmed L\u00edf",
       "lucina4": "<:Blue_Lance:1317239378208096338>Brave Lucina",
+      "nidhoggr": "<:Red_Beast:1317239666944114688>N\u00ED\u00F0h\u00F6ggr",
       "nott": "<:Blue_Lance:1317239378208096338>N\u00f3tt",
       "otr": "<:Green_Axe:1317239517136031897>\u00d3tr",
       "ratatoskr": "<:Blue_Beast:1317239339452731402>Ratatoskr",
@@ -22115,11 +22168,53 @@
   },
   "sotaro": {
     "heroes": {
+      "basilio": "<:Green_Axe:1317239517136031897>Basilio",
       "dedue3": "<:Blue_Beast:1317239339452731402>Rearmed Dedue",
+      "hawkeye2": "<:Blue_Lance:1317239378208096338>Nabata Hawkeye",
+      "mycen": "<:Blue_Lance:1317239378208096338>Mycen",
+      "muspell2": "<:Colorless_Breath:1317239411980767363>Flame M\u00faspell",
+      "surtr2": "<:Blue_Lance:1317239378208096338>Pirate Surtr",
       "timerra": "<:Blue_Lance:1317239378208096338>Attuned Timerra"
     },
     "name": "So-taro (\u5275-taro)",
     "ALT_NAME": [
+      "Surtr: Pirate of Red Sky",
+      "Pirate of Red Sky",
+      "Pirate Surtr",
+      "Pirate of Red Sky",
+      "P Surtr",
+      "Purtr",
+      "basilio1",
+      "Feroxi West-Khan",
+      "Basilio",
+      "Base Basilio",
+      "Normal Basilio",
+      "muspel2",
+      "Raging Inferno",
+      "F M\u00faspell",
+      "F Muspel",
+      "F\u00faspell",
+      "Flame M\u00faspell",
+      "Flame Tribe M\u00faspell",
+      "Fiery M\u00faspell",
+      "Fire M\u00faspell",
+      "Flame Muspel",
+      "Flame Tribe Muspel",
+      "Fiery Muspel",
+      "Fire Muspel",
+      "Zofia's Champion",
+      "Mycen: Zofia's Champion",
+      "Normal Mycen",
+      "Base Mycen",
+      "Regular Mycen",
+      "mycen",
+      "Taciturn Guardian",
+      "Hawkeye: Taciturn Guardian",
+      "Desert Hawkeye",
+      "Nabata Hawkeye",
+      "N Hawkeye",
+      "D Hawkeye",
+      "hawkeye2",
       "Desert Warrior",
       "Timerra: Desert Warrior",
       "Regular Timerra",
@@ -22136,6 +22231,43 @@
       "dedue3"
     ],
     "HARD_ALT_NAME": [
+      "Surtr: Pirate of Red Sky",
+      "Pirate of Red Sky",
+      "Pirate Surtr",
+      "Pirate of Red Sky",
+      "P Surtr",
+      "Purtr",
+      "basilio1",
+      "Feroxi West-Khan",
+      "Basilio",
+      "Base Basilio",
+      "Normal Basilio",
+      "muspel2",
+      "Raging Inferno",
+      "F M\u00faspell",
+      "F Muspel",
+      "F\u00faspell",
+      "Flame M\u00faspell",
+      "Flame Tribe M\u00faspell",
+      "Fiery M\u00faspell",
+      "Fire M\u00faspell",
+      "Flame Muspel",
+      "Flame Tribe Muspel",
+      "Fiery Muspel",
+      "Fire Muspel",
+      "Taciturn Guardian",
+      "Zofia's Champion",
+      "Mycen: Zofia's Champion",
+      "Normal Mycen",
+      "Base Mycen",
+      "Regular Mycen",
+      "mycen",
+      "Hawkeye: Taciturn Guardian",
+      "Desert Hawkeye",
+      "Nabata Hawkeye",
+      "N Hawkeye",
+      "D Hawkeye",
+      "hawkeye2",
       "Desert Warrior",
       "Timerra: Desert Warrior",
       "Regular Timerra",
@@ -22379,7 +22511,11 @@
       "Hubert: Crimson Schemer",
       "Valentines Hubert",
       "V Hubert",
-      "hubert2"
+      "hubert2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Normal Sirius",
@@ -22559,7 +22695,11 @@
       "Hubert: Crimson Schemer",
       "Valentines Hubert",
       "V Hubert",
-      "hubert2"
+      "hubert2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "heroes": {
       "camus": "<:Blue_Lance:1317239378208096338>Camus",
@@ -22578,6 +22718,7 @@
       "laslow": "<:Red_Sword:1317239717707911188>Laslow",
       "leifR": "<:Red_Sword:1317239717707911188>Leif (Resplendent)",
       "linus2": "<:Green_Axe:1317239517136031897>Fallen Linus",
+      "narcianR": "<:Green_Axe:1317239517136031897>Narcian (Resplendent)",
       "nilesR": "<:Colorless_Bow:1317239404204654703>Niles (Resplendent)",
       "odin": "<:Blue_Tome:1317239386491977749>Odin",
       "owain": "<:Red_Sword:1317239717707911188>Owain",
@@ -29071,6 +29212,54 @@
       "Base Excellus",
       "Normal Excellus",
       "excellus"
+    ]
+  },
+  "fuwaomu": {
+    "heroes": {
+      "celica7": "<:Colorless_Tome:1317239438602145842>Summer Celica"
+    },
+    "name": "Fuwaomu (\u3075\u308F\u304A\u3080)",
+    "ALT_NAME": [
+      "\u3075\u308F\u304A\u3080",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "S Celica",
+      "Beach Celica",
+      "H Celica",
+      "Harmonic Celica",
+      "Harmonized Celica",
+      "celica7"
+    ]
+  },
+  "gomashioponzu": {
+    "heroes": {
+      "palla5": "<:Green_Axe:1317239517136031897>Summer Palla"
+    },
+    "name": "GomashioPonzu (\u3054\u307e\u3057\u304a\u30dd\u30f3\u9162)",
+    "ALT_NAME": [
+      "\u3054\u307e\u3057\u304a\u30dd\u30f3\u9162",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "S Palla",
+      "Beach Palla",
+      "palla5"
+    ]
+  },
+  "idenshihina": {
+    "heroes": {
+      "lapis3": "<:Blue_Lance:1317239378208096338>Summer Lapis"
+    },
+    "name": "Idenshi Hina (\u907a\u4F1d\u5b50\u3072\u306a)",
+    "ALT_NAME": [
+      "\u907a\u4F1d\u5b50\u3072\u306a",
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "S Lapis",
+      "Beach Lapis",
+      "lapis3"
     ]
   }
 }
