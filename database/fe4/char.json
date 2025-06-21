@@ -798,7 +798,7 @@
     "finn": {
         "name": "Finn",
         "portrait": "finn.png",
-        "promo": "dukeknight",
+        "promo": "banneret",
         "gold": 2000,
         "job": "lanceknight",
         "lvl": 1,
@@ -1505,7 +1505,7 @@
         "portrait": "quan.png",
         "promo": false,
         "gold": 5000,
-        "job": "dukeknight",
+        "job": "banneret",
         "lvl": 4,
         "type": "fixed",
         "skill": [
