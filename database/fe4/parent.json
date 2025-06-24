@@ -1,7 +1,4 @@
 {
-    "edain": {
-        "name": "Edain"
-    },
     "alec": {
         "name": "Alec"
     },
@@ -23,8 +20,8 @@
     "azelle": {
         "name": "Azelle"
     },
-    "beowulf": {
-        "name": "Beowulf"
+    "beowolf": {
+        "name": "Beowolf"
     },
     "brigid": {
         "name": "Brigid"
@@ -56,6 +53,9 @@
     "dew": {
         "name": "Dew"
     },
+    "edain": {
+        "name": "Edain"
+    },
     "erinys": {
         "name": "Erinys"
     },
@@ -68,8 +68,8 @@
     "hannibal": {
         "name": "Hannibal"
     },
-    "hawke": {
-        "name": "Hawke"
+    "hawk": {
+        "name": "Hawk"
     },
     "hermina": {
         "name": "Hermina"

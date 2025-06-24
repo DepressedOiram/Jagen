@@ -1,37 +1,4 @@
 {
-    "edain": {
-        "name": "Edain",
-        "portrait": "aideen.png",
-        "promo": "highpriest",
-        "gold": 5000,
-        "job": "priest",
-        "lvl": 3,
-        "type": "fixed",
-        "skill": [],
-        "base": {
-            "hp": 28,
-            "str": 0,
-            "mag": 6,
-            "skl": 2,
-            "spd": 3,
-            "lck": 11,
-            "def": 0,
-            "res": 3
-        },
-        "blood": {
-            "ullr": false
-        },
-        "growth": {
-            "hp": 50,
-            "str": 20,
-            "mag": 30,
-            "skl": 20,
-            "spd": 30,
-            "lck": 30,
-            "def": 20,
-            "res": 5
-        }
-    },
     "alec": {
         "name": "Alec",
         "portrait": "alec.png",
@@ -702,6 +669,39 @@
         "mother": "lachesis",
         "father": false,
         "influence": "father"
+    },
+    "edain": {
+        "name": "Edain",
+        "portrait": "aideen.png",
+        "promo": "highpriest",
+        "gold": 5000,
+        "job": "priest",
+        "lvl": 3,
+        "type": "fixed",
+        "skill": [],
+        "base": {
+            "hp": 28,
+            "str": 0,
+            "mag": 6,
+            "skl": 2,
+            "spd": 3,
+            "lck": 11,
+            "def": 0,
+            "res": 3
+        },
+        "blood": {
+            "ullr": false
+        },
+        "growth": {
+            "hp": 50,
+            "str": 20,
+            "mag": 30,
+            "skl": 20,
+            "spd": 30,
+            "lck": 30,
+            "def": 20,
+            "res": 5
+        }
     },
     "erinys": {
         "name": "Erinys",
