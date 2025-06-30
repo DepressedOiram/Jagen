@@ -310,11 +310,6 @@ function Character:get_info()
     if self:is_attuned() then
         text = text .. string.format("%sAttuned Hero\n", heroes_pack:get("attuned"))
     end
-    
-    -- Check for emblem
-    if self:is_emblem() then
-        text = text .. string.format("%sEmblem Hero\n", heroes_pack:get("emblem"))
-    end
 
     -- Check for Legendary/Mythic and show the bonuses
     if self:is_legendary() then
@@ -709,6 +704,10 @@ function Character:fancy_short()
     if self:is_harmonized() then
         text = self:harmonized_icon() .. text
     end
+
+    if self:is_emblem() then
+        text = self:emblem_icon() .. text
+    end
     
     return text
 end
@@ -774,6 +773,10 @@ end
 
 function Character:harmonized_icon()
     return heroes_pack:get("feh_harmonized")
+end
+
+function Character:emblem_icon()
+    return heroes_pack:get("feh_emblem")
 end
 
 
