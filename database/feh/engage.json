@@ -42,5 +42,12 @@
     "description": "Enhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nIf it is unit's first combat initiated by unit or first combat initiated by foe that turn, inflicts Atk-4 on unit and unit attacks twice during combat (triggers only when unit's Range = 1; does not trigger when equipped with an area-of-effect Special).",
     "icon": 2390,
     "slot": "Special"
+  },
+  "micaiah": {
+    "name": "Micaiah",
+    "stats": false,
+    "description": "Enhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nIf a Rally or movement Assist skill is used by unit, restores 20 HP to target ally and neutralizes any\u3010Penalty\u3011on that ally, and grants another action to unit and inflicts \u3010Isolation\u3011on unit and Pair Up cohort through their next action, and also, if unit's or Pair Up Cohort's Range = 2, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort, respectively, through their next action (\"grants another action\" effect and onward is once per turn; if another effect that grants additional action to unit has been triggered at the same time, this effect is also considered to have been triggered).\n\u3010Penalty\u3011\nAll effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).\n\u3010Isolation\u3011\nTarget cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)",
+    "icon": 2454,
+    "slot": "Special"
   }
 }

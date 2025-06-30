@@ -2473,7 +2473,8 @@
                 ],
                 "Green_Tome": [],
                 "Colorless_Tome": [
-                    "Light of Etruria"
+                    "Light of Etruria",
+                    "Maiden's Tome"
                 ]
             },
             "Breath": [],
@@ -3582,7 +3583,8 @@
         },
         "reference_hero": {
             "hilda3": "<:Colorless_Staff:1317239426866483261>Duo Fodlan Hilda",
-            "mark": "<:Blue_Tome:1317239386491977749>Duo Mark"
+            "mark": "<:Blue_Tome:1317239386491977749>Duo Mark",
+            "micaiah8": "<:Colorless_Tome:1317239438602145842>Emblem Micaiah"
         },
         "HARD_ALT_NAME": []
     },
@@ -4432,7 +4434,9 @@
             "assist": [
                 "Maiden's Solace"
             ],
-            "special": [],
+            "special": [
+                "Great Sacrifice"
+            ],
             "A": [
                 "Sly Swift Sparrow",
                 "Sly Sturdy Blow",
@@ -4476,6 +4480,7 @@
             "ayra2": "<:Red_Sword:1317239717707911188>Harmonic Ayra",
             "celica7": "<:Colorless_Tome:1317239438602145842>Summer Celica",
             "duma2": "<:Red_Breath:1317239692189630504>Duo Duma",
+            "micaiah8": "<:Colorless_Tome:1317239438602145842>Emblem Micaiah",
             "nagi2": "<:Red_Breath:1317239692189630504>Halloween Nagi",
             "nephenee3": "<:Red_Tome:1317239730714316800>Festival Nephenee",
             "nina2": "<:Colorless_Dagger:1317239418943438869>Duo Nina",

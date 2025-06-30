@@ -27866,7 +27866,13 @@
       "Base Rune",
       "Normal Rune",
       "Mythic Rune",
-      "rune"
+      "rune",
+      "Of Dawn",
+      "Micaiah: Of Dawn",
+      "Emblem Micaiah",
+      "Engage Micaiah",
+      "E Micaiah",
+      "micaiah8"
     ],
     "HARD_ALT_NAME": [
       "micaiah",
@@ -27936,7 +27942,13 @@
       "Base Rune",
       "Normal Rune",
       "Mythic Rune",
-      "rune"
+      "rune",
+      "Of Dawn",
+      "Micaiah: Of Dawn",
+      "Emblem Micaiah",
+      "Engage Micaiah",
+      "E Micaiah",
+      "micaiah8"
     ],
     "heroes": {
       "manuela": "<:Red_Sword:1317239717707911188>Winter Manuela",
@@ -27949,6 +27961,7 @@
       "micaiah5": "<:Colorless_Tome:1317239438602145842>Legendary Micaiah",
       "micaiah6": "<:Colorless_Tome:1317239438602145842>Summer Micaiah",
       "micaiah7": "<:Green_Tome:1317239575352971396>Attuned Micaiah",
+      "micaiah8": "<:Colorless_Tome:1317239438602145842>Emblem Micaiah",
       "rune": "<:Colorless_Tome:1317239438602145842>Rune"
     },
     "name": "Veronica Taylor"

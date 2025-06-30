@@ -357,7 +357,7 @@
             "lck": 10,
             "def": 10,
             "res": 4,
-            "mov": 6
+            "mov": 5
         },
         "promo": false
     },
@@ -570,10 +570,13 @@
             "res": 0,
             "mov": 4
         },
-        "promo": false
+        "promo": false,
+        "ALT_NAME": [
+            "princess"
+        ]
     },
     "priestesscelica": {
-        "name": "Priestess (Celica)",
+        "name": "Priestess",
         "promo": "princesscelica",
         "weapon": [
             "magic",
@@ -589,24 +592,6 @@
             "res": 0,
             "mov": 4
         }
-    },
-    "princess": {
-        "name": "Princess",
-        "weapon": [
-            "magic",
-            "sword"
-        ],
-        "base": {
-            "hp": 36,
-            "atk": 5,
-            "skl": 1,
-            "spd": 1,
-            "lck": 0,
-            "def": 1,
-            "res": 0,
-            "mov": 4
-        },
-        "promo": false
     },
     "princesscelica": {
         "name": "Princess (Celica)",
