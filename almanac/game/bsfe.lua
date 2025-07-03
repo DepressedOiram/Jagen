@@ -28,10 +28,14 @@ Character.__index = Character
 setmetatable(Character, workspaces.Character)
 
 Character.section = almanac.get("database/bsfe/char.json")
-Character.helper_job_growth = false
+
 Character.helper_portrait = "database/bsfe/images"
 
-Character.compare_cap = false
+Character.allow_show_promo = true
+Character.promo_minHP = true
+Character.helper_job_base = true
+Character.compare_cap = true
+Character.helper_job_growth = false
 
 Character.inventory = inventory
 
@@ -126,6 +130,8 @@ function Character:calc_base()
     local base = self:get_base()
     local job = self.Job:new(self.data.job)
 
+    base.hp = 0
+    base.wlv = 0
 
     if not self.average_classic and self:has_averages() then
         base = self:calc_averages(base)
