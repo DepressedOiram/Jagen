@@ -209,12 +209,20 @@
     },
     "name": "Aaron Dismuke"
   },
-  "aaronhedrick": {
+  "nathanhedrick": {
     "ALT_NAME": [
+      "Aaron Hedrick",
+      "aaronhedrick",
       "Balthus: King of Grappling",
       "King of Grappling",
       "Base Balthus",
-      "Normal Balthus"
+      "Normal Balthus",
+      "Summer's Big Bet",
+      "Balthus: Summer's Big Bet",
+      "Summer Balthus",
+      "S Balthus",
+      "Beach Balthus",
+      "balthus2"
     ],
     "HARD_ALT_NAME": [
       "balthus",
@@ -222,12 +230,19 @@
       "balthus1",
       "King of Grappling",
       "Base Balthus",
-      "Normal Balthus"
+      "Normal Balthus",
+      "Summer's Big Bet",
+      "Balthus: Summer's Big Bet",
+      "Summer Balthus",
+      "S Balthus",
+      "Beach Balthus",
+      "balthus2"
     ],
     "heroes": {
-      "balthus": "<:Green_Axe:1317239517136031897>Balthus"
+      "balthus": "<:Green_Axe:1317239517136031897>Balthus",
+      "balthus2": "<:Blue_Lance:1317239378208096338>Summer Balthus"
     },
-    "name": "Aaron Hedrick"
+    "name": "Aaron Hedrick / Nathan Hedrick"
   },
   "abbytrott": {
     "ALT_NAME": [
@@ -521,7 +536,13 @@
       "Underground Lord",
       "Legendary Yuri",
       "Leg Yuri",
-      "Legend Yuri"
+      "Legend Yuri",
+      "Tropical Wolf",
+      "Yuri: Tropical Wolf",
+      "Summer Yuri",
+      "S Yuri",
+      "Beach Yuri",
+      "yuri3"
     ],
     "HARD_ALT_NAME": [
       "yuri",
@@ -536,11 +557,18 @@
       "L Yuri",
       "Luri",
       "Leg Yuri",
-      "Legend Yuri"
+      "Legend Yuri",
+      "Tropical Wolf",
+      "Yuri: Tropical Wolf",
+      "Summer Yuri",
+      "S Yuri",
+      "Beach Yuri",
+      "yuri3"
     ],
     "heroes": {
       "yuri": "<:Colorless_Dagger:1317239418943438869>Yuri",
-      "yuri2": "<:Red_Dagger:1317239717707911188>Legendary Yuri"
+      "yuri2": "<:Red_Dagger:1317239717707911188>Legendary Yuri",
+      "yuri3": "<:Green_Dagger:1317239563697127456>Summer Yuri"
     },
     "name": "Alejandro Saab"
   },
@@ -21506,7 +21534,11 @@
       "Rearmed Noire",
       "Rearm Noire",
       "Arm Noire",
-      "noire"
+      "noire",
+      "Resplendent Soleil",
+      "Resp Soleil",
+      "R Soleil",
+      "Soleil (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "soleil",
@@ -21534,13 +21566,18 @@
       "Rearmed Noire",
       "Rearm Noire",
       "Arm Noire",
-      "noire"
+      "noire",
+      "Resplendent Soleil",
+      "Resp Soleil",
+      "R Soleil",
+      "Soleil (Resplendent)"
     ],
     "heroes": {
       "noire": "<:Red_Bow:1317239680571543592>Rearmed Noire",
       "noire2": "<:Colorless_Bow:1317239404204654703>Summer Noire",
       "noire3": "<:Colorless_Dagger:1317239418943438869>Ninja Noire",
-      "soleil": "<:Red_Sword:1317239717707911188>Soleil"
+      "soleil": "<:Red_Sword:1317239717707911188>Soleil",
+      "soleilR": "<:Red_Sword:1317239717707911188>Soleil (Resplendent)"
     },
     "name": "Michelle Ruff"
   },
@@ -30162,7 +30199,8 @@
   "catprotano": {
     "heroes": {
       "heidrun": "<:Green_Beast:1317239527953141870>Hei\u00f0r\u00fan",
-      "heidrun2": "<:Colorless_Tome:1317239438602145842>New Year Hei\u00f0r\u00fan"
+      "heidrun2": "<:Colorless_Tome:1317239438602145842>New Year Hei\u00f0r\u00fan",
+      "heidrun3": "<:Colorless_Beast:1317239395534901248>Summer He\u00f0r\u00fan"
     },
     "name": "Cat Protano",
     "ALT_NAME": [
@@ -30181,7 +30219,21 @@
       "New years Heidrun",
       "Kimono Heidrun",
       "Duo Heidrun",
-      "Duo Hei\u00f0r\u00fan"
+      "Duo Hei\u00f0r\u00fan",
+      "Peaceful Horizon",
+      "Hei\u00f0r\u00fan: Peaceful Horizon",
+      "Summer Hei\u00f0r\u00fan",
+      "S Hei\u00f0r\u00fan",
+      "Beach Hei\u00f0r\u00fan",
+      "heidrun3",
+      "Heidrun: Peaceful Horizon",
+      "Summer Heidrun",
+      "S Heidrun",
+      "Beach Heidrun",
+      "Heithrun: Peaceful Horizon",
+      "Summer Heitrun",
+      "S Heithrun",
+      "Beach Heithrun"
     ],
     "HARD_ALT_NAME": [
       "Healing Nectar",
@@ -30199,7 +30251,21 @@
       "New years Heidrun",
       "Kimono Heidrun",
       "Duo Heidrun",
-      "Duo Hei\u00f0r\u00fan"
+      "Duo Hei\u00f0r\u00fan",
+      "Peaceful Horizon",
+      "Hei\u00f0r\u00fan: Peaceful Horizon",
+      "Summer Hei\u00f0r\u00fan",
+      "S Hei\u00f0r\u00fan",
+      "Beach Hei\u00f0r\u00fan",
+      "heidrun3",
+      "Heidrun: Peaceful Horizon",
+      "Summer Heidrun",
+      "S Heidrun",
+      "Beach Heidrun",
+      "Heithrun: Peaceful Horizon",
+      "Summer Heitrun",
+      "S Heithrun",
+      "Beach Heithrun"
     ]
   },
   "patrickmealey": {

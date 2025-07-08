@@ -281,7 +281,7 @@
       }
     },
     "reference": {
-      "Other Effects": "Gives 2 Fire Weapon Experience at 2 range."
+      "Other Effects": "Gives <:jugdral_fire:1317240001200652298>Fire Weapon Experience at 2 range."
     }
   },
   "lightningsword": {
@@ -303,6 +303,9 @@
       "stats": {
         "skl": 5
       }
+    },
+    "reference": {
+      "Other Effects": "Gives <:jugdral_thunder:1317240071778467841>Thunder Weapon Experience at 2 range."
     },
     "ALT_NAME": [
       "levinsword",
@@ -330,7 +333,7 @@
       }
     },
     "reference": {
-      "Other Effects": "Gives 2 Wind Weapon Experience at 2 range."
+      "Other Effects": "Gives <:jugdral_wind:1317240642895609886>Wind Weapon Experience at 2 range."
     }
   },
   "meisterschwert": {

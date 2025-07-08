@@ -567,6 +567,7 @@
                 "Blue_Tome": [
                     "Eagle's Egg",
                     "Goddess Temari",
+                    "Summer Chilling",
                     "The Cycle's Turn",
                     "Tome of Storms"
                 ],
@@ -703,6 +704,7 @@
                 "Blue Skies 4"
             ],
             "B": [
+                "Divine Brawn",
                 "Lunar Brace II",
                 "Moonlight Bangle",
                 "Solar Brace II",
@@ -714,7 +716,8 @@
                 "Black Fang Bond",
                 "Fetters of Dromi",
                 "Darkling Guard II",
-                "Quiet Strength"
+                "Quiet Strength",
+                "The True Dromi"
             ],
             "X": [],
             "S": [],
@@ -913,6 +916,7 @@
                 "Beast N Trace 3",
                 "Chivalry",
                 "Ho\u00f0r's Zeal",
+                "Ho\u00f0r's Zeal II",
                 "Murderous Lion"
             ],
             "C": [],
@@ -962,7 +966,8 @@
                 "A/R Far Trace 4",
                 "S/D Far Trace 4",
                 "S/R Far Trace 4",
-                "A/R Far Resound"
+                "A/R Far Resound",
+                "S/R Far Resound"
             ],
             "C": [],
             "X": [
@@ -1546,6 +1551,7 @@
                 "Small Spade+",
                 "Spy's Shuriken",
                 "Summer Strikers",
+                "Tangy Sundae",
                 "Tailwind Shuriken",
                 "Temari+",
                 "Thief's Honesty",
@@ -1747,6 +1753,7 @@
             },
             "Breath": [],
             "Beast": [
+                "Enclosing Claw",
                 "Nectar Horn"
             ]
         },
@@ -1848,7 +1855,8 @@
             "B": [],
             "C": [
                 "Divine Nectar",
-                "Nectar's Magic"
+                "Nectar's Magic",
+                "Sweet Nectar"
             ],
             "X": [],
             "S": [],
@@ -2160,7 +2168,9 @@
             "C": [
                 "Spd Smoke 4",
                 "Absolute Closure",
-                "Severance"
+                "Severance",
+                "Severance+",
+                "The True Dromi"
             ],
             "X": [],
             "S": [],
@@ -2494,6 +2504,7 @@
             "B": [
                 "Atk/Res Detect",
                 "Spd/Def Detect",
+                "Ho\u00f0r's Zeal II",
                 "Killing Intent+",
                 "Mounting Fear",
                 "Pure Storm",
@@ -2621,7 +2632,8 @@
             "C": [
                 "Absolute Closure",
                 "Blood & Thunder",
-                "Severance"
+                "Severance",
+                "Severance+"
             ],
             "X": [],
             "S": [],
@@ -2834,6 +2846,26 @@
         "HARD_ALT_NAME": [
             "Horn Seal"
         ]
+    },
+    "foulplay": {
+        "name": "Foul Play",
+        "description": "Range = 3. Unit and target ally swap spaces.",
+        "color": "Colorless",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "The True Dromi"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
     },
     "frozen": {
         "name": "Frozen",
@@ -3096,7 +3128,24 @@
         "description": "Unit makes a guaranteed follow-up attack during combat",
         "color": "Colorless",
         "icon": "guaranteedfollowups",
-        "reference_weapon": false,
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Ocean-Fit Antler"
+            ]
+        },
         "reference_skill": {
             "assist": [],
             "special": [],
@@ -3333,7 +3382,8 @@
         "icon": "hexblade",
         "reference_weapon": {
             "Sword": [
-                "Hexblade Sword+"
+                "Hexblade Sword+",
+                "Lands Sword"
             ],
             "Lance": [
                 "Nabata Lance+",
@@ -3508,7 +3558,8 @@
             "captain": []
         },
         "reference_hero": {
-            "chloe2": "<:Red_Tome:1317239730714316800>Spring Chlo\u00e9"
+            "chloe2": "<:Red_Tome:1317239730714316800>Spring Chlo\u00e9",
+            "hapi2": "<:Blue_Tome:1317239386491977749>Summer Hapi"
         },
         "HARD_ALT_NAME": []
     },
@@ -3683,7 +3734,8 @@
                 "Fetters of Dromi",
                 "Heir to Light",
                 "Solitary Dream",
-                "The Heir to Light"
+                "The Heir to Light",
+                "The True Dromi"
             ],
             "X": [],
             "S": [
@@ -3696,6 +3748,7 @@
         "reference_hero": {
             "ayra2": "<:Red_Sword:1317239717707911188>Harmonic Ayra",
             "ephraim5": "<:Blue_Lance:1317239378208096338>Duo Ephraim",
+            "hapi2": "<:Blue_Tome:1317239386491977749>Summer Hapi",
             "hinoka4": "<:Green_Bow:1317239539936268340>Duo Hinoka",
             "kagero4": "<:Colorless_Dagger:1317239418943438869>Wind Kagero",
             "marisa3": "<:Green_Axe:1317239517136031897>Jehanna Marisa",
@@ -3715,6 +3768,7 @@
         "icon": "neutralizebonuses",
         "reference_weapon": {
             "Sword": [
+                "Lands Sword",
                 "Sword of Isaach"
             ],
             "Lance": [
@@ -3738,7 +3792,9 @@
                     "Iago's Tome",
                     "Tome of Fury"
                 ],
-                "Blue_Tome": [],
+                "Blue_Tome": [
+                    "Summer Chilling"
+                ],
                 "Green_Tome": [],
                 "Colorless_Tome": []
             },
@@ -3747,6 +3803,7 @@
                 "Brutal Breath"
             ],
             "Beast": [
+                "Ocean-Fit Antler",
                 "Wolfpup Fang"
             ]
         },
@@ -3969,7 +4026,9 @@
                 "Blue_Tome": [
                     "Aureola"
                 ],
-                "Green_Tome": [],
+                "Green_Tome": [
+                    "Tome of Reglay"
+                ],
                 "Colorless_Tome": []
             },
             "Breath": [
@@ -4175,7 +4234,8 @@
         "reference_weapon": {
             "Sword": [],
             "Lance": [
-                "Breaker Lance"
+                "Breaker Lance",
+                "Vengeful Lance"
             ],
             "Axe": [
                 "Sneering Axe"
@@ -4188,7 +4248,9 @@
                 "Partnership Bow",
                 "Skadi"
             ],
-            "Dagger": [],
+            "Dagger": [
+                "Tangy Sundae"
+            ],
             "Tome": {
                 "Red_Tome": [
                     "Dark Monograph",
@@ -4453,6 +4515,7 @@
                 "Full Disarm",
                 "Deadly Balance",
                 "Deadly Balance+",
+                "Divine Brawn",
                 "Divine Strength",
                 "Fallen Star II",
                 "Killing Intent",
@@ -4881,7 +4944,9 @@
                 "Colorless_Tome": []
             },
             "Breath": [],
-            "Beast": []
+            "Beast": [
+                "Wandering Horn"
+            ]
         },
         "reference_skill": {
             "assist": [],
@@ -4947,7 +5012,9 @@
                 "Colorless_Tome": []
             },
             "Breath": [],
-            "Beast": []
+            "Beast": [
+                "Wandering Horn"
+            ]
         },
         "reference_skill": {
             "assist": [],
@@ -4994,7 +5061,8 @@
                 "Survivalist Bow"
             ],
             "Dagger": [
-                "Hidden Blade"
+                "Hidden Blade",
+                "Tangy Sundae"
             ],
             "Tome": {
                 "Red_Tome": [
@@ -5175,7 +5243,9 @@
                 "Colorless_Tome": []
             },
             "Breath": [],
-            "Beast": []
+            "Beast": [
+                "Enclosing Claw"
+            ]
         },
         "reference_skill": {
             "assist": [],
@@ -5445,7 +5515,8 @@
             "B": [],
             "C": [
                 "Stall Ploy 3",
-                "Fetters of Dromi"
+                "Fetters of Dromi",
+                "The True Dromi"
             ],
             "X": [],
             "S": [],
@@ -5613,7 +5684,9 @@
                 "Red_Tome": [
                     "General-to-Be"
                 ],
-                "Blue_Tome": [],
+                "Blue_Tome": [
+                    "Summer Chilling"
+                ],
                 "Green_Tome": [],
                 "Colorless_Tome": []
             },
@@ -5713,7 +5786,9 @@
         "icon": "undefended",
         "reference_weapon": {
             "Sword": [],
-            "Lance": [],
+            "Lance": [
+                "Vengeful Lance"
+            ],
             "Axe": [],
             "Staff": [],
             "Bow": [],
@@ -5739,7 +5814,8 @@
             "C": [
                 "Absolute Closure",
                 "Black Fang Bond",
-                "Severance"
+                "Severance",
+                "Severance+"
             ],
             "X": [],
             "S": [],
