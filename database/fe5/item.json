@@ -858,7 +858,7 @@
   "brokenlance": {
     "name": "Broken Lance",
     "type": "lance",
-    "desc": "A broken sword. Almost unusable.",
+    "desc": "A broken lance. Almost unusable.",
     "stats": {
       "rank": "E",
       "wt": 15,
