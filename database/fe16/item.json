@@ -1787,8 +1787,8 @@
         },
         "weapon": true
     },
-    "killergauntlets": {
-        "name": "Killer Gauntlets",
+    "killerknuckles": {
+        "name": "Killer Knuckles",
         "type": "gauntlet",
         "stats": {
             "rank": "B",
@@ -1802,7 +1802,7 @@
         },
         "desc": "Gauntlets with a high critical-hit rate that allows the wielder to attack twice when initiating combat.",
         "reference": {
-            "Forge": "**Killer Gauntlets+** 10x Black-Sand Steel 3000G <:fe16_139:1317721299145199666>B+"
+            "Forge": "**Killer Knuckles+** 10x Black-Sand Steel 3000G <:fe16_139:1317721299145199666>B+"
         },
         "weapon": true
     },
