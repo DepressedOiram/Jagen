@@ -7071,8 +7071,8 @@
         "reference": {},
         "weapon": true
     },
-    "killergauntlets+": {
-        "name": "Killer Gauntlets+",
+    "killerknuckles+": {
+        "name": "Killer Knuckles+",
         "type": "gauntlet",
         "desc": "Reinforced killer knuckles, for deadly brawling. Wielder attacks twice when initiating combat.",
         "stats": {
