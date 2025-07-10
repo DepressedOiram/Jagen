@@ -630,7 +630,7 @@
     },
     "arrowspate": {
         "name": "Arrowspate",
-        "desc": "Effective against fliers.",
+        "desc": "Effective against flying units.",
         "stats": {
             "wlv": 1,
             "mt": 6,
@@ -676,7 +676,7 @@
     },
     "hoistflamme": {
         "name": "Hoistflamme",
-        "desc": false,
+        "desc": "Effective against flying units.",
         "stats": {
             "wlv": 5,
             "mt": 10,
@@ -685,7 +685,10 @@
             "rng": "3-10"
         },
         "type": "weapon",
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "effective": true
+        }
     },
     "pachyderm": {
         "name": "Pachyderm",
@@ -923,7 +926,7 @@
     },
     "excalibur": {
         "name": "Excalibur",
-        "desc": "Effective against fliers.",
+        "desc": "Effective against flying units.",
         "stats": {
             "wlv": "-",
             "mt": 12,
