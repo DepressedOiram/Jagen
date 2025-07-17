@@ -1353,5 +1353,32 @@
         "reference": {
             "Items": "Warrior's Sword"
         }
+    },
+    "phalanx": {
+        "name": "Phalanx",
+        "desc": "Def/2 chance of blocking. Adj. allies multiply odds.",
+        "type": "Passive",
+        "icon": "Exclamation",
+        "stats": {},
+        "hidden": false,
+        "reference": {}
+    },
+    "triaffliction": {
+        "name": "Tri-affliction",
+        "desc": "Has a Skill/2 chance of inflicting ailments with hits.",
+        "type": "Passive",
+        "icon": "Exclamation",
+        "stats": {},
+        "hidden": false,
+        "reference": {}
+    },
+    "bowrange3": {
+        "name": "Bowrange +3",
+        "desc": "Increases bow range by 3.",
+        "type": "Passive",
+        "icon": "Exclamation",
+        "stats": {},
+        "hidden": false,
+        "reference": {}
     }
 }

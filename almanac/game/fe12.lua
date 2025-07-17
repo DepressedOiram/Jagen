@@ -327,7 +327,13 @@ end
 -- Base
 function Character:common_base(base)
     if self.rb then
-        base = base + 2
+        base.str = base.str + 2
+        base.mag = base.mag + 2
+        base.skl = base.skl + 2
+        base.spd = base.spd + 2
+        base.lck = base.lck + 2
+        base.def = base.def + 2
+        base.res = base.res + 2
     end
     
     return workspaces.Character.common_base(self, base)

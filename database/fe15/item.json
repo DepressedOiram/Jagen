@@ -2055,7 +2055,7 @@
     "invokedread": {
         "name": "Invoke (Dread)",
         "type": "white",
-        "desc": "Summons a number of allied dread fighters",
+        "desc": "Summons a number of allied dread fighters.",
         "stats": {
             "hp": -12,
             "hit": 100
@@ -3803,5 +3803,102 @@
         },
         "reference": {},
         "weapon": false
+    },
+    "ancientring": {
+        "name": "Ancient Ring",
+        "desc": "The product of mystical study. Negates all magic.",
+        "type": "ring",
+        "stats": {
+            "res": 40
+        },
+        "reference": {},
+        "weapon": false
+    },
+    "hardworkersribbon": {
+        "name": "Hard Worker's Ribbon",
+        "desc": "--",
+        "type": "accessory",
+        "stats": {
+            "spd": 10,
+            "lck": 5,
+            "sell": "<:silver:1318460126457368597>10"
+        },
+        "reference": {},
+        "weapon": false
+    },
+    "vagabondshairclip": {
+        "name": "Vagabond's Hairclip",
+        "desc": "--",
+        "type": "accessory",
+        "stats": {
+            "skl": 5,
+            "lck": 10,
+            "sell": "<:silver:1318460126457368597>10"
+        },
+        "reference": {},
+        "weapon": false
+    },
+    "warriorswardingbell": {
+        "name": "Warrior's Warding Bell",
+        "desc": "--",
+        "type": "accessory",
+        "stats": {
+            "skl": 10,
+            "spd": 3,
+            "sell": "<:silver:1318460126457368597>10"
+        },
+        "reference": {},
+        "weapon": false
+    },
+    "blackcrescentmoon": {
+        "name": "Black Crescent Moon",
+        "desc": "--",
+        "type": "accessory",
+        "stats": {
+            "def": 5,
+            "res": 3,
+            "sell": "<:silver:1318460126457368597>10"
+        },
+        "reference": {},
+        "weapon": false
+    },
+    "restore": {
+        "name": "Restore",
+        "type": "white",
+        "desc": "Removes ailments from allies in range.",
+        "stats": {
+            "hp": -12,
+            "hit": 100,
+            "rng": "1-(Attack/4)"
+        },
+        "reference": {},
+        "weapon": true
+    },
+    "ward": {
+        "name": "Ward",
+        "type": "white",
+        "desc": "Raises an adjacent ally's Res for one turn.",
+        "stats": {
+            "hp": -12,
+            "hit": 100,
+            "rng": 1
+        },
+        "reference": {},
+        "weapon": true
+    },
+    "lemegeton": {
+        "name": "Lemegeton",
+        "type": "white",
+        "desc": "Summons illusory magic soldiers. (Eight max)",
+        "stats": {
+            "hp": -12,
+            "hit": 100,
+            "rng": "4-6"
+        },
+        "reference": {
+            "Summons w/o Grimoire Ring": "Revenant\nBonewalker\nGargoyle\nNecrodragon\nWitch",
+            "Summons w/ Grimoire Ring": "Entombed\nLich\nDeathgoyle\nWhite Dragon\nWitch\nFiend"
+        },
+        "weapon": true
     }
 }
