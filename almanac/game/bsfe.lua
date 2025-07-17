@@ -5,6 +5,7 @@ local util = almanac.util
 
 local fe2 = require("almanac.game.fe2")
 
+local Infobox = almanac.Infobox
 
 local Character = {}
 local Job = {}
@@ -69,12 +70,15 @@ function Character:final_base()
     if not self.average_classic then
         if self.helper_job_base and not self:is_personal() then         
             base = util.math.add_stats(base, self.job:get_base())
-            base.hp = base.hp - self.job.data.base.hp
-            base.hp = base.hp + math.max(self.job.data.base.hp, self.data.base.hp)
 
+            base.hp = base.hp - self.job.data.base.hp
             base.wlv = base.wlv - self.job.data.base.wlv 
-            base.wlv = base.wlv + math.max(self.job.data.base.wlv, self.data.base.wlv )
+            
+            if self.job.id ~= self.data.job then
+                local promo = self.job:promo_bonus(base)
         
+                base = util.math.rise_stats(base, promo)
+            end
           --[[
             print(self.job.data.name)
             if self.promo_remove_hp then
@@ -83,28 +87,6 @@ function Character:final_base()
             print('reclass')
             print(base.hp)
             ]]
-        end
-    
-    -- Non reclass games
-    else
-        -- Apply base class stats
-        local job = self.data.job
-        if self:is_changed("class") then 
-            job = self.job 
-        else 
-            job = self.Job:new(self.data.job) 
-        end
-
-        print(job.data.name)
-        
-        base = base + job:get_base()
-        
-        if self:has_averages() then
-            base = self:calc_averages_classic(base)
-        end
-        
-        if self.personal then
-            base = base - job:get_base()
         end
     end
     
@@ -130,9 +112,6 @@ function Character:calc_base()
     local base = self:get_base()
     local job = self.Job:new(self.data.job)
 
-    base.hp = 0
-    base.wlv = 0
-
     if not self.average_classic and self:has_averages() then
         base = self:calc_averages(base)
     end
@@ -155,8 +134,15 @@ end
 
 function Character:get_promo_bonus(job1, job2)
     local promo
-    promo = util.math.sub_stats(job2:get_base(), job1:get_base())
+    local job1_base = job1:get_base()
+    job1_base.wlv = self.data.base.wlv
+    local job2_base = job2:get_base()
+
+    promo = util.math.sub_stats(job2_base, job1_base)
     promo['hp'] = 0
+    if promo.wlv < 0 then
+        promo['wlv'] = 0
+    end
     promo = util.math.remove_zero(promo)
     return promo
 end
@@ -195,6 +181,35 @@ function Job:get_dismount()
     stats['hp'] = 0 
     stats = util.math.remove_zero(stats)
     return stats
+end
+
+function Job:promo_bonus(base)
+    -- check for 1 hp bonus if no stats change
+    local hp_bonus = true
+    
+    function bonus_check(stat, v1, v2)
+        if v2 > v1 then
+            hp_bonus = false
+            return true
+            
+        else
+            return false
+            
+        end
+        
+        return false
+    end
+    
+    local job = self:get_base()
+    
+    local promo = util.math.rise_stats(base, job, {
+    ignore = {"atk", "skl", "spd", "lck", "def", "res", "mov"}, check = bonus_check, ignore_unchanged = true})
+    
+    if self.hp_bonus and hp_bonus then
+        promo.hp = base.hp + 1
+    end
+    
+    return promo
 end
 
 function Job:show_rank()
