@@ -46,6 +46,7 @@ Character.Item = Item
 function Character:setup()
     self.job = self.Job:new(self.options.class)
     
+    self.minimal = false
 end
 
 function Character:default_options()

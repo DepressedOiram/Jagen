@@ -80,6 +80,7 @@ function Character:setup()
         end
 
     end
+    self.minimal = false
 end
 
 function Character:default_options()
