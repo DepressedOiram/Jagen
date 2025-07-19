@@ -47,16 +47,27 @@
       "Uther: Frugal Militarist",
       "Normal Uther",
       "Base Uther",
-      "uther"
+      "uther",
+      "Reformed Bandit",
+      "Dagdar: Reformed Bandit",
+      "Base Dagdar",
+      "Normal Dagdar",
+      "dagdar"
     ],
     "HARD_ALT_NAME": [
       "Frugal Militarist",
       "Uther: Frugal Militarist",
       "Normal Uther",
       "Base Uther",
-      "uther"
+      "uther",
+      "Reformed Bandit",
+      "Dagdar: Reformed Bandit",
+      "Base Dagdar",
+      "Normal Dagdar",
+      "dagdar"
     ],
     "heroes": {
+      "dagdar": "<:Green_Axe:1317239517136031897>Dagdar",
       "uther": "<:Green_Axe:1317239517136031897>Uther"
     },
     "name": "Byron Patrick"
@@ -194,7 +205,12 @@
       "Noah: Mercenary-Errant",
       "Mercenary-Errant",
       "Base Noah",
-      "Normal Noah"
+      "Normal Noah",
+      "Traveling Bard",
+      "Homer: Traveling Bard",
+      "Base Homer",
+      "Normal Homer",
+      "homer"
     ],
     "HARD_ALT_NAME": [
       "noah",
@@ -202,9 +218,15 @@
       "noah1",
       "Mercenary-Errant",
       "Base Noah",
-      "Normal Noah"
+      "Normal Noah",
+      "Traveling Bard",
+      "Homer: Traveling Bard",
+      "Base Homer",
+      "Normal Homer",
+      "homer"
     ],
     "heroes": {
+      "homer": "<:Blue_Tome:1317239386491977749>Homer",
       "noah": "<:Blue_Lance:1317239378208096338>Noah"
     },
     "name": "Aaron Dismuke"
@@ -13691,7 +13713,11 @@
       "I Flora",
       "I F Flora",
       "I T Flora",
-      "flora3"
+      "flora3",
+      "Resplendent Flora",
+      "Resp Flora",
+      "R Flora",
+      "Flora (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Groom Cordelia",
@@ -13919,7 +13945,11 @@
       "I Flora",
       "I F Flora",
       "I T Flora",
-      "flora3"
+      "flora3",
+      "Resplendent Flora",
+      "Resp Flora",
+      "R Flora",
+      "Flora (Resplendent)"
     ],
     "heroes": {
       "caeldori": "<:Blue_Lance:1317239378208096338>Caeldori",
@@ -13929,6 +13959,7 @@
       "cordelia3": "<:Blue_Lance:1317239378208096338>Summer Cordelia",
       "cordelia4": "<:Blue_Lance:1317239378208096338>Harmonic Cordelia",
       "flora": "<:Red_Dagger:1317239717707911188>Flora",
+      "floraR": "<:Red_Dagger:1317239717707911188>Flora (Resplendent)",
       "flora2": "<:Red_Dagger:1317239717707911188>Picnic Flora",
       "flora3": "<:Colorless_Dagger:1317239418943438869>Ice Flora",
       "linde": "<:Blue_Tome:1317239386491977749>Linde",
@@ -17600,7 +17631,18 @@
       "New Year Cow Girl",
       "New years Cow Girl",
       "New Year Cow",
-      "New years Cow"
+      "New years Cow",
+      "Warrior Wanderer",
+      "Mel\u00edai: Warrior Wanderer",
+      "Base Mel\u00edai",
+      "Normal Mel\u00edai",
+      "Regular Mel\u00edai",
+      "mel\u00edai",
+      "Meliai: Warrior Wanderer",
+      "Base Meliai",
+      "Normal Meliai",
+      "Regular Meliai",
+      "meliai"
     ],
     "HARD_ALT_NAME": [
       "ash",
@@ -17629,11 +17671,23 @@
       "New Year Cow Girl",
       "New years Cow Girl",
       "New Year Cow",
-      "New years Cow"
+      "New years Cow",
+      "Warrior Wanderer",
+      "Mel\u00edai: Warrior Wanderer",
+      "Base Mel\u00edai",
+      "Normal Mel\u00edai",
+      "Regular Mel\u00edai",
+      "mel\u00edai",
+      "Meliai: Warrior Wanderer",
+      "Base Meliai",
+      "Normal Meliai",
+      "Regular Meliai",
+      "meliai"
     ],
     "heroes": {
       "ash": "<:Colorless_Beast:1317239395534901248>Ash",
-      "ash2": "<:Blue_Beast:1317239339452731402>New Year Ash"
+      "ash2": "<:Blue_Beast:1317239339452731402>New Year Ash",
+      "meliai": "<:Green_Beast:1317239527953141870>Mel\u00edai"
     },
     "name": "Lily Emil Lammers"
   },
@@ -22417,7 +22471,11 @@
       "Rearmed Sothe",
       "Rearm Sothe",
       "Arm Sothe",
-      "sothe3"
+      "sothe3",
+      "Sworn to Country",
+      "Leif: Sworn to Country",
+      "Attuned Leif",
+      "leif4"
     ],
     "HARD_ALT_NAME": [
       "sothe",
@@ -22501,13 +22559,18 @@
       "Rearmed Sothe",
       "Rearm Sothe",
       "Arm Sothe",
-      "sothe3"
+      "sothe3",
+      "Sworn to Country",
+      "Leif: Sworn to Country",
+      "Attuned Leif",
+      "leif4"
     ],
     "heroes": {
       "leif": "<:Red_Sword:1317239717707911188>Leif",
       "leifR": "<:Red_Sword:1317239717707911188>Leif (Resplendent)",
       "leif2": "<:Colorless_Bow:1317239404204654703>Legendary Leif",
       "leif3": "<:Colorless_Bow:1317239404204654703>Harmonic Leif",
+      "leif4": "<:Green_Bow:1317239539936268340>Attuned Leif",
       "micaiah4": "<:Colorless_Tome:1317239438602145842>Duo Micaiah",
       "sothe": "<:Colorless_Dagger:1317239418943438869>Sothe",
       "sotheR": "<:Colorless_Dagger:1317239418943438869>Sothe (Resplendent)",
@@ -30731,6 +30794,52 @@
       "Base Excellus",
       "Normal Excellus",
       "excellus"
+    ]
+  },
+  "frankiekevich": {
+    "heroes": {
+      "machyua": "<:Red_Sword:1317239717707911188>Rearmed Machyua"
+    },
+    "name": "Frankie Kevich",
+    "ALT_NAME": [
+      "Blade of Gales",
+      "Machyua: Blade of Gales",
+      "Rearmed Machyua",
+      "Rearm Machyua",
+      "Arm Machyua",
+      "Base Machyua",
+      "Normal Machyua",
+      "machyua"
+    ],
+    "HARD_ALT_NAME": [
+      "Blade of Gales",
+      "Machyua: Blade of Gales",
+      "Rearmed Machyua",
+      "Rearm Machyua",
+      "Arm Machyua",
+      "Base Machyua",
+      "Normal Machyua",
+      "machyua"
+    ]
+  },
+  "rachelkimsey": {
+    "heroes": {
+      "linoan": "<:Colorless_Staff:1317239426866483261>Linoan"
+    },
+    "name": "Rachel Kimsey",
+    "ALT_NAME": [
+      "Lady of Tarrah",
+      "Linoan: Lady of Tarrah",
+      "Base Linoan",
+      "Normal Linoan",
+      "linoan"
+    ],
+    "HARD_ALT_NAME": [
+      "Lady of Tarrah",
+      "Linoan: Lady of Tarrah",
+      "Base Linoan",
+      "Normal Linoan",
+      "linoan"
     ]
   }
 }

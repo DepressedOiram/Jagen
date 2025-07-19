@@ -50,7 +50,8 @@
             "Dagger": [],
             "Tome": {
                 "Red_Tome": [
-                    "Dark Spikes T"
+                    "Dark Spikes T",
+                    "Vision of Daein"
                 ],
                 "Blue_Tome": [],
                 "Green_Tome": [
@@ -372,7 +373,8 @@
             ],
             "C": [],
             "X": [
-                "Lull Echo"
+                "Lull Echo",
+                "Sly Echo"
             ],
             "S": [],
             "captain": []
@@ -487,6 +489,7 @@
             "A": [],
             "B": [],
             "C": [
+                "Atk/Spd Faith",
                 "Darkling Guard II"
             ],
             "X": [],
@@ -1188,6 +1191,29 @@
         "reference_hero": {},
         "HARD_ALT_NAME": [
             "Canto Ally 2"
+        ]
+    },
+    "cantoally22": {
+        "name": "Canto (Ally 2, 2)",
+        "description": "After an attack, Assist skill, or structure destruction, unit can move to a space within 2 spaces of any ally within 2 spaces.",
+        "color": "Colorless",
+        "icon": "canto",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "The True Nj\u00f6run"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": [
+            "Canto Ally 2, 2"
         ]
     },
     "cantoally5": {
@@ -1927,7 +1953,8 @@
             "special": [],
             "A": [
                 "Flared Sparrow",
-                "Flared Mirror"
+                "Flared Mirror",
+                "Flared Sturdy"
             ],
             "B": [],
             "C": [],
@@ -2163,7 +2190,8 @@
             "A": [],
             "B": [
                 "Rockslide Dance 3",
-                "Barbarity"
+                "Barbarity",
+                "Hot-Blooded"
             ],
             "C": [
                 "Spd Smoke 4",
@@ -3100,7 +3128,9 @@
             "Tome": {
                 "Red_Tome": [],
                 "Blue_Tome": [],
-                "Green_Tome": [],
+                "Green_Tome": [
+                    "Vengeful God"
+                ],
                 "Colorless_Tome": []
             },
             "Breath": [],
@@ -3193,7 +3223,9 @@
                     "Rau\u00f0rcrab+",
                     "Sevenfold Gifts"
                 ],
-                "Blue_Tome": [],
+                "Blue_Tome": [
+                    "Bl\u00e1rcrab+"
+                ],
                 "Green_Tome": [
                     "Tome of Luxuries"
                 ],
@@ -3524,6 +3556,7 @@
             ],
             "Staff": [],
             "Bow": [
+                "Bow of Loyalty",
                 "Divine Yewfelle"
             ],
             "Dagger": [
@@ -3784,7 +3817,9 @@
                 "Twin Star Axe"
             ],
             "Staff": [],
-            "Bow": [],
+            "Bow": [
+                "Bow of Loyalty"
+            ],
             "Dagger": [],
             "Tome": {
                 "Red_Tome": [
@@ -4533,7 +4568,9 @@
                 "Paranoia",
                 "Severance"
             ],
-            "X": [],
+            "X": [
+                "Sly Echo"
+            ],
             "S": [],
             "captain": []
         },
@@ -5202,6 +5239,7 @@
                 "A/D Twin N Save",
                 "A/R Twin N Save",
                 "D/R Twin N Save",
+                "A/D Briar N Save",
                 "A/R Briar N Save",
                 "A/S Far Save 3",
                 "A/D Far Save 3",
@@ -5435,7 +5473,8 @@
             "Tome": {
                 "Red_Tome": [
                     "Rau\u00f0rlantern+",
-                    "Scroll of Curses"
+                    "Scroll of Curses",
+                    "Vision of Daein"
                 ],
                 "Blue_Tome": [
                     "Magical Lantern+"
