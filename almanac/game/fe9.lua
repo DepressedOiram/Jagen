@@ -14,6 +14,8 @@ local Skill = {}
 -- Inventory --
 ---------------------------------------------------
 local inventory = fe10.Character.inventory:use_as_base()
+
+inventory.eff_might = 2
  
 inventory:get_calc("hit").func = function(data, unit, item)
     return item.stats.hit + (unit.stats.skl * 2) + util.floor(unit.stats.lck / 2)

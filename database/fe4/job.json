@@ -853,7 +853,7 @@
         }
     },
     "magefighterf": {
-        "name": "War Mage (F)",
+        "name": "Mage Fighter (F)",
         "gold": 3000,
         "skill": [
             "adept"
@@ -878,7 +878,7 @@
         }
     },
     "magefighterm": {
-        "name": "War Mage (M)",
+        "name": "Mage Fighter (M)",
         "gold": 3000,
         "skill": [
             "adept"

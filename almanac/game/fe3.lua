@@ -19,13 +19,13 @@ local Item = {}
 
 local shard_bonus = {
     capricorn = {hp = 20, skl = -10, spd = -10, wlv = 30, def = 10},
-    aquarius = {skl = 10, str= 10, spd = 10, wlv = 10},
-    gemini = {str = 30, wlv = -10, def = 20},
-    taurus = {hp = 5, str = 5, skl = 5, spd = 5, wlv = 5, lck = 5, def = 5, res =5},
-    cancer = {str = -10, def = 50},
+    aquarius = {skl = 10, atk= 10, spd = 10, wlv = 10},
+    gemini = {atk = 30, wlv = -10, def = 20},
+    taurus = {hp = 5, atk = 5, skl = 5, spd = 5, wlv = 5, lck = 5, def = 5, res =5},
+    cancer = {atk = -10, def = 50},
     libra = {hp = -10, spd = 40, lck = 10, wlv = 10, res = -10},
-    scorpio = {str = 20, skl = 20, spd = 10, lck = -10},
-    leo = {str = 50, def = -10},
+    scorpio = {atk = 20, skl = 20, spd = 10, lck = -10},
+    leo = {atk = 50, def = -10},
     virgo = {wlv = 20, def = -10, res = 30},
     sagittarius = {hp = -10, skl = 40, spd = 10},
     pisces = {hp = 10, def = 10, res = 10,lck = 10},
@@ -35,8 +35,7 @@ local shard_bonus = {
 -- Inventory --
 ---------------------------------------------------
 local inventory = fe2.Character.inventory:use_as_base()
-inventory.eff_multiplier = 3
-inventory.eff_might = false
+inventory.eff_might = 3
 inventory:get_calc("atk").func = function(data, unit, item)
 if item:is_magic() then
     return item.stats.mt
@@ -90,24 +89,6 @@ function Character:default_options()
         shard = false,
         secret = false
     }
-end
-
--- Mod
-function Character:show_info()
-    local infobox = self:show_mod()
-    
-    if self.job:can_promo() then
-        local promo = self.job:get_promo()
-        
-        promo_text = promo:promo_bonus(self:final_base())
-        promo_text = util.table_stats(promo_text)
-        
-        local name = promo:get_name()
-    end
-    
-    infobox:image("thumbnail", self:get_portrait())   
-
-    return infobox
 end
 
 function Character:show_cap()

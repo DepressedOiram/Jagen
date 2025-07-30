@@ -150,6 +150,53 @@
             "res": 10
         },
         "promo_bonus": {
+            "hp": 4,
+            "atk": 2,
+            "skl": 5,
+            "spd": 2,
+            "def": 3,
+            "res": 0
+        },
+        "rank": {
+            "axe": 101
+        }
+    },
+    "berserkergeese": {
+        "name": "Berserker (Geese)",
+        "mov": null,
+        "note": null,
+        "base": {
+            "hp": 24,
+            "atk": 7,
+            "skl": 6,
+            "spd": 7,
+            "lck": 0,
+            "def": 6,
+            "res": 0,
+            "con": 13,
+            "mov": 6
+        },
+        "cap": {
+            "hp": 60,
+            "atk": 30,
+            "skl": 24,
+            "spd": 28,
+            "lck": 30,
+            "def": 22,
+            "res": 24,
+            "con": 20,
+            "mov": 15
+        },
+        "growth": {
+            "hp": 58,
+            "atk": 35,
+            "skl": 25,
+            "spd": 12,
+            "lck": 15,
+            "def": 10,
+            "res": 10
+        },
+        "promo_bonus": {
             "hp": 5,
             "atk": 3,
             "skl": 4,
@@ -1636,8 +1683,8 @@
             "bow": 51
         }
     },
-    "nomadtrooperf": {
-        "name": "Nomad Trooper (F)",
+    "nomadictrooperf": {
+        "name": "Nomadic Trooper (F)",
         "mov": "mount",
         "note": null,
         "base": {
@@ -1684,8 +1731,8 @@
             "bow": 101
         }
     },
-    "nomadtrooperm": {
-        "name": "Nomad Trooper (M)",
+    "nomadictrooperm": {
+        "name": "Nomadic Trooper (M)",
         "mov": "mount",
         "note": null,
         "base": {

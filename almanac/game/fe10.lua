@@ -28,6 +28,8 @@ local Skill = {}
 ---------------------------------------------------
 local inventory = util.math.Inventory:new()
 
+inventory.eff_might = 3
+
 local function inventory_atk(data, unit, item)
     if item:is_magic() then
         return unit.stats.mag + item.stats.mt

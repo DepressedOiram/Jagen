@@ -21,6 +21,8 @@ local Engrave = {}
 ---------------------------------------------------
 local inventory = util.math.Inventory:new()
 
+inventory.eff_might = 3
+
 -- TODO: Move engage weapons to their own thing
 local function inventory_atk(data, unit, item)
     if item.id == "runesword" then

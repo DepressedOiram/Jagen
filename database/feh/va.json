@@ -30841,5 +30841,69 @@
       "Normal Linoan",
       "linoan"
     ]
+  },
+  "samslade": {
+    "heroes": {
+      "baldr": "<:Red_Sword:1317239717707911188>Baldr"
+    },
+    "name": "Sam Slade",
+    "ALT_NAME": [
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Mythic Baldr",
+      "baldr"
+    ],
+    "HARD_ALT_NAME": [
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Mythic Baldr",
+      "baldr"
+    ]
+  },
+  "emilo": {
+    "heroes": {
+      "hodr": "<:Blue_Bow:1317239347577356328>H\u00f6\u00f0r"
+    },
+    "name": "Emi Lo",
+    "ALT_NAME": [
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Mythic H\u00f6\u00f0r",
+      "h\u00f6\u00f0r",
+      "Hodr: Dusk Shadow God",
+      "Base Hodr",
+      "Normal Hodr",
+      "Mythic Hodr",
+      "hodr",
+      "Hoor: Dusk Shadow God",
+      "Base Hoor",
+      "Normal Hoor",
+      "Mythic Hoor",
+      "hoor"
+    ],
+    "HARD_ALT_NAME": [
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Mythic H\u00f6\u00f0r",
+      "h\u00f6\u00f0r",
+      "Hodr: Dusk Shadow God",
+      "Base Hodr",
+      "Normal Hodr",
+      "Mythic Hodr",
+      "hodr",
+      "Hoor: Dusk Shadow God",
+      "Base Hoor",
+      "Normal Hoor",
+      "Mythic Hoor",
+      "hoor"
+    ]
   }
 }

@@ -15,8 +15,7 @@ local Item = {}
 -- Inventory --
 ---------------------------------------------------
 local inventory = fe15.Character.inventory:use_as_base()
-inventory.eff_multiplier = 3
-inventory.eff_might = false
+inventory.eff_might = 3
 inventory:get_calc("hit").func = function(data, unit, item)
 if item:is_magic() then
     return item.stats.hit

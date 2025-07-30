@@ -704,6 +704,7 @@
             ],
             "A": [
                 "Atk/Spd Mastery",
+                "Atk/Res Mastery",
                 "Blue Skies 4"
             ],
             "B": [
@@ -1791,6 +1792,7 @@
             "A": [],
             "B": [
                 "Dazzling Discord",
+                "Atk/Def Discord",
                 "Atk/Res Discord",
                 "Spd/Res Discord",
                 "Def/Res Discord",
@@ -2533,6 +2535,7 @@
                 "Atk/Res Detect",
                 "Spd/Def Detect",
                 "Ho\u00f0r's Zeal II",
+                "Justice Enforcer",
                 "Killing Intent+",
                 "Mounting Fear",
                 "Pure Storm",
@@ -4714,7 +4717,8 @@
                 "Potent Disarm",
                 "Potent Assault",
                 "Potent 4",
-                "Potent Finish"
+                "Potent Finish",
+                "Justice Enforcer"
             ],
             "C": [],
             "X": [],
