@@ -28,6 +28,8 @@ local Shop = {}
 ---------------------------------------------------
 local inventory = fe14.Character.inventory:use_as_base()
 
+inventory.eff_might = 3
+
 local function inventory_crit(data, unit, item)
     return item.stats.crit + util.floor(unit.stats.skl / 2)
 end

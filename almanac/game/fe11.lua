@@ -15,6 +15,8 @@ local Item = {}
 ---------------------------------------------------
 local inventory = fe12.Character.inventory:use_as_base()
 
+inventory.eff_might = 3
+
 inventory:get_calc("as").func = function(data, unit, item)
     return unit.stats.spd - math.max(item.stats.wt - unit.stats.str, 0)
 end

@@ -17,6 +17,8 @@ local pack = util.emoji.get("database/fe15/emoji.json")
 ---------------------------------------------------
 local inventory = util.math.Inventory:new()
 
+inventory.eff_might = 3
+
 inventory:item_calc("atk", function(data, unit, item) return unit.stats.atk + item.stats.mt end)
 inventory:item_calc("as", function(data, unit, item) return unit.stats.spd - item.stats.wt end)
 
