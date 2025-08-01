@@ -608,7 +608,7 @@
   "dayan": {
     "name": "Dayan",
     "portrait": "dayan.png",
-    "job": "nomadtrooperm",
+    "job": "nomadictrooperm",
     "lvl": 12,
     "gender": "male",
     "affinity": "anima",
@@ -3097,7 +3097,7 @@
     "affinity": "ice",
     "note": false,
     "promo": [
-      "nomadtrooperm"
+      "nomadictrooperm"
     ],
     "alt": [],
     "growth": {
@@ -3231,7 +3231,7 @@
     "affinity": "wind",
     "note": false,
     "promo": [
-      "nomadtrooperf"
+      "nomadictrooperf"
     ],
     "alt": [],
     "growth": {

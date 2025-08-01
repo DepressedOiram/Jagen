@@ -3,7 +3,7 @@ local workspaces = almanac.workspaces
 
 local util = almanac.util
 
-local fe2 = require("almanac.game.fe2")
+local fe3 = require("almanac.game.fe3")
 
 local Infobox = almanac.Infobox
 
@@ -13,7 +13,7 @@ local Item = {}
 ---------------------------------------------------
 -- Inventory --
 ---------------------------------------------------
-local inventory = fe2.Character.inventory:use_as_base()
+local inventory = fe3.Character.inventory:use_as_base()
 inventory.eff_multiplier = 3
 inventory.eff_might = false
 inventory:get_calc("atk").func = function(data, unit, item)
@@ -152,7 +152,7 @@ end
 -- Item --
 ---------------------------------------------------
 Item.__index = Item
-setmetatable(Item, fe2.Item)
+setmetatable(Item, fe3.Item)
 
 Item.section = almanac.get("database/bsfe/item.json")
 
