@@ -397,12 +397,17 @@ function Character:show_rank()
 end
 
 function Character:get_rank()
-    local result = self.job:get_rank()
+    local result
+    if not self:is_personal() then
+        result = self.job:get_rank()
 
-    for key, value in pairs(self.data.rank) do
-        if result[key] ~= nil then
-            result[key] = result[key] + value
+        for key, value in pairs(self.data.rank) do
+            if result[key] ~= nil then
+                result[key] = result[key] + value
+            end
         end
+    else
+        result = util.copy(self.data.rank)
     end
     
     return result
