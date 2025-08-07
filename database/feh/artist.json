@@ -1874,7 +1874,11 @@
       "W Larcei",
       "Bride Larcei",
       "Bridal Larcei",
-      "larcei3"
+      "larcei3",
+      "Resplendent Legendary Marth",
+      "Resp Legendary Marth",
+      "R Legendary Marth",
+      "Legendary Marth (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Winter Erika",
@@ -2239,7 +2243,11 @@
       "W Larcei",
       "Bride Larcei",
       "Bridal Larcei",
-      "larcei3"
+      "larcei3",
+      "Resplendent Legendary Marth",
+      "Resp Legendary Marth",
+      "R Legendary Marth",
+      "Legendary Marth (Resplendent)"
     ],
     "heroes": {
       "alm2R": "<:Red_Sword:1317239717707911188>Brave Alm (Resplendent)",
@@ -2270,6 +2278,7 @@
       "larcei2": "<:Green_Axe:1317239517136031897>Scion Larcei",
       "larcei3": "<:Blue_Lance:1317239378208096338>Bridal Larcei",
       "mareeta3": "<:Red_Sword:1317239717707911188>Ascended Mareeta",
+      "marth3R": "<:Red_Sword:1317239717707911188>Legendary Marth (Resplendent)",
       "miranda": "<:Red_Tome:1317239730714316800>Miranda",
       "naga": "<:Blue_Breath:1317239355835813939>Naga",
       "nagi2": "<:Red_Breath:1317239692189630504>Halloween Nagi",
@@ -11528,7 +11537,13 @@
       "Harmonic Plumeria",
       "Harmonized Plumeria",
       "H Plumeria",
-      "plumeria4"
+      "plumeria4",
+      "Royal Reception",
+      "Veronica: Royal Reception",
+      "Maid Veronica",
+      "Tea Veronica",
+      "Teatime Veronica",
+      "veronica6"
     ],
     "HARD_ALT_NAME": [
       "nils",
@@ -11716,7 +11731,13 @@
       "Harmonic Plumeria",
       "Harmonized Plumeria",
       "H Plumeria",
-      "plumeria4"
+      "plumeria4",
+      "Royal Reception",
+      "Veronica: Royal Reception",
+      "Maid Veronica",
+      "Tea Veronica",
+      "Teatime Veronica",
+      "veronica6"
     ],
     "heroes": {
       "chloe2": "<:Red_Tome:1317239730714316800>Spring Chlo\u00e9",
@@ -11736,7 +11757,8 @@
       "plumeria4": "<:Blue_Lance:1317239378208096338>Spring Plumeria",
       "rhys": "<:Colorless_Staff:1317239426866483261>Summer Rhys",
       "sonya2": "<:Green_Tome:1317239575352971396>Harmonic Sonya",
-      "triandra2": "<:Colorless_Tome:1317239438602145842>Spring Triandra"
+      "triandra2": "<:Colorless_Tome:1317239438602145842>Spring Triandra",
+      "veronica6": "<:Colorless_Tome:1317239438602145842>Maid Veronica"
     },
     "name": "Kippu (\u5207\u7b26)"
   },
@@ -29135,7 +29157,8 @@
   },
   "makimurashunsuke": {
     "heroes": {
-      "ayra3": "<:Red_Sword:1317239717707911188>Legendary Ayra"
+      "ayra3": "<:Red_Sword:1317239717707911188>Legendary Ayra",
+      "finn2": "<:Red_Sword:1317239717707911188>Butler Finn"
     },
     "name": "Makimura Shunsuke (\u30DE\u30AD\u30E0\u30E9\u30B7\u30E5\u30F3\u30B9\u30B1)",
     "ALT_NAME": [
@@ -29146,12 +29169,19 @@
       "L Ayra",
       "Leg Ayra",
       "Lyra",
-      "ayra3"
+      "ayra3",
+      "Devoted Service",
+      "Finn: Devoted Service",
+      "Butler Finn",
+      "Tea Finn",
+      "Teatime Finn",
+      "finn2"
     ]
   },
   "nanafuji": {
     "heroes": {
-      "claude7": "<:Blue_Bow:1317239347577356328>Valentines Claude"
+      "claude7": "<:Blue_Bow:1317239347577356328>Valentines Claude",
+      "felix4": "<:Blue_Lance:1317239378208096338>Butler Felix"
     },
     "name": "Nanafuji (\u306a\u306a\u3075\u3058)",
     "ALT_NAME": [
@@ -29160,7 +29190,13 @@
       "Claude: Distant Deer",
       "Valentines Claude",
       "V Claude",
-      "claude7"
+      "claude7",
+      "Savant's Service",
+      "Felix: Savant's Service",
+      "Butler Felix",
+      "Tea Felix",
+      "Teatime Felix",
+      "felix4"
     ]
   },
   "chigusaminori": {
@@ -29241,18 +29277,28 @@
       "Quan (Resplendent)"
     ]
   },
-  "sinno": {
+  "siino": {
     "heroes": {
-      "eitr2": "<:Colorless_Beast:1317239395534901248>Spring Eitr"
+      "eitr2": "<:Colorless_Beast:1317239395534901248>Spring Eitr",
+      "ingrid4": "<:Green_Axe:1317239517136031897>Maid Ingrid"
     },
-    "name": "Sinno",
+    "name": "Siino",
     "ALT_NAME": [
       "Spring Sunrise",
       "Eitr: Spring Sunrise",
       "Spring Eitr",
       "S Eitr",
       "Easter Eitr",
-      "eitr2"
+      "eitr2",
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Teatime Ingrid",
+      "Harmonic Ingrid",
+      "Harmonized Ingrid",
+      "Duo Ingrid",
+      "ingrid4"
     ]
   },
   "hagiwararin": {
@@ -29497,6 +29543,26 @@
       "Base Machyua",
       "Normal Machyua",
       "machyua"
+    ]
+  },
+  "nekozakanacamu": {
+    "heroes": {
+      "celine3": "<:Red_Tome:1317239730714316800>Maid C\u00e9line"
+    },
+    "name": "NekozakanaCamu (\u732b\u9b5a\u304b\u3080)",
+    "ALT_NAME": [
+      "\u732b\u9b5a\u304b\u3080",
+      "Blissful Tea Party",
+      "C\u00e9line: Blissful Tea Party",
+      "Maid C\u00e9line",
+      "Tea C\u00e9line",
+      "Teatime C\u00e9line",
+      "Celine: Blissful Tea Party",
+      "Maid Celine",
+      "Tea Celine",
+      "Teatime Celine",
+      "c\u00e9line3",
+      "celine3"
     ]
   }
 }
