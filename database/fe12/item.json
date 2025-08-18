@@ -2385,7 +2385,7 @@
     "silence": {
         "name": "Silence",
         "type": "staff",
-        "desc": "Prevents a enemy from using tomes/staves for 1 turn.",
+        "desc": "Prevents a enemy from using tomes/staves for 1 turn.\nNullified by Imhullu.",
         "stats": {
             "rank": "B",
             "rng": "Infinite",

@@ -70,7 +70,7 @@ local kris_history = {
         growth = {skl = 15, spd = 15}
     },
     enlightened = {
-        text = "Enlightned",
+        text = "Enlightened",
         base = {},
         growth = {hp = 30}
     },

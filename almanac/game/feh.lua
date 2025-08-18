@@ -659,27 +659,31 @@ function Character:flower_limit()
     local flower = 5
 
     -- Heroes released after or during CYL7
-    if id <= 1130 then
+    if id <= 1276 then
         flower = flower + 5
-    
-        -- Heroes released after or during CYL6
-        if id <= 985 then
+
+        if id <= 1130 then
             flower = flower + 5
         
-            if id <= 838 then
+            -- Heroes released after or during CYL6
+            if id <= 985 then
                 flower = flower + 5
-                
-                -- Heroes released after or during CYL5
-                if id <= 694 then
+            
+                if id <= 838 then
                     flower = flower + 5
                     
-                    -- Heroes released after or during CYL4
-                    if id <= 553 then
+                    -- Heroes released after or during CYL5
+                    if id <= 694 then
                         flower = flower + 5
                         
-                        -- Gen 1 Heroes that are also infantry
-                        if id <= 338 and self.data.move == "Infantry" then
+                        -- Heroes released after or during CYL4
+                        if id <= 553 then
                             flower = flower + 5
+                            
+                            -- Gen 1 Heroes that are also infantry
+                            if id <= 338 and self.data.move == "Infantry" then
+                                flower = flower + 5
+                            end
                         end
                     end
                 end

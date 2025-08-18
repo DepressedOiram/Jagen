@@ -218,7 +218,7 @@ end
 function Character:show_unit_info()
     local infobox = workspaces.Character.show_mod(self)
     
-    if not self:is_changed() and self.data.affinity then
+    if self.data.affinity then
         infobox:set("desc", infobox:get("desc") .. string.format("\n%s%s", 
                         gba_pack:get("aff_" .. self.data.affinity), util.title(self.data.affinity)))
     end

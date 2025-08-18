@@ -1195,7 +1195,9 @@
     "sniper": {
         "name": "Sniper",
         "gold": 3000,
-        "skill": [],
+        "skill": [
+            "followup"
+        ],
         "base": {
             "hp": 40,
             "str": 12,

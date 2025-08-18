@@ -120,7 +120,8 @@
                     "Scroll of Curses"
                 ],
                 "Blue_Tome": [
-                    "Arcane Medusa"
+                    "Arcane Medusa",
+                    "Cryptic Valaskj\u00e1lf"
                 ],
                 "Green_Tome": [
                     "Kindred Tome"
@@ -466,7 +467,8 @@
         "icon": "bulwark",
         "reference_weapon": {
             "Sword": [
-                "Fellowship Blade"
+                "Fellowship Blade",
+                "Sublime Creator"
             ],
             "Lance": [],
             "Axe": [],
@@ -974,7 +976,9 @@
         "reference_skill": {
             "assist": [],
             "special": [],
-            "A": [],
+            "A": [
+                "Heaven's Stead"
+            ],
             "B": [
                 "A/R Far Trace 4",
                 "S/D Far Trace 4",
@@ -1079,7 +1083,9 @@
             "B": [
                 "Holy Soul of Zofia"
             ],
-            "C": [],
+            "C": [
+                "Just like Mother"
+            ],
             "X": [],
             "S": [],
             "captain": []
@@ -1438,6 +1444,27 @@
         "HARD_ALT_NAME": [
             "Flash"
         ]
+    },
+    "creationpulse": {
+        "name": "Creation Pulse (Status Effect)",
+        "description": "If unit's attack can trigger unit's Special, grants Special cooldown count-X before unit's first attack during combat (X = number of Penalty effects active on foe, excluding stat penalties; max 2).\n(For 1 turn.)",
+        "color": "Red",
+        "icon": "creationpulse",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [],
+            "C": [
+                "Just like Mother"
+            ],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
     },
     "dagger\uff15": {
         "name": "Dagger \uff15",
@@ -2432,7 +2459,8 @@
             "A": [],
             "B": [],
             "C": [
-                "Divine God Fang"
+                "Divine God Fang",
+                "Just like Mother"
             ],
             "X": [],
             "S": [],
@@ -2550,7 +2578,9 @@
                 "Fate Unchanged..."
             ],
             "special": [],
-            "A": [],
+            "A": [
+                "Heaven's Stead"
+            ],
             "B": [
                 "Atk/Res Detect",
                 "Spd/Def Detect",
@@ -2921,6 +2951,33 @@
         "reference_hero": {},
         "HARD_ALT_NAME": []
     },
+    "fringebonus": {
+        "name": "Fringe Bonus",
+        "description": "Grants bonus to Atk/Spd/Def/Res during combat = highest bonus on each stat between unit and allies within 2 spaces of unit for 1 turn. Calculates each stat bonus independently.",
+        "color": "Red",
+        "icon": "fringebonus",
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": [
+                "Tempered Antler"
+            ]
+        },
+        "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
     "frozen": {
         "name": "Frozen",
         "description": "Reduces inflicted unit's follow-up ability and increases foe's follow-up ability through unit's next action:\nIncreases Spd difference necessary for unit to make a follow-up attack by X and decreases Spd difference necessary for foe to make a follow-up attack by X during combat (if foe's Def > unit's Def, X = 10 + difference between Def stats \u00d7 2; otherwise, X = 10). (For example, if Spd difference necessary increases by 10, Spd must be \u2265 15 more than foe's Spd to make a follow-up attack; stacks with similar skills.)",
@@ -3181,7 +3238,7 @@
     },
     "guaranteedfollowups": {
         "name": "Guaranteed Follow-Ups",
-        "description": "Unit makes a guaranteed follow-up attack during combat",
+        "description": "Unit makes a guaranteed follow-up attack during combat.",
         "color": "Colorless",
         "icon": "guaranteedfollowups",
         "reference_weapon": {
@@ -3193,7 +3250,9 @@
             "Dagger": [],
             "Tome": {
                 "Red_Tome": [],
-                "Blue_Tome": [],
+                "Blue_Tome": [
+                    "Cryptic Valaskj\u00e1lf"
+                ],
                 "Green_Tome": [],
                 "Colorless_Tome": []
             },
@@ -3704,6 +3763,27 @@
         },
         "HARD_ALT_NAME": []
     },
+    "magictwinsave": {
+        "name": "Magic Twin Save",
+        "description": "If a magic, staff, or dragon foe initiates combat against an ally within 2 spaces of unit, triggers Savior on unit (triggers only if unit is not equipped with a skill that can trigger another Savior effect; if unit is granted multiple statuses that enable \"Savior\" effects to trigger, Savior will not trigger).\nIf foe uses magic, staff, or dragon damage, disables foe's effects that \"calculate damage using the lower of foe's Def or Res\" (including area-of-effect Specials), and any \"reduces damage by X%\" effect that can be triggered only once per combat by unit's equipped Special skill can be triggered up to twice per combat during combat (excludes boosted Special effects from engaging; only highest value applied; does not stack).",
+        "color": "Colorless",
+        "icon": "magictwinsave",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Mighty Roar"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
     "mobilityincreased": {
         "name": "Mobility Increased",
         "description": "Unit can move 1 extra space (that turn only; does not stack).",
@@ -3872,6 +3952,7 @@
             ],
             "Beast": [
                 "Ocean-Fit Antler",
+                "Tempered Antler",
                 "Wolfpup Fang"
             ]
         },
@@ -4184,7 +4265,9 @@
                 "Future Focus"
             ],
             "special": [],
-            "A": [],
+            "A": [
+                "Prof's Guidance"
+            ],
             "B": [],
             "C": [
                 "Inf. Spd Tactic",
@@ -4249,7 +4332,9 @@
             "Breath": [
                 "Frostfire Breath"
             ],
-            "Beast": []
+            "Beast": [
+                "Tempered Antler"
+            ]
         },
         "reference_skill": {
             "assist": [
@@ -4588,6 +4673,7 @@
                 "Beyond Reason"
             ],
             "B": [
+                "Spd/Res Shackle",
                 "Full Disarm",
                 "Deadly Balance",
                 "Deadly Balance+",
@@ -4779,11 +4865,30 @@
         "description": "Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = 100% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like \"reduce damage by X%\" still apply, but this effect is not affected by effects that prevent follow-ups or \"attacks twice\" effects; only highest value applied; does not stack).",
         "color": "Green",
         "icon": "potentfollow",
-        "reference_weapon": {},
+        "reference_weapon": {
+            "Sword": [],
+            "Lance": [],
+            "Axe": [],
+            "Staff": [],
+            "Bow": [],
+            "Dagger": [],
+            "Tome": {
+                "Red_Tome": [],
+                "Blue_Tome": [],
+                "Green_Tome": [
+                    "Gla\u00f0sb\u00f3k"
+                ],
+                "Colorless_Tome": []
+            },
+            "Breath": [],
+            "Beast": []
+        },
         "reference_skill": {
             "assist": [],
             "special": [],
-            "A": [],
+            "A": [
+                "Prof's Guidance"
+            ],
             "B": [
                 "Shield of Hope",
                 "Yngvi Ascendant+"
@@ -4825,6 +4930,48 @@
             "captain": []
         },
         "reference_skill": false,
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "profsguidance": {
+        "name": "Prof's Guidance (Status Effect)",
+        "description": "While unit lives, unit gets 2\u00d7 SP after combat or after using an Assist skill (only highest value applied; does not stack).\nGrants Atk/Spd/Def/Res+5 to unit during combat, any \"reduces damage by X%\" effect that can be triggered only once per combat by unit's equipped Special skill can be triggered up to twice per combat (excludes boosted Special effects from engaging; only highest value applied; does not stack), and grants Special cooldown count-1 after combat.",
+        "color": "Colorless",
+        "icon": "profsguidance",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Prof's Guidance"
+            ],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
+    "psave": {
+        "name": "P Save",
+        "description": "\"If sword, lance, axe, bow, dagger, or beast foe initiates combat\" is an activation condition for \"Savior.\"",
+        "color": "Colorless",
+        "icon": false,
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [
+                "Mighty Roar"
+            ],
+            "A": [],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
         "reference_hero": {},
         "HARD_ALT_NAME": []
     },
@@ -5133,6 +5280,27 @@
             "Resonance Shields"
         ]
     },
+    "resshackle": {
+        "name": "Res Shackle",
+        "description": "Inflicts penalty on unit's Res during combat = number of\u3010Penalty\u3011effects active on unit + 4, excluding stat penalties (max 8; through unit's next action).",
+        "color": "Blue",
+        "icon": "resshackle",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Spd/Res Shackle"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
     "sabotage": {
         "name": "Sabotage",
         "description": "Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.",
@@ -5302,6 +5470,7 @@
                 "A/D Twin F Save",
                 "A/R Twin F Save",
                 "A/D Briar F Save",
+                "A/D Briar P Save",
                 "Darkling Dragon",
                 "For the True King",
                 "With Everyone!",
@@ -5472,6 +5641,27 @@
         "reference_hero": {},
         "HARD_ALT_NAME": []
     },
+    "spdshackle": {
+        "name": "Spd Shackle",
+        "description": "Inflicts penalty on unit's Spd during combat = number of\u3010Penalty\u3011effects active on unit + 4, excluding stat penalties (max 8; through unit's next action).",
+        "color": "Green",
+        "icon": "spdshackle",
+        "reference_weapon": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [],
+            "B": [
+                "Spd/Res Shackle"
+            ],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
+        "reference_hero": {},
+        "HARD_ALT_NAME": []
+    },
     "specialblade": {
         "name": "Special Blade",
         "description": "Enables use of Specials for all allies.",
@@ -5630,12 +5820,15 @@
         "color": "Colorless",
         "reference_weapon": {
             "Sword": [
-                "Azure Twin Edge"
+                "Azure Twin Edge",
+                "Sublime Creator"
             ],
             "Lance": [],
             "Axe": [],
             "Staff": [],
-            "Bow": [],
+            "Bow": [
+                "Truth Seeker"
+            ],
             "Dagger": [],
             "Tome": {
                 "Red_Tome": [],
@@ -5843,7 +6036,18 @@
             "Breath": [],
             "Beast": []
         },
-        "reference_skill": false,
+        "reference_skill": {
+            "assist": [],
+            "special": [],
+            "A": [
+                "Heaven's Stead"
+            ],
+            "B": [],
+            "C": [],
+            "X": [],
+            "S": [],
+            "captain": []
+        },
         "reference_hero": {},
         "HARD_ALT_NAME": [
             "Triangle Adept"

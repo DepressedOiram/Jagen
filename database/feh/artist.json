@@ -3025,7 +3025,11 @@
       "Jehanna Maris",
       "D Maris",
       "J Maris",
-      "malice2"
+      "malice2",
+      "Resplendent Laevatein",
+      "Resp Laevatein",
+      "R Laevatein",
+      "Laevatein (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Legend Reflet",
@@ -3262,12 +3266,17 @@
       "Jehanna Maris",
       "D Maris",
       "J Maris",
-      "malice2"
+      "malice2",
+      "Resplendent Laevatein",
+      "Resp Laevatein",
+      "R Laevatein",
+      "Laevatein (Resplendent)"
     ],
     "heroes": {
       "galzus": "<:Red_Sword:1317239717707911188>Galzus",
       "hinoka2": "<:Colorless_Bow:1317239404204654703>Bow Hinoka",
       "ishtar2": "<:Red_Tome:1317239730714316800>Dancer Ishtar",
+      "laevateinR": "<:Red_Sword:1317239717707911188>Laevatein (Resplendent)",
       "lara": "<:Red_Dagger:1317239707167490068>Lara",
       "malice": "<:Red_Sword:1317239717707911188>Malice",
       "malice2": "<:Red_Sword:1317239717707911188>Jehanna Malice",
@@ -5833,7 +5842,6 @@
       "Fallen Ike",
       "Byleth: Sublime Light",
       "Sublime Light",
-      "Brave Byleth",
       "Brave Beleth",
       "Brave Female Byleth",
       "Brave Byleth Female",
@@ -5900,7 +5908,6 @@
       "Zeal Unleashed",
       "F Ike",
       "byleth6",
-      "Brave Byleth",
       "belethf4",
       "fbeleth4",
       "belethfemale4",
@@ -5940,7 +5947,7 @@
       "Fallen Chrom"
     ],
     "heroes": {
-      "fbyleth4": "<:Colorless_Tome:1317239438602145842>Brave Byleth",
+      "fbyleth4": "<:Colorless_Tome:1317239438602145842>Brave Female Byleth",
       "chrom8": "<:Red_Sword:1317239717707911188>Rearmed Chrom",
       "dimitri": "<:Blue_Lance:1317239378208096338>Dimitri",
       "ike5": "<:Red_Sword:1317239717707911188>Fallen Ike",
@@ -6396,49 +6403,6 @@
       "velouria2": "<:Blue_Beast:1317239339452731402>New Year Velouria"
     },
     "name": "Fuzichoco (\u85e4\u3061\u3087\u3053)"
-  },
-  "gaou": {
-    "ALT_NAME": [
-      "\u304c\u304a\u3046",
-      "Mae: Bundle of Energy",
-      "Bundle of Energy",
-      "Base Mae",
-      "Normal Mae",
-      "Base May",
-      "Normal May",
-      "Tiki: Beachside Scion",
-      "Beachside Scion",
-      "Summer Tiki",
-      "Summer Young Tiki",
-      "Summer Y Tiki",
-      "Summer Chiki"
-    ],
-    "HARD_ALT_NAME": [
-      "mae",
-      "Mae",
-      "mae1",
-      "may1",
-      "Bundle of Energy",
-      "May",
-      "Base Mae",
-      "Normal Mae",
-      "Base May",
-      "Normal May",
-      "tiki4",
-      "Summer Young Tiki",
-      "chiki4",
-      "ytiki2",
-      "youngtiki2",
-      "Beachside Scion",
-      "S Young Tiki",
-      "S Y Tiki",
-      "Summer Y Tiki"
-    ],
-    "heroes": {
-      "mae": "<:Blue_Tome:1317239386491977749>Mae",
-      "ytiki2": "<:Red_Breath:1317239692189630504>Summer Young Tiki"
-    },
-    "name": "Gaou (\u304c\u304a\u3046)"
   },
   "gesoking": {
     "ALT_NAME": [
@@ -13292,7 +13256,13 @@
       "Base F\u00e1fnir",
       "Normal F\u00e1fnir",
       "F\u00e1fnir",
-      "fafnir"
+      "fafnir",
+      "Masked Knight",
+      "Bruno: Masked Knight",
+      "Normal Bruno",
+      "Base Bruno",
+      "Regular Bruno",
+      "bruno"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -13382,7 +13352,7 @@
       "alfonse2",
       "Princess of Askr",
       "F Gustaf",
-      "bruno2",
+      "bruno3",
       "Brave Veronica",
       "Normal Embla",
       "Alfons",
@@ -13566,7 +13536,13 @@
       "Base F\u00e1fnir",
       "Normal F\u00e1fnir",
       "F\u00e1fnir",
-      "fafnir"
+      "fafnir",
+      "Masked Knight",
+      "Bruno: Masked Knight",
+      "Normal Bruno",
+      "Base Bruno",
+      "Regular Bruno",
+      "bruno"
     ],
     "heroes": {
       "alfonse": "<:Red_Sword:1317239717707911188>Alfonse",
@@ -13574,7 +13550,8 @@
       "anna": "<:Green_Axe:1317239517136031897>Anna",
       "ash": "<:Colorless_Beast:1317239395534901248>Ash",
       "askr": "<:Colorless_Beast:1317239395534901248>Askr",
-      "bruno2": "<:Green_Tome:1317239575352971396>Winter Bruno",
+      "bruno": "<:Blue_Tome:1317239386491977749>Bruno",
+      "bruno3": "<:Green_Tome:1317239575352971396>Winter Bruno",
       "camilla7": "<:Colorless_Staff:1317239426866483261>Brave Camilla",
       "chrom7": "<:Blue_Lance:1317239378208096338>Brave Chrom",
       "dagr": "<:Green_Axe:1317239517136031897>Dagr",
@@ -15110,7 +15087,14 @@
       "Regular Fogado",
       "Base Fogado",
       "Normal Fogado",
-      "fogado"
+      "fogado",
+      "Rays of Judgement",
+      "Baldr: Rays of Judgement",
+      "Brave Baldr",
+      "CYL Baldr",
+      "B Baldr",
+      "Choose Your Legends Baldr",
+      "baldr2"
     ],
     "HARD_ALT_NAME": [
       "Timerra: Trick or Meat",
@@ -15128,9 +15112,17 @@
       "Regular Fogado",
       "Base Fogado",
       "Normal Fogado",
-      "fogado"
+      "fogado",
+      "Rays of Judgement",
+      "Baldr: Rays of Judgement",
+      "Brave Baldr",
+      "CYL Baldr",
+      "B Baldr",
+      "Choose Your Legends Baldr",
+      "baldr2"
     ],
     "heroes": {
+      "baldr2": "<:Blue_Bow:1317239347577356328>Brave Baldr",
       "fogado": "<:Green_Bow:1317239539936268340>Fogado",
       "sorenR": "<:Green_Tome:1317239575352971396>Soren (Resplendent)",
       "timerra2": "<:Blue_Lance:1317239378208096338>Halloween Timerra"
@@ -18106,7 +18098,14 @@
       "CYL Alphonse",
       "B Alphonse",
       "Choose Your Legends Alphonse",
-      "alphonse5"
+      "alphonse5",
+      "Hopeful Princess",
+      "Sharena: Hopeful Princess",
+      "Brave Sharena",
+      "CYL Sharena",
+      "B Sharena",
+      "Choose Your Legends Sharena",
+      "sharena4"
     ],
     "HARD_ALT_NAME": [
       "ravenR",
@@ -18272,7 +18271,14 @@
       "CYL Alphonse",
       "B Alphonse",
       "Choose Your Legends Alphonse",
-      "alphonse5"
+      "alphonse5",
+      "Hopeful Princess",
+      "Sharena: Hopeful Princess",
+      "Brave Sharena",
+      "CYL Sharena",
+      "B Sharena",
+      "Choose Your Legends Sharena",
+      "sharena4"
     ],
     "heroes": {
       "alfonse5": "<:Green_Axe:1317239517136031897>Brave Alfonse",
@@ -18285,6 +18291,7 @@
       "hilda3": "<:Colorless_Staff:1317239426866483261>Duo Fodlan Hilda",
       "ishtar3": "<:Blue_Tome:1317239386491977749>Ascended Ishtar",
       "ravenR": "<:Green_Axe:1317239517136031897>Raven (Resplendent)",
+      "sharena4": "<:Green_Tome:1317239575352971396>Brave Sharena",
       "sigurdR": "<:Red_Sword:1317239717707911188>Sigurd (Resplendent)",
       "takumi5": "<:Blue_Tome:1317239386491977749>Valentines Takumi",
       "ymir": "<:Green_Breath:1317239551693164595>Ymir"
@@ -18429,7 +18436,20 @@
       "H Askr",
       "Harvest Askr",
       "Spooky Askr",
-      "askr3"
+      "askr3",
+      "Resolved to Train",
+      "Eikthyrnir: Resolved to Train",
+      "Brave Eikthyrnir",
+      "CYL Eikthyrnir",
+      "B Eikthyrnir",
+      "Choose Your Legends Eikthyrnir",
+      "eikthyrnir4",
+      "Eik\u00feyrnir: Resolved to Train",
+      "Brave Eik\u00feyrnir",
+      "CYL Eik\u00feyrnir",
+      "B Eik\u00feyrnir",
+      "Choose Your Legends Eik\u00feyrnir",
+      "eik\u00feyrnir4"
     ],
     "HARD_ALT_NAME": [
       "Renning",
@@ -18562,7 +18582,20 @@
       "H Askr",
       "Harvest Askr",
       "Spooky Askr",
-      "askr3"
+      "askr3",
+      "Resolved to Train",
+      "Eikthyrnir: Resolved to Train",
+      "Brave Eikthyrnir",
+      "CYL Eikthyrnir",
+      "B Eikthyrnir",
+      "Choose Your Legends Eikthyrnir",
+      "eikthyrnir4",
+      "Eik\u00feyrnir: Resolved to Train",
+      "Brave Eik\u00feyrnir",
+      "CYL Eik\u00feyrnir",
+      "B Eik\u00feyrnir",
+      "Choose Your Legends Eik\u00feyrnir",
+      "eik\u00feyrnir4"
     ],
     "heroes": {
       "almR": "<:Red_Sword:1317239717707911188>Alm (Resplendent)",
@@ -18573,6 +18606,7 @@
       "claude5": "<:Green_Dagger:1317239563697127456>Wind Claude",
       "dimitri5": "<:Green_Axe:1317239517136031897>Summer Dimitri",
       "duessel": "<:Blue_Lance:1317239378208096338>Duessel",
+      "eikthyrnir4": "<:Colorless_Beast:1317239395534901248>Brave Eik\u00feyrnir",
       "ephraim3R": "<:Green_Axe:1317239517136031897>Brave Ephraim (Resplendent)",
       "ingrid": "<:Blue_Lance:1317239378208096338>Ingrid",
       "jeralt": "<:Blue_Lance:1317239378208096338>Jeralt",
@@ -19717,7 +19751,6 @@
       "Spa Lobster",
       "Echidna",
       "Highborn Heat",
-      "bruno",
       "Base Chanbray",
       "Chrom (Resplendent)",
       "Legend Xander",
@@ -19760,7 +19793,7 @@
       "L Xander",
       "Leg Marks",
       "Aless",
-      "Bruno",
+      "Bruno2",
       "ares1",
       "nike2",
       "inigo3",
@@ -19944,7 +19977,7 @@
       "Sinister Servant",
       "Base Sabre",
       "azur2",
-      "bruno1",
+      "bruno2",
       "awakeningtiki3",
       "marks5",
       "Harmonic Veronica",
@@ -20034,7 +20067,7 @@
     "heroes": {
       "ares": "<:Red_Sword:1317239717707911188>Ares",
       "aversa": "<:Red_Tome:1317239730714316800>Aversa",
-      "bruno": "<:Colorless_Staff:1317239426866483261>Spring Bruno",
+      "bruno2": "<:Colorless_Staff:1317239426866483261>Spring Bruno",
       "catherine": "<:Red_Sword:1317239717707911188>Catherine",
       "chromR": "<:Red_Sword:1317239717707911188>Chrom (Resplendent)",
       "cornelia": "<:Colorless_Staff:1317239426866483261>Cornelia",
@@ -28983,6 +29016,7 @@
   },
   "mebaru": {
     "heroes": {
+      "mbyleth5": "<:Red_Sword:1317239717707911188>Brave Male Byleth",
       "dimitriR": "<:Blue_Lance:1317239378208096338>Dimitri (Resplendent)"
     },
     "name": "Mebaru (\u3081\u3070\u308b)",
@@ -28990,13 +29024,37 @@
       "Resplendent Dimitri",
       "Resp Dimitri",
       "R Dimitri",
-      "Dimitri (Resplendent)"
+      "Dimitri (Resplendent)",
+      "Anchor of Hope",
+      "Byleth: Anchor Of Hope",
+      "Brave Male Byleth",
+      "CYL Male Byleth",
+      "B Male Byleth",
+      "Choose Your Legends Male Byleth",
+      "mbyleth5",
+      "Male Brave Byleth",
+      "Male CYL Byleth",
+      "Male B Byleth",
+      "Male Choose Your Legends Byleth",
+      "byleth10"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Dimitri",
       "Resp Dimitri",
       "R Dimitri",
-      "Dimitri (Resplendent)"
+      "Dimitri (Resplendent)",
+      "Anchor of Hope",
+      "Byleth: Anchor Of Hope",
+      "Brave Male Byleth",
+      "CYL Male Byleth",
+      "B Male Byleth",
+      "Choose Your Legends Male Byleth",
+      "mbyleth5",
+      "Male Brave Byleth",
+      "Male CYL Byleth",
+      "Male B Byleth",
+      "Male Choose Your Legends Byleth",
+      "byleth10"
     ]
   },
   "unamiya": {

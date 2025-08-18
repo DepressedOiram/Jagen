@@ -1374,7 +1374,6 @@
     "stats": {
       "rank": "E",
       "wt": 2,
-      "hit": 100,
       "rng": 1,
       "uses": 30,
       "wexp": 1,
@@ -1397,7 +1396,6 @@
     "stats": {
       "rank": "D",
       "wt": 4,
-      "hit": 100,
       "rng": 1,
       "uses": 20,
       "wexp": 1,
@@ -1420,7 +1418,6 @@
     "stats": {
       "rank": "C",
       "wt": 6,
-      "hit": 100,
       "rng": 1,
       "uses": 15,
       "wexp": 1,
@@ -1440,7 +1437,6 @@
     "stats": {
       "rank": "B",
       "wt": 5,
-      "hit": 100,
       "rng": "1-[5+(Mag/2)]",
       "uses": 15,
       "wexp": 1,
@@ -1463,7 +1459,6 @@
     "stats": {
       "rank": "A",
       "wt": 7,
-      "hit": 100,
       "rng": "1-[5+(Mag/2)]",
       "uses": 8,
       "wexp": 1,
@@ -1486,7 +1481,6 @@
     "stats": {
       "rank": "A",
       "wt": 5,
-      "hit": 100,
       "rng": "1-[5+(Mag/2)]",
       "uses": 5,
       "wexp": 1,
@@ -1506,7 +1500,6 @@
     "stats": {
       "rank": "B",
       "wt": 6,
-      "hit": 100,
       "rng": "1-[5+(Mag/2)]",
       "uses": 3,
       "wexp": 1,
@@ -1526,7 +1519,6 @@
     "stats": {
       "rank": "C",
       "wt": 4,
-      "hit": 100,
       "rng": 1,
       "uses": 10,
       "wexp": 1,
@@ -1609,7 +1601,6 @@
       "rank": "D",
       "uses": 10,
       "wt": 5,
-      "hit": 100,
       "rng": "1-[5+(Mag/2)]",
       "wexp": 1,
       "price": 1000,
@@ -1628,7 +1619,6 @@
     "stats": {
       "rank": "C",
       "wt": 7,
-      "hit": 100,
       "rng": 1,
       "uses": 3,
       "wexp": 1,
@@ -1671,7 +1661,6 @@
     "stats": {
       "rank": "D",
       "wt": 7,
-      "hit": 100,
       "rng": "1-2",
       "uses": 3,
       "wexp": 1,
@@ -1691,7 +1680,6 @@
     "stats": {
       "rank": "C",
       "wt": 4,
-      "hit": 100,
       "rng": 1,
       "uses": 15,
       "wexp": 1,

@@ -12524,8 +12524,6 @@
       "Frosty Professors",
       "Harmonized Female Beleth",
       "Legend Beleth",
-      "Brave Beleth",
-      "Brave Byleth",
       "Legend Female Byleth",
       "Leg Byleth",
       "Harmonic Beleth",
@@ -12739,8 +12737,6 @@
       "S Beleth",
       "Frosty Professors",
       "Harmonized Female Beleth",
-      "Brave Beleth",
-      "Brave Byleth",
       "Dyleth",
       "bylethfemale4",
       "Legend Female Byleth",
@@ -12776,7 +12772,7 @@
       "fbylethR": "<:Red_Sword:1317239717707911188>Female Byleth (Resplendent)",
       "fbyleth2": "<:Red_Tome:1317239730714316800>Duo Byleth",
       "fbyleth3": "<:Blue_Tome:1317239386491977749>Legendary Female Byleth",
-      "fbyleth4": "<:Colorless_Tome:1317239438602145842>Brave Byleth",
+      "fbyleth4": "<:Colorless_Tome:1317239438602145842>Brave Female Byleth",
       "mbyleth4": "<:Red_Sword:1317239717707911188>Winter Byleth",
       "marisa3": "<:Green_Axe:1317239517136031897>Jehanna Marisa"
     },
@@ -14015,7 +14011,7 @@
     },
     "name": "Julie Ann Taylor"
   },
-  "juliekliewer": {
+  "juliamaddalena": {
     "ALT_NAME": [
       "Sharena: Princess of Askr",
       "Princess of Askr",
@@ -14120,7 +14116,16 @@
       "Rearmed Lilina",
       "Rearm Lilina",
       "Arm Lilina",
-      "lilina6"
+      "lilina6",
+      "Hopeful Princess",
+      "Sharena: Hopeful Princess",
+      "Brave Sharena",
+      "CYL Sharena",
+      "B Sharena",
+      "Choose Your Legends Sharena",
+      "sharena4",
+      "juliekliewer",
+      "Julie Kliewer"
     ],
     "HARD_ALT_NAME": [
       "sharena",
@@ -14278,7 +14283,16 @@
       "Rearmed Lilina",
       "Rearm Lilina",
       "Arm Lilina",
-      "lilina6"
+      "lilina6",
+      "Hopeful Princess",
+      "Sharena: Hopeful Princess",
+      "Brave Sharena",
+      "CYL Sharena",
+      "B Sharena",
+      "Choose Your Legends Sharena",
+      "sharena4",
+      "juliekliewer",
+      "Julie Kliewer"
     ],
     "heroes": {
       "alfonse3": "<:Blue_Tome:1317239386491977749>Duo Alfonse",
@@ -14296,9 +14310,10 @@
       "lyn7": "<:Colorless_Dagger:1317239418943438869>Duo Lyn",
       "sharena": "<:Blue_Lance:1317239378208096338>Sharena",
       "sharena2": "<:Green_Tome:1317239575352971396>Spring Sharena",
-      "sharena3": "<:Blue_Lance:1317239378208096338>Bridal Sharena"
+      "sharena3": "<:Blue_Lance:1317239378208096338>Bridal Sharena",
+      "sharena4": "<:Green_Tome:1317239575352971396>Brave Sharena"
     },
-    "name": "Julie Kliewer"
+    "name": "Julia Maddalena / Julie Kliewer"
   },
   "kaijitang": {
     "ALT_NAME": [
@@ -26907,7 +26922,13 @@
       "Bruno: Masked Reveler",
       "Masked Reveler",
       "Winter Bruno",
-      "Christmas Bruno"
+      "Christmas Bruno",
+      "Masked Knight",
+      "Bruno: Masked Knight",
+      "Normal Bruno",
+      "Base Bruno",
+      "Regular Bruno",
+      "bruno"
     ],
     "HARD_ALT_NAME": [
       "navarre",
@@ -26930,11 +26951,9 @@
       "Normal Cain",
       "Base Kain",
       "Normal Kain",
-      "bruno",
+      "bruno2",
       "Spring Bruno",
-      "bruno1",
       "Masked Hare",
-      "Bruno",
       "S Bruno",
       "Sruno",
       "Bunny Bruno",
@@ -26945,16 +26964,23 @@
       "N Navarre",
       "N Nabarl",
       "Ninja Nabarl",
-      "bruno2",
+      "bruno3",
       "Winter Bruno",
       "Masked Reveler",
       "W Bruno",
       "Wruno",
-      "Christmas Bruno"
+      "Christmas Bruno",
+      "Masked Knight",
+      "Bruno: Masked Knight",
+      "Normal Bruno",
+      "Base Bruno",
+      "Regular Bruno",
+      "bruno"
     ],
     "heroes": {
-      "bruno": "<:Colorless_Staff:1317239426866483261>Spring Bruno",
-      "bruno2": "<:Green_Tome:1317239575352971396>Winter Bruno",
+      "bruno": "<:Blue_Tome:1317239386491977749>Bruno",
+      "bruno2": "<:Colorless_Staff:1317239426866483261>Spring Bruno",
+      "bruno3": "<:Green_Tome:1317239575352971396>Winter Bruno",
       "cain": "<:Red_Sword:1317239717707911188>Cain",
       "navarre": "<:Red_Sword:1317239717707911188>Navarre",
       "navarre2": "<:Blue_Lance:1317239378208096338>Ninja Navarre"
@@ -29684,7 +29710,19 @@
       "Legend M Beleth",
       "Leg Byleth",
       "Leg Beleth",
-      "Normal M Beleth"
+      "Normal M Beleth",
+      "Anchor of Hope",
+      "Byleth: Anchor Of Hope",
+      "Brave Male Byleth",
+      "CYL Male Byleth",
+      "B Male Byleth",
+      "Choose Your Legends Male Byleth",
+      "mbyleth5",
+      "Male Brave Byleth",
+      "Male CYL Byleth",
+      "Male B Byleth",
+      "Male Choose Your Legends Byleth",
+      "byleth10"
     ],
     "HARD_ALT_NAME": [
       "Legend Male Byleth",
@@ -29822,13 +29860,26 @@
       "Leg Byleth",
       "Leg Beleth",
       "L Byleth M",
-      "Normal M Beleth"
+      "Normal M Beleth",
+      "Anchor of Hope",
+      "Byleth: Anchor Of Hope",
+      "Brave Male Byleth",
+      "CYL Male Byleth",
+      "B Male Byleth",
+      "Choose Your Legends Male Byleth",
+      "mbyleth5",
+      "Male Brave Byleth",
+      "Male CYL Byleth",
+      "Male B Byleth",
+      "Male Choose Your Legends Byleth",
+      "byleth10"
     ],
     "heroes": {
       "mbyleth": "<:Red_Sword:1317239717707911188>Male Byleth",
       "mbyleth2": "<:Green_Tome:1317239575352971396>Legendary Male Byleth",
       "mbyleth3": "<:Blue_Tome:1317239386491977749>Khadein Byleth",
       "mbyleth4": "<:Red_Sword:1317239717707911188>Winter Byleth",
+      "mbyleth5": "<:Red_Sword:1317239717707911188>Brave Male Byleth",
       "sothis3": "<:Blue_Breath:1317239355835813939>Duo Sothis"
     },
     "name": "Zach Aguilar"
@@ -30953,7 +31004,8 @@
   },
   "samslade": {
     "heroes": {
-      "baldr": "<:Red_Sword:1317239717707911188>Baldr"
+      "baldr": "<:Red_Sword:1317239717707911188>Baldr",
+      "baldr2": "<:Blue_Bow:1317239347577356328>Brave Baldr"
     },
     "name": "Sam Slade",
     "ALT_NAME": [
@@ -30962,7 +31014,14 @@
       "Base Baldr",
       "Normal Baldr",
       "Mythic Baldr",
-      "baldr"
+      "baldr",
+      "Rays of Judgement",
+      "Baldr: Rays of Judgement",
+      "Brave Baldr",
+      "CYL Baldr",
+      "B Baldr",
+      "Choose Your Legends Baldr",
+      "baldr2"
     ],
     "HARD_ALT_NAME": [
       "Celestial Sun God",
@@ -30970,7 +31029,14 @@
       "Base Baldr",
       "Normal Baldr",
       "Mythic Baldr",
-      "baldr"
+      "baldr",
+      "Rays of Judgement",
+      "Baldr: Rays of Judgement",
+      "Brave Baldr",
+      "CYL Baldr",
+      "B Baldr",
+      "Choose Your Legends Baldr",
+      "baldr2"
     ]
   },
   "emilo": {

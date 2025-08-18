@@ -1446,7 +1446,7 @@
     },
     "silencestaff": {
         "name": "Silence Staff",
-        "desc": "Temporarily stops an enemy's magic.",
+        "desc": "Temporarily stops an enemy's magic for 1 turn.\nNullified by Imhullu.",
         "stats": {
             "wlv": 10,
             "rng": "All",
